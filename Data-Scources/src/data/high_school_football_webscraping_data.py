@@ -8,6 +8,35 @@ import pandas as pd
 #To - Do Create a dictionary of the class list and lopp through each one here
 #Iowa Standings
 #Class A, Class 1A (in the script), Class 2A, Class 3A, Class 4A, Class 8 Man
+
+
+#First get the list of Conference urls
+#headers = {'class-a' : 'class-1a' : 'class-2a' : 'class-3a' : 'class-4a' : 'class-8-man'}
+
+#url = "https://bgp.he.net/report/world"
+#html = requests.get(url, headers=headers)
+
+#soup = BeautifulSoup(html.text, 'html.parser')
+
+#table = soup.find('table', {'id':'table_countries'})
+#rows = table.find_all('tr')
+
+#country_urls = []
+
+# Go through each row and grab the link. If there's no link, continue to next row
+#for row in rows:
+#    try:
+#        link = row.select('a')[0]['href']
+#        country_urls.append(link)
+#    except:
+#        continue
+
+
+# Now iterate through that list
+#for link in country_urls:
+
+#    url = "https://bgp.he.net" + link
+#    html = requests.get(url, headers=headers)
 url='https://www.maxpreps.com/division/ia/a1RODbXafUWOvVRSbs79lg/football-fall-20/standings-class-1a.htm'
 
 #Nebraska Standings
