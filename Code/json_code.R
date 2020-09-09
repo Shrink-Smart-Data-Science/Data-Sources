@@ -1,5 +1,6 @@
 library(httr)
 library(jsonlite)
+library(tidyverse)
 
 rm(list = ls())
 
@@ -33,7 +34,7 @@ registered_retirement_facilities_in_iowa_json = GET("https://data.iowa.gov/resou
 # convert from JSON into R object
 #liquor_sales_data <- fromJSON(rawToChar(liquor_data_json$content)) 
 
-jsonlist <- c(assisted_living_json, 
+jsonlist <- list(assisted_living_json, 
              city_budget_and_actual_expenditures_json, 
              city_budget_and_actual_revenue_json, 
              iowa_child_abuse_occurrences_by_year_county_and_type_of_abuse_json,
@@ -55,9 +56,43 @@ jsonlist <- c(assisted_living_json,
              registered_retirement_facilities_in_iowa_json
              )
 
+namelist <- c("assisted_living_json", 
+              "city_budget_and_actual_expenditures_json", 
+              "city_budget_and_actual_revenue_json", 
+              "iowa_child_abuse_occurrences_by_year_county_and_type_of_abuse_json",
+              "iowa_child_abuse_victims_by_year_county_and_age_group_json",  
+              "iowa_child_welfare_assessments_by_disposition_county_and_year_json", 
+              "iowa_family_investment_program_recipients_and_grants_by_month_and_county_json",
+              "iowa_fire_department_census_json", 
+              "iowa_food_assistance_program_statistics_by_month_and_county_json", 
+              "iowa_medicaid_payments_and_recipients_by_month_and_county_json",
+              "iowa_medicaid_payments_and_recipients_by_month_and_vendor_json",
+              "iowa_physical_and_cultural_geographic_features_json",
+              "iowa_school_building_directory_json",
+              "iowa_school_district_revenues_by_fiscal_year_json",
+              "iowa_unemployment_compensation_fund_status_benefits_paid_json",
+              "iowa_unemployment_insurance_benefit_payments_and_recipients_by_county_monthly_json",
+              "iowa_liquor_stores_json",
+              "iowa_liquor_sales_data_json",
+              "quarterly_retail_sales_tax_data_by_county_and_city_json",
+              "registered_retirement_facilities_in_iowa_json"
+)
+
+jsonlist = as.list(jsonlist)
+
+pull_data <- function (x) {
+  data = fromJSON(rawToChar(x$content)) 
+  data
+  }
+
+#Not sure what I'm doing wrong here
+lapply(jsonlist[[1]], pull_data)
+
 for (i in jsonlist) {
-  #name = substr("jsonlist",1,nchar("jsonlist")-5)
-  data <- fromJSON(rawToChar(i$content)) 
-  #names(data) <- name
+  for (j in namelist) {
+      name = substr("j",1,nchar("j")-5)
+      data = lapply(jsonlist[[i]], pull_data)
+      names(data) <- name
+      }
 }
 
