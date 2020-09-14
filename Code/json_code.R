@@ -4,7 +4,8 @@ library(tidyverse)
 library(purrr)
 library(tibble)
 
-#TO-Do figure out the way to get more information for the bigger files. (liquor stores and liquor sales)
+#TO-DO: figure out the way to get more information for the bigger files. (liquor stores and liquor sales)
+#TO-DO: Find the best way to download the child care data that doesn't have a JSON url
 pull_data <- function (x) {
   data = fromJSON(rawToChar(x$content))
   data
