@@ -35,7 +35,7 @@ data_sources <- tibble::tribble(
 
 for (i in seq_along(data_sources$name)){
   data_sources <- data_sources %>% mutate(data = purrr::map(url[[i]], read.socrata))
-  saveRDS(data_sources, file = paste0(i, ".csv"))
+  saveRDS(data_sources, file = paste0(data_sources$name[i], ".csv"))
 }
 
 #%>%
