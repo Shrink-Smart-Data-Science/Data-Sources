@@ -33,6 +33,11 @@ data_sources <- tibble::tribble(
 
 #Here is the list of data sources that will take on the data directly from the JSON file
 
+for (i in seq_along(data_sources)){
+  data_sources <- data_sources %>% mutate(data = purrr::map(url[[i]], read.socrata))
+  saveRDS(data_sources, file = paste0(data_sources$name[i], ".csv"))
+}
+
 #%>%
   # Download JSON
 #  mutate(json = purrr::map(url, read.socrata))
