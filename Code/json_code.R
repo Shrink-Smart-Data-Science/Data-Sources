@@ -14,7 +14,7 @@ data_sources <- tibble::tribble(
   "city budget revenue", "https://data.iowa.gov/api/odata/v4/bzed-t5zc",
   "child abuse occurrences", "https://data.iowa.gov/api/odata/v4/mh9d-fias",
   "child abuse victims","https://data.iowa.gov/api/odata/v4/n84y-ufum",
-  "child welfare assessments", "https://data.iowa.gov/api/odata/v4/er5e-kmgq", 
+  "child welfare assessments", "https://data.iowa.gov/api/odata/v4/er5e-kmgq",
   "family investment program", "https://data.iowa.gov/api/odata/v4/79c3-mzyc",
   "fire department census", "https://data.iowa.gov/api/odata/v4/hv43-6ksq",
   "food assistance program statistics", "https://data.iowa.gov/api/odata/v4/nqiw-f9td",
@@ -29,13 +29,13 @@ data_sources <- tibble::tribble(
   "liquor sales", "https://data.iowa.gov/api/odata/v4/m3tr-qhgy",
   "quarterly retail sales tax", "https://data.iowa.gov/api/odata/v4/55fz-vque",
   "registered retirement facilities", "https://data.iowa.gov/api/odata/v4/cvnj-m3t8"
-) 
+)
 
 #Here is the list of data sources that will take on the data directly from the JSON file
 
-for (i in seq_along(data_sources)){
+for (i in seq_along(data_sources$name)){
   data_sources <- data_sources %>% mutate(data = purrr::map(url[[i]], read.socrata))
-  saveRDS(data_sources, file = paste0(data_sources$name[i], ".csv"))
+  saveRDS(data_sources, file = paste0(i, ".csv"))
 }
 
 #%>%
@@ -43,7 +43,7 @@ for (i in seq_along(data_sources)){
 #  mutate(json = purrr::map(url, read.socrata))
 
 # Get data frames
-#data_sources <- data_sources %>% 
+#data_sources <- data_sources %>%
 #  mutate(data = purrr::map(json, pull_data))
 
 
