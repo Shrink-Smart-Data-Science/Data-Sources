@@ -10,7 +10,7 @@ pg <- render_html(url = 'https://dhs.iowa.gov/iqrs/providers/homes')
 stop_splash(sp)
 
 #Using Selenium
-rd <- rsDriver(browser = "chrome")
+rd <- rsDriver(browser=c("chrome"), chromever="85.0.4183.83")
 rd$client$navigate('https://dhs.iowa.gov/iqrs/providers/homes')
 h <- rd$client$getPageSource()
 h <- h[[1]] %>% read_html()
