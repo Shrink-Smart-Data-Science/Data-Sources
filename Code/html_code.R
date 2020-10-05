@@ -5,6 +5,9 @@ library(splashr)
 library(XML)
 library(dplyr)
 library(purrr)
+library(DBI)
+library(rstudioapi)
+library(RMySQL)
 
 #Using Splash
 #install_splash()    # run this once to install the docker image
@@ -13,7 +16,6 @@ library(purrr)
 #stop_splash(sp)
 
 #Using Selenium
-
 #For the Homes Data
 rd <- rsDriver(browser=c("chrome"), chromever="85.0.4183.83")
 rd$client$navigate('https://dhs.iowa.gov/iqrs/providers/homes')
@@ -30,6 +32,9 @@ nodes <- h[[1]] %>%
 homes_data <- html_table(nodes, fill = TRUE)[[1]]
 str(homes_data)
 
+names(homes_data) <- homes_data[2, ]
+homes_data <- homes_data[-c(1:2), c(1:6)]
+
 #For the Child Center Tables
 rd <- rsDriver(browser=c("chrome"), chromever="85.0.4183.83")
 rd$client$navigate('https://dhs.iowa.gov/iqrs/providers/centers')
@@ -41,3 +46,22 @@ nodes <- h[[1]] %>%
 
 child_center_data <- html_table(nodes, fill = TRUE)[[1]]
 str(child_center_data)
+
+names(child_center_data) <- child_center_data[1, ]
+child_center_data <- child_center_data[-1,]
+
+
+#Write data to the database
+
+conn <- DBI::dbConnect(RMySQL::MySQL(), 
+                       host = "srvanderplas.com",
+                       user = "remote", 
+                       password = "awesome-remote-mysql-server-password")
+
+dbWriteTable(conn = conn,
+             name = "homes_data_mysql",
+             value = homes_data)
+
+dbWriteTable(conn = conn,
+             name = "child_center_data_mysql",
+             value = child_center_data)
