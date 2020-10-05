@@ -4,6 +4,9 @@ library(tidyverse)
 library(purrr)
 library(tibble)
 library(RSocrata)
+library(DBI)
+library(rstudioapi)
+library(RMySQL)
 
 #TO-DO: Find the best way to download the child care data that doesn't have a JSON url
 
@@ -32,30 +35,24 @@ data_sources <- tibble::tribble(
 )
 
 #Here is the list of data sources that will take on the data directly from the JSON file
+#Export Data to MySQL Server 
+conn <- DBI::dbConnect(RMySQL::MySQL(), 
+                       host = "srvanderplas.com",
+                       user = "remote",
+                       password = rstudioapi::askForPassword("Database password"))
+
+summary(conn) #We need a Dbname to get data on to the server??
+#password = "awesome-remote-mysql-server-password")
 
 for (i in seq_along(data_sources$name)){
   data_sources <- data_sources %>% mutate(data = purrr::map(url[[i]], read.socrata))
-  saveRDS(data_sources, file = paste0(i, ".csv"))
+  #saveRDS(data_sources, file = paste0(i, ".csv"))
+  dbWriteTable(conn = conn,
+               dbname = ,
+               name = paste0(i, "_mysql"),
+               value = data_sources) #Not sure if this will work just yet. We can use line 49 if it is not working
 }
 
-#%>%
-  # Download JSON
-#  mutate(json = purrr::map(url, read.socrata))
-
-# Get data frames
-#data_sources <- data_sources %>%
-#  mutate(data = purrr::map(json, pull_data))
 
 
-#Trying to pull in multiple rows of data via socrata
-#try_json = RSocrata::read.socrata("https://data.iowa.gov/api/odata/v4/m3tr-qhgy")
-
-
-#Export Data to Github Folder
-repo <- repository("~/Documents/Data-Sources") #git@github.com:Shrink-Smart-Data-Science/Data-Sources.git
-pull(repo)
-write_vc(data_sources, file = "Data/name", root = repo, stage = TRUE)
-commit(repo, "Adding new data to repo")
-push(repo)
-read_vc(file = "rel_path/filename", root = repo)
 
