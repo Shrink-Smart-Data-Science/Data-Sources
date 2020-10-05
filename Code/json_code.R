@@ -38,6 +38,7 @@ data_sources <- tibble::tribble(
 #Export Data to MySQL Server 
 conn <- DBI::dbConnect(RMySQL::MySQL(), 
                        host = "srvanderplas.com",
+                       dbname = ,
                        user = "remote",
                        password = rstudioapi::askForPassword("Database password"))
 
@@ -48,7 +49,6 @@ for (i in seq_along(data_sources$name)){
   data_sources <- data_sources %>% mutate(data = purrr::map(url[[i]], read.socrata))
   #saveRDS(data_sources, file = paste0(i, ".csv"))
   dbWriteTable(conn = conn,
-               dbname = ,
                name = paste0(i, "_mysql"),
                value = data_sources) #Not sure if this will work just yet. We can use line 49 if it is not working
 }

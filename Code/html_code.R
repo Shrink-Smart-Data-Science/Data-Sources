@@ -58,6 +58,8 @@ conn <- DBI::dbConnect(RMySQL::MySQL(),
                        user = "remote",
                        password = rstudioapi::askForPassword("Database password"))
                        #password = "awesome-remote-mysql-server-password")
+dbSendQuery(conn, "CREATE DATABASE homes;") 
+# Error in .local(conn, statement, ...) : could not run statement: Access denied for user 'remote'@'%' to database 'homes'
 
 summary(conn) #We need a Dbname to get data on to the server??
 
