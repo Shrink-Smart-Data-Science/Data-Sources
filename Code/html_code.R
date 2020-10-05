@@ -55,13 +55,20 @@ child_center_data <- child_center_data[-1,]
 
 conn <- DBI::dbConnect(RMySQL::MySQL(), 
                        host = "srvanderplas.com",
-                       user = "remote", 
-                       password = "awesome-remote-mysql-server-password")
+                       user = "remote",
+                       password = rstudioapi::askForPassword("Database password"))
+                       #password = "awesome-remote-mysql-server-password")
+
+summary(conn) #We need a Dbname to get data on to the server??
+
+#db_info <- capture.output(mysqlDescribeConnection(conn, verbose = T))
 
 dbWriteTable(conn = conn,
+             dbname = ,
              name = "homes_data_mysql",
              value = homes_data)
 
 dbWriteTable(conn = conn,
+             dbname = "",
              name = "child_center_data_mysql",
              value = child_center_data)
