@@ -15,8 +15,8 @@ data_sources = c()
 data_sources <- tibble::tribble(
   ~name, ~url,
    "assisted living", "https://data.iowa.gov/api/odata/v4/67aj-bdft",
-  "city budget expenditures", "https://data.iowa.gov/api/odata/v4/jy6h-2e5x",
-  "city budget revenue", "https://data.iowa.gov/api/odata/v4/bzed-t5zc",
+   "city budget expenditures", "https://data.iowa.gov/api/odata/v4/jy6h-2e5x",
+   "city budget revenue", "https://data.iowa.gov/api/odata/v4/bzed-t5zc",
   "child abuse occurrences", "https://data.iowa.gov/api/odata/v4/mh9d-fias",
   "child abuse victims","https://data.iowa.gov/api/odata/v4/n84y-ufum",
   "child welfare assessments", "https://data.iowa.gov/api/odata/v4/er5e-kmgq",
@@ -31,7 +31,7 @@ data_sources <- tibble::tribble(
   "unemployment compensation fund status benefits", "https://data.iowa.gov/api/odata/v4/bbux-m3a4",
   "unemployment insurance benefit payments", "https://data.iowa.gov/api/odata/v4/aeyn-twxp",
    "liquor_stores", "https://data.iowa.gov/api/odata/v4/ykb6-ywnd",
-   "liquor sales", "https://data.iowa.gov/api/odata/v4/m3tr-qhgy",
+  # "liquor sales", "https://data.iowa.gov/api/odata/v4/m3tr-qhgy"
    "quarterly retail sales tax", "https://data.iowa.gov/api/odata/v4/55fz-vque",
    "registered retirement facilities", "https://data.iowa.gov/api/odata/v4/cvnj-m3t8"
 )
@@ -51,15 +51,22 @@ for (i in seq_along(data_sources$name)){
   #write.csv(data_sources$data, file = paste0(data_sources$name[[i]], ".csv") , sep = ",")
   data_name = gsub(" ", "_", data_sources$name[[i]])
   dbWriteTable(conn = conn,
-               name = paste0(data_name, "_mysql"),
-               value = data.frame(data_sources$data),
+               name = data_name,
+               value = data.frame(data_sources$data[[i]]),
                row.names=FALSE,
-               nrows = 50000000,
+#               append = TRUE)
+   #            nrows = 50000000,
                #field.types=list(organization_type='BLOB'),
                overwrite = TRUE) #Not sure if this will work just yet. We can use line 49 if it is not working
 }
 
-#Make sure that tables are added with right name and disconnet from the server ;)
+#Make sure that tables are added with right name 
 dbListTables(conn) 
-dbDisconnect(conn)
+#Delete tables that aren't useful anymore
+dbRemoveTable(conn, "liquor_stores_mysql")
 
+#Check for duplicate columns
+head(dbReadTable(conn, "unemployment_insurance_benefit_payments"))
+
+#disconnet from the server ;)
+dbDisconnect(conn)
