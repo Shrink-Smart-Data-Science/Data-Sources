@@ -63,10 +63,10 @@ for (i in seq_along(data_sources$name)){
 #Make sure that tables are added with right name 
 dbListTables(conn) 
 #Delete tables that aren't useful anymore
-dbRemoveTable(conn, "liquor_stores_mysql")
+#dbRemoveTable(conn, "liquor_stores_mysql")
 
 #Check for duplicate columns
-head(dbReadTable(conn, "unemployment_insurance_benefit_payments"))
+skim(dbReadTable(conn, "unemployment_insurance_benefit_payments"))
 
 #disconnet from the server ;)
 dbDisconnect(conn)

@@ -1,13 +1,13 @@
 library(rvest)
 library(RSelenium)
 library(htmltab)
-library(splashr)
 library(XML)
 library(dplyr)
 library(purrr)
 library(DBI)
 library(rstudioapi)
 library(RMySQL)
+library(skimr)
 
 #Using Splash
 #install_splash()    # run this once to install the docker image
@@ -70,4 +70,4 @@ dbWriteTable(conn = conn,
              value = child_center_data)
 
 #Check for duplicate columns
-head(dbReadTable(conn, "homes_data"))
+skim(dbReadTable(conn, "homes_data"))
