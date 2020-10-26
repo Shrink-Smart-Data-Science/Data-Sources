@@ -8,6 +8,7 @@ library(DBI)
 library(rstudioapi)
 library(RMySQL)
 library(skimr)
+library(keyring)
 
 #Using Splash
 #install_splash()    # run this once to install the docker image
@@ -58,7 +59,8 @@ conn <- DBI::dbConnect(RMySQL::MySQL(),
                        host = "srvanderplas.com",
                        dbname = "scc",
                        user = "remote",
-                       password = rstudioapi::askForPassword("Database password"))
+                       password = keyring::key_get("MY_SECRET"))
+ #                      password = rstudioapi::askForPassword("Database password"))
 
 
 dbWriteTable(conn = conn,

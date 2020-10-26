@@ -8,6 +8,7 @@ library(DBI)
 library(rstudioapi)
 library(RMySQL)
 library(skimr)
+library(keyring)
 
 #TO-DO: Find the best way to download the child care data that doesn't have a JSON url
 data_sources = c()
@@ -42,7 +43,7 @@ conn <- DBI::dbConnect(RMySQL::MySQL(),
                        host = "srvanderplas.com",
                        dbname = "scc",
                        user = "remote",
-                       password = rstudioapi::askForPassword("Database password"))
+                       password = keyring::key_get("MY_SECRET"))
 
 summary(conn) 
 
@@ -70,3 +71,4 @@ skim(dbReadTable(conn, "unemployment_insurance_benefit_payments"))
 
 #disconnet from the server ;)
 dbDisconnect(conn)
+
