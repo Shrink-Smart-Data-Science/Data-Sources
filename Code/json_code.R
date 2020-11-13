@@ -1,3 +1,12 @@
+## Check required packages
+# package.required <- c("httr", "jsonlite", "tidyverse", "purr", "tibble", "RSocrata", "DBI", "rstudioapi", "RMySQL", "skimr", "keyring")
+# 
+# for(i in 1:length(package.required)){
+#   if(!package.required[i] %in% rownames(installed.packages())){
+#     install.packages(package.required[i])
+#   }
+# }
+
 library(httr)
 library(jsonlite)
 library(tidyverse)
@@ -10,7 +19,7 @@ library(RMySQL)
 library(skimr)
 library(keyring)
 
-#TO-DO: Find the best way to download the child care data that doesn't have a JSON url
+
 data_sources = c()
 
 data_sources <- tibble::tribble(
@@ -49,7 +58,6 @@ summary(conn)
 
 for (i in seq_along(data_sources$name)){
   data_sources <- data_sources %>% mutate(data = purrr::map(url[[i]], read.socrata))
-  #write.csv(data_sources$data, file = paste0(data_sources$name[[i]], ".csv") , sep = ",")
   data_name = gsub(" ", "_", data_sources$name[[i]])
   dbWriteTable(conn = conn,
                name = data_name,
@@ -58,11 +66,12 @@ for (i in seq_along(data_sources$name)){
 #               append = TRUE)
    #            nrows = 50000000,
                #field.types=list(organization_type='BLOB'),
-               overwrite = TRUE) #Not sure if this will work just yet. We can use line 49 if it is not working
+               overwrite = TRUE) 
 }
 
 #Make sure that tables are added with right name 
 dbListTables(conn) 
+
 #Delete tables that aren't useful anymore
 #dbRemoveTable(conn, "liquor_stores_mysql")
 
