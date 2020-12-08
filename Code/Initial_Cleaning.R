@@ -28,7 +28,7 @@ fix_names <- function(x) {
 
 fips_data <- read.csv("/Users/denisebradford/Documents/ShrinkSmartExploration/data/fips_codes.csv", skip = 4, header = TRUE) 
 fips_data$county <- gsub("([A-Za-z]+).*", "\\1", fips_data$Area_Name_FIPS)
-
+#write.csv(fips_data, "/Users/denisebradford/Documents/Data-Sources/Data/fips_data.csv")
 # --- Individual/fine-grained Data ---------------------------------------------
 fire_dept <- dbReadTable(conn, "fire_department_census") %>%
   mutate(zip5 = str_sub(hq_zip, 1, 5) %>% parse_number(),
