@@ -26,7 +26,8 @@ fix_names <- function(x) {
                 str_remove("\\.$"))
 }
 
-fips_data <- read.csv("/Users/denisebradford/Documents/ShrinkSmartExploration/data/fips_codes.csv", skip = 4, header = TRUE)
+fips_data <- read.csv("/Users/denisebradford/Documents/ShrinkSmartExploration/data/fips_codes.csv", skip = 4, header = TRUE) 
+fips_data$county <- gsub("([A-Za-z]+).*", "\\1", fips_data$Area_Name_FIPS)
 
 # --- Individual/fine-grained Data ---------------------------------------------
 fire_dept <- dbReadTable(conn, "fire_department_census") %>%
@@ -186,6 +187,7 @@ hospitals_zip <- hospitals %>%
 census2010_pop_zip <- read_csv("data/National_Data/pop-by-zip-code.csv") %>%
   select(zip5 = zip_code, pop_2010 = `y-2010`) %>%
   mutate(zip5 = as.numeric(zip5))
+
 # --- City level Data ----------------------------------------------------------
 ia_city_county_population <- dbReadTable(conn, "city_population_iowa_by_county_year") %>%
   select(fips, county, geo_name, year, estimate, primary_point) %>%
@@ -206,6 +208,8 @@ ia_city_county_population <- dbReadTable(conn, "city_population_iowa_by_county_y
   group_by(fips, county, geo_name, year, lat, long) %>%
   summarize(population = median(population, na.rm = T)) %>%
   ungroup()
+#write.csv(ia_city_county_population, "/Users/denisebradford/Documents/Data-Sources/Data/ia_city_county_population.csv")
+
 
 ia_city_population <- ia_city_county_population %>%
   group_by(geo_name, year, fips, lat, long) %>%
@@ -226,6 +230,7 @@ ia_city_population <- ia_city_county_population %>%
                              "^Saint " = "St. ",
                              "Gillette? Grove" = "Gillett Grove")) %>%
            gsub("^Mc([a-z])", "Mc\\U\\1", x = ., perl = T))
+#write.csv(ia_city_population, "/Users/denisebradford/Documents/Data-Sources/Data/ia_city_population.csv")
 
 
 # liquor_shops_city <- liquor_sales %>%
@@ -275,7 +280,6 @@ child_abuse_county_age_group <- dbReadTable(conn, "child_abuse_victims") %>%
   fix_names
 #write.csv(child_abuse_county_age_group, "/Users/denisebradford/Documents/Data-Sources/Data/child_abuse_county_age_group.csv")
 
-
 child_welfare_assessments <- dbReadTable(conn, "child_welfare_assessments") %>%
   mutate(
     County_FIPS = str_sub(fips_county_code, 3, -1),
@@ -291,12 +295,12 @@ child_welfare_assessments <- dbReadTable(conn, "child_welfare_assessments") %>%
 
 tanf_county <- dbReadTable(conn, "family_investment_program") %>%
   left_join(fips_data %>% filter(State_FIPS == "19") %>% 
-              select(County_FIPS, county), by = c(county_name = "County")) %>%
+              select(County_FIPS, county), by = c(county_name = "county")) %>%
   mutate(coords = str_remove(primary_county_coordinates, " ?POINT ?"),
          lat = str_extract(coords, "[\\d\\.]{1,}\\)") %>% parse_number(),
          long = str_extract(coords, "\\(-[\\d\\.]{1,}") %>% parse_number()
   ) %>%
-  select(-starts_with("Primary")) %>%
+  select(-starts_with("primary")) %>%
   mutate(month = mdy(month)) %>%
   select(-month, -coords) %>%
   fix_names %>%
@@ -307,27 +311,26 @@ tanf_county <- dbReadTable(conn, "family_investment_program") %>%
             avg_monthly_recipients = median(recipients, na.rm = T),
             avg_monthly_grants = median(grants, na.rm = T)) %>%
   ungroup()
+#write.csv(tanf_county, "/Users/denisebradford/Documents/Data-Sources/Data/tanf_county.csv")
 
 food_stamps_county <-  dbReadTable(conn, "food_assistance_program_statistics")  %>%
   left_join(fips_data %>% filter(State_FIPS == "19") %>% 
-              select(County_FIPS, County), by = c(county_name = "County")) %>%
+              select(County_FIPS, county), by = c(county_name = "county")) %>%
   mutate(coords = str_remove(primary_county_coordinates, " ?POINT ?"),
          lat = str_extract(coords, "[\\d\\.]{1,}\\)") %>% parse_number(),
          long = str_extract(coords, "\\(-[\\d\\.]{1,}") %>% parse_number()
   ) %>%
-  select(-starts_with("Primary")) %>%
-  mutate(month = mdy(month)) %>%
+  select(-starts_with("primary")) %>%
+  mutate(month = ymd(month)) %>%
   select(-month, -coords) %>%
   fix_names %>%
   remove_empty_cols() %>%
-  group_by(cy, county_name, County_FIPS, service_area, 
-           Iowa.ZIP.Code.Tabulation.Areas, Iowa.Watershed.Sub.Basins.HUC.08, 
-           Iowa.Watersheds.HUC.10, US.Counties, lat, long) %>%
+  group_by(cy, county_name, County_FIPS, service_area, lat, long) %>%
   summarize(avg_monthly_households = median(households, na.rm = T),
             avg_monthly_recipients = median(recipients, na.rm = T),
             avg_monthly_allotments = median(allotments, na.rm = T)) %>%
   ungroup()
-
+#write.csv(food_stamps_county, "/Users/denisebradford/Documents/Data-Sources/Data/food_stamps_county.csv")
 
 medicaid_payments_county <- dbReadTable(conn, "medicaid_payments_county") %>%
   fix_names() %>%
@@ -338,7 +341,7 @@ medicaid_payments_county <- dbReadTable(conn, "medicaid_payments_county") %>%
          state_FIPS = str_sub(county_fip, 1, 2)) %>%
   select(-county_fip) %>%
   select(-county_primary_location, -matches("^prim")) %>%
-  mutate(month = mdy(report_as_of_date)) %>%
+  mutate(month = ymd(report_as_of_date)) %>%
   select(-report_as_of_date, -gnis_feature_id) %>%
   gather(medneedy_elig:medneedy_pmt,
          key = "var", value = "value") %>%
@@ -351,12 +354,13 @@ medicaid_payments_county <- dbReadTable(conn, "medicaid_payments_county") %>%
   summarise_all(median, na.rm = T) %>%
   mutate(avg_reimbursement_per_eligible_person =
            medneedy_pmt/medneedy_elig)
+#write.csv(medicaid_payments_county, "/Users/denisebradford/Documents/Data-Sources/Data/medicaid_payments_county.csv")
 
 unemployment <- dbReadTable(conn, "unemployment_insurance_benefit_payments") %>%
   fix_names() %>%
   remove_empty_cols() %>%
-  mutate(Month = mdy_hms(month_ending) %>% floor_date("day")) %>%
-  rename(month = Month, County = county_name) %>%
+  mutate(month = ymd(month_ending) %>% floor_date("day")) %>%
+  rename(county_name = "county_name") %>%
   mutate(county_fip = as.character(county_fip),
          County_FIPS = str_sub(county_fip, 3, -1),
          State_FIPS = str_sub(county_fip, 1, 2)) %>%
@@ -364,24 +368,23 @@ unemployment <- dbReadTable(conn, "unemployment_insurance_benefit_payments") %>%
   rename(GNIS = gnis_feature_id) %>%
   select(month:GNIS) %>%
   mutate(year = year(month)) %>%
-  gather(-c(month:County, year, GNIS), key = "var", value = "value") %>%
-  group_by(year, County, GNIS, var) %>%
+  gather(-c(month:county_name, year, GNIS), key = "var", value = "value") %>%
+  group_by(year, county_name, GNIS, var) %>%
   summarize(value = sum(value, na.rm = T)) %>%
   spread(var, value) %>%
   ungroup()
-
 #write.csv(unemployment, "/Users/denisebradford/Documents/Data-Sources/Data/unemployment.csv")
 
 sales_tax <- dbReadTable(conn, "quarterly_retail_sales_tax") %>%
   fix_names() %>%
   remove_empty_cols() %>%
-  mutate(FIPS.County.Code = as.character(fips_county_code),
-         County_FIPS = str_sub(FIPS.County.Code, 3, -1),
-         State_FIPS = str_sub(FIPS.County.Code, 1, 2)) %>%
-  select(County.Number = county_number, county, city, County_FIPS, State_FIPS, 
+  mutate(fips_county_code = as.character(fips_county_code),
+         County_FIPS = str_sub(fips_county_code, 3, -1),
+         State_FIPS = str_sub(fips_county_code, 1, 2)) %>%
+  select(county_number = county_number, county, city, County_FIPS, State_FIPS, 
          fiscal_year, quarter_ending, 
          number_of_returns:taxable_sales) %>%
-  mutate(Quarter.Ending = ymd(quarter_ending))
+  mutate(quarter_ending = ymd(quarter_ending))
 #write.csv(sales_tax, "/Users/denisebradford/Documents/Data-Sources/Data/sales_tax.csv")
 
 # --- Tax-district level Data --------------------------------------------------
@@ -398,14 +401,15 @@ assessed_property_values <- dbReadTable(conn, "assessed_property_values") %>%
   #select(-coords) %>%
   remove_empty_cols() %>%
   fix_names
+#write.csv(assessed_property_values, "/Users/denisebradford/Documents/Data-Sources/Data/assessed_property_values.csv")
 
 # --- School-district level data -----------------------------------------------
 
-# ia_cities <- sf::read_sf("data/Geography/Inc_cities_Twp_2010/") %>% 
-#   filter(str_detect(CLASSFP10, "C")) %>%
-#   mutate(geometry = st_transform(geometry, crs)) %>%
-#   mutate(center = st_centroid(geometry))
-# 
+ia_cities <- sf::read_sf("data/Geography/Inc_cities_Twp_2010/") %>%
+  filter(str_detect(CLASSFP10, "C")) %>%
+  mutate(geometry = st_transform(geometry, 4326)) %>%
+  mutate(center = st_centroid(geometry))
+
 school_cat <- function(grade_start, grade_end) {
   gradetbl <- tibble(grade = 0:12, type = rep(c("Elementary", "Middle", "High"), c(6, 3, 4)))
   grades <- seq(grade_start, grade_end, by = 1)
@@ -426,10 +430,12 @@ schools <- dbReadTable(conn, "school_building_directory") %>%
   dplyr::rename(county = co_name) %>%
   mutate(district_name = ifelse(is.na(district_name), "Private", district_name)) %>%
   mutate(zip5 = str_extract(physical_location, "IA \\d{5}") %>%
-           str_remove("IA ") %>% parse_number(),
+         str_remove("IA ") %>% parse_number(),
          coords = str_extract(physical_location, "\\([\\d\\.]{1,}, -?[\\d\\.]{1,}\\)"),
          lat = str_extract(coords, "\\([\\d\\.]{1,}") %>% parse_number(),
-         long = str_extract(coords, "-[\\d\\.]{1,}\\)") %>% parse_number())%>%
+         long = str_extract(coords, "-[\\d\\.]{1,}\\)") %>% parse_number()) %>%
+  mutate(grade_start = ifelse(grade_start == "NULL", NA, grade_start) %>% as.numeric,
+         grade_end = ifelse(grade_end == "NULL", NA, grade_end) %>% as.numeric) %>%
   mutate(grade_start = str_replace(grade_start, "P?K" , "0") %>% parse_number,
          grade_end = str_replace(grade_end, "P?K" , "0") %>% parse_number,
          public = district_name != "Private") %>%
@@ -437,11 +443,13 @@ schools <- dbReadTable(conn, "school_building_directory") %>%
   mutate(type = purrr::map2(grade_start, grade_end, school_cat)) %>%
   unnest() %>%
   filter(!is.na(lat) & !is.na(long)) %>%
-  st_as_sf(coords = c("long", "lat"), crs = 4326L) %>%
-  st_transform(crs = crs)
-# 
-# school_sm <- schools %>%
-#   select(School.ID, public, type, geometry)
+  st_as_sf(coords = c("long", "lat"), crs = 4326) %>% 
+  #st_set_crs(4326) %>% 
+  #st_transform(3857)
+  st_transform(crs = 4326)
+
+school_sm <- schools %>%
+   select(School.ID, public, type, geometry)
 # 
 # ia_city_schools <- ia_cities %>%
 #   select(City = NAME10, center) %>%
@@ -475,6 +483,7 @@ school_revenue_year <- dbReadTable(conn, "school_district_revenues") %>%
   filter(amount > 0) %>%
   group_by(fiscalyear, aea, dist, de_district, district_name) %>%
   summarize(amount = sum(amount), revenues_per_pupil = sum(revenues_per_pupil))
+#write.csv(school_revenue_year, "/Users/denisebradford/Documents/Data-Sources/Data/school_revenue_year.csv")
 
 # --- Cleaning up --------------------------------------------------------------
 
