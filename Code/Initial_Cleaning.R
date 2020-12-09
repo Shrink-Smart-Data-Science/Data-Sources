@@ -26,7 +26,22 @@ fix_names <- function(x) {
                 str_remove("\\.$"))
 }
 
+<<<<<<< Updated upstream
 fips_data <- read.csv("/Users/denisebradford/Documents/ShrinkSmartExploration/data/fips_codes.csv", skip = 4, header = TRUE)
+=======
+ie <- function(a, b, c) {
+  if(a) {
+    b
+  } else {
+    c
+  }
+}
+
+crs <- structure(list(epsg = 26915L, proj4string = "+proj=longlat +zone=15 +datum=NAD83 +units=mi +no_defs"), class = "crs")
+
+
+fips_data <- read.csv("/Users/denisebradford/Documents/ShrinkSmartExploration/data/fips_codes.csv", skip = 4, header = TRUE) 
+>>>>>>> Stashed changes
 fips_data$county <- gsub("([A-Za-z]+).*", "\\1", fips_data$Area_Name_FIPS)
 #write.csv(fips_data, "/Users/denisebradford/Documents/Data-Sources/Data/fips_data.csv")
 # --- Individual/fine-grained Data ---------------------------------------------
@@ -424,25 +439,25 @@ school_cat <- function(grade_start, grade_end) {
   tmp$type
 }
 
-schools <- dbReadTable(conn, "school_building_directory") %>%
+schools <- dfList$school_building_directory %>%  #dbReadTable(conn, "school_building_directory") %>%
   fix_names() %>%
   remove_empty_cols() %>%
   dplyr::rename(county = co_name) %>%
   mutate(district_name = ifelse(is.na(district_name), "Private", district_name)) %>%
-  mutate(zip5 = str_extract(physical_location, "IA \\d{5}") %>%
-         str_remove("IA ") %>% parse_number(),
-         coords = str_extract(physical_location, "\\([\\d\\.]{1,}, -?[\\d\\.]{1,}\\)"),
-         lat = str_extract(coords, "\\([\\d\\.]{1,}") %>% parse_number(),
-         long = str_extract(coords, "-[\\d\\.]{1,}\\)") %>% parse_number()) %>%
-  mutate(grade_start = ifelse(grade_start == "NULL", NA, grade_start) %>% as.numeric,
-         grade_end = ifelse(grade_end == "NULL", NA, grade_end) %>% as.numeric) %>%
+  mutate(zip5 = str_extract(mailing_zip_code, "\\d{5}"),
+  coords = str_remove(dfList$school_building_directory$physical_location, " ?POINT ?"),
+         lat = str_extract(gsub("^.* ", "", coords), pattern = "-?\\d+(?:\\.\\d+)?") %>% parse_number(),
+         long = str_extract(coords, "-?\\d+(?:\\.\\d+)?") %>% parse_number())%>%
   mutate(grade_start = str_replace(grade_start, "P?K" , "0") %>% parse_number,
          grade_end = str_replace(grade_end, "P?K" , "0") %>% parse_number,
          public = district_name != "Private") %>%
+  mutate(grade_start = ifelse(grade_start == "NULL", NA, grade_start) %>% as.numeric,
+         grade_end = ifelse(grade_end == "NULL", NA, grade_end) %>% as.numeric) %>%
   filter(!is.na(grade_start) & !is.na(grade_end)) %>%
   mutate(type = purrr::map2(grade_start, grade_end, school_cat)) %>%
   unnest(type) %>%
   filter(!is.na(lat) & !is.na(long)) %>%
+<<<<<<< Updated upstream
   st_as_sf(coords = c("long", "lat"), crs = 4326) %>%
   #st_set_crs(4326) %>%
   #st_transform(3857)
@@ -451,6 +466,17 @@ schools <- dbReadTable(conn, "school_building_directory") %>%
 school_sm <- schools %>%
    select(School.ID, public, type, geometry)
 #
+=======
+  st_as_sf(coords = c("long", "lat"), crs = 4326L) %>% 
+  st_transform(crs = crs)
+#write.csv(schools, "/Users/denisebradford/Documents/Data-Sources/Data/schools.csv")
+
+
+school_sm <- schools %>%
+   select(district_school_id, public, type, geometry)
+#write.csv(school_sm, "/Users/denisebradford/Documents/Data-Sources/Data/school_sm.csv")
+
+>>>>>>> Stashed changes
 # ia_city_schools <- ia_cities %>%
 #   select(City = NAME10, center) %>%
 #   st_drop_geometry() %>%
