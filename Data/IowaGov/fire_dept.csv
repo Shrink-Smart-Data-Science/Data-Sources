@@ -1,0 +1,733 @@
+"","fdid","fire_dept_name","County","dept_type","organization_type","number_stations","active_firefighters_career","active_firefighters_volunteer","active_firefighters_paid_per_call","non_firefighting_civilian","non_firefighting_volunteer","primary_agency_for_em","zip5","zip9","lat","long","Firefighters"
+"1","F3060","185th Air Refueling Wing Fire Department","Woodbury","Career","Federal government (Department of Defense)",1,65,0,0,0,0,"FALSE",51111,51111,NA,NA,65
+"2","42001","Ackley Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,"TRUE",50601,50601,42.553991,-93.055998,29
+"3","01001","Adair Volunteer Fire Department, Inc.","Adair","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"TRUE",50002,50002,41.500695,-94.643469,26
+"4","25001","Adel Volunteer Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,50003,500031737,41.61697,-94.019961,27
+"5","88001","Afton Volunteer Fire Department","Union","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,50830,508300047,41.028403,-94.198171,30
+"6","90001","Agency Volunteer Fire & Rescue","Wapello","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,3,NA,52530,52530,40.994913,-92.306773,16
+"7","92001","Ainsworth Fire Department","Washington","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",52201,52201,NA,NA,25
+"8","75001","Akron Fire Department","Plymouth","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,51001,51001,42.823107,-96.560001,25
+"9","64001","Albion Fire and Rescue","Marshall","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,6,NA,50005,50005,42.11109,-92.99003,25
+"10","57001","Alburnett Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",0,0,22,0,0,0,NA,52202,522029999,42.149132,-91.618512,22
+"11","42002","Alden Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,24,0,4,"TRUE",50006,50006,42.519692,-93.375047,24
+"12","55001","Algona Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,26,0,0,"FALSE",50511,505112841,43.068896,-94.229008,26
+"13","93001","Allerton Fire Department","Wayne","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,8,"FALSE",50008,50008,40.704602,-93.364708,28
+"14","19001","Alta Vista Fire Department","Chickasaw","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",50603,506039716,43.198498,-92.41664,20
+"15","11002","Alta Volunteer Fire Department","Buena Vista","Volunteer","Local (includes career, combination, and volunteer)",1,0,31,0,0,0,"TRUE",51002,51002,42.673562,-95.302309,31
+"16","84001","Alton Fire and Rescue","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,2,"TRUE",51003,510035004,42.988333,-96.009715,18
+"17","77002","Altoona Fire Department","Polk","Mostly volunteer","Local (includes career, combination, and volunteer)",1,8,0,23,1,0,"TRUE",50009,500092487,41.642861,-93.474194,31
+"18","21090","Alvin Volunteer Fire and Rescue","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,13,NA,51542,515429311,NA,NA,16
+"19","48012","Amana Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",3,0,22,0,0,0,NA,52307,523070174,NA,NA,22
+"20","85001","Ames Fire Department","Story","Career","Local (includes career, combination, and volunteer)",3,55,0,0,14,0,"FALSE",50010,500105454,42.03488,-93.615535,55
+"21","53001","Anamosa Fire Department","Jones","Volunteer","Local (includes career, combination, and volunteer)",1,0,32,0,0,0,"FALSE",52205,52205,42.10472,-91.278084,32
+"22","23001","Andover Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,52701,52701,NA,NA,20
+"23","49001","Andrew Volunteer Fire Department","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,2,"TRUE",52030,52030,42.153489,-90.592372,25
+"24","15001","Anita Volunteer Fire Department","Cass","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",50020,50020,41.445066,-94.76647,30
+"25","77003","Ankeny Fire Department","Polk","Mostly career","Local (includes career, combination, and volunteer)",3,45,0,33,3,0,"TRUE",50023,500231554,41.733208,-93.608819,78
+"26","97001","Anthon Community Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,4,NA,51004,510040703,42.389224,-95.866739,21
+"27","12002","Aplington Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"FALSE",50604,506041106,42.585094,-92.884575,22
+"28","14001","Arcadia Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"FALSE",51430,51430,42.08753,-95.043847,23
+"29","71001","Archer Volunteer Fire Department","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,51231,51231,43.115073,-95.745918,18
+"30","12003","Aredale Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,6,NA,50605,50605,43.059306,-92.316797,19
+"31","33001","Arlington Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50606,50606,42.748534,-91.671008,18
+"32","32001","Armstrong Fire Department","Emmet","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,20,0,1,NA,50514,50514,43.398298,-94.482755,20
+"33","30001","Arnolds Park/Okobodi Fire Department","Dickinson","Volunteer","Local (includes career, combination, and volunteer)",2,0,28,0,0,0,NA,51331,513310437,NA,NA,28
+"34","47001","Arthur Community Fire Department","Ida","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,0,NA,51431,514310041,42.335142,-95.34748,13
+"35","31001","Asbury Community Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,6,"TRUE",52002,520022501,42.508355,-90.755542,29
+"36","72001","Ashton Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",51232,51232,43.311094,-95.790495,18
+"37","70001","Atalissa Community Fire Department, Inc","Muscatine","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,4,"TRUE",52720,52720,41.570952,-91.16517,16
+"38","06001","Atkins Volunteer Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"TRUE",52206,52206,41.997006,-91.859666,26
+"39","15002","Atlantic Fire Department","Iowa","Mostly volunteer","Local (includes career, combination, and volunteer)",1,3,35,0,0,0,"FALSE",50022,500222074,41.398538,-95.031216,38
+"40","81001","Auburn Fire & Rescue","Sac","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,4,"TRUE",51433,51433,42.249538,-94.877664,26
+"41","05001","Audubon Fire & Rescue","Audubon","Volunteer","Local (includes career, combination, and volunteer)",1,0,40,0,0,0,"TRUE",50025,500251111,41.723071,-94.93626,40
+"42","18001","Aurelia Fire Department","Cherokee","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,20,0,0,NA,51005,510050727,42.711438,-95.435358,20
+"43","10001","Aurora Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"FALSE",50607,50607,42.618056,-91.728028,18
+"44","78001","Avoca Volunteer Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",51521,51521,41.477568,-95.338887,20
+"45","94001","Badger Fire Department","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",50516,505160136,NA,NA,25
+"46","39001","Bagley Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,8,0,0,0,"FALSE",50026,50026,41.84894,-94.429531,8
+"47","49002","Baldwin Volunteer Fire Department","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,0,NA,52207,522070062,NA,NA,10
+"48","55002","Bancroft Community Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",50517,50517,43.293528,-94.217999,18
+"49","62001","Barnes City Volunteer Fire Department","Mahaska","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50027,500270074,NA,NA,20
+"50","51001","Batavia Volunteer Fire Department","Jefferson","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,52533,525331110,40.99509,-92.167613,19
+"51","47002","Battle Creek Hose Company #1","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"TRUE",51006,51006,42.315978,-95.597685,23
+"52","50001","Baxter Fire Department","Jasper","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50028,50028,41.825024,-93.151447,18
+"53","39002","Bayard Volunteer Fire Department","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50029,50029,NA,NA,20
+"54","87002","Bedford Volunteer Fire Department","Taylor","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"FALSE",50833,50833,40.667932,-94.717836,30
+"55","06002","Belle Plaine Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,40,0,0,0,NA,52208,522081522,41.897051,-92.281012,40
+"56","49003","Bellevue Fire Department","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,40,0,0,0,"TRUE",52031,520311235,42.258236,-90.425448,40
+"57","99001","Belmond Volunteer Fire Department","Wright","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"FALSE",50421,50421,42.846619,-93.614188,30
+"58","","Benefited Fire District NO 3","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50544,50544,42.244343,-94.203779,20
+"59","16001","Bennett Fire Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,"TRUE",52721,527210057,41.738814,-90.973951,27
+"60","31004","Bernard Community Fire Association","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,5,"TRUE",52032,52032,42.31402,-90.831366,23
+"61","82001","Bettendorf Fire Rescue and EMS","Scott","Mostly volunteer","Local (includes career, combination, and volunteer)",4,27,38,0,1,1,"TRUE",52722,527224937,41.525222,-90.50966,65
+"62","89001","Birmingham Fire Department","Van Buren","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52535,52535,40.878981,-91.948069,25
+"63","40001","Blairsburg Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,NA,50034,50034,42.48341,-93.643305,14
+"64","06003","Blairstown Volunteer Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",52209,52209,41.909474,-92.086096,20
+"65","90002","Blakesburg Fire and Rescue","Wapello","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,2,NA,52536,52536,NA,NA,20
+"66","73001","Blanchard Volunteer Fire Department","Page","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,4,NA,51630,51630,40.579262,-95.222318,15
+"67","67001","Blencoe Fire Department","Monona","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,"TRUE",51523,51523,41.930377,-96.080853,16
+"68","87003","Blockton Volunteer Fire Department","Taylor","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,NA,50836,50836,40.616291,-94.479643,16
+"69","26001","Bloomfield Volunteer Fire Department","Davis","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,19,0,0,"FALSE",52537,52537,40.747657,-92.418988,19
+"70","82002","Blue Grass Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",52726,527269706,41.509224,-90.776473,24
+"71","46001","Bode Fire Department","Humboldt","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,"FALSE",50519,50519,42.86794,-94.287508,21
+"72","89002","Bonaparte Fire Department","Van Buren","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,NA,52620,526200293,NA,NA,14
+"73","77005","Bondurant Emergency Services","Polk","Mostly volunteer","Local (includes career, combination, and volunteer)",1,5,0,25,1,3,"TRUE",50035,50035,41.701835,-93.463258,30
+"74","08003","Boone Fire Department","Boone","Mostly career","Local (includes career, combination, and volunteer)",1,10,0,3,0,0,"FALSE",50036,50036,42.063814,-93.878581,13
+"75","25002","Bouton Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50039,50039,NA,NA,20
+"76","08004","Boxholm Volunteer Fire Department","Boone","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,"FALSE",50040,50040,42.176281,-94.104795,12
+"77","84002","Boyden Area Fire Department","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,15,0,2,"FALSE",51234,51234,43.189773,-96.005842,15
+"78","73002","Braddyville Fire and Rescue","Page","Volunteer","Local (includes career, combination, and volunteer)",1,0,9,0,0,1,"TRUE",51631,51631,40.579316,-95.025396,9
+"79","46002","Bradgate Fire Department","Humboldt","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,50520,505200196,NA,NA,19
+"80","10002","Brandon Volunteer Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,52210,52210,42.313223,-92.003437,27
+"81","05002","Brayton Volunteer Fire Department","Audubon","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,NA,50042,50042,NA,NA,16
+"82","01002","Bridgewater Fire Department","Adair","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,0,0,0,NA,50837,50837,41.244527,-94.66887,0
+"83","92002","Brighton Volunteer Fire Department","Washington","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"FALSE",52540,52540,41.17494,-91.82128,22
+"84","41001","Britt Fire Department","Hancock","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,1,"TRUE",50423,50423,43.095366,-93.801766,26
+"85","97002","Bronson Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,51007,51007,42.409937,-96.212212,22
+"86","42003","Buckeye Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50043,50043,42.417276,-93.374857,22
+"87","95001","Buffalo Center Volunteer Fire Department","Winnebago","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50424,50424,43.385838,-93.949545,20
+"88","82003","Buffalo Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",52728,52728,41.45638,-90.71625,25
+"89","29001","Burlington Fire Department","Des Moines","Career","Local (includes career, combination, and volunteer)",3,48,0,0,1,0,"FALSE",52601,526015515,40.809378,-91.104348,48
+"90","55003","Burt Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",50522,50522,43.196325,-94.217587,18
+"91","13004","Butler Township Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,"TRUE",50575,505757549,42.51132,-94.762078,16
+"92","23002","Calamus Volunteer Fire Department, Inc.","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52729,52729,41.82546,-90.756358,30
+"93","94003","Callender Community Fire Department","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,50523,50523,42.361776,-94.291435,15
+"94","96001","Calmar Fire Department","Winneshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"TRUE",52132,52132,43.182802,-91.868351,22
+"95","71002","Calumet Volunteer Fire Department","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,11,0,0,0,NA,51009,51009,42.946346,-95.549932,11
+"96","23003","Camanche Fire Department","Clinton","Mostly volunteer","Local (includes career, combination, and volunteer)",2,2,37,0,0,0,NA,52730,527300077,41.785774,-90.258198,39
+"97","85002","Cambridge Fire & Rescue","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",50046,50046,41.899015,-93.52788,20
+"98","77025","Camp Dodge Range Control","Polk","Volunteer","Federal government (Department of Defense)",1,0,10,0,1,0,"FALSE",50131,501311824,41.68846,-93.713938,10
+"99","89003","Cantril Volunteer Fire Department","Van Buren","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,52542,52542,40.643484,-92.070026,21
+"100","91002","Carlisle Fire Department","Warren","Mostly volunteer","Local (includes career, combination, and volunteer)",1,3,0,29,1,0,"TRUE",50047,500470430,41.499083,-93.487754,32
+"101","14003","Carroll Fire Department","Carroll","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,0,34,0,0,"FALSE",51401,51401,42.066345,-94.847117,35
+"102","78002","Carson Volunteer Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"FALSE",51525,515250446,41.236433,-95.422177,18
+"103","78003","Carter Lake Iowa Fire Department","Pottawattamie","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,0,26,1,6,"FALSE",51510,51510,41.285345,-95.917977,27
+"104","31005","Cascade Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,2,"TRUE",52033,52033,42.302654,-91.002934,30
+"105","39003","Casey Fire Department","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,10,"TRUE",50048,50048,41.505962,-94.522906,14
+"106","96002","Castalia Volunteer Firemen, Inc.","Winneshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,8,"FALSE",52133,52133,43.112294,-91.676982,24
+"107","67002","Castana Fire and Rescue","Monona","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,4,NA,51010,51010,42.074252,-95.908886,12
+"108","07001","Cedar Falls Fire Rescue","Iowa","Mostly volunteer","Local (includes career, combination, and volunteer)",3,26,0,34,0,0,"TRUE",50613,506131289,42.496296,-92.445879,60
+"109","57003","Cedar Rapids Fire Department","Linn","Career","Local (includes career, combination, and volunteer)",9,132,0,0,10,0,NA,52405,52405,41.977019,-91.67663,132
+"110","53002","Center Junction Volunteer Fire Department","Jones","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,6,NA,52212,52212,42.115785,-91.090645,19
+"111","57006","Center Point Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",52213,522139646,42.194387,-91.783589,25
+"112","04001","Centerville Fire Department","Appanoose","Mostly volunteer","Local (includes career, combination, and volunteer)",1,3,0,25,0,0,"FALSE",52544,525442238,40.732519,-92.871407,28
+"113","57022","Central City Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,6,"TRUE",52214,52214,42.205666,-91.524495,25
+"114","31006","Centralia-Peosta Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,40,0,0,3,NA,52068,52068,42.448211,-90.851194,40
+"115","59001","Chariton Volunteer Fire Department","Lucas","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,20,"TRUE",50049,50049,41.013852,-93.308424,35
+"116","34001","Charles City Fire Department","Floyd","Mostly volunteer","Local (includes career, combination, and volunteer)",1,4,0,25,0,0,"FALSE",50616,506163731,43.060769,-92.673092,29
+"117","23004","Charlotte Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52731,52731,41.961181,-90.468219,30
+"118","24004","Charter Oak Fire Department","Crawford","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,NA,51439,51439,42.069686,-95.590774,26
+"119","86001","Chelsea Fire Department","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,52215,522159013,41.919814,-92.394625,18
+"120","18002","Cherokee Fire Department","Cherokee","Mostly volunteer","Local (includes career, combination, and volunteer)",1,3,25,0,0,0,"FALSE",51012,510121809,42.748004,-95.552844,28
+"121","18003","Cherokee MHI Fire Department","Cherokee","Volunteer","State government",1,0,8,0,0,0,NA,51012,510121566,42.756076,-95.571571,8
+"122","45001","Chester Fire Department","Howard","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",52134,52134,43.489173,-92.361925,20
+"123","37001","Churdan Fire Rescue Department","Greene","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,6,NA,50050,50050,42.155265,-94.479079,22
+"124","04002","Cincinnati Volunteer Fire Department","Appanoose","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,2,"TRUE",52549,52549,40.630947,-92.922657,10
+"125","21002","City of Everly Fire Department","Clay","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,12,0,0,"TRUE",51338,51338,43.159193,-95.327698,12
+"126","57011","City of Lisbon Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,5,NA,52253,522530068,41.922028,-91.38547,30
+"127","71006","City of Paullina Fire Department","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,51046,510460307,42.981053,-95.6901,27
+"128","71010","City of Sutherland","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,18,0,0,"TRUE",51058,51058,42.969754,-95.491243,18
+"129","16002","Clarence Community Volunteer Fire Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,5,NA,52216,52216,41.888723,-91.058318,25
+"130","73004","Clarinda Treatment Complex - Fire Protection","Page","Volunteer","State government",1,0,15,0,0,2,"FALSE",51632,51632,40.756889,-95.037624,15
+"131","99002","Clarion Fire Department","Wright","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"FALSE",50525,505251405,42.730968,-93.734071,20
+"132","12005","Clarksville Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50619,50619,42.784717,-92.669119,22
+"133","63016","Clay Township Fire Department","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,11,0,0,0,"TRUE",50256,502568565,41.276143,-92.873824,11
+"134","17001","Clear Lake Fire Department","Cerro Gordo","Mostly volunteer","Local (includes career, combination, and volunteer)",1,13,29,0,1,0,"FALSE",50428,504281765,43.139238,-93.379326,42
+"135","18004","Cleghorn Fire Department","Cherokee","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,3,"FALSE",51014,51014,42.813797,-95.712777,22
+"136","64002","Clemons Fire & Rescue","Marshall","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,2,NA,50051,500510045,NA,NA,18
+"137","33002","Clermont Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",52135,52135,43.003214,-91.650002,24
+"138","23005","Clinton Fire Department","Clinton","Career","Local (includes career, combination, and volunteer)",3,45,0,0,0,0,"FALSE",52732,527324436,41.843389,-90.191889,45
+"139","77006","Clive Fire Department","Polk","Mostly volunteer","Local (includes career, combination, and volunteer)",1,19,0,30,3,3,"TRUE",50325,503251076,41.607659,-93.734368,49
+"140","86002","Clutier Fire Department","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,52217,52217,42.077831,-92.403963,22
+"141","57007","Coggon Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,3,"TRUE",52218,52218,42.28186,-91.531889,23
+"142","73005","Coin Volunteer Fire Department","Page","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,1,NA,51636,51636,40.655785,-95.232129,16
+"143","28001","Colesburg Fire Department","Delaware","Volunteer","Local (includes career, combination, and volunteer)",1,0,33,0,0,0,NA,52035,520350257,42.637031,-91.20224,33
+"144","50002","Colfax Fire Department","Jasper","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,NA,50054,500541650,41.673498,-93.247279,35
+"145","85004","Colo Fire and Rescue","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"FALSE",50056,50056,42.01744,-93.313636,22
+"146","63015","Columbia Fire Department","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,"FALSE",50057,50057,41.175371,-93.151931,14
+"147","58002","Columbus Benefited Fire District","Louisa","Volunteer","Local (includes career, combination, and volunteer)",1,0,37,0,0,0,"FALSE",52738,52738,41.280076,-91.356804,37
+"148","34002","Colwell Community Volunteer Fire Department","Floyd","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,2,NA,50620,506205002,NA,NA,15
+"149","70002","Conesville Volunteer Fire Department","Muscatine","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,1,NA,52739,52739,41.383106,-91.351009,22
+"150","38002","Conrad Volunteer Fire Department","Grundy","Mostly volunteer","Local (includes career, combination, and volunteer)",0,1,19,0,0,0,NA,50621,50621,42.225686,-92.873923,20
+"151","14004","Coon Rapids Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"FALSE",50058,50058,41.87082,-94.676021,26
+"152","52001","Coralville Fire Department","Johnson","Mostly volunteer","Local (includes career, combination, and volunteer)",1,2,46,0,0,0,NA,52241,522411815,41.677534,-91.583611,48
+"153","02002","Corning Fire Department","Adams","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,8,NA,50841,508411340,40.990973,-94.734426,30
+"154","97003","Correctionville Fire and Rescue","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,51016,51016,42.474232,-95.787357,20
+"155","93003","Corydon Volunteer Fire Department","Wayne","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,10,NA,50060,50060,40.757039,-93.318097,20
+"156","35003","Coulter Fire Department","Franklin","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,NA,50431,504310023,43.224078,-93.791413,14
+"157","78004","Council Bluffs Fire Department","Pottawattamie","Career","Local (includes career, combination, and volunteer)",5,104,0,0,1,0,"FALSE",51503,515036529,41.257955,-95.84947,104
+"158","78005","Crescent Volunteer Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,2,NA,51526,51526,41.363771,-95.85955,14
+"159","45002","Cresco Fire Department","Howard","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,NA,52136,521361841,43.371156,-92.119594,26
+"160","88003","Creston Fire Department","Union","Mostly volunteer","Local (includes career, combination, and volunteer)",1,5,20,0,0,0,NA,50801,50801,41.060853,-94.372663,25
+"161","41003","Crystal Lake Fire Department","Hancock","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,50432,504320224,NA,NA,17
+"162","15003","Cumberland Volunteer Fire Department","Cass","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50843,50843,41.27364,-94.870517,22
+"163","97004","Cushing Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"FALSE",51018,51018,42.465495,-95.675179,20
+"164","74003","Cylinder Fire Department","Palo Alto","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50528,50528,43.089802,-94.550918,18
+"165","25003","Dallas Center Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,25,0,0,"TRUE",50063,50063,41.684356,-93.962888,25
+"166","97005","Danbury Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,51019,51019,42.234401,-95.721787,20
+"167","29002","Danville Fire Department","Des Moines","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",52623,52623,40.867021,-91.315905,24
+"168","82004","Davenport Fire Department","Scott","Career","Local (includes career, combination, and volunteer)",7,140,0,0,2,0,"FALSE",52801,528011132,41.522753,-90.579915,140
+"169","25004","Dawson Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,6,0,0,"FALSE",50066,500668044,41.841755,-94.222087,6
+"170","25005","De Soto Fire & Rescue","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,2,NA,50069,500690100,NA,NA,12
+"171","96003","Decorah Fire Department","Winneshiek","Mostly volunteer","Local (includes career, combination, and volunteer)",1,3,0,32,0,0,NA,52101,52101,43.305917,-91.788773,35
+"172","79002","Deep River Volunteer Fire Department","Poweshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,1,"TRUE",52222,52222,41.581582,-92.378152,21
+"173","83001","Defiance Fire & Rescue Department","Shelby","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,51527,51527,41.824984,-95.340943,22
+"174","77007","Delaware Township Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,22,0,0,"TRUE",50317,50317,41.644103,-93.537338,22
+"175","28003","Delhi Volunteer Fire Department and First Responders","Delaware","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,2,"TRUE",52223,522230002,42.429677,-91.333689,30
+"176","23006","Delmar Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,52037,52037,41.998667,-90.606978,21
+"177","54001","Delta Fire/Rescue","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,11,0,0,0,"TRUE",52550,525507000,41.32358,-92.330414,11
+"178","24006","Denison Fire Department","Crawford","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,35,0,0,8,"TRUE",51442,51442,42.017867,-95.355942,36
+"179","56002","Denmark Fire Association","Lee","Volunteer","Local (includes career, combination, and volunteer)",2,0,50,0,0,0,"FALSE",52624,52624,41.06161,-91.637874,50
+"180","59002","Derby Volunteer Fire Department","Lucas","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,50068,50068,40.932123,-93.456031,15
+"181","77024","Des Moines Airport Fire Department","Polk","Career","Federal government (Department of Defense)",1,55,0,0,0,0,NA,50321,50321,41.540947,-93.65835,55
+"182","77008","Des Moines Fire Department","Polk","Career","Local (includes career, combination, and volunteer)",10,384,0,0,12,0,"FALSE",50317,503177905,41.591377,-93.56464,384
+"183","23007","DeWitt Volunteer Fire Department, Inc.","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,31,0,1,7,"FALSE",52742,52742,41.825126,-90.54109,31
+"184","25006","Dexter Fire & Rescue","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,32,0,0,0,NA,50070,50070,41.518061,-94.224381,32
+"185","80004","Diagonal Volunteer Fire Department","Ringgold","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50845,508459801,NA,NA,20
+"186","38003","Dike Fire Department","Grundy","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,50624,506240221,42.462797,-92.62731,24
+"187","82005","Dixon Volunteer Fire Department","Scott","Volunteer","Private or industrial fire  brigade",1,0,20,0,0,0,NA,52745,52745,41.743163,-90.783858,20
+"188","82006","Donahue Volunteer Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,6,"TRUE",52746,52746,41.696675,-90.675447,24
+"189","56003","Donnellson Fire Association","Lee","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,"FALSE",52625,52625,40.643844,-91.56446,27
+"190","89004","Douds Community Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,"FALSE",52551,52551,NA,NA,21
+"191","17002","Dougherty Fire Department","Cerro Gordo","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50433,50433,42.922068,-93.041146,18
+"192","83006","Douglas Township Fire Protection, Kirkman Volunteer Fire Department","Shelby","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,51447,514470001,41.7286,-95.264435,20
+"193","24007","Dow City - Arion Community Fire Department","Crawford","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,2,"TRUE",51528,51528,41.928689,-95.49701,25
+"194","99003","Dows Rural Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,23,1,0,"TRUE",50071,50071,42.656494,-93.499869,23
+"195","26002","Drakesville Volunteer Fire Department","Davis","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,NA,52552,525529602,40.799157,-92.483049,14
+"196","31007","Dubuque Fire Department","Dubuque","Career","Local (includes career, combination, and volunteer)",6,89,0,0,1,0,"FALSE",52001,52001,42.502181,-90.665796,89
+"197","31023","Dubuque Regional Airport Fire Department","Dubuque","Career","Local (includes career, combination, and volunteer)",1,5,0,0,0,0,NA,52003,52003,42.404083,-90.702292,5
+"198","12006","Dumont Volunteer Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,NA,50625,50625,42.749133,-92.972591,16
+"199","28004","Dundee Volunteer Fire Department","Delaware","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,52038,52038,42.579075,-91.546783,19
+"200","07002","Dunkerton Fire Department","Black Hawk","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,22,0,0,NA,50626,50626,42.563547,-92.160494,22
+"201","43001","Dunlap Fire and Rescue Department","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,NA,51529,51529,41.854336,-95.599696,28
+"202","16003","Durant Fire Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"TRUE",52747,52747,41.600585,-90.910183,22
+"203","31009","Dyersville Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,40,0,0,0,"TRUE",52040,52040,42.471097,-91.117983,40
+"204","99004","Eagle Grove Fire Department","Wright","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,23,0,0,"FALSE",50533,50533,42.664107,-93.899579,23
+"205","61002","Earlham Fire Department","Madison","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,"TRUE",50072,50072,41.491029,-94.122939,21
+"206","28005","Earlville Fire and Ambulance","Delaware","Volunteer","Local (includes career, combination, and volunteer)",1,0,31,0,0,3,NA,52041,52041,NA,NA,31
+"207","81002","Early Fire & Rescue","Sac","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"FALSE",50535,50535,42.461293,-95.151602,26
+"208","61003","East Peru Volunteer Fire Department","Madison","Volunteer","Local (includes career, combination, and volunteer)",1,0,9,0,0,2,"TRUE",50222,50222,41.22655,-93.925659,9
+"209","57004","Eastern Iowa Airport Police/ Fire Department","Linn","Career","Local (includes career, combination, and volunteer)",1,13,0,0,0,0,"FALSE",52404,52404,41.891172,-91.711254,13
+"210","90004","Eddyville Volunteer Fire and Rescue Department","Wapello","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"TRUE",52553,52553,41.157416,-92.63354,23
+"211","28006","Edgewood Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,"TRUE",52042,520420545,NA,NA,29
+"212","86004","Elberon Fire & Rescue","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,7,"TRUE",52225,52225,42.006521,-92.311817,15
+"213","90005","Eldon Fire and Rescue, Inc.","Wapello","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,5,NA,52554,52554,40.917573,-92.224071,18
+"214","42004","Eldora Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,24,0,4,"FALSE",50627,50627,42.358854,-93.09836,24
+"215","82007","Eldridge Volunteer Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,28,0,0,"TRUE",52748,52748,41.655756,-90.58441,28
+"216","33004","Elgin Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,52141,52141,42.956612,-91.630737,22
+"217","83003","Elk Horn Fire & Rescue","Shelby","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,13,NA,51531,51531,41.591428,-95.059985,22
+"218","22002","Elkader Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",52043,52043,42.853168,-91.403012,30
+"219","77009","Elkhart Fire Department","Polk","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,17,0,1,"TRUE",50073,50073,41.79341,-93.527756,17
+"220","69002","Elliott Fire & Rescue Association Inc","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,"TRUE",51532,515320009,41.149276,-95.161855,12
+"221","40002","Ellsworth Volunteer Fire Department","Hamilton","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",50075,50075,42.312471,-93.57875,25
+"222","45003","Elma Fire Department","Howard","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"FALSE",50628,50628,43.245038,-92.437146,26
+"223","57008","Ely Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,"TRUE",52227,52227,41.871817,-91.583126,29
+"224","65001","Emerson Volunteer Fire Department","Mills","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,51533,515330274,41.016484,-95.401458,18
+"225","74004","Emmetsburg Fire Department","Palo Alto","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,"TRUE",50536,50536,43.110609,-94.676242,21
+"226","31010","Epworth Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",2,0,36,0,0,5,"TRUE",52045,520450436,42.440518,-90.924875,36
+"227","73007","Essex Fire Rescue","Page","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,51638,51638,40.833496,-95.30802,30
+"228","32003","Estherville Fire Department","Emmet","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,27,0,0,"TRUE",51334,51334,43.402059,-94.835328,27
+"229","07004","Evansdale Fire Rescue","Black Hawk","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,28,0,0,"FALSE",50707,50707,42.464848,-92.287398,28
+"230","10003","Fairbank Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,10,"TRUE",50629,50629,42.638222,-92.047996,28
+"231","57009","Fairfax Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",2,0,51,0,0,0,"TRUE",52228,522284711,41.917573,-91.780927,51
+"232","51002","Fairfield Fire Department","Jefferson","Mostly volunteer","Local (includes career, combination, and volunteer)",1,4,0,14,0,0,NA,52556,525562813,41.008237,-91.965059,18
+"233","31011","Farley Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,36,0,0,0,NA,52046,52046,42.443661,-91.006201,36
+"234","22004","Farmersburg Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,3,"TRUE",52047,520470181,NA,NA,20
+"235","89005","Farmington Fire/ EMS","Van Buren","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,6,"TRUE",52626,52626,NA,NA,14
+"236","33005","Fayette Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,16,0,0,NA,52142,52142,NA,NA,16
+"237","55004","Fenton Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,NA,50539,50539,43.219764,-94.426143,23
+"238","98001","Fertile Volunteer Fire Department","Worth","Volunteer","Local (includes career, combination, and volunteer)",1,0,7,0,0,0,NA,50434,50434,43.264049,-93.420809,7
+"239","26003","Floris Volunteer Fire Department","Davis","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,"FALSE",52560,52560,40.865025,-92.332643,12
+"240","34003","Floyd Community Volunteer Fire Department","Floyd","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"FALSE",50435,50435,43.128071,-92.736532,25
+"241","76001","Fonda Fire Department","Pocahontas","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,50540,505400340,NA,NA,19
+"242","01003","Fontanelle Fire & Rescue","Adair","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,50846,50846,41.288753,-94.564109,24
+"243","95002","Forest City Fire Department","Winnebago","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",50436,50436,43.264406,-93.635733,24
+"244","96004","Fort Atkinson Fire Department","Winneshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,NA,52144,52144,43.26838,-91.471741,26
+"245","94007","Fort Dodge Fire Department","Webster","Career","Local (includes career, combination, and volunteer)",1,36,0,0,0,0,"FALSE",50501,505014247,42.506202,-94.17691,36
+"246","56004","Fort Madison Fire Department","Lee","Career","Local (includes career, combination, and volunteer)",1,16,0,0,0,0,"TRUE",52627,52627,40.632995,-91.31176,16
+"247","21003","Fostoria Fire and Rescue","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,2,"TRUE",51340,51340,NA,NA,17
+"248","35001","Franklin County District #4","Franklin","Volunteer","Local (includes career, combination, and volunteer)",1,0,8,0,0,4,NA,50420,50420,42.806816,-93.476664,8
+"249","96007","Frankville Fire Department","Winneshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",52162,521628009,43.190534,-91.619656,25
+"250","19003","Fredericksburg Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",50630,50630,42.963995,-92.184302,24
+"251","70003","Fruitland Volunteer Fire Department","Muscatine","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,"TRUE",52749,52749,41.35605,-91.123492,28
+"252","47003","Galva Fire Department","Ida","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",51020,51020,42.507046,-95.416654,24
+"253","22005","Garber Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,NA,52048,52048,42.745368,-91.263541,29
+"254","27006","Garden Grove Fire Department","Decatur","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,"TRUE",50103,50103,NA,NA,12
+"255","22006","Garnavillo Firefighters Association","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,10,"FALSE",52049,52049,42.867986,-91.237775,26
+"256","41004","Garner Fire Department","Hancock","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,25,0,0,"FALSE",50438,50438,43.100394,-93.602105,25
+"257","06004","Garrison Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52229,522290247,42.146803,-92.143663,25
+"258","86005","Garwin Fire Department","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",50632,50632,42.092427,-92.677447,18
+"259","71003","Gaza Fire Department","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,51245,51245,43.020656,-95.579967,15
+"260","35004","Geneva Fire Department","Franklin","Volunteer","Local (includes career, combination, and volunteer)",1,0,8,0,0,0,NA,50633,50633,NA,NA,8
+"261","07005","Gilbertville Volunteer Fire Department","Black Hawk","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",50634,50634,42.416232,-92.215804,24
+"262","21005","Gillette Grove Township/ Greenville Fire Department","Clay","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,51343,51343,NA,NA,15
+"263","86006","Gladbrook Fire & Rescue","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,18,14,10,NA,50635,506350309,42.187654,-92.716528,36
+"264","65002","Glenwood Volunteer Fire Department","Mills","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,14,0,"FALSE",51534,515341779,41.045543,-95.743219,18
+"265","14006","Glidden Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,51443,514437713,42.056122,-94.728849,24
+"266","99006","Goldfield Fire Department","Wright","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"TRUE",50542,50542,42.735459,-93.920494,17
+"267","41005","Goodell Volunteer Fire Department","Hancock","Volunteer","Local (includes career, combination, and volunteer)",1,0,11,0,0,0,"TRUE",50439,504392716,42.921173,-93.614768,11
+"268","23008","Goose Lake Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,52750,52750,41.968081,-90.381241,15
+"269","94008","Gowrie Volunteer Fire Department","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",50543,50543,42.282282,-94.289714,20
+"270","74005","Graettinger Benefitted Fire Department","Palo Alto","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"TRUE",51342,51342,43.23772,-94.750629,22
+"271","98002","Grafton Fire Department","Worth","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,50440,50440,NA,NA,21
+"272","37003","Grand Junction Fire & Rescue, Inc.","Greene","Volunteer","Local (includes career, combination, and volunteer)",2,0,30,0,0,5,"FALSE",50107,50107,42.031743,-94.239087,30
+"273","23009","Grand Mound Volunteer Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,34,0,0,0,"FALSE",52751,52751,41.824092,-90.649104,34
+"274","27003","Grand River Volunteer Fire Department","Decatur","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,7,NA,50108,50108,40.818193,-93.962443,12
+"275","58005","Grandview Fire Department","Louisa","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,NA,52752,52752,41.27789,-91.185667,12
+"276","25007","Granger Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,16,0,3,"TRUE",50109,50109,41.760299,-93.82029,16
+"277","13693","Grant Fire Department","Montgomery","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,50847,50847,41.144674,-94.98477,15
+"278","84004","Granville Fire Department","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",51022,51022,42.984534,-95.874229,24
+"279","87006","Gravity Community Fire Department","Taylor","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"FALSE",50848,50848,40.757655,-94.744937,20
+"280","28007","Greeley Fire Department","Delaware","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,52050,520500037,42.584693,-91.345029,21
+"281","12007","Greene Volunteer Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50636,50636,42.896506,-92.801402,22
+"282","01004","Greenfield Fire Department","Adair","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",50849,50849,41.304162,-94.461231,24
+"283","77010","Grimes Fire and Rescue","Polk","Mostly volunteer","Local (includes career, combination, and volunteer)",1,4,0,23,0,0,"TRUE",50111,50111,41.68719,-93.794543,27
+"284","79003","Grinnell Fire Department","Poweshiek","Mostly volunteer","Local (includes career, combination, and volunteer)",2,5,25,5,0,0,"TRUE",50112,501121943,41.745466,-92.728831,35
+"285","15004","Griswold Volunteer Fire Department","Cass","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,"TRUE",51535,51535,41.234728,-95.13889,28
+"286","38004","Grundy Center Fire Department","Grundy","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,1,0,0,NA,50638,50638,42.362504,-92.770059,31
+"287","32004","Gruver Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",2,0,15,0,0,8,"FALSE",51334,51334,43.393507,-94.706445,15
+"288","39004","Guthrie Center Fire Department","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"FALSE",50115,50115,41.677472,-94.506794,26
+"289","22007","Guttenberg Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,31,0,0,0,NA,52052,52052,42.78425,-91.099555,31
+"290","14007","Halbur Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",51444,51444,42.005406,-94.970816,20
+"291","36002","Hamburg Fire and Rescue","Fremont","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,"TRUE",51640,51640,40.60083,-95.658912,28
+"292","35005","Hampton Fire Department","Franklin","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,26,0,0,NA,50441,50441,42.743582,-93.210503,26
+"293","78006","Hancock Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",51536,51536,41.390994,-95.362432,18
+"294","98003","Hanlontown Fire Department","Worth","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50444,504440113,43.281259,-93.378671,18
+"295","35006","Hansell Fire Department","Franklin","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"FALSE",50441,504417210,42.757275,-93.10187,17
+"296","94009","Harcourt Community Volunteer Fire Department","Greene","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50217,502178059,42.205637,-94.184087,20
+"297","46005","Hardy Fire Department","Humboldt","Volunteer","Local (includes career, combination, and volunteer)",1,0,3,3,0,0,NA,50545,505450035,42.809827,-94.051204,6
+"298","83004","Harlan Fire Department","Shelby","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,33,0,0,5,"FALSE",51537,51537,41.660377,-95.32202,34
+"299","33007","Harlan Township Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,NA,50655,506550162,42.773848,-91.879036,23
+"300","03001","Harpers Ferry Fire Department","Allamakee","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,5,"TRUE",52146,52146,43.202064,-91.150852,25
+"301","91004","Hartford Fire and Rescue","Warren","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,50118,50118,41.459332,-93.403536,15
+"302","71005","Hartley Volunteer Fire & Rescue Fire Department","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",51346,51346,43.179952,-95.476292,25
+"303","79005","Hartwick Volunteer Fire Department Inc","Poweshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"TRUE",52232,52232,41.784804,-92.343713,17
+"304","63004","Harvey Fire Department","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,0,NA,50119,50119,41.038849,-93.950047,10
+"305","65004","Hastings Volunteer Fire Department","Mills","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,51540,51540,41.022748,-95.49917,18
+"306","76002","Havelock Fire Department","Pocahontas","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50546,50546,42.836751,-94.702195,20
+"307","84005","Hawarden Fire & Rescue","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"FALSE",51023,51023,43.010676,-96.487924,30
+"308","33006","Hawkeye Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,4,NA,52147,52147,42.938439,-91.951261,19
+"309","10004","Hazleton Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50641,50641,42.617472,-91.90627,18
+"310","54005","Hedrick Volunteer Fire Department","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,52563,52563,41.176977,-92.252896,20
+"311","65005","Henderson Community Fire Association","Mills","Volunteer","Contract fire department",1,0,20,0,0,1,"FALSE",51541,51541,41.139792,-95.43175,20
+"312","57010","Hiawatha Fire Department","Linn","Mostly volunteer","Local (includes career, combination, and volunteer)",1,6,50,5,0,0,"TRUE",52233,52233,42.038542,-91.682823,61
+"313","52002","Hills Fire Department","Johnson","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,21,0,0,0,"FALSE",52235,52235,41.855388,-90.921003,22
+"314","44002","Hillsboro Fire Department","Henry","Volunteer","Local (includes career, combination, and volunteer)",1,0,7,0,0,2,"TRUE",52630,526309300,40.835328,-91.713249,7
+"315","47004","Holstein Hose Company Number 1","Ida","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,51025,51025,NA,NA,30
+"316","31013","Holy Cross/ North Buena Vista Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,8,"TRUE",52053,52053,42.60145,-90.996608,30
+"317","97006","Hornick Volunteer Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",51026,51026,42.230594,-96.097278,24
+"318","84006","Hospers Fire Department","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,"TRUE",51238,51238,43.071895,-95.904693,19
+"319","56006","Houghton/ Cedar Township Fire Department","Lee","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,52631,52631,41.098045,-91.043223,22
+"320","07006","Hudson Volunteer Fire Department","Black Hawk","Volunteer","Local (includes career, combination, and volunteer)",1,0,33,0,0,0,"TRUE",50643,50643,42.407872,-92.45332,33
+"321","84007","Hull Volunteer Fire Department","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,51239,51239,43.187173,-96.137565,27
+"322","46006","Humboldt Fire & Rescue","Humboldt","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,21,0,0,NA,50548,50548,42.72036,-94.214521,21
+"323","93004","Humeston Fire Department","Wayne","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"FALSE",50123,50123,40.858902,-93.497635,18
+"324","85006","Huxley Fire and Rescue","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,"FALSE",50124,50124,41.891596,-93.605225,27
+"325","47005","Ida Grove Fire Department","Ida","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,51445,514451331,42.345588,-95.470352,25
+"326","10005","Independence Fire Department","Buchanan","Mostly volunteer","Local (includes career, combination, and volunteer)",1,3,0,23,0,0,"FALSE",50644,506442916,42.468605,-91.890313,26
+"327","63014","Indiana Township Fire Department","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,9,0,0,0,"TRUE",50138,50138,41.229492,-93.016271,9
+"328","91005","Indianola Fire Department","Warren","Mostly volunteer","Local (includes career, combination, and volunteer)",1,12,0,32,0,0,"FALSE",50125,50125,41.360412,-93.559615,44
+"329","60004","Inwood Community Fire & Rescue","Lyon","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"TRUE",51240,51240,43.304215,-96.430706,26
+"330","19004","Ionia Fire Department","Chickasaw","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,50645,506459459,43.064449,-92.515499,25
+"331","29004","Iowa Army Ammunition Plant (IAAAP)","Des Moines","Career","Contract fire department",1,13,0,0,0,0,"FALSE",52638,52638,NA,NA,13
+"332","52003","Iowa City Fire Department","Johnson","Career","Local (includes career, combination, and volunteer)",3,56,0,0,1,0,"FALSE",52240,52240,41.66004,-91.529389,56
+"333","42006","Iowa Falls Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,34,0,0,"FALSE",50126,501262000,42.514846,-93.270676,34
+"334","84008","Ireton Community Fire Department","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,51027,51027,NA,NA,25
+"335","83005","Irwin Fire Department","Shelby","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,NA,51446,51446,NA,NA,28
+"336","56007","Jackson Township Fire Association","Lee","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,52632,52632,40.443276,-91.454188,17
+"337","54010","Jackson Township-Ollie Fire Department","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,52576,525768517,41.198719,-92.094716,17
+"338","39005","Jamaica Community Fire Department","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,6,0,0,0,"FALSE",50128,50128,41.844923,-94.304397,6
+"339","09003","Janesville Fire Rescue","Bremer","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,"FALSE",50647,50647,42.647423,-92.463032,27
+"340","10007","Jesup Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,"TRUE",50648,50648,42.476389,-92.061878,35
+"341","40003","Jewell Fire & Rescue","Hamilton","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"TRUE",50130,50130,42.309586,-93.640028,23
+"342","94002","Johnson Township Barnum Conn Fire Department","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"TRUE",50518,50518,42.507919,-94.363804,22
+"343","77011","Johnston Fire Department","Polk","Mostly volunteer","Local (includes career, combination, and volunteer)",2,12,0,26,0,2,"TRUE",50131,50131,41.675924,-93.697653,38
+"344","98004","Joice Fire Department","Worth","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,"TRUE",50446,50446,43.362731,-93.453912,12
+"345","13002","Jolley Community Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,NA,50551,50551,42.478775,-94.720178,12
+"346","67007","Jordan-Soldier Fire Department","Monona","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,51572,515720045,41.985152,-95.779783,20
+"347","92004","Kalona Volunteer Fire Department","Washington","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52247,522470155,41.484472,-91.706109,25
+"348","41006","Kanawha Community Fire Department","Hancock","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50447,504470100,42.934503,-93.793182,20
+"349","80006","Kellerton Volunteer Fire Department","Ringgold","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,50133,50133,NA,NA,24
+"350","85007","Kelley Fire Department - Westory Agency","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,1,"FALSE",50134,50134,41.949367,-93.665338,22
+"351","50004","Kellogg Township Fire Department","Jasper","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",50135,50135,41.716249,-92.907839,24
+"352","56008","Keokuk Fire Department","Lee","Career","Local (includes career, combination, and volunteer)",1,19,0,0,0,0,"TRUE",52632,526324303,40.401411,-91.390893,19
+"353","89006","Keosauqua Fire Department","Van Buren","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,NA,52565,52565,40.730348,-91.960758,28
+"354","54006","Keota Volunteer Fire Department, Inc.","Keokuk","Volunteer","Contract fire department",1,0,22,0,1,0,"TRUE",52248,52248,41.36395,-91.951377,22
+"355","54007","Keswick Volunteer Fire Department, Inc.","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,2,"TRUE",50136,50136,41.454332,-92.239388,16
+"356","31015","Key West Fire and EMS","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52003,52003,42.447553,-90.682258,30
+"357","06005","Keystone Volunteer Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"FALSE",52249,52249,42.001334,-92.195347,23
+"358","05005","Kimballton Fire Department","Audubon","Volunteer","Local (includes career, combination, and volunteer)",1,0,33,0,0,0,"FALSE",51543,51543,41.628828,-95.074982,33
+"359","24008","Kiron Fire Department Inc.","Crawford","Volunteer","Contract fire department",1,0,20,0,0,1,NA,51448,51448,42.194162,-95.326194,20
+"360","13003","Knierim Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,NA,50552,50552,NA,NA,14
+"361","63005","Knoxville Fire Department","Marion","Mostly volunteer","Local (includes career, combination, and volunteer)",1,7,0,22,0,0,"FALSE",50138,501382255,41.317066,-93.096465,29
+"362","63006","Knoxville Township Rural Fire Department","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,6,NA,50138,50138,41.320749,-93.104646,25
+"363","91006","Lacona Fire Department","Warren","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,1,"TRUE",50139,50139,41.189572,-93.384768,21
+"364","48003","Ladora Volunteer Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,4,0,0,"TRUE",52251,52251,41.754883,-92.183462,24
+"365","13005","Lake City Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,51449,51449,42.268921,-94.733781,25
+"366","95003","Lake Mills Fire Department","Winnebago","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",50450,50450,43.419392,-93.537323,24
+"367","30002","Lake Park Community Fire Department","Dickinson","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,51347,513470477,43.455149,-95.322665,22
+"368","81003","Lake View Fire Department","Sac","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"FALSE",51450,51450,42.306015,-95.050653,25
+"369","55005","Lakota Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,50451,50451,43.378268,-94.092612,24
+"370","27004","Lamoni Volunteer Fire Department","Decatur","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,21,0,2,NA,50140,501401236,40.623033,-93.934412,21
+"371","49006","LaMotte Community Fire Department Inc.","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,31,0,0,0,"FALSE",52054,52054,42.295394,-90.619847,31
+"372","03002","Lansing Volunteer Fire Department","Allamakee","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"FALSE",52151,52151,43.361957,-91.214606,30
+"373","07007","LaPorte City Fire Rescue","Black Hawk","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,35,0,0,NA,50651,50651,42.315146,-92.192793,35
+"374","60005","Larchwood Fire Department","Lyon","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,14,"TRUE",51241,51241,43.454032,-96.434137,23
+"375","18005","Larrabee Fire Department","Cherokee","Volunteer","Local (includes career, combination, and volunteer)",1,0,11,0,0,1,NA,51029,51029,42.861015,-95.545671,11
+"376","35007","Latimer Fire Department","Franklin","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,"FALSE",50452,50452,42.763351,-93.369504,21
+"377","64007","Laurel Fire Department","Marshall","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,2,NA,50141,50141,41.883462,-92.921596,16
+"378","76003","Laurens Fire Department","Pocahontas","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50554,505540148,42.848963,-94.851342,20
+"379","19005","Lawler Volunteer Fire Department","Chickasaw","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",52154,521540012,NA,NA,18
+"380","97007","Lawton Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",2,0,21,0,0,0,NA,51030,51030,42.47874,-96.184649,21
+"381","82008","Le Claire Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",52753,52753,41.599124,-90.363209,30
+"382","75006","Le Mars Fire-Rescue Department","Iowa","Mostly volunteer","Local (includes career, combination, and volunteer)",2,3,1,23,0,0,"TRUE",51031,51031,42.792507,-96.167782,27
+"383","55006","Ledyard Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,NA,50556,50556,43.421775,-94.161222,14
+"384","94010","Lehigh Volunteer Fire Department","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,1,NA,50557,50557,42.355414,-94.050645,15
+"385","87007","Lenox Volunteer Fire Department","Taylor","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,26,0,0,NA,50851,50851,40.879374,-94.559037,26
+"386","27005","Leon Fire & Rescue Volunteer Department","Decatur","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,2,0,0,"TRUE",50144,50144,40.739495,-93.748023,25
+"387","60006","Lester Volunteer Fire Department","Lyon","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,NA,51242,512420091,NA,NA,16
+"388","58006","Letts Community Fire Department","Louisa","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,52754,52754,41.330176,-91.237128,21
+"389","78007","Lewis Township Volunteer Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,34,0,0,6,NA,51503,51503,41.232377,-95.807367,34
+"390","15005","Lewis Volunteer Fire Department","Cass","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,51544,51544,41.305792,-95.089099,17
+"391","51003","Libertyville Fire & Rescue, Jefferson County","Jefferson","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,52567,52567,40.957751,-92.05091,19
+"392","14009","Lidderdale Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,NA,51452,514520038,NA,NA,16
+"393","45004","Lime Springs Fire Department","Howard","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",52155,52155,43.447729,-92.281395,18
+"394","86007","Lincoln Volunteer Fire Department","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50652,50652,42.234997,-92.874495,20
+"395","93005","Lineville Volunteer Fire Department","Wayne","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,10,NA,50147,50147,40.589542,-93.523842,20
+"396","60007","Little Rock Fire Department","Lyon","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,51243,512431031,43.444212,-95.883222,25
+"397","43002","Little Sioux Fire Department","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,51545,51545,41.81034,-96.025399,19
+"398","97015","Little Sioux/ Grant Township Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,16,NA,51056,510560053,42.228931,-95.930671,16
+"399","22008","Littleport Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,0,"FALSE",52042,520420006,NA,NA,10
+"400","46007","Livermore Fire Department","Humboldt","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,"FALSE",50558,50558,42.870219,-94.189657,19
+"401","51004","Lockridge Emergency Response Unit","Jefferson","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,4,NA,52635,52635,40.994683,-91.750727,20
+"402","13006","Lohrville Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,1,"TRUE",51453,51453,42.267157,-94.547132,18
+"403","55007","Lone Rock Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,6,"TRUE",50559,50559,43.220896,-94.325978,18
+"404","52004","Lone Tree Fire and Rescue","Johnson","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,52755,52755,41.48825,-91.428196,24
+"405","82009","Long Grove Volunteer Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52756,52756,NA,NA,25
+"406","88007","Lorimor Volunteer Fire Department","Union","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,1,"TRUE",50149,50149,41.127138,-94.055262,12
+"407","23010","Lost Nation Fire Company","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,1,"FALSE",52254,52254,41.964725,-90.818222,26
+"408","68002","Lovilia Fire Department","Monroe","Volunteer","Local (includes career, combination, and volunteer)",2,0,16,0,0,0,NA,50150,50150,41.131339,-92.907681,16
+"409","23011","Low Moor Volunteer Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",52757,52757,41.588057,-91.022094,30
+"410","16004","Lowden Fire Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,33,0,0,6,NA,52255,522550429,NA,NA,33
+"411","55008","Lu Verne Volunteer Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,10,0,0,NA,50560,50560,42.909376,-94.084462,28
+"412","22009","Luana Volunteer Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"TRUE",52156,52156,43.060265,-91.450872,23
+"413","59003","Lucas Fire Department","Lucas","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",50151,50151,41.028541,-93.461016,24
+"414","50006","Lynnville Fire Department","Jasper","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,50153,501530152,41.578636,-92.783353,15
+"415","78009","Macedonia Fire and Rescue","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,32,0,0,6,NA,51549,515490118,41.19345,-95.425394,32
+"416","08007","Madrid Fire Department","Boone","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,50156,501561334,41.874845,-93.821686,21
+"417","43004","Magnolia Fire and Rescue Association","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,2,"TRUE",51550,515504025,41.694183,-95.872947,10
+"418","79006","Malcom Fire Department","Poweshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"FALSE",50157,50157,41.707094,-92.556015,18
+"419","74006","Mallard Fire Department","Palo Alto","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,5,"TRUE",50562,50562,42.937763,-94.683015,25
+"420","65006","Malvern Volunteer Fire Department","Mills","Volunteer","Local (includes career, combination, and volunteer)",2,0,25,0,0,0,"TRUE",51551,51551,41.001814,-95.585148,25
+"421","28009","Manchester Fire Department","Delaware","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,32,0,0,"FALSE",52057,520571726,42.484008,-91.453962,32
+"422","24009","Manilla Fire Department","Crawford","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"TRUE",51454,51454,41.889719,-95.231545,17
+"423","98006","Manly Volunteer Fire Department","Worth","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,17,0,0,"TRUE",50456,50456,43.284426,-93.205743,17
+"424","14010","Manning Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,36,0,0,0,NA,51455,51455,41.906634,-95.063605,36
+"425","13007","Manson Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,23,0,4,NA,50563,50563,NA,NA,46
+"426","67003","Mapleton Fire Department","Monona","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",51034,510341051,42.165161,-95.793218,25
+"427","49007","Maquoketa Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,30,0,0,"FALSE",52060,520602939,42.068466,-90.667838,30
+"428","34004","Marble Rock Community Fire Department","Floyd","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,2,"TRUE",50653,50653,42.963819,-92.868417,18
+"429","18006","Marcus Fire Department","Cherokee","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,1,"TRUE",51035,51035,42.823853,-95.808054,28
+"430","48004","Marengo Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,NA,52301,52301,41.800721,-92.0693,28
+"431","57012","Marion Fire Department","Linn","Mostly career","Local (includes career, combination, and volunteer)",2,38,0,25,2,6,"FALSE",52302,523029375,42.035676,-91.570063,63
+"432","64005","Marion Township Fire Department","Marshall","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,50632,50632,42.102043,-92.820015,17
+"433","15006","Marne Fire and Rescue","Cass","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",51552,51552,41.451533,-95.111334,20
+"434","64010","Marshalltown Fire Department","Iowa","Career","Local (includes career, combination, and volunteer)",1,27,0,0,1,0,"FALSE",50158,501583217,42.036374,-92.915968,27
+"435","53004","Martelle Volunteer Fire Department","Jones","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",52305,52305,42.02036,-91.358938,24
+"436","91007","Martensdale Fire Department","Warren","Volunteer","Local (includes career, combination, and volunteer)",0,0,18,0,0,0,NA,50160,501600080,41.373766,-93.74019,18
+"437","17003","Mason City Fire Department","Cerro Gordo","Career","Local (includes career, combination, and volunteer)",1,44,0,0,2,0,"FALSE",50401,504013822,43.147253,-93.206638,44
+"438","28010","Masonville Volunteer Fire Department","Delaware","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,"TRUE",50654,50654,42.480371,-91.590289,19
+"439","15007","Massena Fire Department","Cass","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,NA,50853,50853,41.253474,-94.768879,29
+"440","85009","Maxwell Fire Department","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,1,"TRUE",50161,501614489,41.888196,-93.39968,18
+"441","72003","May City Fire Department","Osceola","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"TRUE",51354,51354,43.320667,-95.474901,17
+"442","85008","McCallsburg- Warren Township Fire/EMS","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,3,NA,50154,50154,42.165227,-93.389011,20
+"443","82010","McCausland Volunteer Fire Department, Inc.","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52758,527580207,41.745483,-90.444835,25
+"444","78008","McClelland Volunteer Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,NA,51548,51548,41.331659,-95.680736,16
+"445","22010","McGregor Hook & Ladder Co., No 1","Clayton","Volunteer","Local (includes career, combination, and volunteer)",2,0,28,0,0,0,"FALSE",52157,52157,43.021799,-91.178074,28
+"446","16005","Mechanicsville Fire & Ambulance Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,2,"TRUE",52306,52306,41.904867,-91.255451,18
+"447","29003","Mediapolis Fire Department","Des Moines","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"FALSE",52637,52637,41.007927,-91.165758,20
+"448","64011","Melbourne Fire Department","Marshall","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",50162,50162,41.944842,-93.103404,18
+"449","63009","Melcher-Dallas Fire Department","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,NA,50163,50163,41.223691,-93.239923,29
+"450","68003","Melrose Volunteer Fire Department","Monroe","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,NA,52569,525698525,40.976696,-93.048278,12
+"451","39006","Menlo Fire and Rescue","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,"FALSE",50164,50164,41.520834,-94.40454,15
+"452","18007","Meriden Fire Department","Cherokee","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"TRUE",51037,51037,42.795546,-95.634413,17
+"453","75007","Merrill Fire Department","Plymouth","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,51038,510380036,NA,NA,22
+"454","49008","Miles Volunter Fire Department","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",52064,52064,42.047102,-90.314058,20
+"455","30003","Milford Fire Department","Dickinson","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,30,0,0,"FALSE",51351,51351,43.333122,-95.151351,30
+"456","36010","Mills Fremont Rural Fire Protective Association","Fremont","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,10,"FALSE",51653,51653,NA,NA,30
+"457","91008","Milo Fire Department","Warren","Volunteer","Local (includes career, combination, and volunteer)",1,0,31,0,0,0,NA,50166,50166,41.28721,-93.43826,31
+"458","25009","Minburn Community Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,0,"FALSE",50167,50167,41.75613,-94.030068,10
+"459","78010","Minden Volunteer Fire & Rescue","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,2,NA,51553,515530304,41.466134,-95.543479,12
+"460","50007","Mingo Fire Department","Jasper","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,0,"TRUE",50168,50168,41.767479,-93.283482,10
+"461","43005","Missouri Valley Fire Department","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,10,"TRUE",51555,515551532,41.556442,-95.892059,26
+"462","43007","Mondamin Fire & Rescue","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,1,NA,51557,51557,41.709902,-96.023368,18
+"463","22013","Monona Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,"FALSE",52159,52159,43.053316,-91.391103,27
+"464","50008","Monroe Community Fire Department","Jasper","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,3,NA,50170,50170,NA,NA,30
+"465","79007","Montezuma Fire Department","Poweshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,50171,50171,41.585346,-92.522039,30
+"466","53005","Monticello Volunteer Fire Department","Jones","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,"TRUE",52310,52310,42.232297,-91.188147,35
+"467","86008","Montour Volunteer Fire Department","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,"TRUE",50173,50173,41.981123,-92.714833,16
+"468","70005","Montpelier Fire Department","Muscatine","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,15,"FALSE",52759,52759,41.460238,-90.806889,24
+"469","56009","Montrose Fire & Rescue","Lee","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,52639,526390061,40.530476,-91.417929,27
+"470","12674","Moorhead Fire Department","Monona","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,4,NA,51558,515580061,41.922198,-95.851361,15
+"471","94011","Moorland Fire Department","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,50566,50566,42.43985,-94.296352,17
+"472","04004","Moravia Community Fire and Rescue","Appanoose","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,22,0,6,"FALSE",52571,52571,40.891022,-92.814586,22
+"473","80008","Mount Ayr Volunteer Fire Department","Ringgold","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",50854,508541719,40.714789,-94.236311,24
+"474","57013","Mount Vernon Fire Department/ Linn Fire District # 1","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52314,523141604,41.905263,-91.256758,30
+"475","97008","Moville Volunteer Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",51039,51039,42.488822,-96.075071,24
+"476","44005","Mt. Union Benefitted Fire District","Henry","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,0,NA,52644,526440111,41.05702,-91.392467,13
+"477","20001","Murray Community Volunteer Fire Department","Clarke","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"TRUE",50174,501742003,41.041342,-93.950788,22
+"478","70006","Muscatine Fire Department","Muscatine","Career","Local (includes career, combination, and volunteer)",2,44,0,0,2,0,"FALSE",52761,527614248,41.424955,-91.045809,44
+"479","04006","Mystic Volunteer Fire Department","Appanoose","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,52574,52574,40.784619,-92.944688,27
+"480","19006","Nashua Fire and Rescue","Chickasaw","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,"TRUE",50658,50658,42.957837,-92.532181,28
+"481","81005","Nemaha Fire Department","Sac","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,NA,50567,50567,42.51554,-95.087891,12
+"482","78011","Neola Volunteer Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"FALSE",51559,51559,41.448237,-95.617477,26
+"483","85010","Nevada Public Safety Department","Iowa","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,0,37,0,10,"FALSE",50201,502011536,42.023035,-93.452293,38
+"484","19007","New Hampton Fire Department","Chickasaw","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,30,0,0,"FALSE",50659,506590374,NA,NA,30
+"485","12008","New Hartford Volunteer Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,1,29,0,0,NA,50660,506600154,42.568548,-92.622073,30
+"486","44006","New London Fire and Rescue","Henry","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52645,52645,40.925761,-91.401695,30
+"487","87008","New Market Fire Department","Taylor","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",51646,51646,40.728527,-94.899374,20
+"488","62006","New Sharon Fire Department","Mahaska","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,2,"TRUE",50207,50207,41.469706,-92.650075,27
+"489","31017","New Vienna - Luxemburg Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",2,0,25,0,0,0,"TRUE",52065,52065,NA,NA,25
+"490","91009","New Virginia Fire Department","Warren","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,50210,50210,41.182059,-93.730299,25
+"491","11006","Newell Community Fire Department","Buena Vista","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,50568,50568,42.605508,-95.003411,27
+"492","06008","Newhall Volunteer Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,5,"FALSE",52315,52315,41.995586,-91.972608,30
+"493","50009","Newton Fire Department","Jasper","Mostly career","Local (includes career, combination, and volunteer)",1,23,0,7,3,0,"FALSE",50208,502083614,41.698551,-93.057966,30
+"494","02003","Nodaway Fire Department","Adams","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,50857,50857,40.936966,-94.893555,15
+"495","34005","Nora Springs Farm Fire Department","Floyd","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"FALSE",50458,50458,43.143109,-93.005602,25
+"496","48007","North English Fire District","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",52316,52316,41.516144,-92.07644,24
+"497","54017","North Keokuk County Fire Department","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,33,0,0,0,NA,52335,52335,41.452862,-92.090283,33
+"498","52005","North Liberty Fire Department","Johnson","Volunteer","Local (includes career, combination, and volunteer)",1,0,40,0,0,0,"FALSE",52317,52317,41.748517,-91.598412,40
+"499","","Northern Des Moines County Rural Fire District","Des Moines","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52637,52637,41.007927,-91.165758,25
+"500","77004","Northern Warren Fire Department","Polk","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",50315,50315,41.527234,-93.623599,30
+"501","98007","Northwood Volunteer Fire Company","Worth","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",50459,504591435,43.445177,-93.220901,30
+"502","91010","Norwalk Fire Department","Warren","Mostly volunteer","Local (includes career, combination, and volunteer)",1,4,0,28,0,5,"TRUE",50211,502119541,41.487046,-93.675696,32
+"503","06009","Norway Volunteer Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,52318,52318,41.902558,-91.921115,15
+"504","65007","Oak Township Fire and Rescue","Mills","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,0,"TRUE",51554,51554,41.14396,-95.695688,13
+"505","78012","Oakland Fire and Rescue","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,51560,51560,41.309115,-95.400077,30
+"506","72005","Ocheyedan Fire Department","Osceola","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,11,NA,51354,51354,43.415376,-95.53487,21
+"507","08008","Ogden Fire Department","Boone","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,16,0,0,"TRUE",50212,502120555,42.039053,-94.033768,16
+"508","44007","Olds Fire Department, Inc.","Henry","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,52647,52647,41.13386,-91.543543,22
+"509","33008","Olewein Fire Department","Fayette","Mostly volunteer","Local (includes career, combination, and volunteer)",1,2,28,0,0,0,"FALSE",50662,50662,42.678395,-91.916631,30
+"510","67005","Onawa Volunteer Fire Department","Monona","Volunteer","Local (includes career, combination, and volunteer)",2,0,22,0,0,0,"FALSE",51040,510401611,42.025613,-96.095858,22
+"511","53008","Onslow Volunteer Fire Department","Jones","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,52321,52321,42.236953,-91.184486,17
+"512","33009","Oran Fire & EMS","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,0,"TRUE",50664,506647603,42.701391,-92.074513,10
+"513","84011","Orange City Fire & Rescue Department","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",51041,510411738,43.004447,-96.056749,30
+"514","66005","Osage Fire Department","Mitchell","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,30,0,0,"FALSE",50461,50461,43.284102,-92.814962,30
+"515","20002","Osceola Volunteer Fire Department","Clarke","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"FALSE",50213,50213,41.034935,-93.767245,26
+"516","62007","Oskaloosa Fire Department","Mahaska","Mostly volunteer","Local (includes career, combination, and volunteer)",1,8,0,25,0,0,"FALSE",52577,525773133,41.293706,-92.645012,33
+"517","96006","Ossian Fire Department","Winneshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",52161,52161,43.145012,-91.766309,24
+"518","94012","Otho Fire - Rescue","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,2,"TRUE",50569,50569,42.422053,-94.149076,17
+"519","90009","Ottumwa Fire Department","Wapello","Career","Local (includes career, combination, and volunteer)",2,32,0,0,0,0,"FALSE",52501,525012341,41.022473,-92.413918,32
+"520","52006","Oxford Volunteer Fire Department","Johnson","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,7,NA,52322,52322,NA,NA,26
+"521","75008","Oyens Volunteer Fire-Rescue","Plymouth","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"TRUE",51045,51045,42.545227,-95.86757,17
+"522","65008","Pacific Junction Emergency Services","Mills","Volunteer","Local (includes career, combination, and volunteer)",1,0,11,0,0,0,"TRUE",51561,515613053,41.018521,-95.798876,11
+"523","76004","Palmer Volunteer Fire Department","Pocahontas","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50571,505710036,42.63054,-94.599909,22
+"524","57014","Palo Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,"FALSE",52324,52324,42.066102,-91.801273,15
+"525","83007","Panama-Washington Township Fire Department","Shelby","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,51562,51562,41.72926,-95.477195,30
+"526","39007","Panora Volunteer Fire Department","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,"FALSE",50216,50216,41.692901,-94.356736,27
+"527","12009","Parkersburg Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,NA,50665,50665,42.575262,-92.786014,35
+"528","37005","Paton Volunteer Fire Department","Greene","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,"TRUE",50217,50217,42.165951,-94.254274,19
+"529","63010","Pella Fire Department","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,"TRUE",50219,50219,41.407218,-92.918329,26
+"530","25010","Perry Volunteer Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",2,0,0,40,2,0,"TRUE",50220,502200545,NA,NA,40
+"531","43008","Persia Volunteer Fire Department","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,12,NA,51563,51563,41.579634,-95.568464,20
+"532","97010","Pierson Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,51048,51048,42.543973,-95.866439,18
+"533","08009","Pilot Mound Fire Department","Boone","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,1,0,"FALSE",50223,50223,NA,NA,14
+"534","43009","Pisgah Volunteer Fire Department","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,51564,51564,41.831506,-95.925283,18
+"535","09004","Plainfield Fire Department","Bremer","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,1,"TRUE",50666,50666,NA,NA,24
+"536","77013","Pleasant Hill Fire Department","Iowa","Mostly volunteer","Local (includes career, combination, and volunteer)",1,2,0,40,0,0,"TRUE",50327,503278456,41.597918,-93.513473,42
+"537","63012","Pleasantville Emergency Services","Marion","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,15,NA,50225,502250553,NA,NA,30
+"538","76005","Plover-Powhatan Fire Department","Pocahontas","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50573,505730001,42.879395,-94.624791,18
+"539","76006","Pocahontas Fire Department","Pocahontas","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,NA,50574,505740033,42.735905,-94.678826,23
+"540","77014","Polk City Fire Department","Polk","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,40,0,0,"TRUE",50226,50226,41.771714,-93.715233,40
+"541","51005","Polk Packwood Volunteer Fire Department","Jefferson","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"FALSE",52580,52580,41.133946,-92.084913,25
+"542","13008","Pomeroy Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,20,0,0,NA,50575,50575,NA,NA,38
+"543","03004","Postville Fire Department","Allamakee","Volunteer","Local (includes career, combination, and volunteer)",1,0,40,0,0,0,"FALSE",52162,52162,43.086693,-91.567539,40
+"544","57015","Prairieburg Volunteer Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"FALSE",52219,52219,42.236234,-91.422593,20
+"545","02004","Prescott Fire and Rescue","Adams","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,3,"FALSE",50859,50859,41.023078,-94.610958,17
+"546","49010","Preston Volunteer Fire Department","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,5,NA,52069,520690438,42.050753,-90.39754,35
+"547","71007","Primghar Fire Department","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"FALSE",51245,51245,43.084532,-95.624855,23
+"548","82016","Princeton Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52768,527680085,NA,NA,30
+"549","52011","Procter & Gamble Emergency Response Team","Johnson","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52240,522402302,41.639094,-91.502638,25
+"550","45005","Protivin Fire Department","Howard","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,52163,521630098,43.215247,-92.090942,22
+"551","26004","Pulaski Volunteer Fire Department","Davis","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,2,"TRUE",52584,52584,40.696599,-92.273455,12
+"552","10009","Quasqueton Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,52326,52326,42.394784,-91.75982,15
+"553","18008","Quimby Community Fire Department","Cherokee","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,1,"TRUE",51049,51049,42.822789,-95.808127,20
+"554","42009","Radcliffe Volunteer Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,1,NA,50230,50230,42.312938,-93.432518,18
+"555","95005","Rake Fire Department","Winnebago","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,"TRUE",50465,50465,43.483927,-93.917291,17
+"556","14011","Ralston Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,51459,514590125,NA,NA,17
+"557","36005","Randolph Community Fire Department","Fremont","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,0,"TRUE",51649,51649,NA,NA,14
+"558","07008","Raymond Fire Department","Black Hawk","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50667,50667,42.46878,-92.217901,18
+"559","13001","Reading-Cedar Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,NA,50538,50538,42.275963,-94.404957,28
+"560","09005","Readlyn Fire Department","Bremer","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50668,506680276,42.700922,-92.225401,22
+"561","50012","Reasnor Fire and Rescue Department","Jasper","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,1,"TRUE",50232,50232,41.579084,-93.022964,10
+"562","69004","Red Oak Fire Department","Iowa","Mostly volunteer","Local (includes career, combination, and volunteer)",1,10,26,0,0,10,"FALSE",51566,515661003,41.023297,-95.232853,36
+"563","25011","Redfield Fire Department","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,12,NA,50233,50233,41.590083,-94.196028,25
+"564","38007","Reinbeck Fire Department","Grundy","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,50669,506691136,42.323988,-92.597772,25
+"565","75009","Remsen Fire and Rescue Department","Plymouth","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,51050,510501044,42.816174,-95.971909,17
+"566","46009","Renwick Fire Department","Humboldt","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50577,505770295,NA,NA,18
+"567","64012","Rhodes Fire Department","Marshall","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50234,502340092,NA,NA,20
+"568","66006","Riceville Fire Department","Howard","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,18,0,2,NA,50466,504660052,43.363838,-92.555219,18
+"569","54011","Richland Volunteer Fire Department","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52585,52585,41.184679,-91.994516,25
+"570","24010","Ricketts Volunteer Fire Department","Crawford","Volunteer","Local (includes career, combination, and volunteer)",2,0,17,0,0,0,NA,51460,51460,42.127481,-95.574917,17
+"571","96008","Ridgeway Fire Department","Winneshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,24,0,0,"FALSE",52165,52165,43.296634,-91.988627,24
+"572","32005","Ringsted Fire Department","Emmet","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,14,0,0,"TRUE",50578,50578,43.295579,-94.510274,14
+"573","37006","Rippey Fire Department","Greene","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,NA,50235,50235,41.932598,-94.201889,12
+"574","82017","Riverdale Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",52722,52722,41.539804,-90.464511,30
+"575","92005","Riverside Community Volunteer Fire Department","Washington","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,NA,52327,52327,NA,NA,29
+"576","36006","Riverton Volunteer Fire and Rescue","Fremont","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,4,NA,51650,51650,40.685849,-95.568534,17
+"577","57016","Robins Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",52328,52328,42.070649,-91.66711,20
+"578","60008","Rock Rapids Fire Department","Lyon","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,51246,512461610,43.42976,-96.168519,24
+"579","84012","Rock Valley Fire Department","Sioux","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,"TRUE",51247,51247,43.201477,-96.290509,28
+"580","34006","Rockford Fire Department","Floyd","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50468,50468,43.053261,-92.946921,20
+"581","13010","Rockwell City Fire Department","Calhoun","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,50579,50579,42.396566,-94.633468,25
+"582","17007","Rockwell Volunteer Fire Department","Cerro Gordo","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",50469,50469,42.986272,-93.188184,20
+"583","85011","Roland Fire Department","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,0,NA,50236,502360288,42.168733,-93.500082,17
+"584","76007","Rolfe Community Fire Department","Pocahontas","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,19,0,0,"TRUE",50581,50581,42.813735,-94.527206,38
+"585","10010","Rowley Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,0,NA,52329,52329,42.37013,-91.844056,13
+"586","21008","Royal Clay Lincoln Fire Agency","Clay","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",51357,51357,NA,NA,24
+"587","","RR Donnelley Fire Brigade","Polk","Volunteer","Private or industrial fire  brigade",1,0,14,0,0,25,NA,50321,503211250,41.555603,-93.695786,14
+"588","34007","Rudd Volunteer Fire Department","Floyd","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,50471,50471,43.12806,-92.9018,20
+"589","59004","Russell Volunteer Fire Department","Lucas","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",50238,50238,40.983021,-93.19924,30
+"590","74008","Ruthven Fire Department","Palo Alto","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,22,0,0,NA,51358,51358,43.129261,-94.903883,44
+"591","49011","Sabula Volunteer Fire Department","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",52070,52070,NA,NA,25
+"592","81007","Sac City Fire Department","Sac","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,0,"TRUE",50583,50583,42.421624,-94.988598,29
+"593","66007","Saint Ansgar Fire Department","Mitchell","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,28,0,0,"TRUE",50472,50472,43.378504,-92.919475,28
+"594","33011","Saint Lucas Volunteer Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,"TRUE",52166,52166,43.204245,-91.951014,12
+"595","22017","Saint Olaf Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,4,NA,52072,52072,42.928131,-91.386253,25
+"596","44008","Salem Fire Department","Henry","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,52649,52649,40.853661,-91.621636,15
+"597","71008","Sanborn Fire Department","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,0,"TRUE",51248,51248,43.180756,-95.655739,16
+"598","77016","Saylor Township Fire Department","Polk","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,35,0,0,"FALSE",50313,50313,41.658598,-93.620846,35
+"599","95006","Scarville Fire Department","Winnebago","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,0,NA,50473,50473,43.36295,-92.554197,13
+"600","81008","Schaller Fire Department","Sac","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",51053,51053,42.500159,-95.291969,25
+"601","24011","Schleswig Fire Department","Crawford","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,4,NA,51461,51461,42.163996,-95.436517,28
+"602","79008","Searsboro Fire Department","Poweshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,11,0,0,0,"FALSE",50242,50242,41.57899,-92.703745,11
+"603","97012","Sergeant Bluff Fire Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",2,0,45,0,0,0,"TRUE",51054,51054,42.39889,-96.355477,45
+"604","93008","Seymour Volunteer Fire Department","Wayne","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,1,NA,52590,525909999,NA,NA,24
+"605","87009","Sharpsburg Volunteer Fire Department","Taylor","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,50862,50862,40.801771,-94.640741,25
+"606","83009","Shelby Fire & Rescue Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",0,0,25,0,0,0,NA,51570,51570,NA,NA,25
+"607","71009","Sheldon Fire Company","Obrien","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,32,0,0,NA,51201,51201,43.180535,-95.853311,32
+"608","12010","Shell Rock Fire Department","Butler","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,20,0,0,"FALSE",50670,50670,42.710393,-92.583717,20
+"609","06010","Shellsburg Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,NA,52332,52332,42.094398,-91.869313,23
+"610","31021","Sherrill Fire Department","Dubuque","Volunteer","Contract fire department",1,0,40,0,0,0,"TRUE",52073,520739695,42.604651,-90.786475,40
+"611","72006","Sibley Volunteer Fire Department","Osceola","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",51249,51249,43.400351,-95.750285,24
+"612","36007","Sidney Fire and Rescue","Fremont","Volunteer","Local (includes career, combination, and volunteer)",1,0,33,0,0,0,NA,51652,516520901,40.748508,-95.646481,33
+"613","54012","Sigourney Fire Department Inc.","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,34,0,0,0,"FALSE",52591,525911421,41.332404,-92.205121,34
+"614","65009","Silver City Volunteer Fire Department","Mills","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,8,NA,51571,51571,41.11308,-95.637374,12
+"615","84013","Sioux Center Fire & Rescue","Sioux","Volunteer","Local (includes career, combination, and volunteer)",2,0,42,0,0,0,"FALSE",51250,51250,43.08158,-96.175596,42
+"616","97013","Sioux City Fire Rescue","Woodbury","Career","Local (includes career, combination, and volunteer)",7,113,0,0,3,0,"TRUE",51101,511011200,42.496323,-96.406436,113
+"617","11008","Sioux Rapids Fire Department","Buena Vista","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"TRUE",50585,50585,NA,NA,23
+"618","97014","Sloan Fire & Rescue Department","Woodbury","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,51055,51055,42.233494,-96.22801,27
+"619","52008","Solon Fire Department","Johnson","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,"TRUE",52333,523338995,41.80747,-91.495322,35
+"620","","Speedway Fire/Rescue","Scott","Volunteer","Contract fire department",1,0,35,0,0,6,NA,52808,528083235,NA,NA,35
+"621","21009","Spencer Fire Department","Clay","Mostly volunteer","Local (includes career, combination, and volunteer)",1,5,0,31,0,5,"TRUE",51301,513014220,43.137812,-95.144397,36
+"622","30006","Spirit Lake Community Fire Department","Dickinson","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"FALSE",51360,513601095,43.420348,-95.111863,30
+"623","49014","Springbrook Fire & EMS","Jackson","Volunteer","Local (includes career, combination, and volunteer)",1,0,33,0,0,15,NA,52075,52075,42.39705,-91.119348,33
+"624","57017","Springville Fire & Rescue","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,"TRUE",52336,523360401,NA,NA,27
+"625","40006","Stanhope Fire Department","Hamilton","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,50246,502460128,NA,NA,19
+"626","10011","Stanley Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",50671,506719560,42.642526,-91.811303,18
+"627","69005","Stanton Fire and Rescue Department","Montgomery","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,5,NA,51573,515730292,40.978674,-95.104064,25
+"628","10166","Stanwood Fire Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,52337,52337,41.892767,-91.150111,21
+"629","64014","State Center Fire & EMS","Marshall","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,14,"TRUE",50247,50247,42.016693,-93.163431,24
+"630","42010","Steamboat Rock Fire & Rescue","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,14,0,0,3,"TRUE",50672,50672,42.408471,-93.069203,14
+"631","89009","Stockport Volunteer Fire Department","Van Buren","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",52651,52651,40.857286,-91.833796,20
+"632","11009","Storm Lake Fire Department","Buena Vista","Mostly volunteer","Local (includes career, combination, and volunteer)",1,2,0,31,0,0,"FALSE",50588,505882254,42.647493,-95.19539,33
+"633","85013","Story City Fire Department","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,50248,502481134,42.187083,-93.597213,25
+"634","38008","Stout Fire Department","Grundy","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",50660,506609767,42.56678,-92.613696,18
+"635","22018","Strawberry Point Fire and Rescue","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,0,NA,52676,52676,42.683055,-91.534375,26
+"636","39008","Stuart Fire Department","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,0,"FALSE",50250,50250,41.503722,-94.316328,23
+"637","09006","Sumner Volunteer Fire Department","Bremer","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"TRUE",50674,506741656,42.847489,-92.095766,30
+"638","30007","Superior Fire Department","Dickinson","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,1,NA,51363,51363,43.431324,-94.947634,13
+"639","17008","Swaledale Fire Department","Cerro Gordo","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,18,0,0,NA,50477,504770081,NA,NA,18
+"640","55009","Swea City Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",50590,50590,NA,NA,24
+"641","36008","Tabor Volunteer Fire Department","Fremont","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,NA,51653,51653,40.902986,-95.671358,28
+"642","86009","Tama Fire Department","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,31,7,0,0,NA,52339,523392317,41.960982,-92.581377,38
+"643","14012","Templeton Fire Department","Carroll","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,2,"FALSE",51463,51463,41.91904,-94.943121,30
+"644","95007","Thompson Volunteer Fire Department","Winnebago","Career","Local (includes career, combination, and volunteer)",1,18,0,0,0,0,NA,50478,504780155,43.372142,-93.771185,18
+"645","46011","Thor-Norway Township Fire Department","Humboldt","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,12,0,0,NA,50591,50591,NA,NA,12
+"646","36009","Thurman Volunteer Fire Department","Fremont","Volunteer","Local (includes career, combination, and volunteer)",1,0,17,0,0,4,NA,51654,516540171,40.819803,-95.747467,17
+"647","52010","Tiffin Volunteer Fire Department","Johnson","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,8,"TRUE",52340,52340,41.705496,-91.663146,22
+"648","80010","Tingley Fire Department","Ringgold","Volunteer","Local (includes career, combination, and volunteer)",1,0,12,0,0,0,NA,50863,50863,NA,NA,12
+"649","16007","Tipton Fire Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,"TRUE",52772,527721633,41.769494,-91.129804,35
+"650","55010","Titonka Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,21,0,0,NA,50480,50480,43.237307,-94.041356,21
+"651","86010","Toledo Fire Department","Tama","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,29,0,0,15,"FALSE",52342,52342,41.995643,-92.581649,30
+"652","86011","Traer Fire Depatment","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",50675,50675,42.193317,-92.464238,24
+"653","78013","Treynor Fire Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"TRUE",51575,51575,41.232437,-95.615572,25
+"654","09007","Tripoli Fire Department","Bremer","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"FALSE",50676,50676,42.809624,-92.2556,24
+"655","57019","Troy Mills Volunteer Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,"TRUE",52344,52344,NA,NA,15
+"656","11010","Truesdale Fire Department","Buena Vista","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,3,NA,50592,50592,42.395788,-94.630047,10
+"657","61007","Truro Fire & Rescue Department","Madison","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,50257,50257,41.207883,-93.847524,21
+"658","78014","Underwood Volunteer Fire and Rescue","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,27,0,0,0,NA,51576,51576,41.388143,-95.677827,27
+"659","80011","Union Township Fire Department","Ringgold","Volunteer","Local (includes career, combination, and volunteer)",1,0,10,0,0,0,NA,50074,50074,NA,NA,10
+"660","42011","Union Volunteer Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,7,0,0,2,NA,50258,50258,42.245241,-93.063319,7
+"661","06011","Urbana-Polk Township Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,"TRUE",52345,52345,NA,NA,24
+"662","77018","Urbandale Fire Department","Polk","Mostly career","Local (includes career, combination, and volunteer)",2,31,0,20,1,1,"TRUE",50323,503232300,41.63288,-93.782619,51
+"663","67009","Ute Fire Department","Monona","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"TRUE",51060,51060,42.050204,-95.705249,22
+"664","24012","Vail Volunteer Fire Department, Inc.","Crawford","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,"TRUE",51465,51465,42.060419,-95.201177,19
+"665","06012","Van Horne Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,3,"TRUE",52346,52346,42.007577,-92.091148,25
+"666","25012","Van Meter Fire & Rescue","Dallas","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,28,0,0,NA,50261,50261,41.533033,-93.954078,28
+"667","27008","Van Wert Fire Department","Decatur","Volunteer","Local (includes career, combination, and volunteer)",1,0,9,0,0,3,NA,50262,50262,40.869338,-93.795862,9
+"668","17010","Ventura Fire Department","Cerro Gordo","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,1,"TRUE",50482,50482,43.128898,-93.475825,21
+"669","48010","Victor Fire Department","Poweshiek","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"FALSE",52347,52347,41.730871,-92.300974,25
+"670","69006","Villisca Fire/Rescue Department","Montgomery","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,10,"FALSE",50864,508641143,40.929595,-94.976788,28
+"671","94013","Vincent Fire Department","Webster","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,1,"TRUE",50594,505947703,42.591226,-94.020487,18
+"672","86012","Vining Volunteer Fire Department","Tama","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"FALSE",52348,52348,41.989803,-92.381951,18
+"673","06013","Vinton Fire Department","Benton","Volunteer","Local (includes career, combination, and volunteer)",1,0,28,0,0,0,"FALSE",52349,52349,42.169626,-92.023414,28
+"674","22019","Volga Fire Department","Clayton","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,52077,520770016,42.801309,-91.542218,18
+"675","33012","Wadena-Illyria Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"TRUE",52169,52169,42.839045,-91.656955,18
+"676","82018","Walcott Community Volunteer Fire Department","Scott","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,2,NA,52773,527730247,41.585903,-90.77549,26
+"677","57020","Walker Fire Department","Linn","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,NA,52352,52352,42.287313,-91.782107,35
+"678","81009","Wall Lake Fire and Rescue Department","Sac","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,51466,514660515,42.270796,-95.090775,24
+"679","32006","Wallingford Fire Department","Emmet","Volunteer","Local (includes career, combination, and volunteer)",2,0,21,0,0,5,"FALSE",51365,51365,43.319786,-94.793443,21
+"680","78015","Walnut Fire & Rescue Department","Pottawattamie","Volunteer","Local (includes career, combination, and volunteer)",1,0,34,0,0,0,"TRUE",51577,51577,41.475991,-95.223175,34
+"681","90008","Wapello County Rural Fire Department","Wapello","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,"FALSE",52501,52501,40.994747,-92.431827,25
+"682","58009","Wapello Fire Departmnent","Louisa","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52653,526530246,41.182423,-91.187194,30
+"683","92006","Washington Volunteer Fire Department","Washington","Mostly volunteer","Local (includes career, combination, and volunteer)",1,4,0,36,0,0,"FALSE",52353,523532024,41.298358,-91.689776,40
+"684","18009","Washta Fire Service","Cherokee","Volunteer","Local (includes career, combination, and volunteer)",1,0,16,0,0,3,"TRUE",51061,51061,42.575533,-95.718251,16
+"685","07009","Waterloo Fire Rescue","Black Hawk","Career","Local (includes career, combination, and volunteer)",6,106,0,0,3,0,"FALSE",50703,507033511,42.501816,-92.335506,106
+"686","33013","Waucoma Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,52171,52171,NA,NA,18
+"687","25013","Waukee Fire Rescue","Dallas","Mostly volunteer","Local (includes career, combination, and volunteer)",1,13,0,30,0,0,"TRUE",50263,50263,NA,NA,43
+"688","03006","Waukon Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,34,0,0,0,"FALSE",52172,52172,43.255344,-91.481872,34
+"689","09008","Waverly Fire Department","Bremer","Volunteer","Local (includes career, combination, and volunteer)",1,0,34,0,0,0,NA,50677,50677,42.724713,-92.471951,34
+"690","44009","Wayland Volunteer Fire and Rescue","Henry","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52654,52654,41.148482,-91.660676,25
+"691","21010","Webb Fire Department","Clay","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"FALSE",51366,51366,42.94869,-95.011027,18
+"692","40008","Webster City Fire Department","Hamilton","Mostly volunteer","Local (includes career, combination, and volunteer)",1,4,0,25,0,0,"FALSE",50595,505952346,42.466831,-93.815842,29
+"693","27009","Weldon Fire Department","Decatur","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,4,"FALSE",50264,50264,40.899037,-93.734803,13
+"694","92007","Wellman Volunteer Fire Department","Washington","Volunteer","Local (includes career, combination, and volunteer)",1,0,32,0,0,0,"TRUE",52356,52356,41.465059,-91.829235,32
+"695","38009","Wellsburg Volunteer Fire Department","Grundy","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50680,50680,42.435005,-92.927515,22
+"696","23013","Welton Volunteer Fire Company","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52774,527740019,NA,NA,30
+"697","55011","Wesley Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,21,0,0,0,NA,50483,50483,43.088152,-93.992612,21
+"698","74009","West Bend Fire Department","Palo Alto","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,NA,50597,505970485,42.957692,-94.445161,22
+"699","16008","West Branch Fire-Rescue Department","Cedar","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,"TRUE",52358,52358,41.671185,-91.344172,35
+"700","29005","West Burlington Fire Department","Des Moines","Mostly volunteer","Local (includes career, combination, and volunteer)",1,1,0,30,0,0,"FALSE",52655,52655,40.823776,-91.156629,31
+"701","77019","West Des Moines Fire Department","Polk","Mostly career","Local (includes career, combination, and volunteer)",5,68,0,18,3,0,"TRUE",50265,50265,41.584745,-93.75101,86
+"702","70009","West Liberty Fire Department","Muscatine","Volunteer","Local (includes career, combination, and volunteer)",1,0,35,0,0,0,"TRUE",52776,52776,41.568557,-91.262295,35
+"703","56011","West Point Fire & Rescue","Lee","Volunteer","Local (includes career, combination, and volunteer)",1,0,32,0,0,0,"FALSE",52656,52656,40.719463,-91.450397,32
+"704","33015","West Union Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,29,0,0,4,"FALSE",52175,52175,42.95172,-91.814172,29
+"705","33014","Westgate Fire Department","Fayette","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"TRUE",50681,50681,NA,NA,20
+"706","85005","Westory Fire Agency-Gilbert Station","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,"FALSE",50105,50105,NA,NA,20
+"707","83011","Westphalia Volunteer Fire Department","Shelby","Volunteer","Local (includes career, combination, and volunteer)",1,0,22,0,0,0,"TRUE",51578,51578,41.718828,-95.392922,22
+"708","24013","Westside Fire Department","Crawford","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,51467,514670305,42.074888,-95.099329,24
+"709","56012","Wever Fire and Rescue","Lee","Volunteer","Local (includes career, combination, and volunteer)",1,0,24,0,0,0,NA,52658,52658,40.707703,-91.233311,24
+"710","54016","What Cheer Fire Department","Keokuk","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,0,NA,50268,502680409,41.398958,-92.354653,13
+"711","23014","Wheatland Volunteer Fire Department","Clinton","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,52777,52777,41.830716,-90.838412,19
+"712","67010","Whiting Fire Department","Monona","Volunteer","Local (includes career, combination, and volunteer)",1,0,20,0,0,0,NA,51063,51063,42.127485,-96.153283,20
+"713","55012","Whittemore Fire Department","Kossuth","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,26,0,1,"TRUE",50598,50598,43.064727,-94.422269,26
+"714","42012","Whitten Fire Department","Hardin","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,0,NA,50269,50269,42.260645,-93.005157,15
+"715","40009","Williams Fire Department","Hamilton","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,18,0,0,NA,50271,50271,42.48709,-93.545393,36
+"716","48011","Williamsburg Fire Department","Iowa","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,"FALSE",52361,52361,NA,NA,30
+"717","59005","Williamson Volunteer Fire Department","Lucas","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50272,50272,41.089181,-93.258827,18
+"718","70010","Wilton Fire Department","Muscatine","Volunteer","Local (includes career, combination, and volunteer)",1,0,26,0,0,5,"TRUE",52778,52778,41.589836,-91.013092,26
+"719","77020","Windsor Heights Fire Department","Polk","Mostly volunteer","Local (includes career, combination, and volunteer)",1,7,0,26,0,0,"FALSE",50324,503241703,41.599151,-93.708606,33
+"720","44010","Winfield Fire & Rescue","Henry","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,52659,52659,41.129726,-91.438915,30
+"721","61008","Winterset Fire Department","Madison","Volunteer","Local (includes career, combination, and volunteer)",1,0,19,0,0,0,NA,50273,502731534,41.335454,-94.013212,19
+"722","10012","Winthrop Fire Department","Buchanan","Volunteer","Local (includes career, combination, and volunteer)",1,0,0,16,0,0,NA,50682,50682,42.472868,-91.735066,16
+"723","15008","Wiota Volunteer Fire Department","Cass","Volunteer","Local (includes career, combination, and volunteer)",1,0,30,0,0,0,NA,50274,502741103,41.400802,-94.886985,30
+"724","41008","Woden Fire Department","Hancock","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,NA,50484,50484,43.227456,-92.774219,18
+"725","43010","Woodbine Fire & Rescue","Harrison","Volunteer","Local (includes career, combination, and volunteer)",1,0,23,0,0,7,NA,51579,51579,41.743672,-95.700062,23
+"726","99008","Woolstock Community Fire Department","Wright","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,50599,50599,42.56645,-93.844105,25
+"727","31022","Worthington Community Fire Department","Dubuque","Volunteer","Local (includes career, combination, and volunteer)",1,0,25,0,0,0,NA,52078,52078,42.396925,-91.120454,25
+"728","53010","Wyoming Volunteer Fire Company, Inc.","Jones","Volunteer","Contract fire department",1,0,25,0,0,0,"TRUE",52362,52362,42.058873,-90.999396,25
+"729","39009","Yale Community Fire Department","Guthrie","Volunteer","Local (includes career, combination, and volunteer)",1,0,15,0,0,1,"FALSE",50277,502770097,41.778101,-94.354827,15
+"730","29006","Yarmouth Fire Department","Des Moines","Volunteer","Local (includes career, combination, and volunteer)",1,0,6,0,0,0,"FALSE",52660,52660,41.026479,-91.322419,6
+"731","73012","Yorktown Fire Department","Page","Volunteer","Local (includes career, combination, and volunteer)",1,0,13,0,0,4,NA,51656,516560184,NA,NA,13
+"732","85014","Zearing Fire Department","Story","Volunteer","Local (includes career, combination, and volunteer)",1,0,18,0,0,0,"FALSE",50278,502780027,NA,NA,18

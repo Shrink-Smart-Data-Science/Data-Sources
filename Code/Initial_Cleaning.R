@@ -4,7 +4,7 @@ library(lubridate)
 library(RMySQL)
 library(DBI)
 library(keyring)
-# setwd("/Users/denisebradford/Documents/ShrinkSmartExploration/")
+
 # --- Initial Setup ------------------------------------------------------------
 conn <- DBI::dbConnect(RMySQL::MySQL(),
                        host = "srvanderplas.com",
@@ -36,9 +36,8 @@ ie <- function(a, b, c) {
 
 crs <- structure(list(epsg = 26915L, proj4string = "+proj=longlat +zone=15 +datum=NAD83 +units=mi +no_defs"), class = "crs")
 
-fips_data <- read.csv("/Users/denisebradford/Documents/ShrinkSmartExploration/data/fips_codes.csv", skip = 4, header = TRUE) 
+fips_data <- read.csv("data/fips_codes.csv", skip = 4, header = TRUE) 
 fips_data$county <- gsub("([A-Za-z]+).*", "\\1", fips_data$Area_Name_FIPS)
-#write.csv(fips_data, "/Users/denisebradford/Documents/Data-Sources/Data/fips_data.csv")
 
 # --- Individual/fine-grained Data ---------------------------------------------
 fire_dept <- dbReadTable(conn, "fire_department_census") %>%
@@ -57,7 +56,6 @@ fire_dept <- dbReadTable(conn, "fire_department_census") %>%
   fix_names() %>%
   mutate(Firefighters = active_firefighters_career +
            active_firefighters_volunteer + active_firefighters_paid_per_call)
-#write.csv(fire_dept, "/Users/denisebradford/Documents/Data-Sources/Data/fire_dept.csv")
 
 liquor_stores <- dbReadTable(conn, "liquor_stores") %>%
   fix_names %>%
@@ -71,7 +69,6 @@ liquor_stores <- dbReadTable(conn, "liquor_stores") %>%
          long = str_extract(coords, "\\(-[\\d\\.]{1,}") %>% parse_number()
   ) %>%
   select(-store_address, -coords)
-#write.csv(liquor_stores, "/Users/denisebradford/Documents/Data-Sources/Data/liquor_stores.csv")
 
 physical_cultural_geographic_features <- dbReadTable(conn, "physical_and_cultural_geographic_features") %>%
   fix_names %>%
@@ -83,13 +80,11 @@ physical_cultural_geographic_features <- dbReadTable(conn, "physical_and_cultura
          long = str_extract(coords, "\\(-[\\d\\.]{1,}") %>% parse_number()
   ) %>%
   select(-primary_point, -coords)
-#write.csv(physical_cultural_geographic_features, "/Users/denisebradford/Documents/Data-Sources/Data/physical_cultural_geographic_features.csv")
 
 post_offices <- filter(physical_cultural_geographic_features,
                        feature_class == "Post Office") %>%
   select(-feature_class) %>%
   filter(!is.na(lat) & !is.na(long))
-#write.csv(post_offices, "/Users/denisebradford/Documents/Data-Sources/Data/post_offices.csv")
 
 ems <- read_csv(national_data_files[str_detect(national_data_files, "Emergency_Medical")]) %>%
   fix_names() %>%
@@ -99,7 +94,6 @@ ems <- read_csv(national_data_files[str_detect(national_data_files, "Emergency_M
          phone_loc = PHONELOC, level = LEVEL_, specialty = SPECIALTY, license = EMSLICENSE,
          Name = NAME, Owner = OWNER) %>%
   mutate(County = str_to_title(County))
-#write.csv(ems, "/Users/denisebradford/Documents/Data-Sources/Data/ems.csv")
 
 hospitals <- read_csv(national_data_files[str_detect(national_data_files, "Hospitals")]) %>%
   fix_names() %>%
@@ -113,7 +107,6 @@ hospitals <- read_csv(national_data_files[str_detect(national_data_files, "Hospi
          County = str_to_title(County)) %>%
   mutate(hospital_beds = ifelse(Beds < 0, NA, Beds),
          hospital_trauma_level = str_extract(Trauma, "LEVEL [IVX]{1,}"))
-#write.csv(hospitals, "/Users/denisebradford/Documents/Data-Sources/Data/hospitals.csv")
 
 retirement_homes <- dbReadTable(conn, "registered_retirement_facilities") %>%
   fix_names %>%
@@ -125,7 +118,6 @@ retirement_homes <- dbReadTable(conn, "registered_retirement_facilities") %>%
     long = str_extract(coords, "\\(-[\\d\\.]{1,}") %>% parse_number()) %>%
   filter(str_detect(mailing_state, "IA")) %>%
   filter(!is.na(coords))
-#write.csv(retirement_homes, "/Users/denisebradford/Documents/Data-Sources/Data/retirement_homes.csv")
 
 assisted_living <- dbReadTable(conn, "assisted_living") %>%
   mutate(zip = str_extract(location_1_zip, "\\d{5,9}"),
@@ -135,7 +127,6 @@ assisted_living <- dbReadTable(conn, "assisted_living") %>%
          lat = str_extract(coords, "[\\d\\.]{1,}\\)") %>% parse_number(),
          long = str_extract(coords, "\\(-[\\d\\.]{1,}") %>% parse_number()) %>%
   select(-zip)
-#write.csv(assisted_living, "/Users/denisebradford/Documents/Data-Sources/Data/assisted_living.csv")
 
 
 # --- Zip-level Data -----------------------------------------------------------
@@ -147,13 +138,10 @@ assisted_living_zip <- assisted_living %>%
   fix_names %>%
   select(zip5, assisted_living_occupancy = occupancy)
 
-#write.csv(assisted_living_zip, "/Users/denisebradford/Documents/Data-Sources/Data/assisted_living_zip.csv")
-
 fire_dept_zip <- fire_dept %>%
   select(zip5, firefighters = Firefighters) %>%
   group_by(zip5) %>%
   summarize(firefighters = sum(firefighters, na.rm = T))
-#write.csv(fire_dept_zip, "/Users/denisebradford/Documents/Data-Sources/Data/fire_dept_zip.csv")
 
 liquor_shops_zip <- liquor_stores %>%
   select(store, zip5, state) %>%
@@ -161,12 +149,11 @@ liquor_shops_zip <- liquor_stores %>%
   group_by(zip5) %>%
   summarize(liquor_stores = n()) %>%
   ungroup()
-#write.csv(liquor_shops_zip, "/Users/denisebradford/Documents/Data-Sources/Data/liquor_shops_zip.csv")
 
 # saveRDS(liquor_shops_zip, "data/IowaGov/liquor_shops.rda")
 #liquor_shops_zip <- readRDS("/Users/denisebradford/Documents/ShrinkSmartExploration/data/IowaGov/liquor_shops.rda")
 
-#Need new data for this information
+#Need new data for this information??
 post_office_zip <- tibble(text = read_lines("/Users/denisebradford/Documents/ShrinkSmartExploration/data/Iowa_Post_Offices.txt", skip = 2)) %>%
   tidyr::extract(text, into = c("zip5", "post_office", "established", "discontinued"),
                  regex = "(\\d{5})?\\s{0,}([A-Z ]{1,}(?:.\\d{1,}.)?)\\t([0-9/]{0,10})\\t([0-9/]{0,10})") %>%
@@ -174,14 +161,12 @@ post_office_zip <- tibble(text = read_lines("/Users/denisebradford/Documents/Shr
   filter(is.na(discontinued) | discontinued == "") %>%
   group_by(zip5) %>%
   summarize(n_post_offices = n())
-#write.csv(post_office_zip, "/Users/denisebradford/Documents/Data-Sources/Data/post_office_zip.csv")
 
 retirement_home_zip <- retirement_homes %>%
   unique() %>%
   select(zip5) %>%
   group_by(zip5) %>%
   count(name = "retirement_homes")
-#write.csv(retirement_home_zip, "/Users/denisebradford/Documents/Data-Sources/Data/retirement_home_zip.csv")
 
 hospitals_zip <- hospitals %>%
   mutate(hospital_trauma_level = factor(hospital_trauma_level,
@@ -193,7 +178,6 @@ hospitals_zip <- hospitals %>%
     hospital_beds = sum(hospital_beds, na.rm = T),
     hospital_trauma_level = min(hospital_trauma_level, na.rm = T)
   )
-#write.csv(hospitals_zip, "/Users/denisebradford/Documents/Data-Sources/Data/hospitals_zip.csv")
 
 census2010_pop_zip <- read_csv("data/National_Data/pop-by-zip-code.csv") %>%
   select(zip5 = zip_code, pop_2010 = `y-2010`) %>%
@@ -241,7 +225,6 @@ ia_city_population <- ia_city_county_population %>%
                              "^Saint " = "St. ",
                              "Gillette? Grove" = "Gillett Grove")) %>%
            gsub("^Mc([a-z])", "Mc\\U\\1", x = ., perl = T))
-#write.csv(ia_city_population, "/Users/denisebradford/Documents/Data-Sources/Data/ia_city_population.csv")
 
 
 # liquor_shops_city <- liquor_sales %>%
@@ -276,8 +259,7 @@ child_abuse_county <- dbReadTable(conn, "child_abuse_occurrences") %>%
   select(-coords) %>%
   remove_empty_cols() %>%
   fix_names
- #write.csv(child_abuse_county, "/Users/denisebradford/Documents/Data-Sources/Data/child_abuse_county.csv")
-
+ 
 child_abuse_county_age_group <- dbReadTable(conn, "child_abuse_victims") %>%
   mutate(
     County_FIPS = str_sub(fips_county_code, 3, -1),
@@ -289,7 +271,6 @@ child_abuse_county_age_group <- dbReadTable(conn, "child_abuse_victims") %>%
   select(-coords) %>%
   remove_empty_cols() %>%
   fix_names
-#write.csv(child_abuse_county_age_group, "/Users/denisebradford/Documents/Data-Sources/Data/child_abuse_county_age_group.csv")
 
 child_welfare_assessments <- dbReadTable(conn, "child_welfare_assessments") %>%
   mutate(
@@ -302,7 +283,6 @@ child_welfare_assessments <- dbReadTable(conn, "child_welfare_assessments") %>%
   select(-fips_county_code, -county_primary_point, -coords) %>%
   remove_empty_cols() %>%
   fix_names
-#write.csv(child_welfare_assessments, "/Users/denisebradford/Documents/Data-Sources/Data/child_welfare_assessments.csv")
 
 tanf_county <- dbReadTable(conn, "family_investment_program") %>%
   left_join(fips_data %>% filter(State_FIPS == "19") %>%
@@ -322,7 +302,6 @@ tanf_county <- dbReadTable(conn, "family_investment_program") %>%
             avg_monthly_recipients = median(recipients, na.rm = T),
             avg_monthly_grants = median(grants, na.rm = T)) %>%
   ungroup()
-#write.csv(tanf_county, "/Users/denisebradford/Documents/Data-Sources/Data/tanf_county.csv")
 
 food_stamps_county <-  dbReadTable(conn, "food_assistance_program_statistics")  %>%
   left_join(fips_data %>% filter(State_FIPS == "19") %>%
@@ -341,7 +320,6 @@ food_stamps_county <-  dbReadTable(conn, "food_assistance_program_statistics")  
             avg_monthly_recipients = median(recipients, na.rm = T),
             avg_monthly_allotments = median(allotments, na.rm = T)) %>%
   ungroup()
-#write.csv(food_stamps_county, "/Users/denisebradford/Documents/Data-Sources/Data/food_stamps_county.csv")
 
 medicaid_payments_county <- dbReadTable(conn, "medicaid_payments_county") %>%
   fix_names() %>%
@@ -365,7 +343,6 @@ medicaid_payments_county <- dbReadTable(conn, "medicaid_payments_county") %>%
   summarise_all(median, na.rm = T) %>%
   mutate(avg_reimbursement_per_eligible_person =
            medneedy_pmt/medneedy_elig)
-#write.csv(medicaid_payments_county, "/Users/denisebradford/Documents/Data-Sources/Data/medicaid_payments_county.csv")
 
 unemployment <- dbReadTable(conn, "unemployment_insurance_benefit_payments") %>%
   fix_names() %>%
@@ -384,7 +361,6 @@ unemployment <- dbReadTable(conn, "unemployment_insurance_benefit_payments") %>%
   summarize(value = sum(value, na.rm = T)) %>%
   spread(var, value) %>%
   ungroup()
-#write.csv(unemployment, "/Users/denisebradford/Documents/Data-Sources/Data/unemployment.csv")
 
 sales_tax <- dbReadTable(conn, "quarterly_retail_sales_tax") %>%
   fix_names() %>%
@@ -396,7 +372,6 @@ sales_tax <- dbReadTable(conn, "quarterly_retail_sales_tax") %>%
          fiscal_year, quarter_ending,
          number_of_returns:taxable_sales) %>%
   mutate(quarter_ending = ymd(quarter_ending))
-#write.csv(sales_tax, "/Users/denisebradford/Documents/Data-Sources/Data/sales_tax.csv")
 
 # --- Tax-district level Data --------------------------------------------------
 
@@ -412,7 +387,6 @@ assessed_property_values <- dbReadTable(conn, "assessed_property_values") %>%
   #select(-coords) %>%
   remove_empty_cols() %>%
   fix_names
-#write.csv(assessed_property_values, "/Users/denisebradford/Documents/Data-Sources/Data/assessed_property_values.csv")
 
 # --- School-district level data -----------------------------------------------
 
@@ -458,7 +432,6 @@ schools <- dbReadTable(conn, "school_building_directory") %>%
 
 school_sm <- schools %>%
    select(district_school_id, public, type, geometry)
-#write.csv(school_sm, "/Users/denisebradford/Documents/Data-Sources/Data/school_sm.csv")
 
 # ia_city_schools <- ia_cities %>%
 #   select(City = NAME10, center) %>%
@@ -492,7 +465,6 @@ school_revenue_year <- dbReadTable(conn, "school_district_revenues") %>%
   filter(amount > 0) %>%
   group_by(fiscalyear, aea, dist, de_district, district_name) %>%
   summarize(amount = sum(amount), revenues_per_pupil = sum(revenues_per_pupil))
-#write.csv(school_revenue_year, "/Users/denisebradford/Documents/Data-Sources/Data/school_revenue_year.csv")
 
 # --- Cleaning up --------------------------------------------------------------
 
