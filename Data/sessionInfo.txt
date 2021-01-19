@@ -1,0 +1,44 @@
+R version 4.0.3 (2020-10-10)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS High Sierra 10.13.6
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets 
+[6] methods   base     
+
+other attached packages:
+ [1] rgdal_1.5-18      sp_1.4-4          geojsonR_1.0.8   
+ [4] geojsonio_0.9.4   keyring_1.1.0     RMySQL_0.10.20   
+ [7] DBI_1.1.0         lubridate_1.7.9.2 sf_0.9-7         
+[10] forcats_0.5.0     stringr_1.4.0     dplyr_1.0.2      
+[13] purrr_0.3.4       readr_1.4.0       tidyr_1.1.2      
+[16] tibble_3.0.4      ggplot2_3.3.3     tidyverse_1.3.0  
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.5         lattice_0.20-41    class_7.3-17      
+ [4] assertthat_0.2.1   V8_3.4.0           R6_2.5.0          
+ [7] cellranger_1.1.0   backports_1.1.10   reprex_0.3.0      
+[10] e1071_1.7-4        httr_1.4.2         geojson_0.3.4     
+[13] pillar_1.4.7       rlang_0.4.10       lazyeval_0.2.2    
+[16] curl_4.3           readxl_1.3.1       rstudioapi_0.13   
+[19] blob_1.2.1         jqr_1.2.0          foreign_0.8-80    
+[22] munsell_0.5.0      broom_0.7.2        compiler_4.0.3    
+[25] modelr_0.1.8       pkgconfig_2.0.3    rgeos_0.5-5       
+[28] tidyselect_1.1.0   httpcode_0.3.0     fansi_0.4.1       
+[31] crayon_1.3.4       dbplyr_1.4.4       withr_2.3.0       
+[34] crul_1.0.0         grid_4.0.3         jsonlite_1.7.2    
+[37] gtable_0.3.0       lifecycle_0.2.0    magrittr_2.0.1    
+[40] units_0.6-7        scales_1.1.1       KernSmooth_2.23-17
+[43] cli_2.2.0          stringi_1.5.3      fs_1.5.0          
+[46] xml2_1.3.2         ellipsis_0.3.1     generics_0.1.0    
+[49] vctrs_0.3.6        geojsonsf_2.0.1    tools_4.0.3       
+[52] glue_1.4.2         hms_0.5.3          colorspace_2.0-0  
+[55] maptools_1.0-2     classInt_0.4-3     rvest_0.3.6       
+[58] haven_2.3.1       
