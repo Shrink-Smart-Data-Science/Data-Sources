@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<descript>
+<abstract>Iowa school districts boundaries maintained by the Iowa Department of Education.  This boundary layer represents legal school district boundaries, where possible.  Efforts to adjust boundaries to match legal boundary descriptions is ongoing.  This dataset is updated at least annually, or as needed. Last update - 2/25/2019
+
+
+
+Please contact the Iowa Department of Education for more information.
+Iowa Department of Education | 400 E. 14th. Street, 
+Des Moines, IA  50319 | (515) 281-3968</abstract>
+<purpose>Iowa School Districts as maintained by the Iowa Department of Education, represents school district boundaries for 2018-2019 - 
+Updated 2/25/2019</purpose>
+</descript>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>iowa</themekey>
+<themekey>school</themekey>
+<themekey>districts</themekey>
+<themekey>education</themekey>
+<themekey>2018</themekey>
+<themekey>2019</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst/>
+<datacred>Iowa Department of Education</datacred>
+</idinfo>
+<metainfo>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
