@@ -28,7 +28,7 @@ data_sources <- tibble::tribble(
   #   "assessed property values", "https://data.iowa.gov/api/odata/v4/p8sk-8ig7" 
   #  "city budget expenditures", "https://data.iowa.gov/api/odata/v4/jy6h-2e5x",
   #  "city budget revenue", "https://data.iowa.gov/api/odata/v4/bzed-t5zc",
-    "city population iowa by county year",  "https://data.iowa.gov/api/odata/v4/y8va-rhk9"
+  #  "city population iowa by county year",  "https://data.iowa.gov/api/odata/v4/y8va-rhk9"
   # "child abuse occurrences", "https://data.iowa.gov/api/odata/v4/mh9d-fias",
   # "child abuse victims","https://data.iowa.gov/api/odata/v4/n84y-ufum",
   # "child welfare assessments", "https://data.iowa.gov/api/odata/v4/er5e-kmgq",
@@ -42,8 +42,8 @@ data_sources <- tibble::tribble(
   # "school district revenues" ,"https://data.iowa.gov/api/odata/v4/pf4i-4nww",
   # "unemployment compensation fund status benefits", "https://data.iowa.gov/api/odata/v4/bbux-m3a4",
   # "unemployment insurance benefit payments", "https://data.iowa.gov/api/odata/v4/aeyn-twxp",
-  # "liquor_stores", "https://data.iowa.gov/api/odata/v4/ykb6-ywnd",
-  # "liquor sales", "https://data.iowa.gov/api/odata/v4/m3tr-qhgy"
+  # "liquor stores", "https://data.iowa.gov/api/odata/v4/ykb6-ywnd",
+   "liquor sales", "https://data.iowa.gov/api/odata/v4/m3tr-qhgy"
   # "quarterly retail sales tax", "https://data.iowa.gov/api/odata/v4/55fz-vque",
   #  "registered retirement facilities", "https://data.iowa.gov/api/odata/v4/cvnj-m3t8"
 )
