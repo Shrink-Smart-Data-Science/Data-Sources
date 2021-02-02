@@ -3,13 +3,13 @@ library(tidyverse)
 
 fix_names <- function(x) {
   x %>%
-    set_names(make.names(names(x)) %>% str_replace_all("\\.{1,}", ".") %>% 
+    set_names(make.names(names(x)) %>% str_replace_all("\\.{1,}", ".") %>%
                 str_remove("\\.$"))
 }
 
 remove_empty_cols <- function(x) {
   all_same_cols <- apply(x, 2, function(z) length(unique(z)))
-  
+
   x %>% select(which(all_same_cols > 1))
 }
 
@@ -21,14 +21,17 @@ iowa_border <- sf::read_sf("Data/Geography/iowa_border/") %>%
 ia_counties <- sf::read_sf("Data/Geography/county/") %>%
   mutate(geometry = st_transform(geometry, crs))
 
-traffic <- sf::st_read(dsn = "Data/Traffic_data.gdb", layer = "Primary") %>%
-  mutate(geometry = st_transform(geometry, crs))
+traffic <- sf::st_read(dsn = "Data/Traffic_data.gdb", layer = "Primary")
+
+traffic <- traffic %>%
+  st_as_sf() %>%
+  mutate(SHAPE = st_transform(SHAPE, crs))
 
 ia_centroids <- read.csv("Data/place_centroids_with_latlong.csv")
 
 
-ggplot() + 
-  geom_sf(aes(geometry = geometry), data = rivers, color = "blue", alpha = .5) + 
-  geom_sf(data = ia_counties, color = "grey", fill = "white", alpha = .5) + 
-  geom_sf(data = schools, aes(color = type, shape = type)) + 
+ggplot() +
+  geom_sf(aes(geometry = geometry), data = traffic, color = "blue", alpha = .5) +
+  geom_sf(data = ia_counties, color = "grey", fill = "white", alpha = .5) +
+  # geom_sf(data = schools, aes(color = type, shape = type)) +
   scale_shape_discrete(solid = F)
