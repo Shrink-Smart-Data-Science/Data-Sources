@@ -461,7 +461,7 @@ ia_city_schools <- ia_cities %>%
 #   tidyr::spread(key = key, value = dist) %>%
 #   select(-center)
 #
-# rm(school_sm, school_cat)
+ rm(school_sm, school_cat)
 
 school_revenue_year <- dbReadTable(conn, "school_district_revenues") %>%
   fix_names() %>%
