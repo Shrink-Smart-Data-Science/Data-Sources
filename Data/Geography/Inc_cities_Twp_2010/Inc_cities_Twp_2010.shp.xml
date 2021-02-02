@@ -1,0 +1,2384 @@
+<?xml version="1.0"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+				<pubdate>2010</pubdate>
+				<title>Political Township and Incorporated City Boundaries in Iowa in 2010, as Derived from Census Datasets</title>
+				<edition>2010</edition>
+				<geoform>vector digital data</geoform>
+				<onlink>ftp://ftp.igsb.uiowa.edu/gis_library/ia_state/admin_political_boundary/inc_cities_twp_2010.zip</onlink>
+				<ftname Sync="TRUE">Inc_cities_Twp_2010</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Political Township and Incorporated City Boundaries in Iowa in 2010, as Derived from Census Datasets 
+
+Original Abstract:
+The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.  County subdivisions are the primary divisions of counties and their equivalent entities for the reporting of Census Bureau data, and they include legally minor civil divisions (MCDs) and statistical census county divisions (CCDs), and unorganized territories.  For the 2010 Census, the legal MCDs are the primary governmental and/or administrative divisions of counties in 29 States and Puerto Rico; Tennessee changed from having CCDs for Census 2000 to having MCDs for the 2010 Census.  In MCD States where no MCD exists or is not defined, the Census Bureau creates statistical unorganized territories to complete coverage.  The entire area of the United States, Puerto Rico, and the Island Areas is covered by county subdivisions.  The boundaries of all 2010 Census legal MCDs are as of January 1, 2010 as reported through the Census Bureau's Boundary and Annexation Survey (BAS).  For the 2010 Census, CCDs or their equivalents are delineated in 21 States.  The boundaries of all 2010 Census statistical CCDs were delineated as part of the Census Bureau's Participant Statistical Areas Program (PSAP).</abstract>
+			<purpose>In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.</purpose>
+			<Subject_Entity>Iowa(19)</Subject_Entity>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>201001</begdate>
+					<enddate>201007</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database.  No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-96.639485</westbc>
+				<eastbc>-90.140061</eastbc>
+				<northbc>43.501196</northbc>
+				<southbc>40.37544</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">202073.066518</leftbc><rightbc Sync="TRUE">736851.722556</rightbc><bottombc Sync="TRUE">4470569.989748</bottombc><topbc Sync="TRUE">4822687.515419</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>State or equivalent entity</themekey>
+				<themekey>Polygon</themekey>
+				<themekey>County Subdivision</themekey>
+				<themekey>Subdivision</themekey>
+				<themekey>Minor Civil Division</themekey>
+				<themekey>MCD</themekey>
+				<themekey>Census County Division</themekey>
+				<themekey>CCD</themekey>
+				<themekey>Town</themekey>
+				<themekey>Township</themekey>
+				<themekey>Unorganized -+Territory</themekey>
+				<themekey>UT</themekey>
+				<themekey>Barrio</themekey>
+			</theme>
+			<place>
+				<placekt>INCITS.38-200x (R2004),INCITS.31-200x (R2007),INCITS.454-200x,INCITS 455-200x,INCITS 446-2008</placekt>
+				<placekey>United States</placekey>
+				<placekey>U.S.</placekey>
+				<placekey>State or Equivalent Entity</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>IA</placekey>
+				<placekey>19</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.</useconst>
+		<Title_13_Restrictions>Yes, the data are free from Title 13 restrictions</Title_13_Restrictions>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>geo.tiger@census.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform>
+		<secinfo>
+			<secsys>State of Iowa Enterprise Data Classification Standard</secsys>
+			<secclass>Public</secclass>
+		</secinfo>
+	</idinfo>
+	<Data_Set_Character_Set>8859part1</Data_Set_Character_Set>
+	<Data_Set_Language>eng</Data_Set_Language>
+	<dataqual>
+		<attracc>
+			<attraccr>Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+		</attracc>
+		<logic>The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55.  Feature attribute information has been examined but has not been fully tested for consistency.
+For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.</logic>
+		<complete>Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+						<pubdate>Unpublished material</pubdate>
+						<title>Census MAF/TIGER database</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>201001</begdate>
+							<enddate>201007</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>MAF/TIGER</srccitea>
+				<srccontr>The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data. </procdesc>
+				<srcused>Census MAF/TIGER</srcused>
+				<procdate>2010</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The County Subdivision dataset was selected out for townships only, exported, then was updated with the incorporated cities from the Census Places file.</procdesc>
+				<procdate>20110603</procdate>
+				<procsv>ArcGIS 9.3.1</procsv>
+			</procstep>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>US Census Bureau</origin>
+						<title>TiGER Line Shapefiles</title>
+						<onlink>ftp://ftp2.census.gov/geo/pvs/tiger2010st/19_Iowa/19/</onlink>
+					</citeinfo>
+				</srccite>
+			</srcinfo>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>Federal Information Processing Standards (FIPS), ANSI, and feature names.</indspref>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Inc_cities_Twp_2010">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>1661</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Inc_cities_Twp_2010">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">2543</efeacnt>
+				<spindex Sync="TRUE">TRUE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>North American Datum of 1983 in the 48 contiguous states, the District of Columbia, Alaska, Hawaii, Puerto Rico, the Virgin Islands of the United States, and the Pacific Island Areas.</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137</semiaxis>
+				<denflat>298257</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn><utm><utmzone Sync="TRUE">15</utmzone><transmer><sfctrmer Sync="TRUE">0.999600</sfctrmer><longcm Sync="TRUE">-93.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></utm></gridsys></planar>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="Inc_cities_Twp_2010">
+			<enttyp>
+				<enttypl>COUSUB10.shp</enttypl>
+				<enttypd>2010 Census county subdivision State-based</enttypd>
+				<enttypds>U.S. Census Bureau</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">2543</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATEFP10</attrlabl>
+				<attrdef>2010 Census state Federal Information Processing Standards
+                 (FIPS) code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS.38-200x (R2004), Codes for the Identification of
+                      the States, the District of Columbia, Puerto Rico, and the
+                      Insular Areas of the United States (Formerly FIPS 5-2)</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">STATEFP10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>COUNTYFP10</attrlabl>
+				<attrdef>2010 Census county Federal Information Processing Standards
+                 (FIPS) code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS.31-200x (R2007), Codes for the Identification of
+                      the Counties and Equivalent Areas of the United States,
+                      Puerto Rico, and the Insular Areas of the United States
+                      (Formerly FIPS 6-4)</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">COUNTYFP10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>COUSUBFP10</attrlabl>
+				<attrdef>2010 Census county subdivision Federal Information Processing
+                 Standards (FIPS) code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Series Census Codes for
+                      Named Populated Places, Primary County Divisions, and
+                      other Locational Entities of the United States, Puerto
+                      Rico, and the Island Areas (Formerly FIPS 55-3)</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">COUSUBFP10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>COUSUBNS10</attrlabl>
+				<attrdef>2010 Census county subdivision ANSI code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS 446-2008, (GNIS) Identifying Attributes for Named
+                      Physical and Cultural Geographic Features (Except Roads
+                      and Highways) of the United States, Its Territories,
+                      Outlying Areas, and Freely Associated Areas, and the
+                      Waters of the Same to the Limit of the Twelve-Mile
+                      Statutory Zone</codesetn>
+						<codesets>U.S. Geological Survey (USGS)</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">COUSUBNS10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>GEOID10</attrlabl>
+				<attrdef>County subdivision identifier, a concatenation of 2010 Census
+                 state Federal Information Processing Standards (FIPS) code,
+                 county FIPS code, and county subdivision FIPS code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>INCITS.38-200x (R2004), Codes for the Identification of
+                      the States, the District of Columbia, Puerto Rico, and the
+                      Insular Areas of the United States (Formerly FIPS 5-2),
+                      INCITS.31-200x (R2007), Codes for the Identification of
+                      the Counties and Equivalent Areas of the United States,
+                      Puerto Rico, and the Insular Areas of the United States
+                      (Formerly FIPS 6-4), Federal Information Processing Series
+                      Census Codes for Named Populated Places, Primary County
+                      Divisions, and other Locational Entities of the United
+                      States, Puerto Rico, and the Island Areas (Formerly FIPS
+                      55-3)</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">GEOID10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>NAME10</attrlabl>
+				<attrdef>2010 Census county subdivision name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Refer to the online county subdivision gazetteer file at
+                      URL: http://www.census.gov/geo/www/gazetteer/gazette.html</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">NAME10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>NAMELSAD10</attrlabl>
+				<attrdef>2010 Census name and the translated legal/statistical area
+                 description code for county subdivision</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Refer to the online county subdivision gazetteer file at
+                      URL: http://www.census.gov/geo/www/gazetteer/gazette.html
+                      and the legal/statistical area description code for county
+                      subdivision that appears in LSAD10</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">NAMELSAD10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>LSAD10</attrlabl>
+				<attrdef>2010 Census legal/statistical area description code for county
+                 subdivision</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>00</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>barrio</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>borough</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>census county division</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>census subarea</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>census subdistrict</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>25</edomv>
+						<edomvd>city</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>county</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>27</edomv>
+						<edomvd>district</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>28</edomv>
+						<edomvd>District (prefix)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>29</edomv>
+						<edomvd>precinct</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>30</edomv>
+						<edomvd>Precinct (prefix)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>gore</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>grant</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>36</edomv>
+						<edomvd>location</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>39</edomv>
+						<edomvd>plantation</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>41</edomv>
+						<edomvd>barrio-pueblo</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>42</edomv>
+						<edomvd>purchase</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>43</edomv>
+						<edomvd>town</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>44</edomv>
+						<edomvd>township</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>45</edomv>
+						<edomvd>Township (prefix)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>46</edomv>
+						<edomvd>Unorganized Territory (UT)</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>47</edomv>
+						<edomvd>village</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>49</edomv>
+						<edomvd>charter township</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>86</edomv>
+						<edomvd>Reservation</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">LSAD10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>CLASSFP10</attrlabl>
+				<attrdef>2010 Census Federal Information Processing Standards (FIPS)
+                 class code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>C2</edomv>
+						<edomvd>An active incorporated place that is legally coextensive
+                    with an county subdivision but treated as independent of any
+                    county subdivision</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>C5</edomv>
+						<edomvd>An active incorporated place that is independent of any
+                    county subdivision and serves as a county subdivision
+                    equivalent</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>C7</edomv>
+						<edomvd>An incorporated place that is independent of any county</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S1</edomv>
+						<edomvd>A nonfunctioning county subdivision that is coextensive with
+                    a census designated place</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S2</edomv>
+						<edomvd>A statistical county subdivision that is coextensive with a
+                    census designated place</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S3</edomv>
+						<edomvd>A statistical county subdivision that is coextensive with a
+                    legal American Indian, Alaska Native, or Native Hawaiian
+                    area</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>T1</edomv>
+						<edomvd>An active county subdivision that is not coextensive with an
+                    incorporated place</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>T2</edomv>
+						<edomvd>An active county subdivision that is coextensive with a
+                    census designated place</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>T5</edomv>
+						<edomvd>An active county subdivision that is coextensive with an
+                    incorporated place</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>T9</edomv>
+						<edomvd>An inactive county subdivision</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>Z1</edomv>
+						<edomvd>A nonfunctioning countysubdivision</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>Z2</edomv>
+						<edomvd>A county subdivision that is coextensive with an American
+                    Indian, Alaska Native, or Native Hawaiian area and legally
+                    is independent of any other county subdivision</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>Z3</edomv>
+						<edomvd>A county subdivision defined as an unorganized territory</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>Z5</edomv>
+						<edomvd>A statistical county subdivision</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>Z7</edomv>
+						<edomvd>A county subdivision that is coextensive with a county or
+                    equivalent feature or all or part of an incorporated place
+                    that the Census Bureau recognizes separately</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>Z9</edomv>
+						<edomvd>Area of a county or equivalent, generally in territorial
+                    sea, where no county subdivision exists.</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">CLASSFP10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>MTFCC10</attrlabl>
+				<attrdef>MAF/TIGER feature class code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>G4040</edomv>
+						<edomvd>County Subdivision</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">MTFCC10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>CNECTAFP10</attrlabl>
+				<attrdef>2010 Census combined New England city and town area code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>700</rdommin>
+						<rdommax>799</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">CNECTAFP10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>NECTAFP10</attrlabl>
+				<attrdef>2010 Census New England city and town area code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>70000</rdommin>
+						<rdommax>79999</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">NECTAFP10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>NCTADVFP10</attrlabl>
+				<attrdef>2010 Census New England city and town area division code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>70004</rdommin>
+						<rdommax>79994</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">NCTADVFP10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>FUNCSTAT10</attrlabl>
+				<attrdef>2010 Census functional status</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Active government providing primary general-purpose functions</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>B</edomv>
+						<edomvd>Active government that is partially consolidated with
+                    another government but with separate officials providing
+                    primary general-purpose functions</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>C</edomv>
+						<edomvd>Active government consolidated with another government with
+                    a single set of officials</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>F</edomv>
+						<edomvd>Fictitious entity created to fill the Census Bureau
+                    geographic hierarchy</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>G</edomv>
+						<edomvd>Active government that is subordinate to another unit of
+                    government</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>I</edomv>
+						<edomvd>Inactive governmental unit that has the power to provide
+                    primary special-purpose functions</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>Nonfunctioning legal entity</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+					<edom>
+						<edomv>S</edomv>
+						<edomvd>Statistical entity</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">FUNCSTAT10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">1</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>ALAND10</attrlabl>
+				<attrdef>2010 Census land area (square meters)</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 to 9,999,999,999,999</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">ALAND10</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">14</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>AWATER10</attrlabl>
+				<attrdef>2010 Census water area (square meters)</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 to 9,999,999,999,999</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">AWATER10</attalias>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">14</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>INTPTLAT10</attrlabl>
+				<attrdef>2010 Census latitude of the internal point</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>00</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">INTPTLAT10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">11</attwidth>
+			</attr>
+			<attr>
+				<attrlabl>INTPTLON10</attrlabl>
+				<attrdef>2010 Census longitude of the internal point</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>00</edomv>
+						<edomvd>Blank</edomvd>
+						<edomvds>U.S. Census Bureau</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">INTPTLON10</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">12</attwidth>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Iowa Geological and Water Survey, DNR</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>109 Trowbridge Hall</address>
+					<city>Iowa City</city>
+					<state>IA</state>
+					<postal>52242</postal>
+				</cntaddr>
+				<cntvoice>319-335-1575</cntvoice>
+				<cntemail>gis_library@igsb.uiowa.edu</cntemail>
+				<cntpos>GeoSpatial DBA / NRGIS Librarian</cntpos>
+			</cntinfo>
+		</distrib>
+		<distliab>Although efforts have been made in correcting errors in order to make this information useful to the Department, the Department assumes no responsibility for errors in the information.  Similarly, the Department assumes no responsibility for the consequences of inappropriate uses or interpretations of the data made by anyone to whom this data has been made available.  The Department bears no responsibility to inform users of any changes made to this data.  Anyone using this data is advised that precision implied by the coverage may far exceed actual precision.  Comments on this data are invited and the Department would appreciate that documented errors be brought to staff attention. </distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<filedec>zip</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>ftp://ftp.igsb.uiowa.edu/gis_library/ia_state/admin_political_boundary/inc_cities_twp_2010.zip</networkr>
+							</networka>
+						</computer>
+						<accinstr>Click on link provided.</accinstr></onlinopt>
+				</digtopt>
+			</digform>
+		</stdorder>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>365 days/year</caldate>
+					<time>24 hours/day</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+		<resdesc>Downloadable Data</resdesc>
+	</distinfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>4600 Silver Hill Road, Stop 7400</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301-763-1128</cntvoice>
+				<cntfax>301-763-4710</cntfax>
+				<cntemail>geo.tiger@census.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>TGRSHP (compressed)</formname>
+					<filedec>PK-ZIP, version 1.93 A or higher</filedec>
+					<transize Sync="TRUE">9.198</transize>
+					<dssize Sync="TRUE">9.198</dssize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.census.gov/geo/www/tiger</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>DVD-ROM (Only if offered offline)</offmedia>
+						<recfmt>ISO 9660</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>The online copy of the TIGER/Line files may be accessed without charge.</fees>
+			<ordering>To obtain more information about ordering TIGER/Line shapefiles visit http://www.census.gov/geo/www/tiger </ordering>
+		</stdorder>
+		<techpreq>The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.</techpreq>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Iowa Geological and Water Survey, DNR</cntorg>
+					<cntper>NRGIS Librarian</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing and Physical</addrtype>
+					<address>109 Trowbridge Hall</address>
+					<city>Iowa City</city>
+					<state>IA</state>
+					<postal>52242-1319</postal>
+				</cntaddr>
+				<cntvoice>319-335-1575</cntvoice>
+				<cntemail>gis_library@igsb.uiowa.edu</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metd Sync="TRUE">20110719</metd>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri>
+		<CreaDate>20110603</CreaDate>
+		<CreaTime>10221600</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<lineage>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20110531" Time="161243">Project C:\Library\census_2010\tl_2010_19_cousub10.shp C:\Library\census_2010\tl_2010_19_cousub10_1.shp PROJCS['NAD_1983_UTM_Zone_15N',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',500000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-93.0],PARAMETER['Scale_Factor',0.9996],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] # GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\Update" Date="20110603" Time="111632">Update political_townships_2011 incorporated_cities_2010 C:\Library\census_2010\political_townships_2011_Upd.shp BORDERS #</Process>
+			</lineage>
+		</DataProperties>
+		<MetaID>{8110CA1A-CDD3-49B2-BCF7-DA5633B874C4}</MetaID>
+		<SyncDate>20110719</SyncDate>
+		<SyncTime>14085900</SyncTime>
+		<ModDate>20110719</ModDate>
+		<ModTime>14431400</ModTime>
+	</Esri>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage Sync="TRUE">file://\\D_IGS_60F35\Library\census_2010\Inc_cities_Twp_2010.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+					<orDesc Sync="TRUE">002</orDesc>
+				</onLineSrc>
+				<transSize Sync="TRUE">9.198</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"></languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">Inc_cities_Twp_2010</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">202073.066518</westBL><eastBL Sync="TRUE">736851.722556</eastBL><northBL Sync="TRUE">4822687.515419</northBL><southBL Sync="TRUE">4470569.989748</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-96.684918</westBL><eastBL Sync="TRUE">-90.069395</eastBL><northBL Sync="TRUE">43.557142</northBL><southBL Sync="TRUE">40.33252</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">NAD_1983_UTM_Zone_15N</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="Inc_cities_Twp_2010"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">2543</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+	<mdDateSt Sync="TRUE">20110719</mdDateSt>
+	<Binary>
+		<Thumbnail>
+			<Data EsriPropertyType="Picture">Qk3uNwEAAAAAADYAAAAoAAAAyAAAAIUAAAABABgAAAAAALg3AQAAAAAAAAAAAAAAAAAAAAAA////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////x8fHvcbGx8fH8vLy////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////vcbGpOTkmcfHr///s8XF////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////5OTkpOTkr///n9bWn9XVvcbG////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////1dXVq8bGmcfHlLm5n9XVn9XVx8fH
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////8vLyp9XVr///r///n9bWr///r///sNTU////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////osfHr///r///r///n9bWqvLypOPj
+sNTU////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////8vLy1dXVmsfHr///r///r///n9bWpOTkm7a25OTk////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////ocbGr///lLm5n9XVn9XVn9XVlLm5lLi4
+q8bG8vLy////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////4+Pj1dXV1dXV1dXV1dXV1dXV1dXV1dXVudTUs8XFs8XFudTUtMbGudTUudTU
+tMbGj6qqn9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVmcfHr///r///n9bWr///r///r///n9bWr///
+pOPjndPTr///r///n9bWr///r///r///n9bWr///r///ntTUr///r///ndPTr///r///n9bWr///
+qvLyr///n9bWr///r///ndPTmcbGr///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bW
+qvLyn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVosbGtMbGudTUudTU
+s8XFudTUudTUtMbGudTUudTUvcbG1dXV1dXV1dXV1dXV1dXV1dXV1dXV4+Pj////////////////
+////y9TUntXVr///n9bWr///r///r///n9bWmcbGfn5+uLi4////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////8vLyl6mpn9XVlLm5iZubn9XVpOPjr///n9bWr///r///
+r///n9bWr///mcbGndPTr///r///n9bWn9XVr///r///n9bWr///r///ndPTr///r///n9bWr///
+r///pOTkpOTkr///n9bWr///r///n9bWn9bWr///mcbGndPTr///r///n9bWr///r///r///n9bW
+r///r///ndPTqvLyiZycfn5+r///qvLylLm5r///r///r///n9bWr///r///ndPTr///r///lLm5
+r///r///r///n9bWn9XVn9XVk7e3n9XVn9XVlLm5r///r///r///n9bWmcbGpOTkndPTr///r///
+ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///
+r///ndPTr///r///n9bWlLi4n9XVn9XVlLm5n9XVmsfHk7e3r///r///n9bWr///r///r///n9bW
+r///n9XVmcfHw9XV8vLy////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////5OTk
+ntXVr///qvLyjqmpqvLyr///r///pOTkpOTkr///r///n9bWr///r///ndPTr///r///n9bWk7e3
+r///r///n9bWr///r///ndPTqvLyn9XVlLm5n9XVn9XVn9XVlLi4ntTUlLi4ntTUntTUntTUlLi4
+ntTUntTUkra2n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVmcfHjqmp
+n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVr///ndPTr///r///
+n9bWr///r///r///n9bWn9XVqvLyjqmpn9bWr///ndPTr///r///n9bWr///r///r///n9bWr///
+r///ndPTr///r///n9bWn9XVn9XVn9XVlLm5qvLyr///k7e3r///r///n9bWr///r///r///n9bW
+r///mcbGk7e3n9XVmcbGlLi4jqmplLi4ntTUlLi4ntTUmcbGjqmpjqmpg4yMkZqaudTUudTU4+Pj
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////x8fHr///r///r///pOTkmcfHn9XVn9XVn9XVlLm5
+n9XVntTUjqmpntTUntTUkra2iJqantTUlLi4n9XVn9XVmcfHlLm5n9XVn9XVk7e3pOPjr///n9bW
+r///k7e3ntTUn9bWr///n9bWr///r///r///n9bWpOTkpOTkiZubmcfHr///n9bWr///r///r///
+n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///mMXFiZubn9XVn9XVlLm5lLi4ntTUmcbGmMXFmMXF
+ntTUk7e3lLi4mcbGj6qqntTUntTUntTUlLm5pOPjr///ndPTpOPjr///n9bWpOPjr///r///lLm5
+n9bWr///ndPTr///r///n9bWr///ntXVntTUlLi4ntTUntTUmMXFr///r///n9bWr///r///pOPj
+n9bWr///r///n9bWntTUpOPjndPTr///r///pOPjy9TU////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////8vLyrMfH
+lLm5r///r///r///pOPjjqmpntXVr///r///n9bWr///r///ndPTr///r///mcbGr///r///n9bW
+r///r///r///mMXFr///r///ndPTr///r///n9bWr///mcbGlLi4n9bWr///pOTkpOTkr///r///
+n9bWr///lLm5iZubndPTr///mcfHmcbGr///r///n9bWr///mcbGndPTr///r///ntXVr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///n9bWn9bWn9bWr///r///ndPTr///
+pOPjlLm5r///r///r///n9bWr///lLm5mcbGmMXFr///ndPTr///pOPjmcfHr///r///r///r///
+mcbGr///mMXFn9XVn9XVlLm5mcbGr///r///n9bWr///r///ndPTr///r///lLi4mcbGntTUqvLy
+lLi4pOTkr///ndPTr///r///n9bWr///r///n9bWr///qvLyr///n9bWr///r///ndPTr///r///
+qvLynLi4////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////zNXVr///n9bWn9XVn9XVn9XVpOPjn9bWpOPjr///r///
+mcfHr///r///ndPTr///r///n9bWr///r///pOTkpOTkr///n9XVjqmpr///n9XVk7e3n9XVn9XV
+lLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVjqmpntTUmcbGmcfHlLi4ntTUk7e3jaiontTU
+ntTUlLi4ntTUk7e3kra2ntTUntTUlLi4ntTUk7e3lLi4mMXFmMXFntTUlLi4ntTUntTUk7e3n9XV
+n9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVn9bWr///jqmpk7e3
+mMXFr///ndPTr///r///n9bWqfHxr///r///r///lLi4mcbGk7e3r///mcbGlLi4ntTUntTUntTU
+lLi4ntTUntTUkra2ntTUmcbGjqmpmcbGntXVn9XVlLi4ntTUntTUkra2ntTUntTUjaiontTUntTU
+lLm5lLm5lLm5n9XVlLm5n9XVn9XVmMXFpOTkjqmpg4yMmcfH////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////vcbGpOPj
+r///pOTkqvLyr///r///pOPjpOTkmcbGntTUmcbGjqqqqvLyqvLyiZycmsfHn9XVk7e3n9XVn9XV
+jqmpn9XVn9XVjqmplLm5n9XVn9bWlLi4pOTkr///ndPTr///qfHxn9bWr///pOTkpOTkn9bWr///
+r///n9bWr///r///jqmpqvLyr///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///
+pOPjn9bWntTUntTUr///n9bWr///r///ndPTr///r///n9bWr///r///r///hI2Nr///r///ndPT
+r///pOPjn9bWpOTkmcbGr///lLm5n9XViZycmcbGmMXFn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+iZycqvLyn9bWfn5+mcbGpOTkn9bWr///r///r///n9bWr///r///ndPTr///r///n9XVmMXFmcbG
+r///n9bWr///r///ntXVr///r///ndPTr///r///n9bWr///r///r///n9bWr///qvLyjqmpmcfH
+r///n9bWn9bW////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////x8fHqvLyr///r///n9bWr///r///jqmppOTkn9bWr///
+n9bWr///mcfHg4yMhI2NpOTkr///ndPTr///r///mcbGr///r///qvLypOTkmMXFqvLyn9bWr///
+r///ndPTr///qfHxn9bWr///r///r///n9bWr///r///mcfHr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///hI2Njqqqr///
+jqqqmcbGr///k7e3pOTkr///n9bWr///r///r///mcfHlLi4n9bWndPTr///r///n9bWr///r///
+r///n9bWr///r///ndPTr///r///r///n9bWr///r///n9bWr///r///n9bWr///r///k7e3r///
+pOTklLi4r///r///r///n9bWmcfHk7e3r///r///r///n9bWg4yM1tbW////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+1dXVpOTkn9XVmcbGn9bWr///r///r///n9bWr///n9bWr///r///pOTklLm5r///r///ndPTr///
+r///n9bWr///r///r///r///ndPTr///n9bWr///r///ndPTr///r///n9bWr///jqmpr///lLm5
+n9XViZubjqmpn9XVn9XVjqmpmcfHn9XVlLm5n9XVn9XVn9XVlLm5n9XViZubk7e3mcfHmcbGlLi4
+ntTUmcbGn9XVlLm5jqmpntTUlLi4ntTUk7e3kra2ntTUntTUlLi4ntTUntTUntTUlLi4ntTUntTU
+kra2ntTUntTUlLi4ntTUntTUntTUn9bWr///ntXVmcfHr///r///ndPTpOTkntTUn9bWntTUntTU
+ntTUjqmpk7e3lLi4jqmpn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3lLi4n9XVlLm5lLm5
+n9XVlLm5msfHn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVqvLymcfHmcfHqvLyntTUntTU
+r///pOTkiZubr///1tbW////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////5OTklLm5lLm5pOPjlLm5n9XVn9XVn9XVlLm5
+n9XVlLm5mcfHntTUntTUlLi4ntTUjqmpkra2ntTUntTUlLi4ntTUntTUj6qqn9XVn9XVn9XVlLm5
+n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVn9bWr///r///ndPTr///r///mMXFqvLyr///n9bW
+r///r///r///lLm5r///r///ndPTqvLyqvLyn9bWr///r///r///n9bWr///r///n9bWqvLypOPj
+ndPTr///r///n9bWr///r///r///lLm5r///r///ndPTr///r///n9bWr///r///r///lLm5n9XV
+k7e3j6qqn9XVn9XVk7e3mcbGk7e3lLi4r///r///r///mcfHr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///lLi4r///r///ndPT
+r///r///n9bWr///n9XVn9XVn9bWr///r///jqmplLm5hI2Ng4yMpOPjx8fH////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////8vLyn9bWr///pOPjndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///k7e3ndPT
+r///r///n9bWr///r///qvLypOTkr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///
+mcfHr///r///ndPTr///r///ndPTr///r///n9bWr///mcbGr///n9bWr///r///ndPTr///r///
+n9bWr///r///pOPjn9bWr///r///n9bWr///r///ndPTr///jqmpn9bWr///r///r///lLm5r///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///mcbGn9bWr///r///r///n9bWr///r///ndPTr///r///mcfH
+r///r///n9bWn9bWr///r///mcfHr///pOTkk7e3r///r///n9bWr///r///r///n9bWpOTkr///
+ndPTr///qvLylLm5jqmppOPj1dXV////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////5OTkn9bWr///r///ndPTr///r///ndPT
+qvLyqvLyn9bWr///qvLyqvLyn9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///
+n9bWr///r///ndPTr///r///n9bWr///r///r///g4yMn9bWr///ndPTr///r///mcbGr///r///
+lLm5r///r///r///lLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVmsfHlLm5n9XVn9XVlLm5n9XV
+lLi4k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5
+n9XVn9XVlLm5jqmplLm5k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5
+n9XVn9XVn9XVlLm5qvLyr///ndPTr///r///k7e3r///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///n9bWr///r///r///n9bWqvLyr///ndPTr///r///n9bWr///r///osbG8vLy////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////x8fHqvLyr///ndPTntTUpOTkmcbGqvLyqvLylLm5n9XVmsfHmsfHlLm5n9XVn9XV
+k7e3n9XVn9XVlLm5mcbGntTUntTUlLi4ntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4mcbGn9XV
+n9XVj6qqmcfHn9XVk7e3n9XVn9XVlLm5n9XVn9XViZubn9XVn9XVn9XVn9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///mcfHr///r///r///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///mcfHn9bWn9bWpOPjn9XVk7e3n9XVn9XV
+k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVmsfHj6qqlLm5mcbG
+ntTUkra2ntTUntTUlLi4ntTUntTUntTUoKmp8vLy////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////vcbGn9XVn9XVk7e3n9XVn9XV
+lLm5n9XVn9XVn9bWqvLyr///r///n9bWr///r///k7e3r///r///n9bWr///r///r///lLi4jqmp
+mcbGmMXFmcbGr///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///
+r///n9bWpOPjr///r///n9bWr///r///ndPTr///r///n9bWr///r///pOTkn9bWr///r///n9bW
+r///r///ndPTr///r///mcfHr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///
+n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+iZubr///pOPjqvLyn9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///
+r///ndPTqvLylLi4lLi4r///r///lLi4n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+lLm5////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////mcfHr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///
+r///ndPTr///r///n9bWr///r///r///n9bWqvLyqvLyndPTpOPjr///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///qvLymcfHr///r///n9bWr///r///ndPT
+r///r///n9bWr///r///peTkpOTkr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///
+n9bWr///r///mMXFqvLyr///n9bWpOTkmcbGr///n9bWr///r///n9bWr///r///ndPTr///r///
+n9bWpOTkr///r///lLi4ntTUjqmpmMXFpOTkn9XVlLm5r///r///r///n9bWr///r///k7e3r///
+lLm5mMXFr///r///n9bWr///r///r///n9bWr///pOTkndPTiZubmcfHjqmpr///r///r///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///1tbW////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////qsXFr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///ntXVr///r///ndPTr///pOPjlLm5n9XViZubn9XVlLm5
+n9XVn9XVk7e3n9XVn9XVk7e3mcbGjqmpjqmpntTUntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4
+ntTUntTUmcbGlLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVfn5+msfHn9XVn9XV
+lLm5n9XVlLi4k7e3n9XVn9XVlLm5n9XVn9XVn9XViZycjqqqn9XVk7e3n9XVn9XVlLm5n9XVn9XV
+n9XVlLm5n9XVn9XVlLm5msfHmsfHk7e3n9XVn9XVlLm5n9XVn9XVn9XVn9bWqvLymcfHiZubjqqq
+n9bWlLi4lLm5n9XVn9XViJqamcbGntTUjqmplLi4iZubiJqantTUntTUlLi4ntTUk7e3k7e3lLi4
+k7e3ntTUjaiojqmpjqmplLi4ntTUntTUntTUlLi4ntTUntTUkra2n9XVn9XVlLm5n9XVn9XVn9XV
+lLm5mcfH5OTk////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////4+PjocXFmcbGntTUkra2ntTUn9XVlLm5jqqqk7e3n9XVlLm5n9XVn9XVk7e3
+n9XVn9XVk7e3iJqamcbGn9bWr///pOPjr///n9bWr///r///ndPTr///r///mMXFr///mcfHmcfH
+r///r///n9XVn9bWr///r///ndPTr///r///n9bWr///r///r///n9bWmcbGr///n9bWr///qfHx
+ndPTr///r///n9bWr///r///g4yMmcbGntXVr///n9bWr///n9XVndPTr///r///iZubr///r///
+r///lLm5mcfHr///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWmcbGjqmpndPTr///
+r///n9bWr///r///r///n9bWr///mcbGr///jqqqlLm5n9XVn9bWr///r///n9bWr///r///n9bW
+qfLyjqmpiZubpOTkr///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///
+n9bWr///r///ndPTr///n9bWlLi4n9bWr///r///r///r///1tbW////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////s8XFr///iZubr///ndPT
+r///r///n9bWmcbGndPTr///mcbGr///pOTkmMXFr///r///ndPTmcbGmcbGn9bWr///r///r///
+n9bWr///r///ndPTr///r///lLm5r///r///n9bWr///r///n9XVn9bWr///r///k7e3r///pOTk
+mcbGpOTkr///r///n9bWpOPjr///n9bWr///qfHxndPTr///mcbGn9bWr///r///mcbGjqmppOTk
+r///n9bWr///r///ndPTr///r///lLm5r///r///r///lLm5r///r///ndPTr///r///n9bWr///
+r///pOTkqvLyr///r///n9bWpOPjmcbGndPTr///r///n9bWqvLyn9XVn9XVlLi4k7e3mcbGlLi4
+pOTkr///n9bWr///r///n9bWr///r///r///lLi4k7e3ntTUmMXFr///r///n9bWr///r///r///
+n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///r///n9bWr///
+r///r///r///uLi4////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////r7i4r///n9bWmsfHiZubmMXFr///n9bWr///ndPTr///r///r///r///
+ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///mMXFn9XVn9XViZycn9XVn9XV
+lLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVlLm5mcfHjqmpntTUntTUlLi4ntTUntTUlLi4ntTU
+ntTUkra2ntTUntTUlLi4ntTUntTUntTUiZubntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4ntTU
+ntTUntTUlLi4ntTUmcbGkra2ntTUntTUlLi4ntTUntTUntTUlLi4ntTUntTUlLi4ntTUntTUkra2
+ntTUntTUlLi4mcbGntTUqvLylLi4mcbGmcbGg4yMntTUntTUk7e3ntTUntTUlLi4ntTUntTUn9XV
+lLm5fn5+lLi4k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XV
+k7e3lLm5n9XVn9XVk7e3n9XVn9XVn9XVlLm5r///r///r///r///1tbW////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////osfHn9XVmsfHj6qq
+k7e3mMXFmcbGmcbGntTUkra2ntTUntTUntTUntTUkra2ntXVn9XVlLm5n9XVn9XVlLm5n9XVn9XV
+n9XVlLm5n9XVn9XVmMXFr///r///n9bWr///r///pOTkpOTkr///r///n9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///mMXFr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///pOPjndPTr///r///n9bW
+r///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///pOPjiJqan9bWr///r///
+mMXFr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///
+r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///jqmpr///n9bWr///lLm5
+lLi4j6qqn9XVn9XV1tbW////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////1tbWn9bWr///r///r///r///n9bWpOPjr///ndPTr///r///r///
+r///ndPTr///r///n9bWr///r///pOTkpOTkr///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///mcbGndPTr///r///n9bWr///r///r///n9bWr///r///mcbGr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWqvLyr///mcbGn9bWr///r///
+ndPTr///r///n9bWr///r///qvLylLm5r///r///ndPTr///r///ndPTr///r///n9bWr///r///
+ntTUn9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTqvLyqvLyn9bWpOTk
+ntTUr///n9bWr///r///r///qvLyn9bWpOTklLi4pOPjmcfHr///mcfH8vLy////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////x8fHpOTkqvLy
+r///r///r///n9bWpOPjr///ndPTr///r///qvLypOPjndPTr///r///n9bWr///r///pOPjn9bW
+r///r///n9bWmcbGpOTkndPTr///r///n9bWr///r///r///n9bWr///r///n9bWqvLyn9XVk7e3
+n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+lLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XV
+lLm5n9XVn9XVlLm5msfHn9XVmsfHlLm5n9XVn9XVk7e3n9XVn9XVlLm5iZubn9XVn9XViZycn9XV
+n9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVlLi4lLm5n9XVqvLyndPTn9XVlLm5hI2Nn9XV
+r///r///mcfHk7e3n9bWndPTqvLypOPjn9bWqvLypOPjr///lLm5n9XVlLm5msfHn9XVr///mcfH
+r///r///mcbGr///vcbG////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////nLe3r///lLm5n9XVn9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XV
+n9XVmsfHkra2ntTUntTUlLi4ntTUntTUk7e3lLi4ntTUntTUlLm5n9XVn9XVk7e3n9XVn9XVlLm5
+n9XVn9XVn9XVlLm5n9XVn9XVjqmppOPjr///ndPTr///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWmcbGr///ndPTr///r///ndPTr///r///
+n9bWr///mcbGr///n9bWr///r///ndPTr///r///n9bWr///r///n9bWmcbGpOTkmcbGn9bWr///
+r///ndPTr///pOTkjqmpqvLyr///r///n9bWr///r///ndPTr///pOTkmMXFn9bWn9bWn9bWr///
+r///r///n9bWpOTkjqmpk7e3qvLyr///n9bWiZubn9XVk7e3n9XVn9XVn9XVk7e3n9XVn9XVlLm5
+n9XVn9XVn9XVn9bWr///qvLyn9bWpOTklLi4n9bWr///r///l6mprre38vLy////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////xsbGkpub
+mcfHr///n9bWr///r///r///n9bWr///r///n9bWr///mcbGndPTr///r///n9bWr///r///r///
+n9bWr///r///ntTUr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+ndPTpOTkmcbGn9bWr///r///r///n9bWn9XVqvLyndPTr///r///ndPTr///r///n9bWr///jqmp
+r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///pOPjr///n9bWr///pOPjndPTr///
+r///n9bWr///r///n9bWr///r///pOTkn9bWr///r///ndPTr///jqmpn9bWr///r///r///n9bW
+r///mcbGk7e3r///r///ndPTr///r///n9bWr///r///jqmpn9bWqvLypOPjndPTr///r///n9bW
+r///r///mcfHr///r///r///ndPTr///pOPjn9bWr///r///r///lLm5n9XVlLm5r///pOTkiJqa
+mcbGntTUk7e38vLy////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////lLm5n9XVntXVn9bWr///n9bWr///r///r///n9bWr///r///
+lLm5n9XVlLi4mMXFr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWn9XV
+qvLyndPTr///r///ntXVqvLylLm5fn5+pOPjr///r///n9bWr///r///ndPTr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///mcbGndPTr///r///n9bWr///r///n9bWr///r///r///n9bW
+r///r///jqmpmcbGqvLyn9bWr///r///r///n9bWr///pOPjndPTr///r///jqmpn9XVmcbGjqmp
+n9XVn9XVn9XVn9bWr///r///mMXFmcbGntTUlLi4r///r///n9bWr///r///r///ndPTr///pOPj
+n9bWntTUntTUntTUntXVr///ndPTntXViZubqvLyr///ntXV1dXV////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////qsXFr///
+r///jqqqqvLyn9bWr///r///pOTkjqmpr///n9XVmMXFr///iJqak7e3n9XVn9XVlLm5n9XVn9XV
+n9XViZubntTUntTUkra2ntTUntTUkra2ntTUntTUlLi4mcbGk7e3ntTUiJqalLm5n9XVk7e3n9XV
+n9XVjqmpn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVr///n9bWpOPj
+n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3
+n9XVn9XVn9XVn9XVlLm5n9bWn9XVn9XVn9XVlLi4mcbGmcbGk7e3n9XViZublLm5iZyclLm5n9XV
+lLm5n9XVn9XVjqmpmcbGj6qqmcbGmcfHn9bWn9bWn9XVpOPjr///lLm5n9XVn9XVmMXFr///r///
+n9bWn9XVn9XVmcbGmMXFntTUntTUkra2ntTUntTUlLi4r///r///qvLyr///pOPjmMXFn9bWpOTk
+ntTUntTUuLi4////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////qsXFr///r///j6qqhI2NiZubn9XVn9XVn9XVlLm5n9XV
+qvLyndPTr///n9XVmMXFr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///mcfHr///
+jqmpn9bWr///r///r///n9bWr///r///mMXFpOPjr///n9bWlLm5r///n9bWr///r///r///n9bW
+r///r///ndPTr///r///n9bWr///r///n9bWr///r///k7e3n9bWr///r///ndPTr///r///ndPT
+r///r///n9bWpOTkr///r///n9bWr///r///ndPTr///r///n9XVr///qvLylLm5r///r///r///
+n9bWr///r///ndPTr///lLi4lLm5hI2NqvLypOTkn9bWr///r///n9bWr///r///k7e3k7e3ntXV
+n9bWn9XVlLi4jqmpn9bWr///r///ndPTr///r///n9bWr///r///pOTkiJqantXVr///ndPTpOPj
+r///n9bWr///r///mcfHg4yMpOPjr///n9bWpOTkpOTkndPTosbG////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////iJqa
+osbGn9XVn9XVjqmpmcfHr///r///r///n9bWr///r///mMXFn9XVpeTkk7i4r///r///n9bWr///
+r///r///n9bWqvLypOPjndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///mMXF
+pOPjr///n9bWhI2Nr///n9bWr///r///r///n9bWr///r///ndPTr///r///lLm5qvLyr///n9bW
+n9bWr///r///n9bWmcbGr///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///
+ndPTr///qvLyiZubiZubr///n9bWr///mcbGjaion9bWr///r///ndPTr///j6qqg4yMmcbGqvLy
+n9XVn9bWpOPjr///n9bWr///k7e3ndPTr///lLi4g4yMmcfHr///r///n9bWr///r///ndPTr///
+r///n9bWr///r///iZublLi4lLi4r///ndPTpOPjr///n9bWk7e3ntTUlLm5iZubr///r///n9bW
+r///qvLymcfHqvLy1dXV////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////rre3x8fHr///n9bWr///n9bWr///r///r///n9bW
+r///r///ndPTr///pOTkjqmpr///r///n9bWr///n9XVn9XVlLm5msfHlLi4k7e3n9XVn9XVlLm5
+n9XVn9XVlLm5n9XVmcbGntTUlLi4ntTUntTUkra2ntTUntTUlLi4mcbGntTUlLi4ntTUntTUntTU
+lLi4ntTUntTUk7e3n9XVlLm5iZyclLm5n9XVn9XVjqqqmcbGntTUlLi4ntTUntTUkra2ntTUjqmp
+j6qqjqmpntTUntXVk7e3n9XVn9XVlLm5n9XVn9XVmMXFr///qvLylLi4qvLyr///n9bWqvLyjqmp
+r///lLm5n9XVlLi4k7e3ntXVmcbGlLi4n9XVlLi4r///lLi4ntTUntTUlLi4ntTUjqmpkra2ntTU
+lLi4g4yMpOTkr///r///lLi4ntTUntTUkra2ntTUntTUlLi4lLi4lLi4mcbGlLi4n9XVn9XVk7e3
+n9XVn9XVk7e3r///r///jqmpk7e3n9XVn9XVg4yMmcfHmsfHj6qqn9XVs8XF////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////1dXV
+jqmpk7e3mcbGmcbGntTUlLi4ntTUmcbGntTUlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVlLm5
+n9XVqvLyr///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///lLi4lLi4r///
+r///mcfHr///pOTklLi4pOPjr///ndPTr///lLi4r///lLi4qfLyqfLyndPTjqmpr///n9bWpOPj
+qvLymMXFn9XVn9XVn9XVr///r///mcfHmcfHr///r///n9bWr///r///ndPTr///r///n9bWqvLy
+r///r///n9bWr///r///n9bWr///r///ndPTr///qvLylLm5r///r///r///n9bWr///pOTkk7e3
+r///r///n9bWn9XVr///r///n9bWr///r///ndPTr///r///ndPTr///k7e3lLi4qvLymcfHr///
+n9bWr///mcfHjqmpn9bWuNPT////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////y9TUpOTkpOTkg4yMr///r///qvLypOTkr///r///
+n9bWr///r///ndPTr///r///n9bWr///r///n9bWqvLyr///r///n9bWr///pOTkk7e3ntTUpOTk
+n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///
+r///n9bWr///r///ndPTr///r///n9bWqvLyr///r///n9bWr///r///n9bWr///r///mMXFn9XV
+qvLyiJqaqvLymcbGntTUmMXFpOTkr///n9bWk7e3pOTkndPTr///r///n9bWqvLylLi4iJqalLi4
+iZublLi4n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWntTUpOTkndPT
+r///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///ndPTntXVmcfHn9bWndPTjqmpqvLyn9bWr///ntXVmMXFjqmpl6mp////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////n9bWr///lLm5r///r///r///n9bWjqmpr///n9bWr///r///ndPTr///r///n9bWmcbGr///
+n9bWqvLyr///r///n9bWr///r///jqmpr///msfHn9bWpOTklLm5lLm5n9XVn9XVn9XVlLm5n9XV
+n9XVk7e3n9XVn9XVlLm5n9XVn9XVlLm5mcfHn9XVntXVlLi4ntTUntTUkra2ntTUntTUlLi4ntTU
+ntTUntTUlLi4n9XVn9XVlLm5n9XVn9XVjqmpntXVlLi4n9XVr///n9bWr///r///lLi4ntTUn9bW
+r///r///ndPTr///n9XViZubn9XVr///n9bWpOTkjqmpj6qqlLi4ntTUmcfHk7e3ntTUntTUlLi4
+ntTUntTUlLi4ntTUn9XVn9XVlLm5lLi4msfHk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XV
+k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVpOPjndPTr///r///ndPTlLi4r///n9bWr///pOTk
+n9bWn9bWr///r///ndPTlLm5mcfH8vLy////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////lLm5n9XVlLm5n9XVn9XVn9XVlLm5n9XV
+ntTUk7e3ntTUntTUkra2ntTUntTUlLi4ntTUntTUn9XVlLm5n9XVn9XVk7i4n9XVn9XVk7e3n9XV
+n9XVlLm5n9XVqvLyn9bWr///k7e3r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///mMXF
+r///r///n9bWn9XVn9bWqvLymcfHpeTkr///n9bWr///r///jqmpiZubn9XVn9bWr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///qfHx
+ndPTr///pOPjn9bWmcbGr///pOPjn9bWr///pOPjndPTr///r///r///r///ndPTr///r///r///
+lLm5n9XVn9XVn9XVjqmpn9XVn9XVlLm5n9XVn9XVjqmpmsfHn9XVn9XVn9XViZubr///lLm5rre3
+tMbGnLe3x8fH////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////osbGr///n9bWr///r///r///n9bWr///r///k7e3r///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTmcbGr///ndPTr///r///n9bWr///r///n9bWr///n9XVr///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///lLm5n9XVlLm5jqmppOPjr///mcfHr///iZyclLm5n9XVpOPjqvLy
+fn5+lLm5j6qqntXVr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+hI2Nr///r///n9bWr///r///r///n9bWr///qfHxndPTr///qvLyn9bWr///r///r///n9bWr///
+mcbGndPTr///r///iJqaqfLyndPTqvLypOPjr///n9bWpOPjqvLypOTkn9bWr///r///n9bWr///
+r///r///ntXVmcbGr///r///lLi4ntTUj6qqqvLyr///r///mcfHq8bGudTUrre3tMbGqamp1dXV
+8vLy////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////1dXVrre3osbGr///n9bWr///r///r///n9bW
+r///r///mMXFr///k7e3ndPTr///r///n9bWn9bWmMXFr///n9bWiZubr///ndPTr///r///ndPT
+r///r///n9bWr///r///r///n9bWr///r///n9bWntTUpOTkndPTr///pOPjn9bWr///pOPjn9XV
+iZubjqmpn9XVlLm5n9XVn9XViZublLm5n9XVlLm5n9XVn9XVn9XVlLm5n9XVqvLyg4yMhI2Nr///
+n9bWfn5+lLi4fn5+n9XVfn5+g4yMg4yMjqmpiZubiZyclLi4n9XVn9XVn9XVn9XVlLm5n9XVn9XV
+lLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XV
+n9XVk7e3n9XVqvLyn9bWr///r///r///n9bWr///r///ndPTr///r///pOPjr///ndPTn9bWk7i4
+r///n9bWntTUiZubj6qqpOTkn9bWk7e3n9bWr///mcbGr///r///n9XVlLi4qvLyn9bWr///n9bW
+pOTkr///r///mcfHr///r///ndPTn9XVlLi4iZubnbi48vLy////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+1tbWpeTkr///r///r///n9bWr///r///r///lLm5n9XVn9XVk7e3n9XVn9XVk7e3lLm5lLm5lLm5
+msfHk7e3ntTUlLi4jqmpntTUkra2ntTUntTUkra2ntTUntTUlLm5n9XVn9XVn9XVlLm5n9XVn9XV
+lLm5mcbGlLi4k7e3n9XVlLi4lLm5n9XVjqmpr///lLi4mcbGn9bWiJqaiJqapOTkndPTr///r///
+mcbGpOTkg4yMqvLyn9bWpOPjjqqqiZubn9XVjqmpn9XVpOPjlLi4n9XVg4yMiZubg4yMpOPjr///
+pOPjn9bWr///r///r///ndPTr///k7e3r///r///pOPjmMXFr///r///n9bWr///r///ndPTr///
+r///n9bWr///n9bWr///r///pOPjr///n9bWr///r///ndPTr///n9XVlLm5n9XVn9XVlLi4lLm5
+n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XViZubn9XVjqmpntTUlLi4
+ntTUntTUntTUmcbGntTUk7e3k7e3ntTUntTUlLi4r///r///r///lLi4ntTUmcbGiZubk7e3msfH
+hI2Nr///pbe3////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////vcbGwtTUs8XFlLm5n9XVn9XVn9XVk7e3n9XVn9XV
+n9bWr///r///ndPTr///r///n9bWqvLyqvLyn9bWr///r///r///n9bWr///r///ndPTr///r///
+mcbGr///r///mcfHpOTkr///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///
+r///lLm5n9XVqvLyndPTqvLyqvLyndPTr///r///mcfHmcbGpOPjr///lLi4k7e3mcbGqvLyr///
+ndPTr///r///r///r///iJqaiZubmcfHpOTkr///r///n9bWr///r///r///ndPTr///r///r///
+mMXFpOPjr///r///r///n9bWr///pOPjndPTr///r///n9bWr///n9bWr///r///r///r///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///
+n9bWr///r///n9bWqvLyjqmpr///ndPTr///n9bWr///r///r///n9bWr///r///ndPTr///r///
+lLm5n9XVn9XVn9XVn9bWr///r///mMXFpOPjr///k7e3r///r///p9XVoKmpn9XVoKmp8vLy////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////1tbW
+qvLyp9XVosbGn9bWntTUmcfHr///ndPTr///r///n9bWr///r///ndPTr///r///n9bWr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///
+r///mMXFr///r///ndPTr///r///n9bWr///r///n9XVj6qqntTUntTUmMXFn9XVr///ndPTr///
+r///n9bWr///r///lLi4hI2Ng4yMmcbGr///r///ndPTr///r///r///r///ndPTfn5+iZubn9bW
+r///r///n9bWr///pOPjqvLyndPTr///r///pOTkj6qqiJqar///r///r///g4yMpOTkmcbGndPT
+pOTkpOTkn9bWr///n9bWntTUntTUr///r///n9bWlLi4r///ndPTr///r///n9bWmcbGr///r///
+n9bWpOPjr///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWn9bWlLi4r///ndPTr///
+n9bWr///r///k7e3lLi4r///o+LindPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///lLi4r///r///r///n9bWr///jqmpr7i4////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////5OTkpOTkr///r///n9bWmcfHlLi4r///ndPTr///
+r///n9bWr///r///ndPTjqmpr///n9bWr///pOPjpOTkpOTkr///r///n9bWr///r///ndPTr///
+pOTklLi4r///r///lLm5mcfHiZubn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVlLm5lLm5r///
+peTkn9bWr///r///mcbGmMXFk7e3k7e3mMXFntTUmcbGjqmpmcbGntTUmcbGlLi4jqmpjqmpjqmp
+jqmpjqmpr///r///r///r///k7e3jqmpg4yMk7e3ntTUmcbGmcbGntTUk7e3mcbGmMXFmcbGpOPj
+lLi4r///mcbGntTUntTUmcbGmcbGntTUntTUk7e3ntTUntTUk7e3ntTUmcbGjqmpk7e3ntTUntTU
+lLi4ntTUntTUkra2ntTUntTUlLi4ntTUntTUntTUlLi4ntTUntTUk7e3ntTUntTUk7e3ntTUntTU
+mMXFmcbGntTUntTUk7e3lLi4g4yMmMXFmMXFn9XVlLm5n9XVn9XVjqqqjqqqn9XVn9XVk7e3n9XV
+jqqqfn5+mcfHn9XVn9XVlLm5lLi4n9XViZubpOTkr///lLi4r///r///r///qvLymcfHr///lLm5
+m5ubx8fH////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+vcbGmcfHn9XVn9XVlLm5n9XVn9XVn9XVk7e3n9XVmcbGmcbGmcbGntTUmMXFntTUmcbGmcbGntTU
+jaion9XVn9XVjqmpn9XVn9XVlLm5n9XVn9XVn9XVhI2Nn9XVn9XVk7e3qvLyr///n9bWr///r///
+r///n9bWr///r///ndPTr///r///n9bWpOTkmcbGlLm5n9bWr///mcfHlLm5r///r///ndPTr///
+r///n9bWk7e3r///r///n9bWiJqajqmpmcbGr///r///mMXFqfHxn9XVn9XVn9XViZubjqmpg4yM
+k7e3r///lLm5r///r///n9bWr///r///r///jqmpr///r///ndPTr///r///n9bWr///r///r///
+n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///
+pOTkpOTkr///r///n9bWr///r///ndPTr///r///ndPTr///r///r///mMXFlLm5hI2Ng4yMqvLy
+r///n9bWr///r///r///n9bWr///n9bWpeTkndPTr///n9bWr///r///n9XVn9bWr///qvLyg4yM
+lLm5n9XVk7e3mMXFlLi4lLi4mcbGjqmpn9XVlLm5lLi4lLm5////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////jqqqqvLyn9bWk7e3r///n9bWr///r///n9bW
+pOPjr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///lLi4n9bWr///pOTkpOTkr///
+r///lLm5r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///lLm5n9XVn9bWjqmpr///r///ndPTr///r///n9bWr///r///r///n9bWjqmpiZubiJqa
+j6qqmcbGmcbGfn5+qvLyntTUjqmpmcfHmsfHlLm5mMXFr///fn5+r///r///lLm5pOTkr///r///
+n9bWr///qvLymMXFr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///
+r///n9bWr///pOTkndPTr///r///n9bWr///r///n9bWqvLyk7e3ntXVn9bWr///r///ndPTr///
+r///mcfHr///r///n9bWn9XVjqmpr///jqmpn9bWr///n9bWmcbGpOTkr///n9bWr///r///k7e3
+ndPTr///n9bWr///r///r///n9bWr///qvLymcfHqvLyqvLyndPTqvLyjqqqmcfHr///r///n9bW
+r///r///n9bW////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////x8fHr///pOTkpOTkr///pOTkmcfHn9XVlLm5fn5+r///r///n9bWr///r///r///n9bWmcbG
+r///ndPTr///r///lLm5n9bWr///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///lLi4iZubn9XVn9XVj6qqpOPjr///lLm5n9XVn9XVk7e3
+n9XVn9XVlLm5mcbGntTUg4yMlLm5msfHjqmpg4yMn9bWqvLypOPjiZubn9XVlLm5iJqan9XViZub
+n9bWk7e3lLi4jqmppOTkntTUiJqak7e3ntTUntTUlLi4iJqamcbGiZubntTUntTUmcbGmMXFntTU
+ntTUlLi4k7e3ntTUkra2ntTUntTUlLi4mcbGn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVjqmpn9XV
+n9XVlLm5msfHhI2NlLi4lLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVlLi4hI2Nk7e3j6qqpOPjk7e3
+msfHn9XVlLm5fn5+n9XVr///n9bWr///msfHqvLyndPTr///n9bWr///r///r///n9bWr///r///
+n9bWqvLyqvLyndPTr///k7e3iZubr///r///n9bWntTUmcbGiZub////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////utXVr///r///n9bWr///r///n9bWpOPj
+r///mMXFn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVjaiontTUntTUlLi4ntTUntTUntTUlLi4
+ntTUntTUjqmpntXVn9XVk7e3n9XVlLi4lLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5
+qvLyr///r///iZubmcbGr///n9bWr///r///ndPTr///r///n9bWn9XVn9XVpOPjn9bWr///pOPj
+jqmpk7e3g4yMg4yMmcbGiZubpOPjk7e3r///pOTkjqmphI2NpOTkn9bWmcfHr///r///ndPTr///
+r///n9bWiZubn9XVjqmpr///qvLyiZubpOPjpOPjr///lLi4g4yMr///ndPTr///pOTklLi4r///
+qvLypOPjn9bWr///r///ndPTr///r///mMXFr///r///n9bWr///qfHxr///n9bWr///r///ndPT
+pOPjr///n9bWpOTkj6qqpOPjqvLyfn5+lLi4pOPjn9bWr///n9bWr///qvLyn9XVn9bWmcfHqvLy
+r///mMXFn9XVlLm5n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVntXVjaiontTUk7e3jqmpntTUntTU
+k7e3pOTkpOTkiJqa1dXV////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////qampl6mpmsfHjqmpn9XVn9XVntTUmcbGr///ndPTr///r///n9bWr///r///r///n9bW
+r///pOPjndPTpOTkpOTkn9bWr///pOPjr///n9bWr///r///ndPTr///r///ndPTk7e3lLi4n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///mMXFr///r///
+ndPTr///r///n9bWr///r///r///n9bWr///r///mMXFqvLymcfHmcfHg4yMntTUr///g4yMn9bW
+r///mMXFr///r///n9bWpOPjr///r///mcfHr///r///n9bWr///qvLymMXFr///r///mcfHr///
+pOPjr///iZublLm5r///ndPTr///r///n9bWr///pOTkk7e3n9bWr///r///jaior///r///ndPT
+r///r///n9bWr///r///r///n9bWr///r///ndPTmcbGqvLyn9bWmcbGiZubiZubiZubntTUpOTk
+n9bWqvLyr///n9bWr///r///r///jqmpn9XVn9XVn9XVpOPjr///ntXVr///r///n9bWmcbGr///
+r///n9bWr///r///mMXFr///qvLymcfHr///r///r///n9bWr///qvLyuNPT////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////5OTkp9TUqvLylLm5r///r///ndPT
+r///r///ntXVr///mcfHg4yMr///r///r///n9bWr///pOPjndPTr///r///n9bWr///pOPjr///
+n9bWr///r///ndPTr///r///ntXVr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWo+Lir///r///n9bWr///
+pOTkiZubmcbGjqmpiJqaiZubmcbGmcbGk7i4r///r///ndPTr///pOPjlLm5n9XVlLi4n9XVlLm5
+n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XViZubg4yMn9XVk7e3n9XVn9XVlLm5
+n9XVn9XVn9XVlLm5pOPjr///ndPTr///r///k7e3r///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///n9bWr///pOTkmcbGk7e3mcbGr///n9bWr///r///n9bWr///r///n9XVmMXFr///
+qvLyn9XVr///r///ndPTpOTkr///n9bWr///r///r///msfHlLi4lLi4ndPTr///r///n9bWr///
+r///mcbGg4yMmcbGj6qqs8XF////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////5OTkosbGn9XVlLm5n9XVqvLyndPTr///r///n9bWr///qvLymcfHr///r///r///
+n9bWpOPjn9XVk7e3lLi4n9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3ntXVntTUlLi4ntTUntTU
+lLi4ntTUntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4mcbGmcfHn9XVlLm5mcfHn9XVk7e3n9XV
+n9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3jqmpiZubg4yMn9XVn9XVlLi4lLm5
+hI2NlLm5k7e3n9XVqvLyn9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWpOTkmcfHk7e3n9XVn9XV
+k7e3n9XVn9XViZubiZubn9XVn9XVlLm5n9XVn9XVjqmpn9XVmcbGiZubqvLyr///iZubfn5+mcfH
+n9XVk7e3n9XVn9XVlLm5n9XVn9XVqvLyndPTr///qvLyiJqamcbGntTUkra2ntTUntTUlLi4ntTU
+ntTUntTUlLi4qvLyqvLyiZublLi4iJqajqmplLi4lLi4g4yMntXVr///n9bWqvLyx8fH////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////s8XFr///n9bWr///ntTU
+kra2mcfHn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5pOPjr///ndPTpOPjr///n9bWr///r///
+pOTklLi4r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///ndPTr///r///mcfHr///r///n9bWr///r///r///lLm5
+r///r///jqmpfn5+g4yMn9bWr///n9bWiZubn9bWr///r///ndPTr///r///n9bWr///r///qvLy
+n9bWpOTkmcbGn9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///lLi4qvLyr///r///n9bWr///
+r///ndPTr///r///n9bWn9XVk7e3mcbGmcbGr///lLi4jqmpr///r///n9bWn9XVn9XVn9XVk7e3
+ntTUntTUmMXFpOTkr///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///n9bWqvLy
+r///r///ndPTr///r///j6qqiZubn9XVr7i48vLy////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////ubm5pOTkiZubr///r///ndPTr///r///n9bWr///r///r///n9bWr///
+r///ntXVr///r///ndPTr///r///iZubr///r///r///n9bWr///r///ndPTr///r///lLm5r///
+r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///qvLyn9bWr///pOPjndPT
+pOTkpOTkn9bWn9bWlLi4g4yMqvLyqvLyr///fn5+r///r///ndPTntXVmcfHlLm5r///r///n9XV
+n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///pOPjn9bWr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWlLi4jqmppOTkn9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bW
+r///mcbGr///iZubpOTkr///hI2Nn9bWlLi4lLm5iZubr///ndPTr///qvLyjqmpmcbGlLi4jqmp
+iZub5OTk////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////1tbWr///r///qvLyntXV
+lLi4jqmpr///r///n9bWr///r///r///n9bWpOTkpOPjndPTr///r///mMXFr///r///n9bWr///
+r///r///n9bWr///pOPjk7e3n9XVn9XVg4yMn9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XVmcfHk7e3
+ntTUk7e3lLi4ntTUntTUmcbGlLi4ntTUntTUkra2ntTUntTUlLi4ntTUjqmplLi4mcbGmcbGntTU
+jqmpntTUk7e3jaiontTUntTUj6qqjqmpn9XVn9XViZycn9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XV
+n9XVlLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVlLi4lLm5n9XVn9XVg4yMlLm5n9XVn9XVk7e3n9XV
+n9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XViZubn9XVn9XVk7e3ntTUntTUlLi4ntTUntTUntTUlLi4
+ntTUntTUiJqantTUntTUlLi4g4yMiZubntTUiZubntTUntTUkra2ntTUntTUkra2ntTUntTUmcbG
+mcbGntTUntTUjqmpn9XVn9XVk7e3n9XVmcfHiZubn9XVlLi4n9XVlLm5n9XVn9XVlLm5n9XVmMXF
+jqmppOPjpOPjlLi4lLi4mcfHiZubn9XVn9XVqvLyr///1tbW////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////8vLyqqqqn9XVn9XVn9XVk7e3mcfHkra2ntTUntTUlLi4ntTUntTUntTUlLi4
+mcbGk7e3k7e3n9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVj6qqlLm5n9XVqvLyndPTr///r///n9bW
+r///r///r///n9bWr///r///mcfHn9bWmcbGndPTr///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///lLi4k7e3r///r///n9bWpOPjr///
+g4yMiZubjqmpr///ndPTr///jqmpn9bWpOTkpOTkr///n9bWr///r///n9bWr///r///ndPTr///
+pOPjn9bWr///r///n9XVn9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///k7e3
+iZubr///mMXFr///r///lLm5r///r///r///mcfHqvLyr///iJqar///mcbGlLm5n9XVmcbGpOTk
+j6qqr///r///mMXFr///r///ndPTr///r///n9bWr///r///pOPjn9bWr///jqmpndPTr///pOPj
+lLm5r///r///r///n9bWr///r///ndPTr///k7e3ntTUntXVntTUpOTkpOTkr///r///n9bWr///
+lLi4r///x8fH////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////x8fHr///r///r///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bW
+qvLyr///iZubn9bWr///mcbGk7e3j6qqr///n9bWpOPjqvLyr///lLi4n9bWr///ndPTr///r///
+ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///pOPjn9bWr///r///qvLyn9bWr///
+r///n9bWpOPjn9bWndPTr///r///n9bWr///r///n9XVn9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWmcbGr///lLm5r///r///ndPTr///r///n9bWpOPjr///r///n9bWr///r///ndPT
+r///r///n9bWr///r///r///fn5+r///r///ndPTr///r///mMXFr///r///lLm5r///r///r///
+mcfHqvLyr///ndPTjqmplLi4iZubr///ntXVlLi4mcfHpOPjk7e3mMXFntTUmMXFjqmpr///r///
+lLi4pOTkr///pOPjn9bWr///r///ndPTr///r///n9bWpOTkr///r///n9bWr///r///ndPTr///
+mcbGk7e3ntTUr///n9bWqvLyr///r///n9bWr///n9bWpeTksNTU////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////s8XFqvLyr///r///mMXFr///r///ndPTr///pOPjn9bWr///r///r///
+n9bWr///r///ndPTr///mcbGn9bWpOTkpOTkr///n9bWr///r///n9bWr///r///mMXFn9XVr///
+n9bWpOPjr///r///n9bWr///r///ndPTqvLyn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XV
+n9XVmMXFr///mcbGn9bWn9XVmcfHn9XVlLm5n9XVn9XVlLm5g4yMntTUkra2ntTUntTUlLi4k7e3
+ntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4ntTUntTUntTUlLi4ntTUntTUiZubntTUntTUkra2
+k7e3ntTUlLi4k7e3ntTUntTUlLi4ntTUntTUkra2ntTUk7e3iZubntTUntTUntTUlLi4ntTUntTU
+kra2ntTUntTUkra2ntTUntTUlLi4ntTUntTUntTUlLi4mcbGn9XVk7e3msfHiZubj6qqr///r///
+jqmpk7i4iJqapOTkk7i4jqmpiZubjqmpn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVr///ndPTr///
+r///n9bWr///r///r///n9bWr///r///ndPTqvLypOPjmcbGr///r///n9bWr///r///r///n9bW
+r///r///n9XVlLm5////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////5OTkpOTkmcbGr///
+ndPTpOPjn9XVk7e3n9XVlLi4lLm5n9XVn9XVn9XVlLm5n9XVntTUkra2ntTUmcbGiZubntTUntTU
+ntTUlLi4ntTUntTUlLi4mcbGn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3pOPj
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///mMXFn9XVn9XVlLm5r///r///r///n9bW
+r///r///r///k7i4r///iJqar///r///n9bWr///ntXVn9XVn9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWjqmpr///
+mMXFmcbGiJqaiZubr///r///r///lLm5qvLyr///mMXFr///r///ndPTr///r///n9bWr///r///
+r///n9bWr///r///ndPTr///hI2NqvLyr///r///lLi4iZubn9XVqvLyn9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWqvLyn9XVk7e3n9XVn9XVlLm5n9XVmsfHmsfHlLm5n9XVn9XVk7e3
+n9XVn9XVk7e3ntTUmcbGjqmpntTUntTUntTUlLi4ntTUntTUlLi4l6mp////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////l6mpn9XVn9XVk7e3pOPjr///n9bWr///r///n9bWpOPjr///
+r///n9bWr///r///ndPTr///r///n9bWr///lLi4r///n9bWr///r///mMXFr///r///ndPTr///
+r///n9bWr///r///r///n9bWpOPjr///ndPTr///r///mcbGr///r///n9bWr///r///r///jqmp
+pOTkr///ndPTr///r///n9bWr///r///r///n9bWr///r///ntXVmcbGr///ndPTr///r///n9bW
+lLm5iZublLm5mcfHr///qvLyjaiopOTkr///n9bWlLi4r///r///n9bWpOPjqvLyn9bWr///r///
+ndPTqvLyjqmplLi4pOTkr///mcbGn9bWr///r///ndPTqvLyk7e3n9bWr///r///r///lLm5qvLy
+mcbGn9bWr///pOTkjqmpr///qvLylLm5r///r///mcbGn9bWr///jqmpmMXFr///iZubfn5+r///
+r///mcbGlLi4ntTUntTUn9bWr///r///ndPTr///r///n9bWr///r///ntTUn9bWr///r///ndPT
+n9bWk7e3n9bWr///qvLypOPjn9bWr///r///mcfHqvLyqvLyndPTr///qvLymcfHr///mcbGr///
+n9bWqvLyqvLyr///osbG////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////4+Pjx8fHlLm5pOPjqvLy
+r///ndPTr///r///n9bWr///r///r///mcfHr///r///n9bWr///r///ndPTr///r///n9bWr///
+lLi4jqmpn9bWr///r///ndPTr///r///ndPTr///r///n9bWpOTkr///r///n9bWr///r///ndPT
+r///r///n9bWr///k7e3jqmpr///r///pOTkn9bWn9bWn9XVmMXFlLi4qvLyn9bWn9XVn9XVn9XV
+lLm5n9XVmcfHjqmpmcbGmcbGk7e3n9XVn9XVlLm5lLm5r///pOPjk7i4n9XVfn5+iZublLm5n9XV
+lLm5iZycn9XVn9XVlLm5lLi4msfHlLm5n9XVn9XVk7e3lLi4ntXVr///j6qqn9XVn9XVlLm5n9XV
+n9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVmsfHiZycn9XV
+n9XVn9XVlLm5n9XVpOPjntTUr///n9XVfn5+mcfHr///iZubjqmpk7e3r///n9bWr///r///k7e3
+r///r///n9bWqvLyr///pOPjn9bWr///r///ndPTr///r///n9bWr///r///pOTkpOTkr///r///
+n9bWmcbGpOTkndPTr///r///n9bWr///r///r///n9bWr///r///r///pOTk5OTk////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////kpubq8bGn9bWntXVmcbGntTUndPTpOTkpOTkn9bWr///r///r///n9bW
+r///r///lLi4n9XVn9XVk7e3n9XVn9XVlLm5n9XVfn5+mcfHiJqantTUntTUkra2ntTUntTUjqmp
+ntTUntTUlLi4ntTUntTUlLm5jqqqn9XVn9XVjqmpmsfHn9XViZyclLm5n9XVlLm5n9XVn9XVn9XV
+lLm5n9XVr///ndPTpOPjqvLyn9bWpOPjr///r///iZubr///jqmplLi4mcbGlLm5ndPTr///r///
+n9bWqvLyj6qqlLi4j6qqr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///
+r///ndPTntXVmcbGpOPjlLm5qvLyr///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///n9XVjqqqhI2Njqmpjqmp
+iZyck7i4lLm5pOPjk7e3r///lLm5iZubn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XV
+k7e3ntTUntTUlLi4ntTUntTUlLi4ntTUntTUntTUiJqantTUntTUkra2n9XVn9XVlLm5n9XVn9XV
+n9XVlLm5n9XVn9XVn9XVlLm58vLy////////////////////////////////////////////////
+////////////////////////////////////////////////////////2uPjoKmpr///lLi4k7e3
+ntTUmMXFjqmpn9XVn9XVn9XVmsfHjqmpn9XVlLm5n9XViZubmMXFr///pOPjndPTr///r///n9bW
+r///r///r///n9bWr///r///k7e3r///r///jqmpr///r///n9bWr///r///iZubjqmpr///r///
+k7e3qvLyr///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///
+r///n9bWr///mcbGn9bWmcbGmcfHndPTr///r///n9bWr///ntXVqvLyn9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///lLm5r///r///r///n9bW
+r///n9XVndPTr///r///n9bWr///r///n9bWjqmpr///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///pOPjmcfHiZubr///mcfHjqqqhI2Njqmpg4yMlLi4r///n9bWpOPjr///
+ndPTr///r///n9bWr///r///r///n9bWr///r///k7e3r///r///mcfHqvLypOPjn9bWr///r///
+jqmpjqmpr///r///ndPTr///r///mcfHiZubpOTkn9bWk7e3r///n9bWqvLyvcbG////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////osbGr///r///n9bWr///r///r///ndPTr///r///jqmpn9XVr///r///
+n9bWr///r///ndPTr///pOPjmcbGr///r///n9bWr///r///r///mcfHr///r///ndPTr///r///
+jqmppOTkmcbGpOTkpOTkr///n9XVlLi4r///r///ndPTr///r///n9bWr///r///qvLyn9bWr///
+r///n9bWr///r///ndPTmcbGr///n9bWr///r///r///n9bWr///r///lLi4r///r///ndPTr///
+r///n9bWr///g4yMr///n9bWr///r///ndPTr///r///n9bWr///r///r///mcfHntXVpOTkn9bW
+r///r///k7e3pOTkr///n9bWr///r///r///n9bWr///n9XVndPTr///r///n9bWr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWqvLyntXVn9bWqvLyn9bW
+r///fn5+n9bWr///pOPjqvLyr///n9bWr///r///ndPTr///lLi4iZubr///r///r///n9bWr///
+r///mMXFr///r///mMXFqvLypOPjn9bWr///r///qvLylLm5r///r///ndPTr///r///mcbGpOTk
+r///r///n9bWr///n9bWmcbG1tbW////////////////////////////////////////////////
+////////////////////////////////////////////////////////////s8XFr///r///n9bW
+r///r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///
+n9bWr///r///r///jqqqn9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVmcbGlLi4mcbG
+hI2Nkra2ntTUntTUlLi4ntTUntTUntTUjqmpmcbGntTUlLi4mcbGn9XVk7e3n9XVn9XVlLm5n9XV
+n9XVn9XVlLm5mcfHiZubmcfHn9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3
+n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+lLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3lLi4n9XV
+lLm5n9XVn9XVn9XVlLm5n9XVn9XVn9bWk7e3mcbGmMXFntTUmcbGjqmpntTUntTUntTUlLi4ntTU
+ntTUkra2ntTUjqmpg4yMntTUntTUntTUlLi4k7e3ntTUjaiontTUn9XVk7e3n9XVn9XVlLm5n9XV
+n9XVn9XVlLm5n9XVn9XVk7e3n9XVpOPjn9bWr///r///r///n9bWr///n9bWr///rre3////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////8vLyqqqqn9XVn9XVlLm5mcfHn9XVn9XVjaiontTUntTUlLi4ntTUntTU
+ntTUlLi4mcbGn9XVk7e3n9XVn9XViZubn9XVn9XVmcfHlLm5n9XVn9XVn9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///mcbGr///qvLyndPTr///r///n9bWr///r///r///iJqa
+jqmpr///n9bWr///r///ndPTmcbGr///n9bWr///n9XVr///jqmpn9bWmcfHr///r///r///ndPT
+r///r///n9bWr///r///r///n9bWr///jqmpndPTr///mcbGn9bWn9bWk7e3r///n9bWr///r///
+n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///mMXFr///r///
+n9bWr///r///pOTkn9bWr///r///ndPTpOPjr///n9bWjqqqiJqan9bWjqmpr///r///mcfHk7e3
+qvLyndPTr///r///iZubr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///ntTUr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///pOPjlLm5
+n9XVn9XVn9XVmMXFr///qvLypri45OTk////////////////////////////////////////////
+////////////////////////////////////////////////////////////q8bGlLm5r///r///
+n9bWqvLyr///r///n9bWr///r///n9bWr///r///pOTkmcbGr///r///ndPTr///r///n9bWr///
+r///n9bWk7e3r///r///n9bWr///r///ndPTr///r///n9bWr///r///qvLymcfHr///r///ndPT
+r///r///ndPTpOTkpOTkn9bWr///r///r///mcfHqvLyr///n9bWr///r///ndPTpOPjr///n9bW
+r///k7e3r///n9bWr///jqmpr///r///r///ndPTr///r///n9bWr///r///k7e3hI2Nr///pOPj
+ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///k7e3r///r///n9bWr///r///
+r///n9bWg4yMr///ndPTr///r///ndPTr///g4yMlLi4r///r///pOPjn9bWr///r///ndPTr///
+r///n9bWjqmpmcbGpOPjmcfHlLm5mcbGmcfHjqmpntXVndPTr///r///n9bWr///qvLyr///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///pOPjndPTr///mcbGmMXFr///r///r///ndPTr///osfH8vLy////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////s8XFqvLyn9bWqvLyr///n9bWr///r///r///n9bWr///r///qvLypOTk
+r///qvLymcfHr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///mcfHr///r///ndPT
+r///r///n9bWr///r///msfHjqqqn9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+j6qqntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4ntTUntTUntTUmcbGmcbGlLi4mMXFntTUntTU
+kra2ntTUntTUlLi4ntTUntTUntTUlLi4ntTUntTUkra2jqmpn9XVlLm5n9XVn9XVn9XVlLm5n9XV
+n9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5mMXFk7e3ntTUlLi4ntTUntTUkra2ntTUntTUkra2ntTU
+ntTUlLi4ntTUntTUntTUlLi4ntTUntTUkra2ntTUntTUmcbGqvLyn9bWpOPjlLm5lLi4qvLylLi4
+k7e3ntTUkra2ntTUntTUlLi4ntTUjqmpj6qqlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVlLi4n9XV
+lLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVn9bWr///r///r///n9bWr///r///ndPTr///r///
+ndPTr///r///qvLynLe31dXV8vLy////////////////////////////////////////////////
+////////////////////////////////////////////////////////////uNPTr///r///n9bW
+pOTkmcfHr///r///n9XVlLm5n9XVlLi4n9XVlLm5n9XVn9XVjqmpntTUntTUkra2ntTUntTUlLi4
+ntTUntTUntTUlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVqvLyn9bWr///r///
+ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///
+n9bWr///r///r///r///ntTUpOTkndPTr///r///mcbGr///r///n9bWr///r///mcbGn9bWr///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWmcbGr///ndPTr///r///n9bWpOPj
+r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///r///qfLyiZycn9XVr///n9bWiZubntXVn9bWr///r///ndPTr///r///n9bWr///r///r///
+n9bWmcbGr///ndPTr///r///n9bWpOTkjqmpk7i4pOTkr///r///n9bWr///r///ndPTr///qvLy
+lLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVn9XVmcbGtcfH4+Pj////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////rre3mcfHn9XViZublLi4n9XVk7e3iZubr///n9bWr///r///mcbG
+n9bWr///r///ndPTpOTkmcbGndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+mMXFr///r///mcfHqvLyr///r///n9bWr///mcbGk7e3r///r///k7e3mcbGr///n9bWr///ntTU
+ntTUn9bWr///qvLymMXFr///r///k7e3r///r///jqmpr///r///hI2Nr///mcbGqvLyjaior///
+r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+pOPjqvLyn9bWr///qfLyk7e3r///r///n9bWr///r///r///n9bWr///mcbGndPTr///r///ndPT
+r///r///n9bWr///r///r///n9bWr///r///ndPTr///pOTkpOTkn9bWr///r///n9bWr///r///
+n9bWr///r///ndPTr///r///n9bWr///pOPjr///n9bWr///r///ndPTr///r///n9bWpOTkmcbG
+mcfHr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///
+r///n9XVpbe3////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////n9bWr///
+mMXFqvLyr///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///mcfHr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///lLi4pOTkr///pOPjn9bWr///
+r///ndPTr///r///k7e3mcbGr///n9bWqvLylLi4lLi4lLm5n9XVlLm5iZubn9XVlLm5hI2Nn9XV
+n9XVlLm5n9XVn9XVn9XVn9XVlLm5k7e3iZubn9XVn9XVlLm5jqmpn9XVlLm5ntTUmcbGk7e3lLi4
+ntTUntTUkra2ntTUntTUlLi4mcbGmMXFntTUlLi4k7e3mcbGlLi4ntTUntTUkra2ntTUntTUlLi4
+ntTUntTUntTUlLi4ntTUntTUjqmpntTUntTUkra2ntTUntXVlLm5n9XVn9XVn9XVlLm5n9XVn9XV
+k7e3n9XVn9XVmcfHiZubn9XVn9XVlLm5n9XVn9XVlLm5iZubn9XVk7e3n9XVn9XVlLm5n9XViZub
+mcfHlLm5n9XVr///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///n9bWr///r///pOTkpOTkr///r///n9bWr///r///fn5+8vLy////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////r7i4qvLyr///ndPTr///r///mMXFr///r///n9bWr///r///
+r///lLi4qvLyn9XVk7e3n9XVn9XVlLm5n9XVn9XVlLm5n9XVmcfHntTUlLi4ntTUntTUkra2ntTU
+jqmplLi4ntTUntTUlLi4lLm5iZublLm5lLm5n9XVn9XVjqmpmsfHn9XVk7e3n9XVn9XVlLm5n9XV
+r///r///n9bWr///r///ndPTr///r///mMXFr///r///n9bWr///r///r///mcfHpOPjntXVk7e3
+r///r///n9bWr///r///n9bWr///lLm5mcfHlLi4r///r///ndPTjqmpr///n9bWpOTkntTUr///
+n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWk7e3n9bW
+ndPTr///r///n9bWr///r///r///n9bWr///n9bWk7e3lLm5lLi4mcfHr///ntTUr///n9bWr///
+r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///n9XVk7e3n9XVn9XVlLm5n9XV
+n9XVlLm5n9XVn9XVmcfHfn5+lLm5n9XVk7e3n9XVlLi4j6qqntTUntTUjqmpmcbGjqmpntTUlLi4
+ntTUntTUnLe3////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////lLi4mcbG
+k7e3kra2ntTUntTUlLi4n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVr///ndPTr///r///n9bWr///
+k7e3n9bWr///r///pOPjn9bWr///qvLyndPTr///n9XVn9bWr///r///pOTkqvLyr///r///n9bW
+r///r///ndPTr///r///ndPTr///r///n9bWr///r///r///jqmpn9bWr///ndPTr///r///n9bW
+r///r///n9bWr///r///n9XViJqajqmpmcfHndPTr///r///n9bWr///r///n9bWr///r///r///
+n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///qvLylLi4pOTkr///ndPTr///r///
+n9bWr///r///n9XVlLi4r///mcbGn9bWr///r///ndPTr///r///n9bWr///r///r///lLi4ntTU
+k7e3jqmpr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///
+r///qvLyn9bWr///r///ndPTr///r///iZubr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///pOPjn9bWr///r///n9bWr///r///r///n9bWr///r///n9bW////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////r7i4qvLyjaiopOPjndPTr///r///n9bWr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///pOTkpOTkmcbGhI2Nn9bWr///qvLyndPT
+r///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///qfHxndPTr///r///iZubr///r///n9bWr///r///iJqamcbGr///r///
+ndPTr///r///mcfHn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XV
+n9XVlLm5n9XVmsfHiZublLm5n9XVk7e3n9XVn9XVlLm5n9XVn9XViZubiZubn9XVn9XVlLm5n9XV
+n9XVk7e3n9XVn9XVlLm5n9XVqvLyr///n9bWr///ndPTndPTr///r///n9bWr///r///r///n9bW
+r///pOTkn9bWr///r///ndPTr///r///n9bWr///r///qvLyn9bWr///r///ndPTr///r///lLm5
+r///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ntTUr///r///n9bWr///r///r///
+mcfHr///qvLyr7i4////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////1tbWqvLyr///
+r///r///ndPTr///r///n9bWr///r///qvLyn9bWr///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///lLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLi4ntTUntTU
+lLi4ntTUntTUkra2ntTUntTUjqmpntTUntTUk7e3jqmpn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XV
+lLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVn9XVk7e3n9XVn9XVlLm5r///pOTkk7e3qvLyr///
+r///n9bWr///r///ndPTr///qvLymcfHr///r///r///n9bWr///r///n9bWntTUqvLyndPTr///
+r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///k7e3lLi4r///pOPjn9XVn9bW
+r///mMXFmMXFn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVn9XVlLm5mcfHhI2Nk7e3n9XVn9XVlLm5
+n9XVn9XVn9XVlLm5n9XVn9XVlLi4ntXVntTUk7e3ntTUntTUlLi4k7e3ntTUntTUlLi4ntTUntTU
+kra2ntTUntTUkra2mcbGn9XVlLm5n9XVn9XVn9XVjqqqn9XVpbe3////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////8vLyiZubiZubn9XVn9XVk7e3n9XVntXVlLi4ntTUntTUntTU
+lLi4ntTUntTUjqmpjqmpn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVn9bWr///r///n9bWr///r///
+ndPTr///r///n9bWr///r///r///n9bWpOTkntTUmcbGr///r///ndPTr///r///n9bWr///r///
+mcbGntTUr///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWiZublLm5jqmpr///r///
+r///ndPTr///r///n9bWqvLyr///r///n9bWr///r///n9bWr///r///ndPTr///pOTklLi4r///
+r///r///iZubpOTkr///n9bWr///r///ndPTr///jqmpn9bWr///r///r///n9bWr///r///n9bW
+r///r///ndPTr///k7e3hI2Nn9XVmcbGmcbGj6qqmcfHk7e3ndPTr///r///n9bWr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///mcfHpOPjr///
+ndPTr///r///n9bWpOPjr///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///
+r///mcfHvcbG////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////5OTkmcfH
+g4yMpOTkr///ndPTmcbGr///n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ntTUr///r///ndPTr///r///n9bWr///r///r///n9bWpOTk
+ntTUmMXFr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWpOPjqvLyndPTr///
+pOTkiZubr///r///n9bWlLm5qvLylLm5r///r///r///ndPTr///pOTkmcfHk7e3r///r///n9bW
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPT
+r///pOPjn9bWr///r///r///n9bWr///r///jqmpntXVr///ndPTr///jqmpn9bWr///r///qvLy
+iZubiZubpOPjndPTr///r///n9bWr///r///n9bWj6qqjqmpqvLyn9bWr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///lLi4ntTUr///ndPTr///r///n9bWr///r///ntXVmcbGqvLy
+n9XVmcbGmcfHpOTkndPTr///r///mcfHr///r///mcfH8vLy////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////vsfHmsfHntXVr///ndPTr///r///n9bWr///r///
+r///n9bWr///r///ndPTr///r///ndPTr///r///mcfHr///r///r///n9bWr///r///ndPTr///
+r///ndPTr///r///n9bWr///lLi4r///n9bWqvLyn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XV
+n9XVlLm5n9XVn9XVmcfHmcbGk7e3lLi4mMXFntTUmMXFmcbGntTUk7e3g4yMjqmpmcbGlLi4ntTU
+jqmpjaiomMXFntTUjqmpk7e3hI2Nn9XVlLm5n9XViZublLm5n9XViZubk7e3n9XVn9XVn9XVn9XV
+k7e3n9XVmsfHn9XVn9XVk7e3mcfHn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5
+n9XVn9XVn9XVlLm5jqqqmcfHn9XVn9bWr///qvLylLi4g4yMiZubn9XVn9XVn9XViZyclLm5n9XV
+k7e3mcfHj6qqiZubn9XVn9XViZubjqmpntTUntTUjqmpmcbGntTUmcbGlLi4jqmpmcbGiZubmcbG
+mcbGk7e3n9XVlLi4j6qqjqmpn9XVlLi4jqqqmsfHj6qqlLm5hI2NlLm5jqmpntXVn9XVg4yMmcfH
+w9XV4+Pj////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////n9bWiZubn9bWndPTr///n9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVntTUiJqamcbG
+ntTUk7e3ntTUmcbGntTUiZubmMXFmcbGn9XVlLm5n9XVn9XVj6qqlLm5n9XVn9XVk7e3n9XVn9XV
+lLm5r///r///r///n9bWr///r///ndPTr///qfHxmMXFr///r///n9bWr///r///r///n9bWr///
+ntXVndPTr///r///ndPTr///lLm5lLi4n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///n9bWr///pOPjndPTr///pOTkiZubntTUndPTj6qqjqmpr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWqvLymMXFqvLyr///n9bWr///
+r///qvLyiZubn9bWr///r///r///n9bWr///r///ndPTr///pOPjn9bWr///r///r///n9bWr///
+r///ndPTr///r///n9bWlLm5lLm5qvLyn9bWr///ntXVmMXFr///mcbGjqmpiZubr///pOTkqvLy
+qfHxr///mcfHpeTkn9XVg4yMjqmpj6qqr///x8fH////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////4+Pj1dXVr7i4r///mMXFn9XVn9XVlLm5n9XVr///r///
+fn5+n9bWr///mMXFr///r///mcbGr///r///n9bWr///r///r///n9bWr///mcbGndPTr///n9bW
+lLi4r///r///n9XVn9bWr///r///ndPTr///n9XVn9bWr///r///r///n9bWr///r///ndPTr///
+r///n9bWr///r///n9bWn9XVn9bWr///n9bWr///pOPjndPTr///r///k7i4ntXVlLm5r///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///qvLy
+pOPjndPTjqmplLi4r///r///ndPTr///pOTkj6qqr///r///r///n9bWr///r///ndPTr///mcbG
+n9bWr///r///n9bWr///ndPTr///jqmpqvLyr///ntTUntTUk7e3n9bWr///r///r///n9bWr///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///ntTUr///r///ndPTr///r///n9bWr///ndPTr///n9bWr///n9XVfn5+lLi4r///r///
+wtTU////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////8vLynLe3
+r///r///r///k7e3r///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///
+pOTkpOTkr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///ndPTr///qvLyg4yMmcfHn9XVlLm5iZycmsfHn9XVlLm5
+n9XVn9XVk7e3n9XVn9XVjqmpiZycjqqqn9XVlLi4ntTUntTUkra2ntTUntTUlLi4mcbGntTUntTU
+lLi4ntTUntTUlLi4ntTUntTUkra2ntTUntTUmcbGntTUmMXFntTUmcbGntTUntTUkra2ntTUlLi4
+iZubntTUntTUntTUlLi4ntTUntTUiJqamcbGntTUlLi4mcbGk7e3lLi4ntTUjaiopOTkn9bWn9XV
+n9XVk7e3ntTUmMXFlLi4mcbGmcbGntTUlLi4ntTUntTUkra2ntTUntTUlLi4ntTUntTUntTUj6qq
+n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5r///r///ndPTmcbGr///n9bW
+r///r///r///n9bWr///r///ndPTlLi4iJqamcfHs8XF////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////8vLyqsXFr///r///r///ndPTr///r///n9bWr///r///
+r///n9bWr///r///ndPTpOPjn9XVfn5+n9XVn9XVn9XVlLm5n9XVn9XVj6qqn9XVn9XVkra2ntTU
+ntTUlLi4ntTUntTUntTUlLi4ntTUntTUjaion9XVn9XVlLm5n9XVn9XVn9XVlLm5lLm5jqqqk7e3
+n9XVpOPjn9bWr///r///r///n9bWr///r///n9bWr///qvLymMXFr///r///ntXVr///r///r///
+n9bWqvLyqvLyndPTr///r///n9bWqvLyr///r///n9bWr///r///n9bWr///r///ndPTr///mcbG
+n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///iZubpOTkr///iJqapOPj
+r///n9bWr///r///n9bWr///lLi4n9XVlLm5r///r///ndPTr///r///n9bWpOTkqvLyr///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTpOTkpOTkn9bWr///r///n9bW
+pOPjr///r///mcfHn9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVjqqqmsfHn9XVjqmpn9XVg4yM
+g4yM8vLy////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////5OTk
+ocXFmcbGntTUntTUkra2ntTUntTUlLm5n9XVn9XVn9XVlLm5n9XVn9XVjqmpmcfHr///n9bWr///
+r///r///iZubr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///r///n9bWpOPjr///r///n9bWqvLypOPjndPTr///r///n9bWr///r///r///n9bWr///r///
+n9bWr///qvLymMXFr///r///k7e3r///k7e3pOTkn9bWqvLyqvLyndPTr///r///n9bWr///r///
+r///n9bWr///r///ntXVr///r///ndPTr///pOPjn9bWr///r///r///n9bWr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///mcfHr///n9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTpOTkntXVn9bWr///r///qvLy
+n9bWr///jqmpndPTr///r///n9bWr///r///pOTkmcfHr///r///n9bWr///r///ndPTr///mcbG
+n9bWntTUr///r///lLm5qvLyr///mMXFr///r///x8fH////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////5OTkpOTkn9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///mMXFpOTkr///n9bWr///r///r///n9bWr///r///ndPTr///r///mcbG
+r///r///n9bWr///r///r///mcfHqvLypOTkk7e3r///r///n9bWmcbGr///r///n9bWr///r///
+ndPTr///r///n9bWr///pOTkpOTkn9bWr///r///n9bWr///r///ndPTr///r///k7i4mcfHj6qq
+n9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XV
+n9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVntTUkra2
+ntXVn9XVlLm5n9XVn9XVlLm5n9XVk7e3k7e3lLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+iZublLi4n9XVk7e3msfHlLi4lLm5n9XVn9XVmsfHlLm5n9XVqvLyndPTr///r///n9bWr///qvLy
+lLm5qvLyr///r///n9bWpOPjr///ndPTr///pOPjn9bWr///r///r///n9bWr///r///mMXFr///
+mcfH////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+oKmpr///mMXFr///r///ndPTiJqar///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///mcbGk7e3pOPjn9XVlLm5n9XVn9XVlLm5n9XVn9XVn9XVjqqqg4yMjqmp
+jaiontTUntTUlLi4ntTUntTUntTUiZubntTUn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XV
+n9XVk7e3mcfHn9XVk7e3n9XVn9XVmcfHr///r///r///n9bWr///r///ndPTn9bWlLm5n9bWr///
+r///r///n9bWr///r///ndPTr///r///k7e3r///r///n9bWr///r///r///n9bWr///r///k7e3
+pOTkr///n9bWr///r///r///n9bWr///r///ndPTr///r///ntTUr///r///n9bWr///r///n9XV
+r///ndPTntXVjqmpr///r///n9bWr///r///r///n9bWr///r///ndPTk7e3mcfHn9bWqfHxr///
+r///n9bWr///n9XVk7e3n9XViZublLm5n9XVmcfHmcfHlLm5n9XVn9XVlLm5n9XVmcbGkra2ntTU
+ntTUlLi4ntTUntTUntTUlLi4qvLyqvLyk7e3q8bG2uPj////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////8vLyl6mpn9XVk7e3n9XVn9XVjqqqn9XVmcbGlLi4
+ntTUntTUntTUlLi4ntTUntTUkra2mcfHn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3qvLyr///
+n9bWr///r///qvLyn9bWr///iZubn9bWqvLypOPjndPTr///r///n9bWr///r///r///lLm5r///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///
+r///r///n9bWjqmpr///ndPTqvLymcfHn9bWr///r///r///n9bWr///r///k7e3r///r///ndPT
+r///r///n9bWr///r///r///n9bWr///r///mMXFqvLyr///n9bWr///r///r///n9bWr///r///
+ndPTr///r///ndPTr///qvLylLm5n9XVmcbGjqmpntTUmMXFqvLymMXFr///qvLymcfHr///r///
+r///n9bWr///r///ndPTlLi4lLi4n9bWr///r///r///n9bWr///r///ndPTpOTkg4yMn9bWr///
+r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///g4yMn9XVpri4x8fH1dXV////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////8vLy
+oKmpr///r///ndPTr///r///n9bWr///r///qvLyn9bWr///r///n9bWr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///mcbGr///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///mcfHpOPjr///r///n9bW
+r///r///mMXFr///r///ndPTr///r///iZubpOPjr///r///n9bWr///r///ndPTr///r///n9bW
+r///r///pOPjj6qqr///r///ndPTr///r///ndPTr///r///n9bWn9XVr///r///n9bWmcbGr///
+mMXFn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVlLm5iZubr///lLi4
+qvLyiZycndPTr///ndPTr///qvLymcfHr///r///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///qfHxmcbGr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///pOTkn9bWp9XV4+Pj////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////8vLykZqaqvLyr///r///ndPTr///r///n9bWr///r///
+r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+o+Lin9bWr///mcbGpOTkn9bWr///pOPjk7e3n9XVmcfHk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5
+ntXVntTUkra2ntTUntTUiJqafn5+ntTUntTUlLi4ntTUntTUiJqantTUntTUjqmpn9XVmcfHg4yM
+n9XVn9XVn9XVlLm5n9XVn9XVk7e3lLi4mcfHlLm5n9XVn9XVmcbGlLi4n9XVn9XVk7e3n9XVlLi4
+lLm5n9XVn9XVlLm5iZubn9XVn9XVlLm5k7e3k7e3mMXFpOPjr///n9bWpOTkmcbGr///n9bWr///
+n9bWmMXFr///r///ndPTr///qvLymcfHntTUlLi4lLm5lLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XV
+n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5j6qqn9XVjqmpntTUntTUkra2
+ntTUntTUlLi4ntTUntTUk7e3jqmpntTUmcbGk7e3ntTUmcfHpbe34+Pj////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////s8XF
+qvLyr///r///r///ndPTr///r///mcfHn9XViZublLm5lLm5n9XVn9XVk7e3n9XVmcbGkra2ntTU
+ntTUlLi4ntTUntTUntTUlLi4ntTUmcbGk7e3jqqqlLm5iZubn9XVn9XVn9XVlLm5n9XVpOPjndPT
+r///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///lLi4jqmpr///r///
+n9bWr///r///ndPTr///r///n9bWhI2Nr///n9bWr///r///r///n9bWr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWjqmpr///r///n9bWpOPj
+pOPjndPTpOPjr///n9bWqvLyn9XVpOTklLi4r///pOTkmMXFr///r///mMXFpOTkr///n9bWr///
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///mcbGndPTr///ntTUlLi4
+r///r///qvLyn9bWn9XVr///n9bWr///r///ndPTr///r///n9bWr///r///pOPjmcfHr///r///
+r///r///qsXF////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////kZqamcbGn9XVn9XVn9XVk7e3n9XVn9XVlLm5r///
+r///qvLyj6qqn9XVqvLyndPTr///r///mcfHr///r///pOTkpOTkr///r///n9bWr///r///ndPT
+pOTkmcbGlLi4r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///pOTkpOTkr///jqmp
+mcfHr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///mMXFqvLyr///n9bWr///r///
+n9bWr///r///r///n9bWpOPjr///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///n9bWlLm5r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///ndPTr///r///k7e3qvLyr///n9bWr///r///r///n9bWr///r///ndPTpOTkntTUn9bW
+r///r///r///n9bWr///r///ndPTr///pOPjmcfHr///r///n9bWr///r///r///n9bWqvLypOPj
+ndPTr///r///n9bWn9XVqvLyr///n9bWr///r///r///jqmp1tbW////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+rre3pOPjr///r///r///ndPTr///r///n9bWr///r///r///iZubpOPjn9bWndPTr///r///n9bW
+r///r///r///n9bWr///r///ntTUr///r///mMXFr///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTpOPjn9XVk7e3n9XVn9XVlLm5n9XVn9XV
+n9XViZublLm5n9XVjqmplLm5ntTUlLi4ntTUntTUlLi4ntTUntTUntTUlLi4k7e3ntTUjaiontTU
+ntTUlLi4ntTUntTUntTUlLi4ntTUntTUiJqantTUntTUlLi4mcbGntTUlLi4ntTUntTUk7e3lLi4
+mcbGn9XVk7e3n9XVn9XVlLm5g4yMn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5
+ntXVntTUntTUlLi4ntTUntTUkra2mcbGjaiomcbGmcbGntTUntTUlLi4ntTUntTUkra2ntTUntTU
+jaiontTUntTUlLi4ntTUntTUntTUlLi4mcbGjqmpk7e3n9XVn9XVlLm5pOTklLm5n9XVlLm5n9XV
+pOPjpOTklLi48vLy////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////8vLyl6mpqvLyn9XVn9XVjqmpr///r///n9bW
+r///mcbGr///lLi4mcbGmsfHndPTpOPjn9XVj6qqiZubn9XVn9XVlLm5iJqan9XViZublLi4ntTU
+k7e3ntTUntTUlLi4ntTUntTUntTUlLi4ntXVn9XVk7e3n9XVn9XViZubn9XVn9XVn9XVlLm5n9XV
+n9XVk7e3peTkpOPjndPTr///r///iZubr///r///r///n9bWr///r///ndPTr///r///n9bWr///
+r///pOTkqvLyr///r///n9bWr///r///mMXFr///r///n9bWr///r///r///n9bWr///r///jqmp
+n9bWr///n9bWr///r///pOTkqvLyr///r///n9bWr///r///ndPTr///r///n9bWn9XVr///r///
+n9bWr///r///ndPTr///r///ndPTr///r///n9bWmcbGr///r///n9bWr///r///ndPTr///n9bW
+r///n9bWqfLyjqqqn9bWr///r///mMXFr///r///ndPTjqmppOTkn9bWr///lLi4r///n9bWr///
+r///ndPTr///pOPjmcfHr///r///n9bWr///r///mcbGr///nLe3////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////xsbGfn5+qvLyr///n9bWntTUntXVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3pOPjr///
+n9bWqvLyr///r///n9bWn9XVr///ndPTr///r///n9bWr///qvLyn9bWr///r///r///n9bWr///
+r///ndPTr///r///n9bWr///r///r///n9bWiZubr///ndPTqvLypOPjndPTr///r///n9bWr///
+n9XVr///n9bWr///r///ndPTr///r///n9bWn9bWr///pOTklLi4r///r///n9bWr///r///ndPT
+r///r///n9bWr///r///r///n9bWr///r///mMXFr///r///n9bWr///r///r///n9bWr///r///
+n9bWmcbGntTUndPTr///r///n9bWr///r///r///n9bWr///qvLymMXFr///r///ndPTr///r///
+n9bWr///r///r///n9bWr///r///k7e3r///n9bWpOTkpOTkr///pOPjn9bWr///r///n9bWr///
+o+LindPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///mcbGjqmpr///r///n9bWg4yM
+pOTkmcbGn9XVs8XF////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////x8fHpOTkr///n9bWr///r///
+qvLypOTkr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///n9bWr///qvLyn9bWqvLyr///r///n9bWr///r///ndPTpOPjr///n9bWpOTkr///r///n9bW
+r///r///ndPTr///r///ntTUr///r///n9bWr///n9XVr///n9bWr///r///ndPTr///lLi4lLm5
+n9XVn9XVn9XVlLm5n9XVmcfHjqmpn9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XV
+k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVj6qqlLm5k7e3k7e3k7e3n9XVlLm5ntTUntTU
+ntTUlLi4ntTUjqmpiJqantTUntTUk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XV
+lLm5lLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5
+n9XVn9XVk7e3qvLyr///n9bWr///r///n9bWr///lLm5qvLymcfH1dXV////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////5OTkn9bWr///n9bWr///r///r///lLm5r///r///mcfHr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5
+jqmpntTUkra2k7e3ntTUlLi4mcbGntTUntTUlLi4ntTUntTUkra2mcfHn9XVlLm5n9XVn9XVlLm5
+n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVqvLyn9bWr///r///r///n9bWr///r///jqmpr///r///
+ndPTr///r///n9bWpOTkk7e3pOTkn9bWr///r///iJqar///r///n9bWn9XVr///pOPjn9bWr///
+r///n9bWr///r///ndPTr///r///iZubr///r///r///n9bWr///r///ndPTr///r///ndPTr///
+r///n9bWn9XVr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///lLm5
+r///r///ndPTpOPjr///n9bWr///r///r///n9bWr///r///ndPTpOPjn9XVfn5+n9XVn9XVn9XV
+lLm5qvLypOTkx8fH////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////hI2Nn9XVlLm5mcbG
+ntTUntTUiZubntTUntTUkra2ntTUntTUjaion9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVndPT
+r///r///n9bWr///qvLyr///n9bWr///r///n9bWpOPjr///ndPTr///r///n9bWr///r///r///
+lLm5r///r///ndPTr///r///n9bWr///r///n9bWqvLyr///r///n9bWr///r///jqmpr///r///
+n9bWr///r///r///n9bWr///r///mcbGr///r///ndPTr///r///n9bWr///n9XVr///n9bWr///
+r///ndPTr///r///n9bWr///r///ntTUn9bWr///r///n9bWqvLyn9XVndPTr///r///n9bWr///
+r///r///lLi4mcbGr///ndPTr///r///ndPTr///r///n9bWj6qqr///r///n9bWr///r///ndPT
+r///r///mcfHqvLyr///r///n9bWr///r///lLm5r///r///ndPTiJqar///n9bWr///r///mcfH
+n9bWr///r///ndPTr///r///lLm5r///r///r///n9bWr///n9bW8vLy////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////jIyMqvLyn9bWr///r///r///n9bWr///r///ndPTr///r///ntXV
+r///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///ntXVr///lLm5r///r///
+n9bWr///r///ndPTr///r///n9bWr///r///r///lLm5qvLyr///ndPTr///r///n9bWr///pOPj
+r///n9bWr///r///n9bWr///r///jqmpr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///mMXFntXVr///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///qvLyn9XVlLm5
+jqqqn9XVlLm5lLm5lLm5k7e3n9XVn9XVlLm5r///r///r///n9bWpOPjr///mMXFn9XVn9XVk7e3
+n9XVr///n9bWn9XVn9XVn9XVlLm5n9XVn9XVmMXFr///r///mcfHr///r///r///n9bWr///r///
+n9bWr///r///ndPTk7e3r///n9bWr///r///qfHxn9bWr///r///ndPTr///r///n9bWr///r///
+r///jqmpntTUjqmp////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////8vLyosbGn9bW
+r///r///r///lLm5r///r///ndPTmcbGr///n9bWr///qvLylLm5qvLyr///qvLyn9bWr///r///
+ndPTn9bWjqmpn9bWr///r///r///j6qqpOPjn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XV
+n9XVlLi4ntTUntTUkra2ntTUntTUlLi4ntTUk7e3ntTUlLi4ntTUntTUlLi4ntTUntXVk7e3n9XV
+n9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5
+n9XVn9XViZublLm5n9XVlLm5n9XVpOPjr///n9bWr///r///n9bWr///r///ndPTr///r///n9bW
+ntTUntTUntTUlLi4ntTUntTUmMXFr///r///r///n9bWr///n9bWr///r///r///n9bWqvLyr///
+mMXFn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVjqmp
+j6qqlLm5n9XVn9XVk7e3n9XVn9XVlLi4ntTUntTUntTUn9bWr///uNPT////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////5OTkiZubj6qqn9XVn9XVn9XViZycn9XVn9XVk7e3n9XVn9XV
+lLi4lLi4g4yMjaiolLi4ntTUmcbGlLi4ntTUntXVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5pOPj
+r///ndPTr///r///mMXFr///pOTklLi4pOTkr///qfLyn9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///n9bWn9XVr///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///
+n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///qvLypOPjn9bWr///r///ndPTr///qvLy
+lLi4qvLyn9XVlLm5r///r///mcbGn9bWr///r///jaior///r///n9bWr///r///n9bWqvLyr///
+r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWjqmpx8fH////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////qqqq
+iZubr///r///r///n9bWr///r///ndPTr///r///n9bWlLm5pOPjr///n9bWr///r///n9bWr///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///mcbGn9bWr///r///r///n9bWr///r///mMXFr///r///mMXF
+qvLyr///n9bWr///qvLyk7e3n9bWr///r///ndPTr///r///mcfHr///r///n9bWr///r///r///
+n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///
+n9bWr///pOPjpOPjn9bWr///r///ndPTr///n9bWn9XVlLi4r///n9bWpOTkpOTkr///n9bWr///
+pOTkhI2NqvLyr///n9bWpOPjqvLyn9bWr///mcbGr///mcfHqvLyr///ndPTr///r///n9bWr///
+r///r///n9bWr///r///mMXFmcbGmsfHhI2Nr///r///n9bWqvLyiJqa1tbW////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////lLi4n9bWqvLyr///r///n9bWr///r///ndPTntTU
+pOTkn9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///ndPTr///r///iZubr///r///qvLypOTkr///r///lLm5n9XVn9XVk7e3n9XVn9XVlLm5
+n9XVn9XVn9XVlLm5n9XVn9XVk7e3ntXVntTUjaiomcbGntTUlLi4ntTUk7e3jqmpjqmpntTUntTU
+kra2ntTUmcbGjqmpntTUntTUlLi4mcbGjqmpntTUlLi4ntTUntTUkra2mcbGntTUlLi4n9XVn9XV
+n9XVlLm5n9XVn9XVjqqqn9XVn9XVk7e3n9XVn9XVlLm5r///r///r///n9bWr///r///mMXFn9XV
+mMXFlLi4lLm5n9XVlLm5n9XVmcfHntTUlLi4ntTUntTUjaiontTUntTUlLi4k7e3mcbGlLi4k7e3
+mMXFntTUjqmpmcbGntTUkra2ntTUntTUlLi4ntTUntTUntTUiZubg4yMntTUjaiok7e3ntTUjaio
+mcfHn9XVlLm5n9XViZyc5OTk////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+1dXVpri4n9bWr///r///n9bWr///r///ndPTmMXFiZublLm5n9XVn9XVn9XVlLm5n9XViZubk7e3
+ntTUntTUk7e3ntTUntTUjqmpjqmpntTUntTUlLi4mcbGn9XVk7e3n9XVn9XVlLm5n9XVn9XVmsfH
+lLm5n9XVn9XVn9bWr///r///ndPTr///r///n9bWr///r///mcbGjqmpr///r///ndPTr///r///
+ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///lLi4
+r///n9bWr///r///k7e3pOTkr///n9bWn9XVn9XVlLi4mcbGmcfHr///k7e3j6qqlLm5mMXFr///
+r///n9bWntTUntTUmcbGjqmpntTUmcbGntTUpOPjntTUmMXFr///r///n9bWr///r///r///iZub
+r///r///ndPTr///r///n9bWr///r///n9bWlLm5mMXFr///n9bWr///r///ndPTr///r///n9bW
+pOTkmcbGr///lLm5pOPjr///ndPTr///r///ndPTr///qvLymcfHr///qvLy1tbW////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////1tbWmsfHn9XVn9XVjqmpn9XVn9XVk7e3
+lLi4pOTkn9bWr///r///r///n9bWr///r///ndPTr///r///mcfHr///r///n9bWr///r///r///
+n9bWr///r///ndPTr///r///n9bWr///r///lLi4lLi4qfLyr///iZubr///r///k7e3n9XVr///
+n9bWr///r///ntTUk7e3r///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///
+r///ndPTr///r///n9bWr///r///n9bWqvLyr///r///n9bWr///r///ndPTr///r///n9bWmcfH
+k7e3pOPjqvLyj6qqqvLyn9bWr///r///n9XVmMXFr///n9bWlLm5r///lLi4pOPjr///n9bWr///
+pOPjr///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bW
+r///r///r///lLi4pOTkr///ndPTr///n9XVn9bWr///r///r///n9bWr///r///ndPTr///r///
+ndPTr///r///mcbGr///n9bW8vLy////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////lLi4r///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///
+ndPTr///r///n9bWr///r///n9bWqvLyr///r///n9bWr///r///ndPTr///n9XVn9bWr///lLi4
+jqmpn9bWpOTkr///mMXFr///r///ndPTr///r///n9bWr///r///r///lLm5n9XVn9XVk7e3n9XV
+n9XVjqqqn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLi4
+ntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4ntTUntTUjqmpiZubntTUmcbGjqmpr///pOTkmMXF
+mMXFntTUlLi4pOPjr///qvLyn9bWr///n9bWr///ntTUmcbGmcbGntTUntTUlLi4r///r///r///
+n9bWr///r///ndPTr///r///n9bWr///r///n9bWn9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVlLi4
+jqqqn9XVn9XVn9XVlLm5n9XVn9XVj6qqn9XVn9XVk7e3n9XVn9XVlLm5mcbGntTUnLe3////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////1dXVntXVr///r///ndPTr///r///
+mMXFr///r///n9bWr///r///r///n9bWr///qvLyjqmpn9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XV
+mcbGjqmpmMXFntTUkra2ntTUk7e3lLi4ntTUmcbGj6qqk7e3n9XVn9XVk7e3n9XVn9XVlLm5n9XV
+n9XVlLm5n9XVn9XVn9XVlLm5r///r///ndPTr///r///n9bWr///r///n9bWr///r///pOPjn9bW
+r///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///mMXFn9XVn9XVndPTqvLypOPjn9bWr///r///r///n9bWr///n9bW
+r///ndPTr///r///r///r///n9bWr///r///r///iZubr///r///ndPTr///r///n9bWr///r///
+n9bWr///r///r///lLm5r///mcbGk7e3r///r///n9bWr///r///r///n9bWr///r///n9bWr///
+r///ndPTr///r///n9bWr///r///pOPjx8fH////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////x8fHmcbGntTUntTUkra2ntTUntTUjqmpn9XVjqqqiZycn9XVn9XVhI2NlLm5n9XV
+mcfHlLi4g4yMr///n9bWr///ntXVntTUn9bWr///r///mMbGpOPjr///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///r///n9bWpOTkr///n9bWqvLyr///qvLyn9bWr///r///ndPTr///r///n9bWr///pOPjr///
+n9bWmcbGr///n9bWr///r///mMXFr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+ndPTqvLyqvLyn9bWn9XVn9XVn9XVn9XVn9XVn9XViZycn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XV
+n9XVlLm5n9XVn9XVk7e3n9XVn9XVjqqqn9XVn9XViZubr///r///r///mcfHr///r///ndPTr///
+r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///lLi4n9bWr///r///mcbGp9TU
+8vLy////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////rre3n9bWr///r///jqmpfn5+
+jqmpn9bWr///ntXVj6qqr///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///ndPTr///r///ndPTr///r///n9bWr///r///qvLyn9bWr///r///ndPTr///r///n9bW
+r///r///n9bWr///lLi4r///n9bWr///r///ndPTr///r///n9bWr///r///n9bWr///r///r///
+n9bWr///r///mMXFjqqqn9XVlLm5n9XVlLi4n9XVlLm5n9XVn9XVlLm5n9XVmcbGjqmpn9XVn9XV
+lLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3lLm5n9XVlLm5n9XVn9XVn9XVqvLyr///
+r///n9bWr///pOTkmcfHn9XVn9XVlLm5r///r///n9bWk7e3r///r///ndPTr///r///ndPTr///
+r///n9bWn9XVn9XVn9XVlLm5n9XVqvLyndPTr///r///n9bWr///r///r///n9bWr///r///mcfH
+r///r///ndPTr///r///n9bWr///r///r///r///osbG8vLy////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////x8fHtMbGp9TUn9bWr///r///ndPTpOPjpOPjn9bWr///r///r///n9bWr///r///n9bW
+mcbGr///ndPTr///r///n9bWr///r///r///mcfHn9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLi4
+ntTUntTUmcbGlLi4ntTUntTUkra2ntTUntTUlLi4ntTUntTUlLi4n9XVn9XVn9XVlLm5n9XVn9XV
+k7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVlLm5n9XVn9XVmMXFr///r///n9bWr///r///
+r///n9bWr///r///n9bWr///mMXFmMXFr///r///n9bWr///ntTUmsfHmcbGr///r///ndPTntXV
+pOTkndPTr///r///n9bWr///r///r///n9bWntTUiJqalLm5k7e3n9XVmMXFr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///n9XVk7e3
+n9XVmsfHhI2Nn9XVn9XVn9XVlLm5n9XVn9XVg4yMlLm5n9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+mcfHmcbG5OTk////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////8vLyosbGpOPjn9XVlLm5n9XVn9XVk7e3
+mcfHntTUlLi4ntTUntTUntTUlLi4ntTUntTUiJqan9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+iZycr///r///ndPTr///r///mcbGr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTpOTkpOTkn9bWr///r///r///n9bWr///
+n9bWn9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///
+r///n9bWr///r///qvLymcfHr///r///ndPTpOTkpOTkndPTr///r///n9bWr///r///r///lLi4
+jaiolLi4msfHmMXFr///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ndPT
+r///r///n9bWr///r///jqmpn9bWr///r///ndPTlLi4iZubjqmpr///r///r///n9bWr///r///
+iZubr///r///ndPTr///r///n9bWr///r///r///r///pbe3////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////uLi4n9XVpOPjr///ndPTr///r///ndPTr///r///fn5+r///r///r///n9bWr///r///
+ndPTr///r///ndPTr///n9XVn9bWr///r///r///lLm5r///r///ndPTr///r///n9bWr///r///
+n9bWr///r///qvLymcfHr///r///ndPTr///mcbGn9bWr///r///n9bWntTUr///r///n9bWr///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///n9bWr///pOTkjqmpr///r///n9bWr///r///r///n9bWr///r///ndPT
+r///r///ndPTr///mcbGn9bWr///r///r///lLi4mcbGr///n9bWr///r///ndPTr///r///n9bW
+n9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVk7e3n9XVn9XVlLm5r///r///r///n9bWr///r///
+ndPTlLm5mcfHn9bWr///r///r///n9bWr///r///n9bWr///r///ndPTr///r///n9bWr///r///
+r///nbi48vLy////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////xsbGs8XFntXVr///mMXFpOTkr///
+mcbGr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ntXVr///k7e3n9bWr///r///
+r///n9bWr///r///ndPTr///r///n9bWpOPjn9XVlLm5mcfHn9XVlLm5iJqamcfHn9XVk7e3n9XV
+n9XVlLi4ntTUntTUmcbGjqmpntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4ntTUntTUntTUlLi4
+mcbGn9XVlLm5n9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVlLi4lLm5n9XVn9XVk7e3
+n9XVn9XVlLm5lLi4msfHn9XVlLm5n9XVn9XVk7e3jqmplLm5k7e3n9XVn9XVlLm5n9XVn9XVjqmp
+lLi4qvLyr///lLm5lLm5n9XViZubn9XVn9XVjqmppOTkr///r///n9bWr///r///ndPTr///r///
+ndPTr///pOPjlLm5n9XVn9XVlLm5n9XVn9XVn9XVlLm5n9XVn9XVk7e3ntTUntTUmcbGmcbGntTU
+ntTUlLi4ntTUntTUkra2ntTUntTUmcbGmcbGjqmpw9XV8vLy////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////mcfHr///mMXFqvLyr///n9bWpOPjn9XVlLm5n9XVn9XVn9XVlLm5n9XV
+jqmpg4yMntTUntTUlLi4ntTUntTUmcbGmcbGntTUntTUlLm5n9XVn9XVk7e3n9XVn9XVlLm5pOPj
+r///r///n9bWr///jqmpfn5+jqmpr///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bW
+r///r///ndPTr///r///n9bWr///r///r///lLm5r///r///n9bWr///r///k7e3r///r///n9bW
+mcbGr///r///n9bWpOTkmcbGntXVr///r///ndPTr///r///n9bWpOPjqvLyr///n9bWr///r///
+ndPTr///r///ndPTr///r///n9bWr///r///fn5+n9bWlLm5n9XVn9bWr///r///ndPTr///r///
+mcfHqvLyr///r///n9bWr///r///ndPTr///r///ndPTr///jqmpiJqar///r///n9bWr///r///
+r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///pOPjg4yM
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////l6mpn9XVk7e3n9XV
+n9XVlLm5n9XVqvLypOTkqvLyr///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///j6qqfn5+jqqqr///ndPT
+r///r///n9bWr///jqmpjqqqn9bWr///pOPjn9bWr///r///ndPTqfLyk7e3lLi4r///r///r///
+lLm5r///r///mcfHr///r///ndPTr///r///n9bWlLi4r///r///n9bWr///r///ndPTr///r///
+ndPTr///ntTUlLi4r///r///r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWqvLyqvLy
+n9bWr///r///n9bWn9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bWr///
+r///r///n9bWr///r///ndPTr///r///r///r///1tbW////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////qsXFr///ndPTr///r///n9bWr///r///r///n9bWr///r///n9bW
+r///r///ndPTr///r///n9bWr///r///lLi4jqmpr///r///mcbGr///mcbGk7e3r///r///n9bW
+r///r///r///n9bWr///r///fn5+fn5+pOTkndPTr///r///n9bWpOPjiZubjqqqlLm5n9XVn9XV
+jqmpn9XVn9XVk7e3n9XVn9XVlLm5n9XVn9XVn9XVlLm5mcfHntTUkra2k7e3ntTUkra2ntTUntTU
+lLi4ntTUntTUntTUlLi4ntTUntTUkra2ntTUntTUkra2ntTUmMXFjqmpntTUntTUntTUlLi4ntTU
+ntTUkra2mcbGmcbGkra2ntTUntTUlLi4ntTUmcbGntTUmcbGntTUmcbGiZubntTUntTUkra2ntTU
+k7e3jqmpntTUntTUntTUlLi4ntTUntTUjaiok7e3ntTUkra2ntTUntTUlLi4ntTUntTUlLi4ntTU
+ntTUntTUlLi4ntTUntTUkra2ntTUntTUlLi4mcbGn9XVn9XVlLm5n9XVn9XVk7e3n9XVn9XVn9XV
+mcfH5OTk////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////vcbGpOPjr///ntTU
+r///r///n9bWr///r///r///lLi4lLi4r///mcbGr///pOPjk7e3n9XVn9XVlLm5n9XVn9XVn9XV
+lLm5n9XVntTUkra2ntTUk7e3jaiontTUk7e3lLi4jqmphI2NmsfHlLm5n9XVn9XVk7e3hI2NlLm5
+k7e3n9XVn9XVlLm5pOPjr///r///n9bWr///r///ndPTqvLyqvLyndPTr///r///n9bWr///r///
+r///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///
+r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTmcbGpOTkmcbGr///r///n9bWr///
+r///r///n9bWr///r///mcfHr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///mMXF
+mcbGr///ndPTr///r///n9bWr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///r///zNXV////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////xsbGmcbGntTUntTUlLi4mcbGntTUjqmpjqmpn9XVn9XVj6qqmcbGn9XV
+k7e3n9XVpOPjndPTr///r///iZubr///r///r///n9bWr///r///ndPTr///r///mMXFr///n9XV
+n9bWr///mcbGpOTkn9bWr///r///ndPTmcfHmcfHndPTr///r///n9bWr///r///r///n9bWr///
+r///ndPTqvLyqvLyndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///ndPTr///
+r///n9bWr///jqmpr///n9bWr///r///ndPTr///r///ndPTr///r///n9bWr///r///r///n9bW
+r///r///ndPTr///r///mcbGr///r///n9bWr///r///r///n9bWr///r///n9bWr///r///ndPT
+r///r///n9bWr///r///r///n9bWpOTkmcbGndPTr///r///ndPTr///r///n9bWr///r///n9bW
+r///r///r///n9bWr///r///ndPTr///r///n9bWr///r///r///n9bWr///r///ndPTr///r///
+r///s8XF////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////vcbGqvLyr///r///
+n9bWntXVr///n9bWr///r///r///n9bWr///r///ndPTr///r///mMXFr///r///n9bWr///r///
+r///n9bWr///r///ndPTr///r///n9bWr///r///mcfHn9XVn9XVn9XVlLm5n9XVn9XVk7e3n9XV
+n9XVjqqqn9XVn9XVlLm5udTUudTUudTUtMbGudTUudTUs8XFudTUudTUs8XFudTUudTUtMbGudTU
+udTUudTUx8fH1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXVx8fHudTUudTU
+tMbGudTUudTUudTUtMbGudTUudTUs8XFudTUrre3udTUy9TU////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////x8fHn9bWr///r///n9bWn9XVn9XVmsfHlLm5n9XVn9XVlLm5n9XV
+q8bGs8XFudTUudTUtMbGudTUudTUtMbGudTUzNXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV
+1dXV8vLy////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////4+Pj1dXV1dXV
+1dXV1dXV8vLy////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////</Data>
+		</Thumbnail>
+	</Binary>
+</metadata>
