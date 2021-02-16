@@ -1,0 +1,78 @@
+"dept_type","organization_type","primary_agency_for_em","County","center","geometry","dist"
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Adair",c(-98.2252737907244, 48.9938309041357),c(-94.643469, 41.500695),8.30520386484906
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Adair",c(-98.2252737907244, 48.9938309041357),c(-94.461231, 41.304162),8.56148503389663
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Audubon",c(-98.3317137746673, 49.0549579856139),c(-94.93626, 41.723071),8.07995501879293
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Audubon",c(-98.3317137746673, 49.0549579856139),c(-95.074982, 41.628828),8.1088660375765
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Benton",c(-98.0940118464148, 48.7598942853941),c(-92.091148, 42.007577),9.03483055077547
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Benton",c(-98.0940118464148, 48.7598942853941),c(-92.023414, 42.169626),8.96012244817933
+"Mostly career","Local (includes career, combination, and volunteer)",FALSE,"Boone",c(-97.9862065358439, 49.178844872713),c(-93.878581, 42.063814),8.21561025501916
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Boone",c(-97.9862065358439, 49.178844872713),c(-94.104795, 42.176281),8.0063260177192
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Boone",c(-97.9862065358439, 49.178844872713),c(-94.033768, 42.039053),8.16078417587933
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Carroll",c(-98.3239785977903, 49.1614127080017),c(-95.043847, 42.08753),7.79737647323687
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Carroll",c(-98.3239785977903, 49.1614127080017),c(-94.847117, 42.066345),7.90117411220114
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Carroll",c(-98.3239785977903, 49.1614127080017),c(-94.970816, 42.005406),7.90266609519756
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Cherokee",c(-98.5850015738207, 49.3555438291764),c(-95.552844, 42.748004),7.27004553951561
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Cherokee",c(-98.5850015738207, 49.3555438291764),c(-95.712777, 42.813797),7.1445171690954
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Cherokee",c(-98.5850015738207, 49.3555438291764),c(-95.808054, 42.823853),7.09749412931746
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Clayton",c(-97.0912256025597, 49.4957134206215),c(-91.450872, 43.060265),8.55737022316949
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Clayton",c(-97.0912256025597, 49.4957134206215),c(-91.391103, 43.053316),8.60208592199837
+"Career","Local (includes career, combination, and volunteer)",FALSE,"Clinton",c(-96.7163407733484, 49.2020733496578),c(-90.191889, 41.843389),9.83456690966347
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Clinton",c(-96.7163407733484, 49.2020733496578),c(-90.818222, 41.964725),9.33632776839049
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Clinton",c(-96.7163407733484, 49.2020733496578),c(-91.022094, 41.588057),9.50777004815772
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Delaware",c(-97.1376204180294, 49.3619714232087),c(-91.453962, 42.484008),8.92246344143999
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Delaware",c(-97.1376204180294, 49.3619714232087),c(-91.590289, 42.480371),8.83907858581211
+"Career","Local (includes career, combination, and volunteer)",FALSE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.104348, 40.809378),10.6591328857949
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.315905, 40.867021),10.4809856709841
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.156629, 40.823776),10.6148466228462
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.322419, 41.026479),10.3529786618027
+"Career","Local (includes career, combination, and volunteer)",FALSE,"Dubuque",c(-96.9170096527624, 49.387271608175),c(-90.665796, 42.502181),9.29957766865048
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Dubuque",c(-96.9170096527624, 49.387271608175),c(-90.996608, 42.60145),9.00547226013198
+"Volunteer","Contract fire department",TRUE,"Dubuque",c(-96.9170096527624, 49.387271608175),c(-90.786475, 42.604651),9.14261436587812
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Fayette",c(-97.3125760728002, 49.4616552144813),c(-91.916631, 42.678395),8.66768956331741
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Fayette",c(-97.3125760728002, 49.4616552144813),c(-91.951014, 43.204245),8.24023849489712
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Fayette",c(-97.3125760728002, 49.4616552144813),c(-91.814172, 42.95172),8.52125013390227
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Floyd",c(-97.6446460514631, 49.5255949875497),c(-92.673092, 43.060769),8.1553862407563
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Floyd",c(-97.6446460514631, 49.5255949875497),c(-92.868417, 42.963819),8.11598842180199
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Floyd",c(-97.6446460514631, 49.5255949875497),c(-93.005602, 43.143109),7.89030145765569
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Franklin",c(-97.1032352080758, 48.8128400448776),c(-93.369504, 42.763351),7.1089427088881
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Fremont",c(-97.4495513673934, 48.9551143867516),c(-95.658912, 40.60083),8.54403048676564
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Greene",c(-97.6560801723527, 49.4545013778105),c(-94.239087, 42.031743),8.17148605060677
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Greene",c(-97.6560801723527, 49.4545013778105),c(-94.254274, 42.165951),8.04333586543162
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Hamilton",c(-97.6100964404192, 48.9315985919595),c(-93.640028, 42.309586),7.72091278215747
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Hamilton",c(-97.6100964404192, 48.9315985919595),c(-93.815842, 42.466831),7.49597136978862
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Hancock",c(-98.4690211028331, 48.946889911463),c(-93.801766, 43.095366),7.48489160117532
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Hancock",c(-98.4690211028331, 48.946889911463),c(-93.602105, 43.100394),7.60712736811799
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Humboldt",c(-98.1315014127706, 49.372193787773),c(-94.287508, 42.86794),7.55523677280754
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Jefferson",c(-98.1547836452263, 49.1548937102685),c(-92.084913, 41.133946),10.0587738726269
+"Volunteer","Contract fire department",TRUE,"Keokuk",c(-97.0513420319048, 48.7374428662001),c(-91.951377, 41.36395),8.96538010206792
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Keokuk",c(-97.0513420319048, 48.7374428662001),c(-92.239388, 41.454332),8.72918126140858
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Keokuk",c(-97.0513420319048, 48.7374428662001),c(-92.205121, 41.332404),8.84988468286511
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Lucas",c(-97.7965731349218, 48.8768192254362),c(-93.461016, 41.028541),8.96618797338241
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Marion",c(-97.1996275255267, 49.2267308146345),c(-93.151931, 41.175371),9.01156157541367
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Marion",c(-97.1996275255267, 49.2267308146345),c(-93.096465, 41.317066),8.91059707262952
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Marion",c(-97.1996275255267, 49.2267308146345),c(-92.918329, 41.407218),8.91483582142208
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Mitchell",c(-97.6983090552721, 49.581115383151),c(-92.814962, 43.284102),7.96865459220173
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Mitchell",c(-97.6983090552721, 49.581115383151),c(-92.919475, 43.378504),7.83004743907869
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Monona",c(-97.1833831250429, 49.5349451435014),c(-95.793218, 42.165161),7.49975182233988
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Monona",c(-97.1833831250429, 49.5349451435014),c(-96.095858, 42.025613),7.58767290669695
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Muscatine",c(-96.9844615109463, 49.0531012217192),c(-90.806889, 41.460238),9.78846126986952
+"Career","Local (includes career, combination, and volunteer)",FALSE,"Muscatine",c(-96.9844615109463, 49.0531012217192),c(-91.045809, 41.424955),9.66727512930597
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Muscatine",c(-96.9844615109463, 49.0531012217192),c(-91.262295, 41.568557),9.42133704873495
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Osceola",c(-97.9029998023826, 48.8712124558988),c(-95.474901, 43.320667),6.05840066784383
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Osceola",c(-97.9029998023826, 48.8712124558988),c(-95.750285, 43.400351),5.87915862092836
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Plymouth",c(-97.7806548216397, 49.5526042939463),c(-95.86757, 42.545227),7.26383026195563
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Pocahontas",c(-98.2848434338802, 49.366346686515),c(-94.527206, 42.813735),7.5535792177451
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Shelby",c(-98.5046146099197, 48.9828823000635),c(-95.32202, 41.660377),7.98423398458162
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Shelby",c(-98.5046146099197, 48.9828823000635),c(-95.392922, 41.718828),7.9024752940392
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Tama",c(-97.5333315019018, 49.1793348106521),c(-92.677447, 42.092427),8.590918263637
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Tama",c(-97.5333315019018, 49.1793348106521),c(-92.581649, 41.995643),8.72494055166398
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Tama",c(-97.5333315019018, 49.1793348106521),c(-92.464238, 42.193317),8.63134715915027
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Union",c(-97.714202378006, 49.2521429674454),c(-94.055262, 41.127138),8.91086698423981
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Wapello",c(-97.0171228314175, 48.975393606297),c(-92.63354, 41.157416),8.96306712529029
+"Career","Local (includes career, combination, and volunteer)",FALSE,"Wapello",c(-97.0171228314175, 48.975393606297),c(-92.413918, 41.022473),9.18903917121093
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Wapello",c(-97.0171228314175, 48.975393606297),c(-92.431827, 40.994747),9.20411093567513
+"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Washington",c(-97.1962684961737, 48.9995219029383),c(-91.82128, 41.17494),9.49287012919639
+"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Washington",c(-97.1962684961737, 48.9995219029383),c(-91.689776, 41.298358),9.46727970804376
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Washington",c(-97.1962684961737, 48.9995219029383),c(-91.829235, 41.465059),9.25057726765222
+"Career","Local (includes career, combination, and volunteer)",FALSE,"Webster",c(-97.3685801622337, 49.029465208838),c(-94.17691, 42.506202),7.26221187492297
+"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Webster",c(-97.3685801622337, 49.029465208838),c(-94.363804, 42.507919),7.1804766373227
