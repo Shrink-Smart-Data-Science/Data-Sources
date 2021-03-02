@@ -1,0 +1,23 @@
+VARIABLE		DESCRIPTION						SCALE
+FIPS_PL			FIPS code for Census places				Character (1-2 state code, 3-7 place code)
+QOLjobs_m14r		Mean of quality of jobs	Ratio. 				Mean of ordinal scale (1 poor, 2 fair, 3 good, 4 very good). Not available excluded.
+QOLmed_m14r		Mean of quality of medical services			Ratio. Mean of ordinal scale (1 poor, 2 fair, 3 good, 4 very good). Not available excluded.
+QOLk12_m14r		Mean of quality of local schools			Ratio. Mean of ordinal scale (1 poor, 2 fair, 3 good, 4 very good). Not available excluded.
+QOLhousing_m14r		Mean of quality of housing				Ratio. Mean of ordinal scale (1 poor, 2 fair, 3 good, 4 very good). Not available excluded.
+QOLgovt_m14r		Mean of quality of local government services		Ratio. Mean of ordinal scale (1 poor, 2 fair, 3 good, 4 very good). Not available excluded.
+QOLchildsrv_m14r	Mean of quality of child care				Ratio. Mean of ordinal scale (1 poor, 2 fair, 3 good, 4 very good). Not available excluded.
+QOLseniorsrv_m14r	Mean of quality of senior services			Ratio. Mean of ordinal scale (1 poor, 2 fair, 3 good, 4 very good). Not available excluded.
+QOLjobs_i14		Index in 0-100 scale of means				Ratio. Conversion Formula ((((QOLjobs_m14r/5)-0.200) / (0.800-0.200)) * 100)
+QOLmed_i14		Index in 0-100 scale of means				Ratio. Conversion Formula ((((QOLjobs_m14r/5)-0.200) / (0.800-0.200)) * 100)
+QOLk12_i14		Index in 0-100 scale of means				Ratio. Conversion Formula ((((QOLjobs_m14r/5)-0.200) / (0.800-0.200)) * 100)
+QOLhousing_i14		Index in 0-100 scale of means				Ratio. Conversion Formula ((((QOLjobs_m14r/5)-0.200) / (0.800-0.200)) * 100)
+QOLgovt_i14		Index in 0-100 scale of means				Ratio. Conversion Formula ((((QOLjobs_m14r/5)-0.200) / (0.800-0.200)) * 100)
+QOLchildsrv_i14		Index in 0-100 scale of means				Ratio. Conversion Formula ((((QOLjobs_m14r/5)-0.200) / (0.800-0.200)) * 100)
+QOLseniorsrv_i14	Index in 0-100 scale of means				Ratio. Conversion Formula ((((QOLjobs_m14r/5)-0.200) / (0.800-0.200)) * 100)
+QOLjobs_gvg14		Mean of percent rating service good to very good	Ratio. Percent.
+QOLmed_gvg14		Mean of percent rating service good to very good	Ratio. Percent.
+QOLk12_gvg14		Mean of percent rating service good to very good	Ratio. Percent.
+QOLhousing_gvg14	Mean of percent rating service good to very good	Ratio. Percent.
+QOLgovt_gvg14		Mean of percent rating service good to very good	Ratio. Percent.
+QOLchildsrv_gvg14	Mean of percent rating service good to very good	Ratio. Percent.
+QOLseniorsrv_gvg14	Mean of percent rating service good to very good	Ratio. Percent.

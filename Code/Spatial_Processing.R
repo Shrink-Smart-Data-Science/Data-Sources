@@ -2,6 +2,7 @@ library(sf)
 library(tidyverse)
 library(here)
 library(readxl)
+library(sp)
 
 crs <- structure(list(epsg = 26915L, proj4string = "+proj=utm +zone=15 +datum=NAD83 +units=mi +no_defs"), class = "crs")
 
@@ -28,7 +29,7 @@ centroid_points <- read_xls(here::here("Data/place_centroids.xls")) %>%
   
 coordinates(centroid_points) <- c('CENTROID_X (NAD_1983_UTM_Zone_15N)', 'CENTROID_Y (NAD_1983_UTM_Zone_15N)')
 proj4string(centroid_points) = CRS("+init=EPSG:3531")
-coordinates_deg <- spTransform(centroid_points,CRS("+init=epsg:4326")) %>% 
+coordinates_deg <- spTransform(centroid_points, CRS("+init=epsg:4326")) %>% 
   as.data.frame() %>% 
   rename(long = `CENTROID_X..NAD_1983_UTM_Zone_15N.`,
          lat = `CENTROID_Y..NAD_1983_UTM_Zone_15N.`) %>%
@@ -53,8 +54,8 @@ ia_city_zip <- read_rds("Data/IA_City_Zip.rda") %>%
 
 ia_city_county <- read_rds("Data/IA_City_County.rda")
 
-ia_census_place <- sf::read_sf("Data/Geography/cb_2018_19_place_500k/") %>%
-  mutate(FIPS = paste0(STATEFP, PLACEFP) %>% as.numeric()) %>%
+ia_census_place <- sf::read_sf("Data/Geography/cb_2018_us_zcta510_500k/") %>%
+  mutate(FIPS = GEOID10 %>% as.numeric()) %>%
   rename(place_geometry = geometry)
 
 suppressWarnings(rm(centroid_points,us_zip_codes, iowa_border, ia_zip_codes, find_ia_zipcode, find_ia_county))

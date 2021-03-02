@@ -5,6 +5,7 @@ library(RMySQL)
 library(DBI)
 library(keyring)
 library(stringr)
+library(nngeo)
 
 conn <- DBI::dbConnect(RMySQL::MySQL(),
                        host = "srvanderplas.com",
@@ -12,10 +13,14 @@ conn <- DBI::dbConnect(RMySQL::MySQL(),
                        user = "remote",
                        password = keyring::key_get("MY_SECRET"))
 
+crs <- structure(list(epsg = 26915L, proj4string = "+proj=longlat +zone=15 +datum=NAD83 +units=mi +no_defs"), class = "crs")
 #--- Start with getting the centriods from Ricardo ----
 county_centriods <- read.csv("Data/place_centroids_with_latlong.csv") %>%
   st_as_sf(coords = c("long", "lat"), crs = 4326) %>%
   st_transform(crs = crs)
+
+#--- Nearest Point Function ----
+#st_nn(a, b, k = 1, returnDist = T)
   
 #---Distance from hospitals ----
 hospitals <- read.csv("Data/IowaGov/hospitals.csv") %>%
@@ -31,8 +36,7 @@ hospitals_sm <- hospitals %>%
 
 ia_hospitals_dist <- 
   full_join(county_centriods %>% as.data.frame(), 
-                hospitals_sm %>% as.data.frame(), by = c("NAME" = "City")) %>% 
-  na.omit() %>%
+                hospitals_sm %>% as.data.frame(), by = c("NAME" = "City")) %>%
   st_sf(sf_column_name = 'geometry.x') %>%
   st_sf(sf_column_name = 'geometry.y') %>%
   select(City = NAME,County, hospital_trauma_level,center = geometry.x,geometry = geometry.y) %>%
@@ -93,7 +97,6 @@ ia_firedept_dist2 = ia_firedept_dist %>%
   st_cast("POLYGON")
 
 write.csv(ia_firedept_dist,"Data/Distance_Data/FireDept_distances.csv", row.names = FALSE)
-
 
 
 

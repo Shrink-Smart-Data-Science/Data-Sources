@@ -1,0 +1,256 @@
+---
+title: "Random Forest Model"
+bibliography: references.bib
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+library(tidyverse)
+library(sf)
+library(randomForest)
+theme_set(theme_bw())
+
+load("Data/Combined_IA_data.Rdata")
+```
+
+## Setup
+
+Working with the QOL gvg (proportion who answered good/very good) scores for Jobs, Medical, K-12, Housing, Government, Child services, and Senior services. 
+
+Missing values for state/national data have been set to 0 to reflect the absence of entities such as hospitals or child care facilities. City budget values have been scaled by the population to reflect the fact that city budgets generally scale with the city size. Variables which were cited as potentially not useful in the Data Description report have been omitted from the regression model. 
+
+```{r}
+nan_to_na <- function(x) {
+  x[is.nan(x)] <- NA
+  x
+}
+
+na_to_value <- function(x, value) {
+  x[is.na(x)] <- value
+  x
+}
+
+is_unit <- function(x) {
+  "units" %in% class(x)
+}
+
+ia_data_istp <- filter(ia_data, !is.na(QOLjobs_m14r)) %>%
+  select(-geometry) %>%
+  select(-FIPS, -Population) %>%
+  select(-ends_with("i14"), -ends_with("m14r")) %>%
+  # Remove variables screened out during data exploration due to low variation
+  select(-matches("hospital_trauma"), -matches("retirement_homes")) %>%
+  select(-matches("rev_(mobile|road|telecom)")) %>%
+  select(-matches("exp_(emerg|flood|build|telecom)")) %>%
+  gather(key = "QOL_index", value = "value", starts_with("QOL")) %>%
+  mutate(QOL_index = str_remove_all(QOL_index, pattern = "QOL|_gvg14")) %>%
+  mutate_if(is.numeric, nan_to_na) %>%
+  mutate_if(is.numeric, na_to_value, value = 0) %>% 
+  mutate_at(vars(matches("rev_|exp_|savings|sales|slots")), ~./Population_finance) %>%
+  select(City, value, Population = Population_finance, everything()) %>%
+  mutate_if(is_unit, units::drop_units) %>%
+  mutate(size_finance = str_remove(size_finance, " people$")) %>%
+  mutate(size_finance = factor(size_finance, levels = c("Metropolitan, >50,000", "Micropolitan, 25,000-49,999", "Micropolitan, 10,000-24,999", "Urban Cluster, 2,500-9,999", "Rural, 500-2,499"), ordered = T)) %>%
+  nest(-QOL_index)
+
+#We are looking at the Random Forest variable importance
+get_rf_importance <- function(rf) {
+  importance(rf, scale = T, type = 1) %>% 
+  (function(x) {
+    tibble(variable = rownames(x)) %>%
+      bind_cols(as_tibble(x))
+  }) %>%
+    arrange(desc(`%IncMSE`))
+}
+
+#This step in the program will create the labels for our dataset
+variables <- tibble(variable = names(ia_data)) %>%
+  mutate(type = case_when(
+    str_detect(variable, "^(rev|exp|savings)") ~ "city budget",
+    str_detect(variable, "Fiscal") ~ "city tax base",
+    str_detect(variable, "n_post|assisted_living|childcare|hospital|retirement|liquor|ems|firefighters") ~ "state_data",
+    str_detect(variable, "^dist") ~ "school distance",
+    str_detect(variable, "City|FIPS|geometry") ~ "ID",
+    str_detect(variable, "[Pp]opulation|size_finance") ~ "size",
+    str_detect(variable, "QOL") ~ "ISTP"
+  ))
+
+```
+
+Random forest models consisting of 2000 trees were fit to each of the 7 Iowa Small Town Poll aggregate scores. 3 out-of-bag permutations were calculated for each tree to increase estimate stability, and a bias correction for random forest regression was applied. Proximity and Importance measures were calculated for each variable. 
+<!-- I would like to know why you are using 2000 trees to fit the 7 Iowa Small Town Poll? How should I get a better idea of the information that I need for the changes in the survey done by the team?? Will the survey data be constructed the same way? -->
+```{r fit-rf-models, cache = T, message = F, include = F} 
+N <- 2000
+
+all_rf_models <- ia_data_istp %>%
+  mutate(`ISTP Index` = str_replace_all(QOL_index, c("jobs" =  "Jobs", "med" = "Medical", "k12" = "K-12", "housing" = "Housing", "govt" = "Government", "childsrv" = "Child services", "seniorsrv" = "Senior services"))) %>%
+  mutate(rf_model = purrr::map(data, 
+    function(x) {
+      randomForest(value ~ ., data = select(x, -City, -Population), 
+                   ntree = N, #strata = x$size_finance, 
+                   #nodesize = 3, maxnodes = 30, 
+                   importance = T, proximity = T, oob.prox = T,
+                   nPerm = 3, corr.bias = T
+      )}
+  )) %>%
+  mutate(Importance = purrr::map(rf_model, get_rf_importance),
+         Proximity = purrr::map(rf_model, "proximity"),
+         Pct_Var = purrr::map(rf_model, "rsq") %>% purrr::map_dbl(~.[N]),
+         Resid = purrr::map(rf_model, resid)) 
+
+all_rf_models <- all_rf_models %>%
+  mutate(pred_matrix = purrr::map(data, select, -value, -City, -Population),
+         response_vec = purrr::map(data, "value")) %>%
+  mutate(Perm_Importance = purrr::pmap(list(pred_matrix, response_vec, rf_model), ~vita::PIMP(..1, ..2, ..3, S=1000, parallel = T, ncores = future::availableCores())))
+
+all_rf_models <- all_rf_models %>%
+  mutate(Perm_Importance_Long = purrr::map(
+    Perm_Importance, function(x) x$PerVarImp %>% t() %>% 
+      as_tibble() %>%
+      gather(key = "var", value = "value") %>% 
+      mutate(type = "perm") %>% 
+      bind_rows(tibble(var = rownames(x$VarImp), value = x$VarImp[,1]) %>%
+                  mutate(type = "orig"))))
+
+all_rf_models <- all_rf_models %>%
+  mutate(Perm_Importance_Test = purrr::map(Perm_Importance, vita::PimpTest),
+         PIMP_pval = purrr::map(Perm_Importance_Test, ~tibble(var = rownames(.$pvalue), pval = .$pvalue)),
+         sig_vars_PIMP = purrr::map(Perm_Importance_Test, ~tibble(var = rownames(.$pvalue), pval = .$pvalue)[.$pvalue<0.05,]))
+
+save(ia_data_istp, all_rf_models, file = "data/RF_model_data.Rdata")
+```
+
+```{r rf-var-importance, fig.height = 8, fig.width = 12}
+tmp <- all_rf_models %>%
+  arrange(desc(Pct_Var)) %>%
+  mutate(ISTP = factor(`ISTP Index`, levels = `ISTP Index`, ordered = T)) 
+top10_import_vars <- tmp %>%
+  select(ISTP, Importance) %>%
+  unnest() %>%
+  left_join(variables, by = "variable") %>%
+  group_by(ISTP) %>%
+  arrange(desc(`%IncMSE`)) %>%
+  filter(row_number() <= 10) %>%
+  mutate(rank = row_number())
+
+var_p_vals <- tmp %>%
+  select(ISTP, PIMP_pval) %>%
+  unnest() %>%
+  mutate(sig = pval < 0.05) %>%
+  right_join(select(top10_import_vars, ISTP, var = variable, rank))
+
+top10_import_vars %>%
+  ggplot() + 
+  geom_bar(aes(x = rank, y = `%IncMSE`, fill = type), stat = "identity") + 
+  geom_text(aes(x = rank, y = 0, label = variable), hjust = 0, vjust = 0.5, size = 3) + 
+  geom_text(data = select(tmp, ISTP, Pct_Var), 
+            aes(x = 0, y = -Inf, label = sprintf("Model Explains %.1f%% variance", Pct_Var*100)), hjust = -0.2, vjust = 0, size = 4) +
+  geom_text(data = var_p_vals, aes(x = rank, y = -0.5, label = sprintf("p < %0.03f", pval + 1/1000), color = sig), hjust = 1, size = 3) + 
+  scale_color_manual("Significant", values = c("TRUE" = "black", "FALSE" = "grey40")) + 
+  facet_wrap(~ISTP, scales = "free", ncol = 4) + 
+  coord_flip() + 
+  theme(axis.title.y = element_blank(), axis.ticks.y = element_blank(), axis.text.y = element_blank(),
+        legend.position = c(1, 0), legend.justification = c(1, 0)) + 
+  ggtitle("Top 10 most important variables in each RF model") + 
+  scale_fill_brewer("Variable\nSource", palette = "Paired") + 
+  scale_y_continuous("% Increase in MSE", expand = expand_scale(mult = c(0.25, 0.05))) + 
+  scale_x_reverse(expand = expand_scale(add = c(0, .5))) 
+```
+The p-values listed to the left side of each variable importance are calculated using the permutation importance metric developed by @altmannPermutationImportanceCorrected2010 as implemented in the vita package in R [@vita-package]. 
+
+
+The models for Housing, Jobs, Child services, and Medical ISTP QOL scores are relatively decent, given the complexity of the factors that contribute to these ratings. The models for government and senior services are promising, but it is possible we can find other data which would improve the models - having insight into the types of questions which contribute to these aggregated scores would be useful in exploring additional data. The model for K-12 is completely abysmal, reflecting (potentially) the complexity of school districting within city lines (there is also relatively little variation in K-12 ratings, which may contribute to the problem).  
+
+Important variables by model: 
+
+- __Housing__: a town's fiscal capacity is the most important variable, followed by childcare slots, per capita spending on snow removal, per capita property tax revenue, assisted living occupancy, and distance to schools. 
+- __Jobs__: the primary variables are city budget related - revenue from parks and recreation, property taxes, parks and recreation expenses, and a city's fiscal health (savings, fiscal capacity). Some city services (garbage, police, road expenses) also appear as mildly important variables. 
+- __Child services__: childcare slots is the most important variable; other city expenses and revenue are mildly important. 
+- __Medical__: liquor sales per store is the most significant variable, suggesting that nontraditional data sources may be a useful proxy for medical access. Parks and recreation revenue and expenses, intergovernmental revenue (other than road funding), police expenses, revenue from sewer, water, and property tax are also somewhat useful indicators. 
+- __Government__: fiscal capacity is far and away the most important variable.
+- __Senior Services__: revenue from parks and recreation is the most important variable; liquor sales, police expeenses, snow removal expenses, economic development, assisted living occupancy, and park/rec expenses are moderately important.
+- __K-12__: ???
+
+Using permutation importance [@altmannPermutationImportanceCorrected2010] (as in the vita package in R, @vita-package), it's possible to examine the importance of variables relative to a permuted vector of the same variable. With this metric, several variables are highly important. In the figure below, the density of the importance factors for a permuted version of the variable is shown (mirrored across the grid line); the actual importance value of the original data is shown as a red point.  
+
+```{r rf-perm-importance-test, fig.width = 8, fig.height = 8}
+import_vars <- tmp %>%
+  select(ISTP, sig_vars_PIMP) %>%
+  unnest() 
+
+perm_importance_vars <- tmp %>% select(ISTP, Perm_Importance_Long) %>% unnest() %>%
+  right_join(select(import_vars, ISTP, var), by = c("ISTP", "var"))
+
+
+ggplot() + 
+  geom_violin(aes(x = var, y = value), data = filter(perm_importance_vars, type == "perm")) + 
+  geom_point(aes(x = var, y = value), data = filter(perm_importance_vars, type == "orig"), color = "red", shape = 1, size = 3) + 
+  facet_grid(ISTP~., scales = "free", space = "free_y") + 
+  coord_flip() + 
+  ggtitle("Significantly Important Variables (Permutation Test)")
+
+```
+
+```{r, eval = F}
+filter(tmp, ISTP == "Medical") %>%
+  extract("data") %>%
+  unnest() %>%
+  ggplot(data = ., aes(x = liquor_sales, y = value, color = size_finance)) + 
+  geom_point()
+```
+
+## To-Do
+
+- See which towns are particularly poorly predicted
+
+
+-----
+
+Other Data Options to explore:
+
+- Housing:
+  - Land Records - sale and assessed value of property, time on market, etc.?
+  - HUD Affordable Housing projects: https://lihtc.huduser.gov/ (zip level)
+  - Federal Housing Finance Agency House Price Index Data (Zip level)
+  - Zillow (requires semi-continuous scraping...)
+  - Housing Preservation Database??
+
+- Jobs:
+  - retail analysis: https://www.icip.iastate.edu/retail/city
+
+- Medical:
+  - Physician directories? - lack of relevant small-town medical data (city level)
+  - Google/other results for clinic? Google places - medical?
+  - Medicaid provider directory- https://secureapp.dhs.state.ia.us/providersearche
+
+- Child Services:
+  - Need to know what questions go into this...?
+  - Google places - playgrounds?
+
+- Government: 
+  - Need to know what questions go into this...?
+  - Contact Iowa DPS for data: http://www.dps.state.ia.us/commis/ucr/index.shtml
+  
+  
+- Senior services: 
+  - Could look for google search results for senior center?
+  - Meals on Wheels? https://www.mealsonwheelsamerica.org/find-meals?filter=51027 - distance to provider?
+  - eldercare search: https://eldercare.acl.gov/Public/Search_Results.aspx (by zip, but not very specific and includes phone medicare question services)
+
+- K-12
+  - GreatSchools.org - emailed to see about data access
+  - School District level estimates of poverty, etc. - overlap same as with city/zip data?
+  
+  
+- Other/General:
+  - https://www.icip.iastate.edu/census/cities-2010
+  - Population changes: https://www.icip.iastate.edu/reports/interactive/population-by-city
+  - Neighborhood Scout: https://www.neighborhoodscout.com/ - likely won't work for the ~500 people town range. 
+  - http://www.city-data.com/ - estimated median income, per capita income, house value, cost of living index
+  
+  
+----
+
+## References
+  

@@ -40,14 +40,14 @@ fips_data <- read.csv("Data/fips_codes.csv", skip = 4, header = TRUE)
 fips_data$county <- gsub("([A-Za-z]+).*", "\\1", fips_data$Area_Name_FIPS)
 
 # --- Individual/fine-grained Data ---------------------------------------------
-child_care_registered <- dbReadTable(conn, "child_center_data") %>%
+child_care_registered <- read_csv("Data/child_care_data.csv", skip = 1) %>%
   remove_empty_cols() %>%
   fix_names %>%
-  #set_names(str_to_title(names(.))) %>%
-  #filter(Is.active.ccaprovider == "Yes") %>%
+  set_names(str_to_title(names(.))) %>%
+  filter(Is.active.ccaprovider == "Yes") %>%
   mutate(zip5 = Provider.zip.code, 
          Community = str_to_title(Community),
-         capacity = parse_number(Provider.capacity),
+         capacity = Provider.capacity,
          rating = Provider.qrs.rating)
 
 fire_dept <- dbReadTable(conn, "fire_department_census") %>%
@@ -139,7 +139,6 @@ assisted_living <- dbReadTable(conn, "assisted_living") %>%
   select(-zip)
 
 
-# --- Zip-level Data -----------------------------------------------------------
 assisted_living_zip <- assisted_living %>%
   group_by(zip5) %>%
   summarize(occupancy = sum(occupancy, na.rm = T)) %>%
@@ -147,6 +146,14 @@ assisted_living_zip <- assisted_living %>%
   remove_empty_cols() %>%
   fix_names %>%
   select(zip5, assisted_living_occupancy = occupancy)
+
+child_care_zip <- child_care_registered %>%
+  group_by(zip5) %>%
+  summarize(slots = sum(capacity, na.rm = T),
+            avg.rating = median(rating[rating != 0], weight = slots[rating != 0])) %>%
+  modify_at("avg.rating", ~ifelse(is.nan(.), 0, .)) %>%
+  ungroup() %>%
+  select(zip5, childcare_slots = slots, childcare_avg_rating = avg.rating)
 
 fire_dept_zip <- fire_dept %>%
   select(zip5, firefighters = Firefighters) %>%
@@ -177,6 +184,11 @@ retirement_home_zip <- retirement_homes %>%
   select(zip5) %>%
   group_by(zip5) %>%
   count(name = "retirement_homes")
+
+ems_zip <- ems %>%
+  group_by(zip5) %>%
+  count(name = "ems_organizations") %>%
+  ungroup()
 
 hospitals_zip <- hospitals %>%
   mutate(hospital_trauma_level = factor(hospital_trauma_level,
