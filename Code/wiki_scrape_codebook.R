@@ -78,30 +78,30 @@ for (i in seq_along(data_sources_codebook$name)){
 }
   
 
-wiki_pg <- read_html("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Assessed-Property-Values")
-
-li_text <- 
-  wiki_pg %>%
-  html_nodes("li") %>%
-  html_text()
-
-length(li_text)
-
-df = c()
-df$CONDITION = li_text %like% "^saved" %>% as.logical()
-df = df %>% as.data.frame()
-
-df %>% 
-  mutate(group_break = case_when(
-  row_number() == 1 ~ 1,
-  CONDITION & !stats::lag(CONDITION, 1) ~ 1,
-  !CONDITION & !stats::lag(CONDITION, 1) ~ 1,
-  FALSE ~ 0),
-  group_ind = cumsum(group_break)
-  ) %>%
-  filter(!is.na(group_ind)) %>%
-  summarize(count = n() + 1)
-
-assessed_living_values <- as.data.frame(li_text[60:87]) 
-
-colnames(assessed_living_values) <- c("variables") 
+# wiki_pg <- read_html("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Assessed-Property-Values")
+# 
+# li_text <- 
+#   wiki_pg %>%
+#   html_nodes("li") %>%
+#   html_text()
+# 
+# length(li_text)
+# 
+# df = c()
+# df$CONDITION = li_text %like% "^saved" %>% as.logical()
+# df = df %>% as.data.frame()
+# 
+# df %>% 
+#   mutate(group_break = case_when(
+#   row_number() == 1 ~ 1,
+#   CONDITION & !stats::lag(CONDITION, 1) ~ 1,
+#   !CONDITION & !stats::lag(CONDITION, 1) ~ 1,
+#   FALSE ~ 0),
+#   group_ind = cumsum(group_break)
+#   ) %>%
+#   filter(!is.na(group_ind)) %>%
+#   summarize(count = n() + 1)
+# 
+# assessed_living_values <- as.data.frame(li_text[60:87]) 
+# 
+# colnames(assessed_living_values) <- c("variables") 
