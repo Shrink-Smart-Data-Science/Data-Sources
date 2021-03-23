@@ -52,8 +52,41 @@ for (i in seq_along(data_sources_codebook$name)){
     html_text() %>%
     stringr::str_trim()
 
-  source <- data_sources_codebook$data[[i]] %>% html_node(css = ".markdown-body ul li a") %>% html_text()
-  temporal <- data_sources_codebook$data[[i]] %>% html_node(css = ".markdown-body ul li:nth-of-type(3)")
+  source <- data_sources_codebook$data[[i]] %>%
+    # Get body text, in a bulleted list, with a link
+    html_node(css = ".markdown-body ul li a") %>%
+    # convert to text
+    html_text()
+
+  temporal <- data_sources_codebook$data[[i]] %>%
+    # Get body text, in a bulleted list, and get the 3rd bullet from that list
+    html_node(css = ".markdown-body > ul > li:nth-of-type(3)") %>%
+    html_text() %>%
+    str_trim() %>%
+    str_split("\\n")
+
+  variables <- data_sources_codebook$data[[i]] %>%
+    # Get body text, bulleted list, 2nd bullet, with a nested bulleted list, and get the nested items
+    html_nodes(css = ".markdown-body > ul > li:nth-of-type(2) > ul > li") %>%
+    html_text()
+  var_types <- variables %>%
+    # Pull out the (parenthetical)
+    str_extract("\\((.*)\\)") %>%
+    # remove parentheses
+    str_remove_all("[[:punct:]]")
+  variable_names <- variables %>%
+    # Remove parenthetical information at the end of the string ($)
+    str_remove_all(" \\(.*\\)$")
+
+  mysql_name <- data_sources_codebook$data[[i]] %>%
+    # bulleted list with a code tag
+    html_nodes(css = ".markdown-body > ul > li > code") %>%
+    html_text()
+
+  last_update <- data_sources_codebook$data[[i]] %>%
+    # bulleted list, get the last bullet
+    html_nodes(css = ".markdown-body > ul > li:last-of-type") %>%
+    html_text()
 
   df = c()
   df$CONDITION = data_sources_text %like% "^saved" %>% as.logical()
