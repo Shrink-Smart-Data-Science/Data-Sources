@@ -52,6 +52,9 @@ for (i in seq_along(data_sources_codebook$name)){
     html_text() %>%
     stringr::str_trim()
 
+  source <- data_sources_codebook$data[[i]] %>% html_node(css = ".markdown-body ul li a") %>% html_text()
+  temporal <- data_sources_codebook$data[[i]] %>% html_node(css = ".markdown-body ul li:nth-of-type(3)")
+
   df = c()
   df$CONDITION = data_sources_text %like% "^saved" %>% as.logical()
   df = df %>% as.data.frame()
