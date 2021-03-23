@@ -5,7 +5,7 @@ library(tidyverse)
 library(data.table)
 library(xlsx)
 
-usethis::use_course("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki")
+# usethis::use_course("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki")
 
 
 scraping_wiki_pg <- read_html("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki")
@@ -36,7 +36,7 @@ data_sources_codebook <- tibble::tribble(
     "Quarterly Retail Sales Tax", "https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Quarterly-Retail-Sales-Tax",
     "Registered Retirement Facilities", "https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Registered-Retirement-Facilities",
     "School Building Directory", "https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/School-Building-Directory",
-    "School District Revenues", "https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/School-District-Revenues", 
+    "School District Revenues", "https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/School-District-Revenues",
     "Unemployment Compensation Fund Status Benefits", "https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Unemployment-Compensation-Fund-Status-Benefits",
     "Unemployment Insurance Benefit Payments", "https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Unemployment-Insurance-Benefit-Payments"
 )
@@ -45,17 +45,18 @@ data_sources_text = c()
 
 for (i in seq_along(data_sources_codebook$name)){
   data_sources_codebook <- data_sources_codebook %>% mutate(data = purrr::map(url[[i]], read_html))
-  
-  data_sources_text <- 
-    data_sources_codebook$data[[i]] %>% 
+
+  data_sources_text <-
+    data_sources_codebook$data[[i]] %>%
     html_nodes("li") %>%
-    html_text() 
-  
+    html_text() %>%
+    stringr::str_trim()
+
   df = c()
   df$CONDITION = data_sources_text %like% "^saved" %>% as.logical()
   df = df %>% as.data.frame()
-  
-  bottom = df %>% 
+
+  bottom = df %>%
     mutate(group_break = case_when(
       row_number() == 1 ~ 1,
       CONDITION & !stats::lag(CONDITION, 1) ~ 1,
@@ -65,33 +66,36 @@ for (i in seq_along(data_sources_codebook$name)){
     ) %>%
     filter(!is.na(group_ind)) %>%
     summarize(count = n() + 1) %>% as.numeric()
-  
+
   top = as.numeric(which(data_sources_text %like% "^Columns", arr.ind = TRUE)) + 1
-  
+
   data.sources.test = as.data.frame(data_sources_text[top:bottom])
-  
+
+  data.sources.test <- data.sources.test %>%
+    mutate(`Data Type` = str_extract(.[[1]], " \\(.*\\)") %>% str_replace(" \\((.*)\\)$", "\\1"))
+
   data_name = gsub(" ", "_", data_sources_codebook$name[[i]])
   colnames(data.sources.test) <- data_name
-  
+
   write.xlsx(data.sources.test, file = "Data Source Codebook.xlsx",
-           sheetName = data_name, append = TRUE, row.names = FALSE)
+           sheetName = data_name, append = F, row.names = FALSE)
 }
-  
+
 
 # wiki_pg <- read_html("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Assessed-Property-Values")
-# 
-# li_text <- 
+#
+# li_text <-
 #   wiki_pg %>%
 #   html_nodes("li") %>%
 #   html_text()
-# 
+#
 # length(li_text)
-# 
+#
 # df = c()
 # df$CONDITION = li_text %like% "^saved" %>% as.logical()
 # df = df %>% as.data.frame()
-# 
-# df %>% 
+#
+# df %>%
 #   mutate(group_break = case_when(
 #   row_number() == 1 ~ 1,
 #   CONDITION & !stats::lag(CONDITION, 1) ~ 1,
@@ -101,7 +105,7 @@ for (i in seq_along(data_sources_codebook$name)){
 #   ) %>%
 #   filter(!is.na(group_ind)) %>%
 #   summarize(count = n() + 1)
-# 
-# assessed_living_values <- as.data.frame(li_text[60:87]) 
-# 
-# colnames(assessed_living_values) <- c("variables") 
+#
+# assessed_living_values <- as.data.frame(li_text[60:87])
+#
+# colnames(assessed_living_values) <- c("variables")
