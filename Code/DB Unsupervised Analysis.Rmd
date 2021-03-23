@@ -16,7 +16,7 @@ library(Rtsne)
 library(tidyr)
 theme_set(theme_bw())
 
-load("Data/Combined_IA_data.Rdata")
+load("../Data/Combined_IA_data.Rdata")
 ```
 
 ## Outline
