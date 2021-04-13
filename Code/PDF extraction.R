@@ -9,26 +9,26 @@ download.file("https://www.icip.iastate.edu/sites/default/files/retail/retail_19
 txt <- pdf_text("retail_1900190.pdf")
 
 # first page text
-cat(txt[1])
+txt[1]
 
 # second page text
-cat(txt[2])
+txt[2]
 
 # some tables
-cat(txt[23]) #There has to be a better way to do this
-cat(txt[24])
+txt[23] #There has to be a better way to do this
+txt[24]
 
 ## ---- using tabulizer package----
-f <- system.file("Data-Sources","retail_1900190.pdf", package = "tabulizer") #<-- Not working
+f <- "retail_1900190.pdf"
 out1 <- extract_tables(f)
 str(out1)
 
-out2 <- extract_tables(f, pages = 1, guess = FALSE, output = "data.frame")
+out2 <- extract_tables(f, pages = 1, guess = TRUE, output = "data.frame")
 str(out2)
 
 ## ---- No longer using this ----
 # page <- read_html("https://www.icip.iastate.edu/retail/city")
-# 
+#
 # raw_list <- page %>% # takes the page above for which we've read the html
 #   html_nodes("a") %>%  # find all links in the page
 #   html_attr("href") %>% # get the url for these links
