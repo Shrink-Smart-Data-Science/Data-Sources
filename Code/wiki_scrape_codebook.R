@@ -3,7 +3,7 @@ library(rvest)
 library(purrr)
 library(tidyverse)
 library(data.table)
-library(xlsx)
+library(openxlsx)
 
 # usethis::use_course("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki")
 
@@ -69,11 +69,13 @@ for (i in seq_along(data_sources_codebook$name)){
     # Get body text, bulleted list, 2nd bullet, with a nested bulleted list, and get the nested items
     html_nodes(css = ".markdown-body > ul > li:nth-of-type(2) > ul > li") %>%
     html_text()
+  
   var_types <- variables %>%
     # Pull out the (parenthetical)
     str_extract("\\((.*)\\)") %>%
     # remove parentheses
     str_remove_all("[[:punct:]]")
+  
   variable_names <- variables %>%
     # Remove parenthetical information at the end of the string ($)
     str_remove_all(" \\(.*\\)$")
@@ -88,60 +90,39 @@ for (i in seq_along(data_sources_codebook$name)){
     html_nodes(css = ".markdown-body > ul > li:last-of-type") %>%
     html_text()
 
-  df = c()
-  df$CONDITION = data_sources_text %like% "^saved" %>% as.logical()
-  df = df %>% as.data.frame()
+  # df = c()
+  # df$CONDITION = data_sources_text %like% "^saved" %>% as.logical()
+  # #Pulls the data in text before saved date in the wiki page 
+  # df = df %>% as.data.frame()
+  # 
+  # bottom = df %>%
+  #   #The following code will count the true/false statements until true value
+  #   mutate(group_break = case_when(
+  #     row_number() == 1 ~ 1,
+  #     CONDITION & !stats::lag(CONDITION, 1) ~ 1,
+  #     !CONDITION & !stats::lag(CONDITION, 1) ~ 1,
+  #     FALSE ~ 0),
+  #     group_ind = cumsum(group_break)
+  #   ) %>%
+  #   filter(!is.na(group_ind)) %>%
+  #   summarize(count = n() + 1) %>% as.numeric()
+  # 
+  # top = as.numeric(which(data_sources_text %like% "^Columns", arr.ind = TRUE)) + 1
+  # #This statement will find the first variable column in the wiki page
+  # 
+  # data.sources.test = as.data.frame(data_sources_text[top:bottom])
+  # #Will create the data frame with only those columns
+  # 
+ # data.sources.test <- data.sources.test %>%
+#    mutate(`Data Type` = str_extract(.[[1]], " \\(.*\\)") %>% str_replace(" \\((.*)\\)$", "\\1"))
 
-  bottom = df %>%
-    mutate(group_break = case_when(
-      row_number() == 1 ~ 1,
-      CONDITION & !stats::lag(CONDITION, 1) ~ 1,
-      !CONDITION & !stats::lag(CONDITION, 1) ~ 1,
-      FALSE ~ 0),
-      group_ind = cumsum(group_break)
-    ) %>%
-    filter(!is.na(group_ind)) %>%
-    summarize(count = n() + 1) %>% as.numeric()
-
-  top = as.numeric(which(data_sources_text %like% "^Columns", arr.ind = TRUE)) + 1
-
-  data.sources.test = as.data.frame(data_sources_text[top:bottom])
-
-  data.sources.test <- data.sources.test %>%
-    mutate(`Data Type` = str_extract(.[[1]], " \\(.*\\)") %>% str_replace(" \\((.*)\\)$", "\\1"))
-
-  data_name = gsub(" ", "_", data_sources_codebook$name[[i]])
+  data.sources.test = cbind.data.frame(variable_names,var_types)
+  data.sources.test = rbind.data.frame(data.sources.test,mysql_name,last_update)
+  
+  data_name = data_sources_codebook$name[[i]] #gsub(" ", "_", data_sources_codebook$name[[i]])
   colnames(data.sources.test) <- data_name
 
-  write.xlsx(data.sources.test, file = "Data Source Codebook.xlsx",
-           sheetName = data_name, append = F, row.names = FALSE)
+  openxlsx::write.xlsx(data.sources.test, file = "Data Source Codebook.xlsx",
+           sheetName = data_name, append = T, row.names = FALSE)
 }
 
-
-# wiki_pg <- read_html("https://github.com/Shrink-Smart-Data-Science/Data-Sources/wiki/Assessed-Property-Values")
-#
-# li_text <-
-#   wiki_pg %>%
-#   html_nodes("li") %>%
-#   html_text()
-#
-# length(li_text)
-#
-# df = c()
-# df$CONDITION = li_text %like% "^saved" %>% as.logical()
-# df = df %>% as.data.frame()
-#
-# df %>%
-#   mutate(group_break = case_when(
-#   row_number() == 1 ~ 1,
-#   CONDITION & !stats::lag(CONDITION, 1) ~ 1,
-#   !CONDITION & !stats::lag(CONDITION, 1) ~ 1,
-#   FALSE ~ 0),
-#   group_ind = cumsum(group_break)
-#   ) %>%
-#   filter(!is.na(group_ind)) %>%
-#   summarize(count = n() + 1)
-#
-# assessed_living_values <- as.data.frame(li_text[60:87])
-#
-# colnames(assessed_living_values) <- c("variables")
