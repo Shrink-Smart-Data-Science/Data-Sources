@@ -5,17 +5,14 @@ library(stringr)
 library(geosphere)
 library(sp)
 library(rgeos)
-library(stringr)
 library(magrittr)
 library(geodist)
 
 
 crs <- structure(list(epsg = 26915L, proj4string = "+proj=longlat +zone=15 +datum=NAD83 +units=mi +no_defs"), class = "crs")
 #--- Start with getting the centriods from Ricardo ----
-city_centroids <- read.csv("Data/place_centroids_with_latlong.csv") %>%
-  select(City = NAME, center.long = long, center.lat = lat)
-  # st_as_sf(coords = c("long", "lat"), crs = 4326) %>%
-  # st_transform(crs = crs)
+city_centroids <- read.csv("Data/place_centroids.csv") %>%
+  select(City = name, center.long = lon, center.lat = lat)
 
 #--- Nearest Point Function ----
 #st_nn(a, b, k = 1, returnDist = T)
@@ -34,24 +31,26 @@ ia_hospitals_dist <-
   crossing(City = city_centroids$City, hosp.city = hospitals_sm$City) %>%
   left_join(city_centroids) %>%
   left_join(hospitals_sm, by = c("hosp.city" = "City")) %>%
-  #group_by(City,hospital_trauma_level) %>%
+  rowwise() %>%
   # Calculate distance between city and hospital
-  mutate(dist = distm(cbind(hosp.long,hosp.lat), cbind(center.long,center.lat)),
+  mutate(hosp.coord = list(c(hosp.long,hosp.lat)),
+         center.coord = list(c(center.long,center.lat)),
+         dist = distm(x= hosp.coord, y=center.coord, fun = distGeo),
   # Converts the distance to a mile calculation
          dist.mi = dist*0.000621371,
          hospital_trauma_level = ifelse(is.na(hospital_trauma_level), "Not rated", hospital_trauma_level)) %>%
   # Group by city
-  group_by(City,hospital_trauma_level) %>%
+  group_by(City) %>%
   # Take minimum distance hospital
   filter(dist == min(dist)) %>%
   select(City,hosp.city,hosp.county = County,hospital_trauma_level,dist,dist.mi)
 
-ia_hospitals_dist2 <- ia_hospitals_dist %>%
-  group_by(City) %>%
-  arrange(City, hosp.city,-dist.mi) %>%
-  top_n(n = 2)
 
-  slice_max(order_by = dist.mi, n = 2)
+#This is not working the way that I want to get the top two distances by city
+# ia_hospitals_dist2 <- ia_hospitals_dist %>%
+#   group_by(hosp.city) %>%
+#   arrange(City, hosp.city,dist.mi) %>%
+#   slice_max(order_by = dist.mi, n = 2)
 
 write.csv(ia_hospitals_dist,"Data/Distance_Data/Hospital_distances.csv", row.names = FALSE)
 
@@ -101,9 +100,9 @@ fire_dept <- read.csv("Data/IowaGov/fire_dept.csv") %>%
   filter(!is.na(lat) & !is.na(long)) %>%
   select(-X)
   
-city_county_centroids <- city_centroids %>%
-  left_join(ia_city_county_population2 %>% select(City = geo_name, county, population) 
-            %>% group_by(City) %>% filter(population == min(population)))
+# city_county_centroids <- city_centroids %>%
+#   left_join(ia_city_county_population2 %>% select(City = geo_name, county, population) 
+#             %>% group_by(City) %>% filter(population == min(population)))
   
 fire_dept_sm <- fire_dept %>%
   select(dept_type,Firefighters,primary_agency_for_em,
