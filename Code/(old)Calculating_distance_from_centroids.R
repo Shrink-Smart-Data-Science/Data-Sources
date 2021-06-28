@@ -36,25 +36,22 @@ ia_hospitals_dist <-
   left_join(hospitals_sm, by = c("hosp.city" = "City")) %>%
   #group_by(City,hospital_trauma_level) %>%
   # Calculate distance between city and hospital
-  mutate(dist = distGeo(cbind(hosp.long,hosp.lat), cbind(center.long,center.lat)),
+  mutate(dist = distm(cbind(hosp.long,hosp.lat), cbind(center.long,center.lat)),
   # Converts the distance to a mile calculation
          dist.mi = dist*0.000621371,
-         hospital_trauma_level = ifelse(is.na(hospital_trauma_level), "Not rated", hospital_trauma_level)) 
-
-%>%
+         hospital_trauma_level = ifelse(is.na(hospital_trauma_level), "Not rated", hospital_trauma_level)) %>%
   # Group by city
   group_by(City,hospital_trauma_level) %>%
   # Take minimum distance hospital
   filter(dist == min(dist)) %>%
   select(City,hosp.city,hosp.county = County,hospital_trauma_level,dist,dist.mi)
 
-#This is not working the way that I want to get the top two distances by city
-# ia_hospitals_dist2 <- ia_hospitals_dist %>%
-#   group_by(hosp.city) %>%
-#   arrange(City, hosp.city,dist.mi) %>%
-#   top_n(n = 2)
-# 
-#   slice_max(order_by = dist.mi, n = 2)
+ia_hospitals_dist2 <- ia_hospitals_dist %>%
+  group_by(City) %>%
+  arrange(City, hosp.city,-dist.mi) %>%
+  top_n(n = 2)
+
+  slice_max(order_by = dist.mi, n = 2)
 
 write.csv(ia_hospitals_dist,"Data/Distance_Data/Hospital_distances.csv", row.names = FALSE)
 
