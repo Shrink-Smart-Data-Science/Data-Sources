@@ -5,6 +5,7 @@ library(stringr)
 library(geosphere)
 library(sp)
 library(rgeos)
+library(stringr)
 library(magrittr)
 library(geodist)
 
@@ -13,6 +14,8 @@ crs <- structure(list(epsg = 26915L, proj4string = "+proj=longlat +zone=15 +datu
 #--- Start with getting the centriods from Ricardo ----
 city_centroids <- read.csv("Data/place_centroids.csv") %>%
   select(City = name, center.long = lon, center.lat = lat)
+  # st_as_sf(coords = c("long", "lat"), crs = 4326) %>%
+  # st_transform(crs = crs)
 
 #--- Nearest Point Function ----
 #st_nn(a, b, k = 1, returnDist = T)
@@ -31,11 +34,9 @@ ia_hospitals_dist <-
   crossing(City = city_centroids$City, hosp.city = hospitals_sm$City) %>%
   left_join(city_centroids) %>%
   left_join(hospitals_sm, by = c("hosp.city" = "City")) %>%
-  rowwise() %>%
+  #group_by(City,hospital_trauma_level) %>%
   # Calculate distance between city and hospital
-  mutate(hosp.coord = list(c(hosp.long,hosp.lat)),
-         center.coord = list(c(center.long,center.lat)),
-         dist = distm(x= hosp.coord, y=center.coord, fun = distGeo),
+  mutate(dist = distGeo(cbind(hosp.long,hosp.lat), cbind(center.long,center.lat)),
   # Converts the distance to a mile calculation
          dist.mi = dist*0.000621371,
          hospital_trauma_level = ifelse(is.na(hospital_trauma_level), "Not rated", hospital_trauma_level)) %>%
@@ -45,11 +46,11 @@ ia_hospitals_dist <-
   filter(dist == min(dist)) %>%
   select(City,hosp.city,hosp.county = County,hospital_trauma_level,dist,dist.mi)
 
-
-#This is not working the way that I want to get the top two distances by city
 # ia_hospitals_dist2 <- ia_hospitals_dist %>%
-#   group_by(hosp.city) %>%
-#   arrange(City, hosp.city,dist.mi) %>%
+#   group_by(City) %>%
+#   arrange(City, hosp.city,-dist.mi) %>%
+#   top_n(n = 2)
+# 
 #   slice_max(order_by = dist.mi, n = 2)
 
 write.csv(ia_hospitals_dist,"Data/Distance_Data/Hospital_distances.csv", row.names = FALSE)
@@ -71,7 +72,6 @@ post_offices <- tibble(text = read_lines("Data/Iowa_Post_Offices.txt", skip = 2)
               select(post_office = geo_name,post.lat = lat,post.long = long)) %>% 
   unique()
 
-
 post_offices_sm <- post_offices %>%
   select(-zip5) %>% 
   rename(City = post_office) %>%
@@ -88,7 +88,7 @@ ia_postoffice_dist <-
          # Converts the distance to a mile calculation
          dist.mi = dist*0.000621371) %>%
   # Group by city
-   group_by(post.city) %>%
+   group_by(City) %>%
   # Take minimum distance post office
   filter(dist == min(dist)) %>%
   select(City,post.city,dist,dist.mi)
@@ -100,15 +100,13 @@ fire_dept <- read.csv("Data/IowaGov/fire_dept.csv") %>%
   filter(!is.na(lat) & !is.na(long)) %>%
   select(-X)
   
-# city_county_centroids <- city_centroids %>%
-#   left_join(ia_city_county_population2 %>% select(City = geo_name, county, population) 
-#             %>% group_by(City) %>% filter(population == min(population)))
+city_county_centroids <- city_centroids %>%
+  left_join(ia_city_county_population %>% select(City = geo_name, county, year) %>% 
+              group_by(City) %>% filter(year == 2019))
   
 fire_dept_sm <- fire_dept %>%
   select(dept_type,Firefighters,primary_agency_for_em,
          number_stations,fire.county = County,fire.lat = lat,fire.long = long,zip5) %>%
-  # left_join(ia_city_county_population %>% filter(year == 2019) %>% 
-  #             select(fire.city = geo_name, county), by = "county") %>%
   mutate(primary_agency_for_em =ifelse(is.na(primary_agency_for_em),"Not App",primary_agency_for_em))
 
 ia_firedept_dist <- 
@@ -121,7 +119,7 @@ ia_firedept_dist <-
          # Converts the distance to a mile calculation
          dist.mi = dist*0.000621371) %>%
   # Group by city
-  group_by(City,county,dept_type) %>%
+  group_by(City) %>%
   # Take minimum distance fire department
   filter(dist == min(dist)) %>%
   #ungroup() %>%
@@ -162,32 +160,43 @@ schools <- dbReadTable(conn, "school_building_directory") %>%
   filter(!is.na(grade_start) & !is.na(grade_end)) %>%
   mutate(type = purrr::map2(grade_start, grade_end, school_cat)) %>%
   unnest(type) %>%
-  filter(!is.na(lat) & !is.na(long)) %>%
-  st_as_sf(coords = c("long", "lat"), crs = 4326) %>%
-  st_transform(crs = crs)
+  filter(!is.na(lat) & !is.na(long)) 
+
 
 school_sm <- schools %>%
-  select(mailing_city,county,district_school_id, public, type, geometry)
+  select(mailing_city,county,district_school_id, public, type, school.long = long, school.lat = lat)
 
 
 ia_schools_dist <- 
-  full_join(county_centriods %>% as.data.frame(), 
-            school_sm %>% as.data.frame(), by = c("NAME" = "mailing_city")) %>% 
-  na.omit() %>%
-  st_sf(sf_column_name = 'geometry.x') %>%
-  st_sf(sf_column_name = 'geometry.y') %>%
-  select(City = NAME,county,district_school_id,public,type,center = geometry.x,geometry = geometry.y) %>%
-  mutate(dist = st_distance(center, geometry, by_element = T)) %>% ## how to get units
-  group_by(City,county,district_school_id,public,type) %>%
+  crossing(City = city_centroids$City, school.city = school_sm$mailing_city) %>%
+  left_join(city_centroids) %>%
+  left_join(school_sm, by = c("school.city" = "mailing_city")) %>%
+  #group_by(City,hospital_trauma_level) %>%
+  # Calculate distance between city and school
+  mutate(dist = distGeo(cbind(school.long,school.lat), cbind(center.long,center.lat)),
+         # Converts the distance to a mile calculation
+         dist.mi = dist*0.000621371) %>%
+  # Group by city
+  group_by(City, public, type) %>%
+  # Take minimum distance school
   filter(dist == min(dist)) %>%
-  ungroup()
+  select(City,school.city,school.county = county,public,type,dist,dist.mi)
 
-write.csv(ia_schools_dist,"Data/Distance_Data/School_distances.csv", row.names = FALSE)
+ia_city_school_dist <- 
+  ia_schools_dist %>%
+  mutate(key = sprintf("dist_%s_%s", c("private", "public")[public+1], type)) %>%
+  ungroup() %>%
+  select(-public, -type) %>%
+  unique() %>%
+  tidyr::spread(key = key, value = dist.mi)
+  
+
+write.csv(ia_city_school_dist,"Data/Distance_Data/School_distances.csv", row.names = FALSE)
 
 #--- Clean up -----
 
 save(ia_firedept_dist, ia_hospitals_dist,
-     ia_postoffice_dist, ia_schools_dist, file = "Data/distance_Data.Rdata")
+     ia_postoffice_dist, ia_city_school_dist, file = "Data/distance_Data.Rdata")
 
 rm(fire_dept, fire_dept_sm, hospitals, hospitals_sm,
    post_offices, post_offices_sm, schools, school_sm)
