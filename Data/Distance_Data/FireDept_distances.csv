@@ -1,78 +1,1084 @@
-"dept_type","organization_type","primary_agency_for_em","County","center","geometry","dist"
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Adair",c(-98.2252737907244, 48.9938309041357),c(-94.643469, 41.500695),8.30520386484906
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Adair",c(-98.2252737907244, 48.9938309041357),c(-94.461231, 41.304162),8.56148503389663
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Audubon",c(-98.3317137746673, 49.0549579856139),c(-94.93626, 41.723071),8.07995501879293
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Audubon",c(-98.3317137746673, 49.0549579856139),c(-95.074982, 41.628828),8.1088660375765
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Benton",c(-98.0940118464148, 48.7598942853941),c(-92.091148, 42.007577),9.03483055077547
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Benton",c(-98.0940118464148, 48.7598942853941),c(-92.023414, 42.169626),8.96012244817933
-"Mostly career","Local (includes career, combination, and volunteer)",FALSE,"Boone",c(-97.9862065358439, 49.178844872713),c(-93.878581, 42.063814),8.21561025501916
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Boone",c(-97.9862065358439, 49.178844872713),c(-94.104795, 42.176281),8.0063260177192
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Boone",c(-97.9862065358439, 49.178844872713),c(-94.033768, 42.039053),8.16078417587933
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Carroll",c(-98.3239785977903, 49.1614127080017),c(-95.043847, 42.08753),7.79737647323687
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Carroll",c(-98.3239785977903, 49.1614127080017),c(-94.847117, 42.066345),7.90117411220114
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Carroll",c(-98.3239785977903, 49.1614127080017),c(-94.970816, 42.005406),7.90266609519756
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Cherokee",c(-98.5850015738207, 49.3555438291764),c(-95.552844, 42.748004),7.27004553951561
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Cherokee",c(-98.5850015738207, 49.3555438291764),c(-95.712777, 42.813797),7.1445171690954
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Cherokee",c(-98.5850015738207, 49.3555438291764),c(-95.808054, 42.823853),7.09749412931746
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Clayton",c(-97.0912256025597, 49.4957134206215),c(-91.450872, 43.060265),8.55737022316949
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Clayton",c(-97.0912256025597, 49.4957134206215),c(-91.391103, 43.053316),8.60208592199837
-"Career","Local (includes career, combination, and volunteer)",FALSE,"Clinton",c(-96.7163407733484, 49.2020733496578),c(-90.191889, 41.843389),9.83456690966347
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Clinton",c(-96.7163407733484, 49.2020733496578),c(-90.818222, 41.964725),9.33632776839049
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Clinton",c(-96.7163407733484, 49.2020733496578),c(-91.022094, 41.588057),9.50777004815772
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Delaware",c(-97.1376204180294, 49.3619714232087),c(-91.453962, 42.484008),8.92246344143999
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Delaware",c(-97.1376204180294, 49.3619714232087),c(-91.590289, 42.480371),8.83907858581211
-"Career","Local (includes career, combination, and volunteer)",FALSE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.104348, 40.809378),10.6591328857949
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.315905, 40.867021),10.4809856709841
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.156629, 40.823776),10.6148466228462
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Des Moines",c(-97.8758327066883, 49.0412738171324),c(-91.322419, 41.026479),10.3529786618027
-"Career","Local (includes career, combination, and volunteer)",FALSE,"Dubuque",c(-96.9170096527624, 49.387271608175),c(-90.665796, 42.502181),9.29957766865048
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Dubuque",c(-96.9170096527624, 49.387271608175),c(-90.996608, 42.60145),9.00547226013198
-"Volunteer","Contract fire department",TRUE,"Dubuque",c(-96.9170096527624, 49.387271608175),c(-90.786475, 42.604651),9.14261436587812
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Fayette",c(-97.3125760728002, 49.4616552144813),c(-91.916631, 42.678395),8.66768956331741
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Fayette",c(-97.3125760728002, 49.4616552144813),c(-91.951014, 43.204245),8.24023849489712
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Fayette",c(-97.3125760728002, 49.4616552144813),c(-91.814172, 42.95172),8.52125013390227
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Floyd",c(-97.6446460514631, 49.5255949875497),c(-92.673092, 43.060769),8.1553862407563
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Floyd",c(-97.6446460514631, 49.5255949875497),c(-92.868417, 42.963819),8.11598842180199
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Floyd",c(-97.6446460514631, 49.5255949875497),c(-93.005602, 43.143109),7.89030145765569
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Franklin",c(-97.1032352080758, 48.8128400448776),c(-93.369504, 42.763351),7.1089427088881
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Fremont",c(-97.4495513673934, 48.9551143867516),c(-95.658912, 40.60083),8.54403048676564
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Greene",c(-97.6560801723527, 49.4545013778105),c(-94.239087, 42.031743),8.17148605060677
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Greene",c(-97.6560801723527, 49.4545013778105),c(-94.254274, 42.165951),8.04333586543162
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Hamilton",c(-97.6100964404192, 48.9315985919595),c(-93.640028, 42.309586),7.72091278215747
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Hamilton",c(-97.6100964404192, 48.9315985919595),c(-93.815842, 42.466831),7.49597136978862
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Hancock",c(-98.4690211028331, 48.946889911463),c(-93.801766, 43.095366),7.48489160117532
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Hancock",c(-98.4690211028331, 48.946889911463),c(-93.602105, 43.100394),7.60712736811799
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Humboldt",c(-98.1315014127706, 49.372193787773),c(-94.287508, 42.86794),7.55523677280754
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Jefferson",c(-98.1547836452263, 49.1548937102685),c(-92.084913, 41.133946),10.0587738726269
-"Volunteer","Contract fire department",TRUE,"Keokuk",c(-97.0513420319048, 48.7374428662001),c(-91.951377, 41.36395),8.96538010206792
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Keokuk",c(-97.0513420319048, 48.7374428662001),c(-92.239388, 41.454332),8.72918126140858
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Keokuk",c(-97.0513420319048, 48.7374428662001),c(-92.205121, 41.332404),8.84988468286511
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Lucas",c(-97.7965731349218, 48.8768192254362),c(-93.461016, 41.028541),8.96618797338241
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Marion",c(-97.1996275255267, 49.2267308146345),c(-93.151931, 41.175371),9.01156157541367
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Marion",c(-97.1996275255267, 49.2267308146345),c(-93.096465, 41.317066),8.91059707262952
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Marion",c(-97.1996275255267, 49.2267308146345),c(-92.918329, 41.407218),8.91483582142208
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Mitchell",c(-97.6983090552721, 49.581115383151),c(-92.814962, 43.284102),7.96865459220173
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Mitchell",c(-97.6983090552721, 49.581115383151),c(-92.919475, 43.378504),7.83004743907869
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Monona",c(-97.1833831250429, 49.5349451435014),c(-95.793218, 42.165161),7.49975182233988
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Monona",c(-97.1833831250429, 49.5349451435014),c(-96.095858, 42.025613),7.58767290669695
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Muscatine",c(-96.9844615109463, 49.0531012217192),c(-90.806889, 41.460238),9.78846126986952
-"Career","Local (includes career, combination, and volunteer)",FALSE,"Muscatine",c(-96.9844615109463, 49.0531012217192),c(-91.045809, 41.424955),9.66727512930597
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Muscatine",c(-96.9844615109463, 49.0531012217192),c(-91.262295, 41.568557),9.42133704873495
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Osceola",c(-97.9029998023826, 48.8712124558988),c(-95.474901, 43.320667),6.05840066784383
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Osceola",c(-97.9029998023826, 48.8712124558988),c(-95.750285, 43.400351),5.87915862092836
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Plymouth",c(-97.7806548216397, 49.5526042939463),c(-95.86757, 42.545227),7.26383026195563
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Pocahontas",c(-98.2848434338802, 49.366346686515),c(-94.527206, 42.813735),7.5535792177451
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Shelby",c(-98.5046146099197, 48.9828823000635),c(-95.32202, 41.660377),7.98423398458162
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Shelby",c(-98.5046146099197, 48.9828823000635),c(-95.392922, 41.718828),7.9024752940392
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Tama",c(-97.5333315019018, 49.1793348106521),c(-92.677447, 42.092427),8.590918263637
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Tama",c(-97.5333315019018, 49.1793348106521),c(-92.581649, 41.995643),8.72494055166398
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Tama",c(-97.5333315019018, 49.1793348106521),c(-92.464238, 42.193317),8.63134715915027
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Union",c(-97.714202378006, 49.2521429674454),c(-94.055262, 41.127138),8.91086698423981
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Wapello",c(-97.0171228314175, 48.975393606297),c(-92.63354, 41.157416),8.96306712529029
-"Career","Local (includes career, combination, and volunteer)",FALSE,"Wapello",c(-97.0171228314175, 48.975393606297),c(-92.413918, 41.022473),9.18903917121093
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Wapello",c(-97.0171228314175, 48.975393606297),c(-92.431827, 40.994747),9.20411093567513
-"Volunteer","Local (includes career, combination, and volunteer)",FALSE,"Washington",c(-97.1962684961737, 48.9995219029383),c(-91.82128, 41.17494),9.49287012919639
-"Mostly volunteer","Local (includes career, combination, and volunteer)",FALSE,"Washington",c(-97.1962684961737, 48.9995219029383),c(-91.689776, 41.298358),9.46727970804376
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Washington",c(-97.1962684961737, 48.9995219029383),c(-91.829235, 41.465059),9.25057726765222
-"Career","Local (includes career, combination, and volunteer)",FALSE,"Webster",c(-97.3685801622337, 49.029465208838),c(-94.17691, 42.506202),7.26221187492297
-"Volunteer","Local (includes career, combination, and volunteer)",TRUE,"Webster",c(-97.3685801622337, 49.029465208838),c(-94.363804, 42.507919),7.1804766373227
+"center.city","fire.county","number_stations","Firefighters","dept_type","dist","dist.mi"
+"Adair","Adair",1,26,"Volunteer",133.45638462517,0.0829259271709266
+"Bridgewater","Adair",1,0,"Volunteer",334.316315216584,0.207734463102444
+"Fontanelle","Adair",1,24,"Volunteer",159.900460724922,0.0993575091811055
+"Greenfield","Adair",1,24,"Volunteer",158.040500006936,0.0982017835298096
+"Orient","Adair",1,24,"Volunteer",11830.4225581746,7.3510814953955
+"Casey","Adair",1,14,"Volunteer",322.452030094374,0.200362340391771
+"Stuart","Adair",1,23,"Volunteer",200.170934976393,0.124380414037216
+"Carbon","Adams",1,30,"Volunteer",9909.853721,6.15769571647149
+"Corning","Adams",1,30,"Volunteer",349.021641243235,0.21687192624095
+"Nodaway","Adams",1,15,"Volunteer",67.0212585864936,0.0416450664691481
+"Prescott","Adams",1,17,"Volunteer",145.08191941137,0.0901496973465627
+"Lenox","Adams",1,26,"Volunteer",300.73903501056,0.186870514923546
+"Harpers Ferry","Allamakee",1,25,"Volunteer",178.094531803522,0.110662777321286
+"Lansing","Allamakee",1,30,"Volunteer",973.377212006372,0.604828371601611
+"New Albin","Allamakee",1,30,"Volunteer",15959.4499377332,9.9167393672592
+"Postville","Allamakee",1,40,"Volunteer",499.994498510418,0.310682081533917
+"Waterville","Allamakee",1,25,"Volunteer",11879.2513701904,7.38142230314659
+"Waukon","Allamakee",1,26,"Volunteer",617.913302737298,0.383953406835178
+"Centerville","Appanoose",1,28,"Mostly volunteer",217.780032699752,0.135322196698678
+"Cincinnati","Appanoose",1,10,"Volunteer",243.731866473598,0.151447913602566
+"Exline","Appanoose",1,10,"Volunteer",7134.10135382118,4.43292369232522
+"Moravia","Appanoose",1,22,"Volunteer",320.01075142603,0.198845400624344
+"Moulton","Appanoose",1,28,"Mostly volunteer",17224.3057297474,10.7026840755988
+"Mystic","Appanoose",1,27,"Volunteer",334.949727100363,0.20812804687808
+"Numa","Appanoose",1,10,"Volunteer",7762.22734083285,4.82322296500065
+"Plano","Appanoose",1,27,"Volunteer",9145.64252954944,5.68283704422866
+"Rathbun","Appanoose",1,27,"Volunteer",5092.81781834154,3.1645293006007
+"Udell","Appanoose",1,28,"Mostly volunteer",12150.9134919985,7.55022526743659
+"Unionville","Appanoose",1,22,"Volunteer",12778.5144723836,7.94019831621946
+"Audubon","Audubon",1,40,"Volunteer",780.92852812893,0.485246340452001
+"Kimballton","Audubon",1,33,"Volunteer",43.510762095694,0.0270363257541635
+"Gray","Audubon",1,30,"Volunteer",9326.95245601682,5.79549777454763
+"Brayton","Audubon",1,22,"Volunteer",12490.2744577095,7.76109433006143
+"Exira","Audubon",1,22,"Volunteer",15151.2445562342,9.41454398115178
+"Atkins","Benton",1,26,"Volunteer",378.496029563227,0.235186456385732
+"Belle Plaine","Benton",1,40,"Volunteer",303.527810008308,0.188603378832673
+"Blairstown","Benton",1,20,"Volunteer",413.652026312643,0.257031373241913
+"Garrison","Benton",1,25,"Volunteer",328.574690952268,0.204166784291702
+"Keystone","Benton",1,23,"Volunteer",292.106173399468,0.181506305071401
+"Luzerne","Benton",1,20,"Volunteer",7836.50388814111,4.86937625747813
+"Newhall","Benton",1,30,"Volunteer",517.013059151935,0.321256921578297
+"Norway","Benton",1,15,"Volunteer",113.816580250129,0.0707223222866027
+"Shellsburg","Benton",1,23,"Volunteer",212.22226786745,0.131868762807065
+"Van Horne","Benton",1,25,"Volunteer",194.998609856558,0.121166481205179
+"Vinton","Benton",1,28,"Volunteer",564.04903413392,0.350483712388828
+"Mount Auburn","Benton",1,27,"Volunteer",9692.33706585293,6.0225371749461
+"Urbana","Benton",1,25,"Volunteer",8883.90715024212,5.5202022698531
+"Walford","Benton",2,51,"Volunteer",6100.55874322638,3.79071028683732
+"Dunkerton","Black Hawk",1,22,"Volunteer",529.443645134057,0.328980927220594
+"Elk Run Heights","Black Hawk",1,28,"Volunteer",2602.56333763084,1.61715738366701
+"Evansdale","Black Hawk",1,28,"Volunteer",637.104448698514,0.395878228392244
+"Gilbertville","Black Hawk",1,24,"Volunteer",245.489402557932,0.152539995556825
+"Hudson","Black Hawk",1,33,"Volunteer",1553.90063080267,0.965548788862483
+"La Porte City","Black Hawk",1,35,"Volunteer",101.51120608505,0.0630761196362739
+"Raymond","Black Hawk",1,18,"Volunteer",621.343821846922,0.386085031924844
+"Waterloo","Black Hawk",6,106,"Career",1876.67078197374,1.1661088004658
+"Janesville","Black Hawk",1,27,"Volunteer",132.872614405593,0.0825631892858175
+"Jesup","Black Hawk",1,35,"Volunteer",277.831685485715,0.172636552241944
+"Cedar Falls","Black Hawk",3,60,"Mostly volunteer",2603.81331722837,1.61793408473951
+"Boone","Boone",1,13,"Mostly career",401.79991841475,0.249666817105292
+"Boxholm","Boone",1,12,"Volunteer",157.385657128898,0.0977948831558407
+"Fraser","Boone",1,13,"Mostly career",10144.1767502126,6.30329725145637
+"Luther","Boone",1,21,"Volunteer",10233.2259693863,6.35862985382355
+"Madrid","Boone",1,21,"Volunteer",67.1555396551805,0.0417285048310791
+"Ogden","Boone",1,16,"Volunteer",361.636435601581,0.22471039362619
+"Pilot Mound","Boone",1,12,"Volunteer",7537.96602430495,4.68387348648839
+"Woodward","Boone",1,21,"Volunteer",8492.43197976579,5.27695095169905
+"Beaver","Boone",2,30,"Volunteer",8064.00257909138,5.01073734657259
+"Berkley","Boone",1,12,"Volunteer",7428.868997516,4.61608375785552
+"Sheldahl","Boone",1,27,"Volunteer",8059.927978205,5.00820550774522
+"Slater","Boone",1,27,"Volunteer",6774.13438607248,4.20925065760825
+"Denver","Bremer",1,22,"Volunteer",9382.71600921351,5.83014762936101
+"Frederika","Bremer",1,24,"Volunteer",9049.43483376938,5.62305637209411
+"Janesville","Bremer",1,27,"Volunteer",132.872614405593,0.0825631892858175
+"Readlyn","Bremer",1,22,"Volunteer",262.634092666193,0.163193208794085
+"Sumner","Bremer",1,30,"Volunteer",348.614888049377,0.216619181602129
+"Tripoli","Bremer",1,24,"Volunteer",505.056211059821,0.313827282922452
+"Waverly","Bremer",1,34,"Volunteer",215.52695121216,0.133922197201651
+"Plainfield","Bremer",1,28,"Volunteer",12594.7607449842,7.82601907887159
+"Aurora","Buchanan",1,18,"Volunteer",130.672986652711,0.0811964043893817
+"Brandon","Buchanan",1,27,"Volunteer",117.096488256929,0.0727603620046964
+"Fairbank","Buchanan",1,28,"Volunteer",189.425595395593,0.117703571636555
+"Hazleton","Buchanan",1,18,"Volunteer",149.775845306889,0.0930663667741867
+"Independence","Buchanan",1,26,"Mostly volunteer",430.093472337495,0.267247610999822
+"Jesup","Buchanan",1,35,"Volunteer",277.831685485715,0.172636552241944
+"Lamont","Buchanan",1,18,"Volunteer",7370.90425146372,4.58006614563626
+"Quasqueton","Buchanan",1,15,"Volunteer",304.659626570485,0.189306656821729
+"Rowley","Buchanan",1,13,"Volunteer",100.59548778429,0.0625071188400118
+"Stanley","Buchanan",1,18,"Volunteer",60.2848629922757,0.0374592656023733
+"Winthrop","Buchanan",1,16,"Volunteer",115.664879706818,0.0718708019683052
+"Alta","Buena Vista",1,31,"Volunteer",273.983993745638,0.170245708177721
+"Lakeside","Buena Vista",1,33,"Mostly volunteer",3624.61159718699,2.25222853275568
+"Newell","Buena Vista",1,27,"Volunteer",83.4888083809137,0.0518775243524567
+"Storm Lake","Buena Vista",1,33,"Mostly volunteer",649.219581809801,0.403406220768738
+"Truesdale","Buena Vista",1,33,"Mostly volunteer",9130.40863290624,5.67337114263759
+"Linn Grove","Buena Vista",1,18,"Volunteer",20125.6403882874,12.5054892937105
+"Marathon","Buena Vista",1,18,"Volunteer",10028.6172268009,6.23149191483452
+"Rembrandt","Buena Vista",1,18,"Volunteer",18651.2299461124,11.5893334028458
+"Sioux Rapids","Buena Vista",1,18,"Volunteer",12821.658519802,7.96700677610789
+"Albert City","Buena Vista",1,20,"Volunteer",11022.1481735046,6.84884323271876
+"Allison","Butler",1,22,"Volunteer",10888.5929529843,6.76585589178882
+"Aplington","Butler",1,22,"Volunteer",361.694810546101,0.224746666123841
+"Aredale","Butler",1,16,"Volunteer",9826.30709800541,6.10578226779472
+"Bristow","Butler",1,16,"Volunteer",6030.85745077585,3.74739992504604
+"Clarksville","Butler",1,22,"Volunteer",110.099236926292,0.0684124729481271
+"Dumont","Butler",1,16,"Volunteer",106.205434716434,0.0659929771751852
+"Greene","Butler",1,22,"Volunteer",259.223968742253,0.161074256681343
+"New Hartford","Butler",1,30,"Volunteer",126.065549465576,0.0783334765369746
+"Parkersburg","Butler",1,35,"Volunteer",271.081554186835,0.168442216406628
+"Shell Rock","Butler",1,20,"Volunteer",231.986531108911,0.144149702821675
+"Farnhamville","Calhoun",1,28,"Volunteer",150.320189225737,0.0934046062993857
+"Jolley","Calhoun",1,12,"Volunteer",110.952376578079,0.0689425891866977
+"Lake City","Calhoun",1,25,"Volunteer",107.591388747944,0.0668541688176986
+"Lohrville","Calhoun",1,18,"Volunteer",212.333418408109,0.131937828529665
+"Pomeroy","Calhoun",1,16,"Volunteer",7606.54178365195,4.72648447464959
+"Rinard","Calhoun",1,18,"Volunteer",9297.28612029848,5.77706397385599
+"Rockwell City","Calhoun",1,25,"Volunteer",93.9264148062775,0.0583631502945915
+"Somers","Calhoun",1,28,"Volunteer",11635.5486969958,7.22999252940101
+"Manson","Calhoun",1,22,"Volunteer",12426.2342463077,7.72130159986243
+"Lytton","Calhoun",1,29,"Volunteer",10650.0148996598,6.61761040821649
+"Yetter","Calhoun",1,26,"Volunteer",7901.54810874779,4.90979284988073
+"Knierim","Calhoun",1,22,"Volunteer",9688.16135128047,6.01994250700649
+"Lanesboro","Carroll",1,25,"Volunteer",9993.06478938272,6.20940066124353
+"Arcadia","Carroll",1,23,"Volunteer",252.794445337126,0.157079137293575
+"Carroll","Carroll",1,35,"Mostly volunteer",1497.60940185214,0.930571051638263
+"Coon Rapids","Carroll",1,26,"Volunteer",297.658278682014,0.184956222282922
+"Dedham","Carroll",1,30,"Volunteer",10028.4968089331,6.23141709066355
+"Glidden","Carroll",1,24,"Volunteer",333.400885448962,0.207165641592307
+"Halbur","Carroll",1,20,"Volunteer",129.268848462766,0.0803239136381577
+"Lidderdale","Carroll",1,35,"Mostly volunteer",8344.47077707756,5.18501215122346
+"Manning","Carroll",1,36,"Volunteer",111.238192676465,0.0691201870215678
+"Ralston","Carroll",1,24,"Volunteer",8061.16882079435,5.00897653134581
+"Templeton","Carroll",1,30,"Volunteer",252.97393385131,0.157190666251122
+"Willey","Carroll",1,35,"Mostly volunteer",10037.1078350366,6.23676773256455
+"Breda","Carroll",1,26,"Volunteer",11108.0865796437,6.90224286607978
+"Anita","Cass",1,30,"Volunteer",11.8164444348862,0.00734239589494967
+"Cumberland","Cass",1,22,"Volunteer",54.8661116079976,0.0340922106359731
+"Griswold","Cass",1,28,"Volunteer",139.507075716144,0.0866856511448163
+"Lewis","Cass",1,17,"Volunteer",249.374986259395,0.154954384586986
+"Marne","Cass",1,20,"Volunteer",255.951282886959,0.159040704598753
+"Massena","Cass",1,29,"Volunteer",70.4546201388555,0.0437784577703008
+"Wiota","Cass",1,30,"Volunteer",141.586128220105,0.0879775140782546
+"Atlantic","Cass",1,38,"Mostly volunteer",1609.66851670198,1.00020133589162
+"Bennett","Cedar",1,27,"Volunteer",129.495144260927,0.0804645272845567
+"Clarence","Cedar",1,25,"Volunteer",248.368739285134,0.154329131898343
+"Durant","Cedar",1,22,"Volunteer",162.504398502016,0.100975520601596
+"Mechanicsville","Cedar",1,18,"Volunteer",177.613628392198,0.110363957887689
+"Stanwood","Cedar",1,21,"Volunteer",183.434229368999,0.113980710537244
+"Tipton","Cedar",1,35,"Volunteer",282.854187920694,0.17575738960247
+"West Branch","Cedar",1,35,"Volunteer",568.151464103442,0.35303284340142
+"Wilton","Cedar",1,30,"Volunteer",260.188751846996,0.16167374492392
+"Lowden","Cedar",1,22,"Mostly volunteer",488.132431821526,0.303311337293373
+"Clear Lake","Cerro Gordo",1,42,"Mostly volunteer",275.96918713508,0.171479249779312
+"Dougherty","Cerro Gordo",1,18,"Volunteer",105.665486784328,0.0656574691886646
+"Mason City","Cerro Gordo",1,44,"Career",415.182845412992,0.257982579837116
+"Rockwell","Cerro Gordo",1,20,"Volunteer",246.989627252163,0.153472191675304
+"Swaledale","Cerro Gordo",1,20,"Volunteer",10420.9974196853,6.4753055876673
+"Thornton","Cerro Gordo",1,20,"Volunteer",16496.5002165375,10.2504468360501
+"Ventura","Cerro Gordo",1,21,"Volunteer",754.85726860656,0.469046415851327
+"Nora Springs","Cerro Gordo",1,25,"Volunteer",402.217534594337,0.249926311688418
+"Rock Falls","Cerro Gordo",1,25,"Volunteer",9567.00389151615,5.94465877507528
+"Meservey","Cerro Gordo",1,11,"Volunteer",11273.3716516695,7.00494621656954
+"Plymouth","Cerro Gordo",1,17,"Volunteer",7994.71905532252,4.96768657412481
+"Aurelia","Cherokee",1,20,"Volunteer",179.195398753407,0.111346824118803
+"Cherokee","Cherokee",1,28,"Mostly volunteer",747.746122593335,0.464627755941943
+"Cleghorn","Cherokee",1,22,"Volunteer",187.288746833434,0.116375795908638
+"Larrabee","Cherokee",1,11,"Volunteer",68.3254940186447,0.0424554805438593
+"Marcus","Cherokee",1,20,"Volunteer",303.992005493594,0.18889181644556
+"Meriden","Cherokee",1,17,"Volunteer",125.810097997335,0.078174746402702
+"Quimby","Cherokee",1,16,"Volunteer",8676.44144502255,5.39128909713511
+"Washta","Cherokee",1,16,"Volunteer",60.6727106789221,0.0377002629072725
+"New Hampton","Chickasaw",1,19,"Volunteer",177.740565266543,0.110442832780237
+"Alta Vista","Chickasaw",1,20,"Volunteer",136.564849230334,0.0848574369311019
+"Bassett","Chickasaw",1,25,"Volunteer",106.72805180392,0.0663177162774533
+"Ionia","Chickasaw",1,25,"Volunteer",5821.69576438218,3.61743291880992
+"Nashua","Chickasaw",1,28,"Volunteer",811.735631901471,0.504388981330249
+"North Washington","Chickasaw",1,20,"Volunteer",9071.36972867619,5.63668607967726
+"Protivin","Chickasaw",1,22,"Volunteer",84.8195938443618,0.052704435846665
+"Fredericksburg","Chickasaw",1,24,"Volunteer",1205.77730179779,0.749235047795392
+"Lawler","Chickasaw",1,24,"Volunteer",11992.9827510088,7.4520916849771
+"Murray","Clarke",1,22,"Volunteer",81.7499853145968,0.0507970701249163
+"Osceola","Clarke",1,26,"Volunteer",166.328801621085,0.103351893792095
+"Woodburn","Clarke",1,24,"Volunteer",11620.7238954981,7.22078082766954
+"Everly","Clay",1,12,"Volunteer",258.151326619068,0.160407747972617
+"Gillett Grove","Clay",1,18,"Volunteer",7610.93854514823,4.7292164947373
+"Greenville","Clay",1,18,"Volunteer",13098.0828298975,8.13876882609624
+"Rossie","Clay",1,36,"Mostly volunteer",14365.1998398806,8.92611858970647
+"Royal","Clay",1,12,"Volunteer",11170.9259563408,6.94128943241743
+"Spencer","Clay",1,36,"Mostly volunteer",1058.65950079101,0.657820312666011
+"Webb","Clay",1,18,"Volunteer",179.657191583848,0.111633768791647
+"Fostoria","Clay",1,30,"Volunteer",10168.0793308292,6.31814962187666
+"Peterson","Clay",1,18,"Volunteer",13533.1515075417,8.40910788539269
+"Dickens","Clay",1,44,"Volunteer",9593.07912110555,5.96086116656047
+"Postville","Clayton",1,40,"Volunteer",499.994498510418,0.310682081533917
+"Elkader","Clayton",1,30,"Volunteer",598.619637051989,0.371964882494632
+"Elkport","Clayton",1,29,"Volunteer",1007.99504708886,0.626338890404652
+"Farmersburg","Clayton",1,25,"Volunteer",3748.96867936494,2.32950041726567
+"Garber","Clayton",1,29,"Volunteer",240.932535748547,0.149708490670611
+"Guttenberg","Clayton",1,31,"Volunteer",447.640163849312,0.278150616251211
+"Luana","Clayton",1,23,"Volunteer",342.109095020043,0.212576670481699
+"Marquette","Clayton",2,28,"Volunteer",2615.88060219861,1.62543234566875
+"Monona","Clayton",1,27,"Volunteer",211.564547231041,0.131460074277499
+"Osterdock","Clayton",1,31,"Volunteer",7778.48798058885,4.83332685498648
+"Strawberry Point","Clayton",1,26,"Volunteer",350.796406211968,0.217974713724337
+"Volga","Clayton",1,18,"Volunteer",230.444176189328,0.143191328202939
+"Edgewood","Clayton",1,21,"Volunteer",8042.62631700148,4.99745475722153
+"North Buena Vista","Clayton",1,30,"Volunteer",9351.73971612086,5.81089985914574
+"Clayton","Clayton",1,26,"Volunteer",8480.51292712489,5.26954479804052
+"Garnavillo","Clayton",1,26,"Volunteer",271.812085513352,0.168896147387517
+"Calamus","Clinton",1,30,"Volunteer",216.911656048291,0.134782612630382
+"Camanche","Clinton",2,39,"Mostly volunteer",902.60119573139,0.560850207592809
+"Charlotte","Clinton",1,30,"Volunteer",148.19147788944,0.092081886807639
+"Clinton","Clinton",3,45,"Career",1949.9815364535,1.21166197728765
+"Delmar","Clinton",1,21,"Volunteer",235.061959308059,0.146060684717208
+"Goose Lake","Clinton",1,15,"Volunteer",104.014485848696,0.0646315850862901
+"Grand Mound","Clinton",1,34,"Volunteer",92.6072542403311,0.0575434621745688
+"Lost Nation","Clinton",1,26,"Volunteer",128.696798992579,0.0799684586868178
+"Low Moor","Clinton",2,39,"Mostly volunteer",8310.72939687199,5.16404623606375
+"Welton","Clinton",1,21,"Volunteer",10137.5566645544,6.29918372221083
+"Wheatland","Clinton",1,19,"Volunteer",308.05913732794,0.1914190142206
+"Maquoketa","Clinton",1,30,"Volunteer",587.03128789478,0.364764218390467
+"Andover","Clinton",1,20,"Volunteer",9169.88854286169,5.69790281376651
+"Toronto","Clinton",1,22,"Mostly volunteer",7184.8742611056,4.46447250449745
+"Aspinwall","Crawford",1,36,"Volunteer",5938.25997172394,3.68986253689008
+"Arion","Crawford",1,25,"Volunteer",3584.97584379011,2.2276000250317
+"Buck Grove","Crawford",1,25,"Volunteer",8462.8943146863,5.25859710321094
+"Charter Oak","Crawford",1,26,"Volunteer",357.332866732142,0.222036280734218
+"Deloit","Crawford",1,36,"Mostly volunteer",9452.41888761046,5.8734589766134
+"Denison","Crawford",1,36,"Mostly volunteer",317.729976598729,0.197428193289129
+"Dow City","Crawford",1,25,"Volunteer",202.729801556789,0.125970419523144
+"Kiron","Crawford",1,20,"Volunteer",170.631742998453,0.106025616778692
+"Manilla","Crawford",1,17,"Volunteer",185.516558923541,0.11527460973488
+"Ricketts","Crawford",2,17,"Volunteer",94.6362210533682,0.0588042033121525
+"Schleswig","Crawford",1,28,"Volunteer",176.785230922566,0.109849215723586
+"Vail","Crawford",1,19,"Volunteer",144.928752485309,0.0900545238605491
+"Westside","Crawford",1,24,"Volunteer",81.0294750539364,0.0503493659437395
+"Dunlap","Crawford",1,28,"Volunteer",143.834470522346,0.0893745687829404
+"Woodward","Dallas",1,21,"Volunteer",8492.43197976579,5.27695095169905
+"Adel","Dallas",1,27,"Volunteer",284.820870942017,0.176979429398112
+"Bouton","Dallas",1,10,"Volunteer",10727.382320412,6.66568427981671
+"Dallas Center","Dallas",1,25,"Volunteer",168.351566047523,0.104608780946515
+"Dawson","Dallas",1,6,"Volunteer",139.86132101732,0.086905768901853
+"De Soto","Dallas",1,28,"Volunteer",4576.44310893004,2.84366903103897
+"Dexter","Dallas",1,32,"Volunteer",340.057109626449,0.211301626265696
+"Granger","Dallas",1,16,"Volunteer",41.5484672082888,0.0258170126176816
+"Linden","Dallas",1,25,"Volunteer",8542.80712771893,5.30825260775784
+"Minburn","Dallas",1,10,"Volunteer",81.8172304597817,0.050838854308025
+"Perry","Dallas",1,6,"Volunteer",10342.5101855587,6.42653589651081
+"Redfield","Dallas",1,25,"Volunteer",90.832699139492,0.0564408050970053
+"Van Meter","Dallas",1,28,"Volunteer",780.075513083402,0.484716301640146
+"Clive","Dallas",2,51,"Mostly career",2436.80051871461,1.51415717511421
+"Grimes","Dallas",1,27,"Mostly volunteer",516.660579083191,0.321037900685501
+"Urbandale","Dallas",2,51,"Mostly career",1828.8346126901,1.13638479212186
+"Waukee","Dallas",2,51,"Mostly career",7178.37317318794,4.46043291699696
+"West Des Moines","Dallas",5,86,"Mostly career",2400.00378801078,1.49129275376005
+"Bloomfield","Davis",1,19,"Volunteer",286.85903281404,0.178245884078693
+"Drakesville","Davis",1,14,"Volunteer",136.770430594736,0.0849851792290817
+"Floris","Davis",1,12,"Volunteer",141.453379677704,0.0878950279837149
+"Pulaski","Davis",1,12,"Volunteer",112.220326765006,0.0697304566622986
+"Davis City","Decatur",1,21,"Volunteer",10549.7287910381,6.55529552861612
+"Decatur City","Decatur",1,25,"Volunteer",7238.79235136025,4.49797564215707
+"Grand River","Decatur",1,12,"Volunteer",104.991098612588,0.0652384239360021
+"Lamoni","Decatur",1,21,"Volunteer",146.295678866606,0.0909038922730217
+"Leon","Decatur",1,25,"Volunteer",194.827195391144,0.121059969227391
+"Pleasanton","Decatur",1,21,"Volunteer",16855.0584375022,10.4732445163692
+"Van Wert","Decatur",1,9,"Volunteer",175.042038150103,0.108766046287368
+"Weldon","Decatur",1,13,"Volunteer",135.93625110829,0.0844668442874093
+"Garden Grove","Decatur",1,18,"Volunteer",9972.58124036934,6.19667277790953
+"Le Roy","Decatur",1,18,"Volunteer",8355.72470419,5.19200501516724
+"Colesburg","Delaware",1,33,"Volunteer",303.383271375433,0.188513566717824
+"Delaware","Delaware",1,30,"Volunteer",5019.59358635978,3.11902988634996
+"Delhi","Delaware",1,30,"Volunteer",157.336179045368,0.0977641389095996
+"Dundee","Delaware",1,19,"Volunteer",103.7076297704,0.0644409136180631
+"Earlville","Delaware",1,30,"Volunteer",7795.99984612303,4.84420822038531
+"Edgewood","Delaware",1,21,"Volunteer",8042.62631700148,4.99745475722153
+"Greeley","Delaware",1,21,"Volunteer",237.680985803313,0.14768807182959
+"Hopkinton","Delaware",1,30,"Volunteer",11833.1813373467,7.35279572076846
+"Manchester","Delaware",1,32,"Volunteer",655.090837840204,0.407054448999605
+"Masonville","Delaware",1,19,"Volunteer",93.1192368752087,0.0578615933363853
+"Dyersville","Delaware",1,40,"Volunteer",1069.97270086038,0.664850007106314
+"Ryan","Delaware",1,23,"Volunteer",8621.03375267883,5.3568603639358
+"Burlington","Des Moines",3,48,"Career",1362.98555711425,0.846919698609639
+"Danville","Des Moines",1,24,"Volunteer",534.274925499425,0.331982944732503
+"Mediapolis","Des Moines",1,20,"Volunteer",178.272392579386,0.110773294849445
+"Mediapolis","Des Moines",1,25,"Volunteer",178.272392579386,0.110773294849445
+"Middletown","Des Moines",1,24,"Volunteer",6361.64272385957,3.95294030096735
+"West Burlington","Des Moines",1,31,"Mostly volunteer",989.139743374305,0.614622751480236
+"Arnolds Park","Dickinson",1,30,"Volunteer",4114.88654520562,2.55687116748096
+"Lake Park","Dickinson",1,22,"Volunteer",533.909781320562,0.331756054728939
+"Milford","Dickinson",1,30,"Volunteer",389.423423389343,0.24197642201486
+"Okoboji","Dickinson",1,30,"Volunteer",4355.96241383058,2.70666872104432
+"Orleans","Dickinson",1,30,"Volunteer",3505.77115372494,2.17838452756122
+"Spirit Lake","Dickinson",1,30,"Volunteer",299.73875052594,0.186248967153054
+"Superior","Dickinson",1,13,"Volunteer",151.415609064105,0.094085268419772
+"Terril","Dickinson",1,13,"Volunteer",14159.9383951801,8.79857508055145
+"Wahpeton","Dickinson",1,30,"Volunteer",4586.64821831628,2.8500101900634
+"West Okoboji","Dickinson",1,30,"Volunteer",1925.03654072166,1.19616188034476
+"Asbury","Dubuque",1,29,"Volunteer",1619.17836869759,1.00611048213599
+"Balltown","Dubuque",1,40,"Volunteer",7714.49921865643,4.79356609399576
+"Bankston","Dubuque",1,36,"Volunteer",8860.77377071365,5.50582785868211
+"Bernard","Dubuque",1,23,"Volunteer",172.217954397379,0.107011242541854
+"Cascade","Dubuque",1,30,"Volunteer",638.769762325064,0.396913005985687
+"Centralia","Dubuque",1,40,"Volunteer",3001.94013704072,1.86531854489313
+"Dubuque","Dubuque",6,89,"Career",2457.67494836262,1.52712794033903
+"Durango","Dubuque",1,40,"Volunteer",4985.11021660304,3.09760292040084
+"Dyersville","Dubuque",1,40,"Volunteer",1069.97270086038,0.664850007106314
+"Epworth","Dubuque",2,36,"Volunteer",717.731406895488,0.445977482034056
+"Farley","Dubuque",1,36,"Volunteer",157.200597365422,0.0976798923855498
+"Graf","Dubuque",1,40,"Volunteer",5365.5340898596,3.33398728295015
+"Holy Cross","Dubuque",1,30,"Volunteer",203.365786592094,0.126365602180516
+"Luxemburg","Dubuque",1,30,"Volunteer",6370.93905075947,3.95871676890946
+"New Vienna","Dubuque",1,40,"Volunteer",8475.89271813318,5.26667393415913
+"Peosta","Dubuque",1,40,"Volunteer",639.867933441896,0.397595377670724
+"Rickardsville","Dubuque",1,40,"Volunteer",8212.38145326339,5.10293567599573
+"Sageville","Dubuque",1,29,"Volunteer",6379.75041660764,3.9641918961179
+"Sherrill","Dubuque",1,40,"Volunteer",211.871890616496,0.131651048544263
+"Worthington","Dubuque",1,33,"Volunteer",64.9535868307192,0.0403602752025908
+"Zwingle","Dubuque",1,31,"Volunteer",5516.36807952751,3.42771114994409
+"Armstrong","Emmet",1,20,"Volunteer",383.939166675037,0.238568663936034
+"Estherville","Emmet",1,27,"Volunteer",530.113767241899,0.329397321664866
+"Ringsted","Emmet",1,14,"Volunteer",183.713169817422,0.114154036042622
+"Wallingford","Emmet",2,21,"Volunteer",249.048974993157,0.154751810640473
+"Dolliver","Emmet",2,15,"Volunteer",10949.9661228632,6.80399139972964
+"Gruver","Emmet",2,15,"Volunteer",179.696838970774,0.111658404528109
+"Sumner","Fayette",1,30,"Volunteer",348.614888049377,0.216619181602129
+"Fairbank","Fayette",1,28,"Volunteer",189.425595395593,0.117703571636555
+"Stanley","Fayette",1,18,"Volunteer",60.2848629922757,0.0374592656023733
+"Arlington","Fayette",1,18,"Volunteer",98.8589648395613,0.061428093841323
+"Clermont","Fayette",1,24,"Volunteer",439.943309373868,0.27336801408895
+"Elgin","Fayette",1,22,"Volunteer",488.024818444137,0.303244469461452
+"Fayette","Fayette",1,23,"Volunteer",9795.78574605764,6.08681718481358
+"Hawkeye","Fayette",1,19,"Volunteer",128.173292682162,0.0796431670472074
+"Maynard","Fayette",1,23,"Volunteer",140.701309788998,0.0874277135648992
+"Oelwein","Fayette",1,30,"Mostly volunteer",697.055660240909,0.433130172659554
+"Randalia","Fayette",1,23,"Volunteer",9901.62974394261,6.15258557562336
+"Wadena","Fayette",1,18,"Volunteer",203.505635482703,0.126452500225523
+"Waucoma","Fayette",1,19,"Volunteer",14813.5470290825,9.20470853100802
+"West Union","Fayette",1,29,"Volunteer",834.606923672182,0.518600538769108
+"Westgate","Fayette",1,23,"Volunteer",9545.01941650602,5.93099825985376
+"Greene","Floyd",1,22,"Volunteer",259.223968742253,0.161074256681343
+"Colwell","Floyd",1,25,"Volunteer",12013.7481721201,7.46499471545846
+"Nashua","Floyd",1,28,"Volunteer",811.735631901471,0.504388981330249
+"Charles City","Floyd",1,29,"Mostly volunteer",407.363663719644,0.253123967089139
+"Floyd","Floyd",1,25,"Volunteer",205.466609350254,0.127670992518577
+"Marble Rock","Floyd",1,18,"Volunteer",169.054247579933,0.10504540687299
+"Nora Springs","Floyd",1,25,"Volunteer",402.217534594337,0.249926311688418
+"Rockford","Floyd",1,20,"Volunteer",137.865668368143,0.0856657282195814
+"Rudd","Floyd",1,20,"Volunteer",126.513241833186,0.0786116595911285
+"Sheffield","Franklin",1,20,"Volunteer",10628.3645858148,6.60415753105231
+"Alexander","Franklin",1,8,"Volunteer",196.125395028729,0.121866632834396
+"Coulter","Franklin",1,21,"Volunteer",3159.86957637531,1.9634513185419
+"Geneva","Franklin",1,17,"Volunteer",9285.13911459076,5.76951617677238
+"Hampton","Franklin",1,26,"Volunteer",196.018332284618,0.121800107150025
+"Hansell","Franklin",1,17,"Volunteer",190.161770432754,0.118161009455571
+"Latimer","Franklin",1,21,"Volunteer",165.344903346189,0.102740527937125
+"Ackley","Franklin",1,29,"Volunteer",337.388106113238,0.209643184883689
+"Dows","Franklin",1,23,"Volunteer",242.189027880795,0.150489238443317
+"Popejoy","Franklin",1,23,"Volunteer",9085.26460745025,5.64531995439597
+"Farragut","Fremont",1,17,"Volunteer",8399.79810913708,5.21939095087262
+"Hamburg","Fremont",1,28,"Volunteer",494.467577318765,0.307247812986138
+"Randolph","Fremont",1,28,"Volunteer",9468.74086216927,5.88360097826698
+"Riverton","Fremont",1,17,"Volunteer",128.40531198598,0.0797873371140406
+"Sidney","Fremont",1,33,"Volunteer",218.993273037705,0.136076069060712
+"Tabor","Fremont",1,28,"Volunteer",718.968672011461,0.446746282696433
+"Thurman","Fremont",1,17,"Volunteer",351.618426973008,0.218485493586645
+"Imogene","Fremont",1,30,"Volunteer",11238.6059146433,6.98334379578784
+"Shenandoah","Fremont",1,30,"Volunteer",9612.82841293007,5.97313280377077
+"Ralston","Greene",1,24,"Volunteer",8061.16882079435,5.00897653134581
+"Scranton","Greene",1,24,"Volunteer",15587.4537214841,9.68559170637229
+"Churdan","Greene",1,22,"Volunteer",172.178951632845,0.106987007355053
+"Dana","Greene",1,19,"Volunteer",6648.54451497517,4.13121275381464
+"Grand Junction","Greene",2,30,"Volunteer",272.446897138192,0.169290600921656
+"Jefferson","Greene",2,30,"Volunteer",11657.2379062557,7.24346957504803
+"Paton","Greene",1,19,"Volunteer",210.155430620019,0.130584490079792
+"Rippey","Greene",1,12,"Volunteer",168.930674774533,0.104968622315326
+"Stout","Grundy",1,35,"Volunteer",8216.1104857813,5.10525278866041
+"Beaman","Grundy",0,20,"Mostly volunteer",4215.91029971098,2.61964439884171
+"Conrad","Grundy",0,20,"Mostly volunteer",52.6658280190566,0.0327250182220292
+"Dike","Grundy",1,24,"Volunteer",362.789600213667,0.225426936674367
+"Grundy Center","Grundy",1,31,"Volunteer",347.309860010661,0.215808275024684
+"Holland","Grundy",1,31,"Volunteer",4870.6916281305,3.02650652766308
+"Morrison","Grundy",1,25,"Volunteer",6584.62499845029,4.09149501991206
+"Reinbeck","Grundy",1,25,"Volunteer",172.749060806545,0.107341256662423
+"Wellsburg","Grundy",1,22,"Volunteer",57.7793594605902,0.0359024183673864
+"Adair","Guthrie",1,26,"Volunteer",133.45638462517,0.0829259271709266
+"Bayard","Guthrie",1,26,"Volunteer",10007.2739192927,6.2182298025048
+"Coon Rapids","Guthrie",1,26,"Volunteer",297.658278682014,0.184956222282922
+"Casey","Guthrie",1,14,"Volunteer",322.452030094374,0.200362340391771
+"Guthrie Center","Guthrie",1,26,"Volunteer",494.636037793295,0.307352489439657
+"Jamaica","Guthrie",1,6,"Volunteer",206.946927520648,0.128590819300433
+"Menlo","Guthrie",1,15,"Volunteer",94.3238055268066,0.0586100773639973
+"Panora","Guthrie",1,27,"Volunteer",547.733586128256,0.340345766146101
+"Stuart","Guthrie",1,23,"Volunteer",200.170934976393,0.124380414037216
+"Yale","Guthrie",1,15,"Volunteer",331.527174650952,0.206001372040037
+"Bagley","Guthrie",1,8,"Volunteer",271.01836048609,0.168402949673603
+"Blairsburg","Hamilton",1,14,"Volunteer",366.14929879434,0.227514555941138
+"Ellsworth","Hamilton",1,25,"Volunteer",49.8000089364541,0.0309442813528534
+"Jewell Junction","Hamilton",1,23,"Volunteer",558.613454434511,0.347106200795427
+"Kamrar","Hamilton",1,29,"Mostly volunteer",10917.3448896672,6.7837215114374
+"Stanhope","Hamilton",1,23,"Volunteer",13044.4104313573,8.10541835414292
+"Webster City","Hamilton",1,29,"Mostly volunteer",631.986002707772,0.392697774488531
+"Williams","Hamilton",1,36,"Volunteer",169.129919919136,0.105092427470074
+"Randall","Hamilton",1,25,"Volunteer",5556.31104945072,3.45253055310825
+"Stratford","Hamilton",1,15,"Volunteer",13850.8376969337,8.60650887058138
+"Crystal Lake","Hancock",1,14,"Volunteer",163.096248520631,0.101343279039513
+"Woden","Hancock",1,14,"Volunteer",9652.94512003124,5.99806016217893
+"Britt","Hancock",1,26,"Volunteer",113.482155279865,0.0705145203084049
+"Garner","Hancock",1,25,"Volunteer",217.936282837031,0.135419286002729
+"Goodell","Hancock",1,11,"Volunteer",215.297852415827,0.133779841853475
+"Kanawha","Hancock",1,20,"Volunteer",209.920031867562,0.130438220121579
+"Klemme","Hancock",1,11,"Volunteer",9628.6481242791,5.98296271363143
+"Corwith","Hancock",1,21,"Volunteer",11141.4664730254,6.92298416381026
+"Forest City","Hancock",1,24,"Volunteer",533.032546530469,0.331210966470184
+"Ackley","Hardin",1,29,"Volunteer",337.388106113238,0.209643184883689
+"Alden","Hardin",1,24,"Volunteer",261.219603021909,0.162314285949327
+"Buckeye","Hardin",1,22,"Volunteer",112.623689700621,0.0699810946929646
+"Eldora","Hardin",1,24,"Volunteer",198.402632297973,0.123281642033624
+"Hubbard","Hardin",1,18,"Volunteer",11043.6924191621,6.86223020218719
+"Iowa Falls","Hardin",1,34,"Volunteer",873.88562137646,0.543007182440312
+"New Providence","Hardin",1,7,"Volunteer",9866.34069968453,6.13065798690368
+"Owasa","Hardin",1,34,"Volunteer",10719.9828995958,6.66108649430477
+"Radcliffe","Hardin",1,18,"Volunteer",279.220216089226,0.173499344891578
+"Steamboat Rock","Hardin",1,14,"Volunteer",240.756242832974,0.149598947365368
+"Union","Hardin",1,7,"Volunteer",49.3388108773881,0.0306577062536935
+"Whitten","Hardin",1,15,"Volunteer",40.0910366001513,0.0249114075032726
+"Dunlap","Harrison",1,28,"Volunteer",143.834470522346,0.0893745687829404
+"Little Sioux","Harrison",1,19,"Volunteer",194.47801066908,0.120842995967457
+"Logan","Harrison",1,10,"Volunteer",8654.02517352672,5.37736027609947
+"Magnolia","Harrison",1,10,"Volunteer",55.3602855653496,0.0343992760020268
+"Missouri Valley","Harrison",1,26,"Volunteer",214.515976336059,0.133294006731913
+"Modale","Harrison",1,18,"Volunteer",10025.7594991838,6.22971620576733
+"Mondamin","Harrison",1,18,"Volunteer",172.113135436258,0.106946111079163
+"Persia","Harrison",1,20,"Volunteer",195.898784708483,0.121725823753095
+"Pisgah","Harrison",1,18,"Volunteer",204.43593084225,0.12703055878338
+"Woodbine","Harrison",1,23,"Volunteer",831.115717947866,0.516431204776983
+"Coppock","Henry",1,25,"Volunteer",4587.19329439849,2.85034888453368
+"Hillsboro","Henry",1,7,"Volunteer",125.80343022212,0.0781706032405491
+"Mount Pleasant","Henry",1,30,"Volunteer",13005.8130589618,8.08143506626016
+"New London","Henry",1,30,"Volunteer",179.589609647598,0.111591775336338
+"Olds","Henry",1,22,"Volunteer",173.967978219931,0.108098656594497
+"Salem","Henry",1,15,"Volunteer",107.830967194242,0.0670030359164533
+"Wayland","Henry",1,25,"Volunteer",90.5136538031268,0.0562425595773027
+"Winfield","Henry",1,30,"Volunteer",227.427332037571,0.141316748735517
+"Rome","Henry",1,20,"Volunteer",5927.62919021437,3.6832568775527
+"Westwood","Henry",2,50,"Volunteer",10669.3945066511,6.62965233399232
+"Chester","Howard",1,20,"Volunteer",231.281722114941,0.143711754952283
+"Cresco","Howard",1,26,"Volunteer",619.514746041929,0.384948497262819
+"Elma","Howard",1,26,"Volunteer",123.602625218699,0.0768030868347679
+"Lime Springs","Howard",1,18,"Volunteer",259.923382898891,0.161508852355267
+"Protivin","Howard",1,22,"Volunteer",84.8195938443618,0.052704435846665
+"Riceville","Howard",1,13,"Volunteer",307.806423126485,0.191261984944527
+"Bode","Humboldt",1,21,"Volunteer",89.823080511366,0.055813457360428
+"Dakota City","Humboldt",1,21,"Volunteer",1091.30922997969,0.678107907541711
+"Hardy","Humboldt",1,6,"Volunteer",63.188643092657,0.0392635903471274
+"Humboldt","Humboldt",1,21,"Volunteer",871.34839986108,0.541430626570079
+"Livermore","Humboldt",1,19,"Volunteer",483.625179566859,0.300510661452639
+"Ottosen","Humboldt",1,21,"Volunteer",7974.47992450334,4.95511056516857
+"Pioneer","Humboldt",1,21,"Volunteer",16252.1132333587,10.0985918519253
+"Renwick","Humboldt",1,6,"Volunteer",6345.30321747364,3.94278740554481
+"Rutland","Humboldt",1,21,"Volunteer",7769.96790606699,4.82803272776075
+"Lu Verne","Humboldt",1,28,"Volunteer",241.219835788279,0.149887010583598
+"Bradgate","Humboldt",1,38,"Volunteer",8875.78467552932,5.51515519961833
+"Gilmore City","Humboldt",1,38,"Volunteer",11619.5528948915,7.22005320185165
+"Thor","Humboldt",1,18,"Volunteer",11215.0321766404,6.9686957586312
+"Arthur","Ida",1,13,"Volunteer",160.674710922416,0.0998386058005724
+"Galva","Ida",1,24,"Volunteer",83.6783558789256,0.0519953036708439
+"Holstein","Ida",1,24,"Volunteer",10587.5883809626,6.57882037986709
+"Ida Grove","Ida",1,25,"Volunteer",363.96445147361,0.226156955176609
+"Battle Creek","Ida",1,23,"Volunteer",221.25517058875,0.137481546603902
+"Ladora","Iowa",1,24,"Volunteer",115.616929317894,0.0718410069871891
+"Marengo","Iowa",1,28,"Volunteer",320.891688358636,0.199392789287094
+"Millersburg","Iowa",1,24,"Volunteer",9379.24872605479,5.82799316015739
+"North English","Iowa",1,24,"Volunteer",188.534532489115,0.117149890987294
+"Parnell","Iowa",1,24,"Volunteer",9515.44061754202,5.9126188519627
+"Williamsburg","Iowa",1,28,"Volunteer",15656.8168372509,9.72869193497942
+"Victor","Iowa",1,25,"Volunteer",513.513445301958,0.319082363020723
+"Baldwin","Jackson",1,26,"Volunteer",12281.115731119,7.63112916296114
+"Maquoketa","Jackson",1,30,"Volunteer",587.03128789478,0.364764218390467
+"Andrew","Jackson",1,25,"Volunteer",29.2711968500231,0.0181882728578957
+"Bellevue","Jackson",1,40,"Volunteer",605.186588695771,0.37604539580448
+"La Motte","Jackson",1,31,"Volunteer",127.369658232253,0.0791438119054331
+"Miles","Jackson",1,20,"Volunteer",91.157323661575,0.0566425173609165
+"Preston","Jackson",1,35,"Volunteer",95.0661338894932,0.0590713386810483
+"Sabula","Jackson",1,20,"Volunteer",11885.1583869032,7.38509275202844
+"Spragueville","Jackson",1,35,"Volunteer",3704.33352540681,2.30176542701555
+"Springbrook","Jackson",1,25,"Volunteer",9622.72838243951,5.97928435772482
+"Zwingle","Jackson",1,31,"Volunteer",5516.36807952751,3.42771114994409
+"Monmouth","Jackson",1,25,"Volunteer",10061.4739231148,6.25190811307978
+"Baxter","Jasper",1,18,"Volunteer",145.627544679196,0.0904887330648565
+"Colfax","Jasper",1,35,"Volunteer",331.170963517236,0.205780032771668
+"Kellogg","Jasper",1,24,"Volunteer",52.5247981985432,0.032637386381427
+"Lambs Grove","Jasper",1,30,"Mostly career",1745.10665434767,1.08435866691866
+"Lynnville","Jasper",1,15,"Volunteer",205.88020305742,0.127927987653992
+"Mingo","Jasper",1,10,"Volunteer",149.418638062809,0.0928444085517256
+"Monroe","Jasper",1,10,"Volunteer",9377.69459542938,5.82702746845655
+"Newton","Jasper",1,30,"Mostly career",1250.86754868841,0.777252819596066
+"Oakland Acres","Jasper",1,24,"Volunteer",7069.34498463509,4.39268596244769
+"Prairie City","Jasper",1,35,"Volunteer",8474.80797887552,5.26599990864186
+"Reasnor","Jasper",1,10,"Volunteer",83.4865726819093,0.0518761351539307
+"Sully","Jasper",1,15,"Volunteer",5339.3605377213,3.31772379668442
+"Valeria","Jasper",1,10,"Volunteer",5438.69233005507,3.37944569181865
+"Mitchellville","Jasper",1,30,"Mostly volunteer",9373.92711328894,5.82468646431146
+"Coppock","Jefferson",1,25,"Volunteer",4587.19329439849,2.85034888453368
+"Batavia","Jefferson",1,19,"Volunteer",88.7386628510144,0.0551396316743977
+"Fairfield","Jefferson",1,18,"Mostly volunteer",650.896009020072,0.404447904020811
+"Libertyville","Jefferson",1,19,"Volunteer",121.886531941932,0.0757367562392902
+"Lockridge","Jefferson",1,20,"Volunteer",148.012954596976,0.0919709576108774
+"Maharishi Vedic City","Jefferson",1,18,"Mostly volunteer",6601.17462224129,4.10177847619669
+"Packwood","Jefferson",1,25,"Volunteer",195.88356782457,0.121716368422721
+"Pleasant Plain","Jefferson",1,22,"Volunteer",4519.70045492956,2.80841079138004
+"West Branch","Johnson",1,35,"Volunteer",568.151464103442,0.35303284340142
+"Coralville","Johnson",1,48,"Mostly volunteer",2372.55317729406,1.47423574032839
+"Hills","Johnson",1,25,"Volunteer",9758.54759446597,6.06367847732092
+"Iowa City","Johnson",3,56,"Career",426.323044322835,0.264904776373924
+"Lone Tree","Johnson",1,24,"Volunteer",386.845703372371,0.240374701550194
+"North Liberty","Johnson",1,40,"Volunteer",729.061891474818,0.453017916567599
+"Oxford","Johnson",1,22,"Volunteer",10720.8462532236,6.66162295721183
+"Solon","Johnson",1,35,"Volunteer",47.5787931755205,0.0295640822942664
+"Tiffin","Johnson",1,22,"Volunteer",685.426820089555,0.425904348625867
+"University Heights","Johnson",3,56,"Career",2512.55783336615,1.56123057347656
+"Shueyville","Johnson",1,29,"Volunteer",6381.88357984441,3.9655173818915
+"Swisher","Johnson",1,13,"Career",5324.03809567551,3.30820287554799
+"Olin","Jones",1,21,"Volunteer",11661.9772190581,7.24641444658333
+"Cascade","Jones",1,30,"Volunteer",638.769762325064,0.396913005985687
+"Anamosa","Jones",1,32,"Volunteer",440.327251360983,0.273606584505426
+"Center Junction","Jones",1,19,"Volunteer",263.719035698214,0.163867360930835
+"Martelle","Jones",1,24,"Volunteer",155.006700556167,0.0963166685312862
+"Monticello","Jones",1,17,"Volunteer",679.354136401184,0.42213095908974
+"Onslow","Jones",1,25,"Volunteer",5507.91295680142,3.42245738188065
+"Oxford Junction","Jones",1,25,"Volunteer",9050.67116423722,5.62382459199325
+"Wyoming","Jones",1,25,"Volunteer",500.953733431926,0.311278122296329
+"North English","Keokuk",1,24,"Volunteer",188.534532489115,0.117149890987294
+"Delta","Keokuk",1,11,"Volunteer",67.5930162836136,0.0420003401211653
+"Gibson","Keokuk",1,13,"Volunteer",9582.82313441951,5.95448839385739
+"Harper","Keokuk",1,22,"Volunteer",8432.46187507195,5.23968726777533
+"Hayesville","Keokuk",1,34,"Volunteer",8394.1815317097,5.21590097253999
+"Hedrick","Keokuk",1,20,"Volunteer",4667.42848784403,2.90020470692013
+"Keota","Keokuk",1,22,"Volunteer",266.750820071425,0.165751223818601
+"Keswick","Keokuk",1,16,"Volunteer",68.0811034295325,0.0423036233191121
+"Kinross","Keokuk",1,33,"Volunteer",8705.83949765507,5.40955619449743
+"Martinsburg","Keokuk",1,20,"Volunteer",240.768190145917,0.149606371079159
+"Ollie","Keokuk",1,17,"Volunteer",166.624942518556,0.103535907157698
+"Richland","Keokuk",1,25,"Volunteer",29.1425542107655,0.0181083380524976
+"Sigourney","Keokuk",1,34,"Volunteer",200.913704490264,0.12484194947282
+"South English","Keokuk",1,33,"Volunteer",166.287560339493,0.103326267655711
+"Thornburg","Keokuk",1,13,"Volunteer",6435.15206143074,3.99861687156328
+"Webster","Keokuk",1,16,"Volunteer",6148.09802148519,3.82024981570827
+"What Cheer","Keokuk",1,13,"Volunteer",215.854116054409,0.134125487946844
+"Algona","Kossuth",1,26,"Volunteer",254.756800810615,0.158298488076493
+"Bancroft","Kossuth",1,18,"Volunteer",142.652238139057,0.0886399638647041
+"Burt","Kossuth",1,18,"Volunteer",379.456451127684,0.23578323449366
+"Fenton","Kossuth",1,23,"Volunteer",275.760208058167,0.171349396241311
+"Lakota","Kossuth",1,24,"Volunteer",204.975881060081,0.127366068190184
+"Ledyard","Kossuth",1,14,"Volunteer",77.1194119806602,0.0479197661418348
+"Lone Rock","Kossuth",1,18,"Volunteer",97.2101185675284,0.0604035485844237
+"Lu Verne","Kossuth",1,28,"Volunteer",241.219835788279,0.149887010583598
+"Swea City","Kossuth",1,18,"Volunteer",12455.9603207438,7.73977252046088
+"Titonka","Kossuth",1,21,"Volunteer",45.2525064186388,0.028118595165856
+"Wesley","Kossuth",1,21,"Volunteer",106.977594637851,0.0664727749577159
+"Whittemore","Kossuth",1,26,"Volunteer",223.733656159067,0.139021605661215
+"West Bend","Kossuth",1,22,"Volunteer",153.399127562693,0.095317769292758
+"Houghton","Lee",1,15,"Volunteer",7816.78670744115,4.85712457318941
+"Donnellson","Lee",1,27,"Volunteer",149.581178346469,0.0929454063703236
+"Fort Madison","Lee",1,16,"Career",2391.63024632004,1.48608967778613
+"Franklin","Lee",1,27,"Volunteer",5119.39548821729,3.18104389390907
+"Keokuk","Lee",1,19,"Career",1023.67380602301,0.636081216522326
+"Montrose","Lee",1,27,"Volunteer",217.196121402694,0.134959371152114
+"West Point","Lee",1,32,"Volunteer",408.907356700467,0.254083173140326
+"Springville","Linn",1,24,"Volunteer",8243.85119510578,5.12249006095407
+"Alburnett","Linn",0,22,"Volunteer",233.844833144798,0.145304397816016
+"Bertram","Linn",2,63,"Mostly career",9223.11701887554,5.73097744513572
+"Cedar Rapids","Linn",9,132,"Career",1123.11091463343,0.697868552136689
+"Center Point","Linn",1,25,"Volunteer",800.379653121522,0.497332705439773
+"Central City","Linn",1,25,"Volunteer",292.691956940089,0.18187029397582
+"Coggon","Linn",1,23,"Volunteer",381.208812245497,0.236872100873797
+"Ely","Linn",1,29,"Volunteer",297.659890112641,0.184957223579182
+"Fairfax","Linn",2,51,"Volunteer",1555.58860067523,0.96659764439017
+"Hiawatha","Linn",1,61,"Mostly volunteer",1442.73501289317,0.896473697696442
+"Lisbon","Linn",1,30,"Volunteer",365.419160079688,0.227060868917876
+"Marion","Linn",2,63,"Mostly career",2054.00149881818,1.27629696532215
+"Mount Vernon","Linn",1,30,"Volunteer",3023.85267745612,1.87893436204359
+"Palo","Linn",1,15,"Volunteer",242.55529943003,0.150716828962137
+"Prairieburg","Linn",1,20,"Volunteer",208.73775047511,0.12970358475047
+"Robins","Linn",1,20,"Volunteer",282.811319252567,0.175730752255287
+"Walford","Linn",2,51,"Volunteer",6100.55874322638,3.79071028683732
+"Walker","Linn",1,35,"Volunteer",144.163408922941,0.0895789615658569
+"Morning Sun","Louisa",1,6,"Volunteer",9600.92486889161,5.96573628670805
+"Oakville","Louisa",1,22,"Volunteer",93.2059068695416,0.0579154475574339
+"Columbus City","Louisa",1,37,"Volunteer",2784.40032958395,1.73014561719391
+"Columbus Junction","Louisa",1,37,"Volunteer",762.021865253297,0.473498288434307
+"Cotter","Louisa",1,37,"Volunteer",9206.12097120253,5.72041659399709
+"Fredonia","Louisa",1,37,"Volunteer",1653.23411512689,1.02727173535051
+"Grandview","Louisa",1,12,"Volunteer",220.339863467005,0.136912801302357
+"Letts","Louisa",1,21,"Volunteer",189.57461167754,0.117796166032685
+"Wapello","Louisa",1,30,"Volunteer",431.462772070237,0.268098454144055
+"Chariton","Lucas",1,35,"Volunteer",294.21528097676,0.18281684335581
+"Derby","Lucas",1,15,"Volunteer",104.512419124283,0.0649409863836749
+"Lucas","Lucas",1,24,"Volunteer",174.562762137426,0.108468238072094
+"Russell","Lucas",1,30,"Volunteer",107.386933535875,0.0667271262781202
+"Williamson","Lucas",1,18,"Volunteer",223.26363322101,0.138729547038172
+"Alvord","Lyon",1,26,"Volunteer",11198.8298575209,6.95862810739761
+"George","Lyon",1,25,"Volunteer",14622.025098272,9.08570235733838
+"Inwood","Lyon",1,26,"Volunteer",296.153840236107,0.18402140786135
+"Larchwood","Lyon",1,23,"Volunteer",144.923043700218,0.090050976587048
+"Lester","Lyon",1,23,"Volunteer",8472.94163199262,5.26484021481289
+"Little Rock","Lyon",1,25,"Volunteer",113.127631427787,0.0702942294679156
+"Rock Rapids","Lyon",1,24,"Volunteer",325.1129248088,0.202015743201369
+"Doon","Lyon",1,28,"Volunteer",9653.31150990303,5.99828782621995
+"Earlham","Madison",1,21,"Volunteer",296.790457258891,0.184416983217414
+"East Peru","Madison",1,9,"Volunteer",144.356599403404,0.0896990045278923
+"Patterson","Madison",1,19,"Volunteer",11241.4319120018,6.98509978859246
+"Truro","Madison",1,21,"Volunteer",170.843238375246,0.106157033872465
+"Winterset","Madison",1,19,"Volunteer",223.60287883983,0.138940344427584
+"West Des Moines","Madison",5,86,"Mostly career",2400.00378801078,1.49129275376005
+"Macksburg","Madison",1,12,"Volunteer",14670.2395093602,9.11566139417065
+"Bevington","Madison",0,18,"Volunteer",4421.81404929669,2.74758701762553
+"Fremont","Mahaska",1,11,"Volunteer",15098.6853246647,9.38188519887222
+"Rose Hill","Mahaska",1,11,"Volunteer",11161.0028918774,6.93512352792875
+"Beacon","Mahaska",1,33,"Mostly volunteer",3538.92935816778,2.19898807421407
+"Keomah Village","Mahaska",1,33,"Mostly volunteer",9068.53851961389,5.634926848471
+"New Sharon","Mahaska",1,27,"Volunteer",137.663347394009,0.0855400118335629
+"Oskaloosa","Mahaska",1,33,"Mostly volunteer",354.693344555731,0.220396158199939
+"University Park","Mahaska",1,33,"Mostly volunteer",2451.42938840115,1.52324713050021
+"Leighton","Mahaska",1,11,"Volunteer",10073.7276270732,6.25952220936208
+"Pella","Mahaska",1,26,"Volunteer",41.4939165167298,0.0257831163999169
+"Barnes City","Mahaska",1,30,"Volunteer",9627.73474951172,5.98239516903884
+"Eddyville","Mahaska",1,23,"Volunteer",252.777445037058,0.157068573800121
+"Bussey","Marion",1,11,"Volunteer",7918.39074855694,4.92025837782157
+"Harvey","Marion",1,11,"Volunteer",6153.69141355923,3.82372538733471
+"Knoxville","Marion",1,25,"Volunteer",122.639920481768,0.0762048900296769
+"Melcher-Dallas","Marion",1,29,"Volunteer",279.882164119963,0.173910660201385
+"Pella","Marion",1,26,"Volunteer",41.4939165167298,0.0257831163999169
+"Hamilton","Marion",2,16,"Volunteer",4366.92111749904,2.7134781417015
+"Marysville","Marion",2,16,"Volunteer",6873.25624308152,4.27084210501981
+"Pleasantville","Marion",1,15,"Volunteer",13575.5273956875,8.43543903338574
+"Swan","Marion",1,15,"Volunteer",7664.90851797081,4.76275187072004
+"Liscomb","Marshall",1,7,"Volunteer",7772.35905740295,4.82951851985753
+"Marshalltown","Marshall",1,27,"Career",339.23632153322,0.210791612347419
+"Albion","Marshall",1,25,"Volunteer",27.8354041764954,0.0172961129285531
+"Clemons","Marshall",1,24,"Volunteer",10845.3490192063,6.73898536541322
+"Ferguson","Marshall",1,16,"Volunteer",7625.26080001861,4.73811592856836
+"Gilman","Marshall",1,16,"Volunteer",11105.9377690556,6.90090765749585
+"Haverhill","Marshall",1,16,"Volunteer",7520.23982416596,4.67285893978183
+"Laurel","Marshall",1,16,"Volunteer",73.6957548250404,0.0457924048713902
+"Melbourne","Marshall",1,18,"Volunteer",437.838715459908,0.272060280464038
+"Rhodes","Marshall",1,18,"Volunteer",7135.39507019779,4.43372757016387
+"State Center","Marshall",1,24,"Volunteer",171.601587748162,0.106628250180663
+"Le Grand","Marshall",1,16,"Volunteer",5691.01156752353,3.53622954872367
+"Tabor","Mills",1,28,"Volunteer",718.968672011461,0.446746282696433
+"Emerson","Mills",1,18,"Volunteer",226.536256856839,0.140763060459391
+"Glenwood","Mills",1,18,"Volunteer",247.808182408279,0.153980818111215
+"Hastings","Mills",1,18,"Volunteer",138.238919344309,0.0858976555518924
+"Henderson","Mills",1,20,"Volunteer",134.220892058105,0.0834009699190367
+"Malvern","Mills",2,25,"Volunteer",211.051332386605,0.131141177456397
+"Pacific Junction","Mills",1,11,"Volunteer",122.071142318512,0.0758514677735962
+"Silver City","Mills",1,12,"Volunteer",135.706282109049,0.084323948220382
+"Orchard","Mitchell",1,18,"Volunteer",32.889735233405,0.0204367276717161
+"Carpenter","Mitchell",1,28,"Volunteer",8879.00488553787,5.51715614473155
+"Mitchell","Mitchell",1,30,"Volunteer",6040.96863853982,3.75368272389812
+"Osage","Mitchell",1,30,"Volunteer",310.982500902739,0.193235507568436
+"Stacyville","Mitchell",1,28,"Volunteer",12796.7441945902,7.95152573693673
+"Riceville","Mitchell",1,13,"Volunteer",307.806423126485,0.191261984944527
+"Blencoe","Monona",1,16,"Volunteer",176.351067586075,0.109579439217027
+"Castana","Monona",1,12,"Volunteer",48.0788780946248,0.0298748205605351
+"Mapleton","Monona",1,25,"Volunteer",342.188487365209,0.212626002582607
+"Moorhead","Monona",1,15,"Volunteer",166.108819905605,0.103215203533566
+"Onawa","Monona",2,22,"Volunteer",262.068447935134,0.162841733561902
+"Soldier","Monona",1,20,"Volunteer",69.8020256398909,0.0433729544738847
+"Turin","Monona",1,12,"Volunteer",7640.60987033045,4.7476533957371
+"Ute","Monona",1,22,"Volunteer",29.4600558393377,0.0183056243569451
+"Whiting","Monona",1,20,"Volunteer",192.548805567885,0.119644243864522
+"Rodney","Monona",1,16,"Volunteer",3153.74460703179,1.95964544021595
+"Moravia","Monroe",1,22,"Volunteer",320.01075142603,0.198845400624344
+"Albia","Monroe",2,16,"Volunteer",14575.4574983266,9.0567666011927
+"Lovilia","Monroe",2,16,"Volunteer",230.247910183413,0.143069374198577
+"Melrose","Monroe",1,12,"Volunteer",159.379886092986,0.099034039201485
+"Eddyville","Monroe",1,23,"Volunteer",252.777445037058,0.157068573800121
+"Elliott","Montgomery",1,12,"Volunteer",74.3855789686825,0.0462210415893492
+"Red Oak","Montgomery",1,36,"Mostly volunteer",1188.90196942742,0.738749205645083
+"Grant","Montgomery",1,15,"Volunteer",291.772255687257,0.181298818288647
+"Stanton","Montgomery",1,25,"Volunteer",318.176046385669,0.197705368118709
+"Villisca","Montgomery",1,28,"Volunteer",476.050347087487,0.295803880220099
+"Coburg","Montgomery",1,30,"Volunteer",9906.16605962046,6.15540431063243
+"Durant","Muscatine",1,22,"Volunteer",162.504398502016,0.100975520601596
+"Stockton","Muscatine",1,22,"Volunteer",4625.65967395052,2.87425077726231
+"Wilton","Muscatine",1,30,"Volunteer",260.188751846996,0.16167374492392
+"Nichols","Muscatine",1,24,"Volunteer",10090.1863712205,6.26974919567165
+"Atalissa","Muscatine",1,16,"Volunteer",123.890696589609,0.0769820860305817
+"Conesville","Muscatine",1,22,"Volunteer",256.985674351755,0.159683445457625
+"Fruitland","Muscatine",1,28,"Volunteer",302.774757865582,0.188135454069695
+"Muscatine","Muscatine",2,44,"Career",1037.16810744075,0.644466184088568
+"West Liberty","Muscatine",1,35,"Volunteer",672.446620235904,0.417838828862604
+"Blue Grass","Muscatine",1,24,"Volunteer",767.147894919868,0.476683454614253
+"Walcott","Muscatine",1,26,"Volunteer",648.151057491223,0.402742270744379
+"Sutherland","O'Brien",1,18,"Volunteer",640.674016661166,0.398096254406765
+"Archer","O'Brien",1,18,"Volunteer",49.3559993190622,0.030668386652885
+"Calumet","O'Brien",1,11,"Volunteer",159.122431328025,0.0988740642767264
+"Hartley","O'Brien",1,25,"Volunteer",128.403334641346,0.0797861084494275
+"Paullina","O'Brien",1,27,"Volunteer",315.52284520153,0.19605674584572
+"Primghar","O'Brien",1,23,"Volunteer",224.427366817711,0.139452657346888
+"Sanborn","O'Brien",1,16,"Volunteer",181.040873155065,0.112493548393236
+"Sheldon","O'Brien",1,32,"Volunteer",789.61412642184,0.490643319348865
+"Ashton","Osceola",1,18,"Volunteer",83.1585152597282,0.0516722897854526
+"Harris","Osceola",1,21,"Volunteer",8851.20987294227,5.49988512996001
+"Melvin","Osceola",1,17,"Volunteer",11504.9600331561,7.14884852076223
+"Ocheyedan","Osceola",1,21,"Volunteer",88.5412243381906,0.0550169491082459
+"Sibley","Osceola",1,24,"Volunteer",603.155040838306,0.374783050880739
+"Hepburn","Page",1,28,"Volunteer",9600.38444764603,5.96540048461826
+"Blanchard","Page",1,15,"Volunteer",104.164650485562,0.0647248930368642
+"Braddyville","Page",1,9,"Volunteer",318.444107282722,0.197871933386373
+"Clarinda","Page",1,15,"Volunteer",2149.27238329461,1.33549553008015
+"Coin","Page",1,16,"Volunteer",143.969490561594,0.0894584663197484
+"College Springs","Page",1,9,"Volunteer",9280.35044863562,5.76654063861916
+"Essex","Page",1,30,"Volunteer",375.629183973285,0.233405081674664
+"Northboro","Page",1,15,"Volunteer",6711.58980979729,4.17038727170355
+"Shambaugh","Page",1,9,"Volunteer",8677.38708068723,5.3918766877137
+"Shenandoah","Page",1,30,"Volunteer",9612.82841293007,5.97313280377077
+"Yorktown","Page",1,15,"Volunteer",10244.1552877764,6.3654210153209
+"Ayrshire","Palo Alto",1,44,"Volunteer",11563.8498712848,7.18544095837012
+"Curlew","Palo Alto",1,25,"Volunteer",6397.06934578758,3.97495337646137
+"Cylinder","Palo Alto",1,18,"Volunteer",93.9881082406948,0.0584014848056288
+"Emmetsburg","Palo Alto",1,21,"Volunteer",420.326107793564,0.261178453925794
+"Graettinger","Palo Alto",1,22,"Volunteer",67.8070904671169,0.0421333596106429
+"Mallard","Palo Alto",1,25,"Volunteer",62.5099514785165,0.0388418710601573
+"Rodman","Palo Alto",1,18,"Volunteer",7236.70351774946,4.4966777015275
+"Ruthven","Palo Alto",1,44,"Volunteer",408.923259152121,0.254093054462613
+"West Bend","Palo Alto",1,22,"Volunteer",153.399127562693,0.095317769292758
+"Brunsville","Plymouth",2,27,"Mostly volunteer",8426.87608197023,5.23621641792992
+"Craig","Plymouth",2,27,"Mostly volunteer",16220.6422684682,10.0790367070004
+"Le Mars","Plymouth",2,27,"Mostly volunteer",1135.61737909688,0.705639706466809
+"Merrill","Plymouth",2,27,"Mostly volunteer",10516.6666846936,6.53475169453477
+"Struble","Plymouth",2,27,"Mostly volunteer",11546.1752267357,7.17445844681199
+"Akron","Plymouth",1,25,"Volunteer",392.193056242195,0.243697391550269
+"Kingsley","Plymouth",1,17,"Volunteer",9608.52001513012,5.97045569032142
+"Oyens","Plymouth",1,17,"Volunteer",7030.17388432854,4.36834617667911
+"Remsen","Plymouth",1,17,"Volunteer",372.131409532946,0.231231666072896
+"Westfield","Plymouth",1,25,"Volunteer",8244.60223524332,5.12295673551538
+"Hinton","Plymouth",7,113,"Career",16536.5724857734,10.2753465820575
+"Sioux City","Plymouth",7,113,"Career",1442.93990424895,0.896601011243075
+"Varina","Pocahontas",1,27,"Volunteer",10492.78275149,6.5199109110761
+"Fonda","Pocahontas",1,16,"Volunteer",10391.5656822213,6.45701755952753
+"Gilmore City","Pocahontas",1,38,"Volunteer",11619.5528948915,7.22005320185165
+"Havelock","Pocahontas",1,20,"Volunteer",354.728239185954,0.220417840711215
+"Laurens","Pocahontas",1,20,"Volunteer",264.638245722697,0.164438531382958
+"Palmer","Pocahontas",1,22,"Volunteer",27.3376511868453,0.0169868236556212
+"Plover","Pocahontas",1,18,"Volunteer",356.588773598239,0.221573922839512
+"Pocahontas","Pocahontas",1,23,"Volunteer",572.161651267721,0.355524657409875
+"Rolfe","Pocahontas",1,38,"Volunteer",265.612472752482,0.165043887806682
+"Granger","Polk",1,16,"Volunteer",41.5484672082888,0.0258170126176816
+"Pleasant Hill","Polk",1,42,"Mostly volunteer",1133.05458944408,0.704047263297456
+"Alleman","Polk",1,17,"Volunteer",6961.04894106561,4.32539394155888
+"Altoona","Polk",1,31,"Mostly volunteer",174.147876929483,0.10821044043555
+"Ankeny","Polk",3,78,"Mostly career",301.644990892191,0.187433449635672
+"Bondurant","Polk",1,30,"Mostly volunteer",627.908917375705,0.390164391898659
+"Clive","Polk",2,51,"Mostly career",2436.80051871461,1.51415717511421
+"Des Moines","Polk",10,384,"Career",4650.42881006661,2.8896416001399
+"Elkhart","Polk",1,17,"Volunteer",474.156145686901,0.294626878401615
+"Grimes","Polk",1,27,"Mostly volunteer",516.660579083191,0.321037900685501
+"Johnston","Polk",1,10,"Volunteer",1274.15622692549,0.791723728880918
+"Mitchellville","Polk",1,30,"Mostly volunteer",9373.92711328894,5.82468646431146
+"Polk City","Polk",1,40,"Volunteer",237.596809344122,0.147635767018967
+"Urbandale","Polk",2,51,"Mostly career",1828.8346126901,1.13638479212186
+"West Des Moines","Polk",5,86,"Mostly career",2400.00378801078,1.49129275376005
+"Windsor Heights","Polk",1,33,"Mostly volunteer",831.24162363191,0.516509438917784
+"Sheldahl","Polk",1,27,"Volunteer",8059.927978205,5.00820550774522
+"Carlisle","Polk",1,32,"Mostly volunteer",427.759122283764,0.265797113572585
+"Norwalk","Polk",1,32,"Mostly volunteer",624.818071751976,0.388243830062597
+"Runnells","Polk",1,15,"Volunteer",6909.04087523432,4.29307763768522
+"Avoca","Pottawattamie",1,20,"Volunteer",450.564019007128,0.279967415054478
+"Carson","Pottawattamie",1,18,"Volunteer",348.186247149834,0.21635283657774
+"Carter Lake","Pottawattamie",1,27,"Mostly volunteer",868.535636212803,0.539682856809185
+"Council Bluffs","Pottawattamie",5,104,"Career",1249.52634058163,0.776419431773548
+"Crescent","Pottawattamie",1,14,"Volunteer",100.925976953499,0.0627124752255726
+"Hancock","Pottawattamie",1,18,"Volunteer",96.6459032652194,0.0600529615578126
+"Macedonia","Pottawattamie",1,32,"Volunteer",146.96662149279,0.0913207965635965
+"Minden","Pottawattamie",1,12,"Volunteer",237.846054565179,0.14779064077122
+"Neola","Pottawattamie",1,26,"Volunteer",389.59120617985,0.24208067737518
+"Oakland","Pottawattamie",1,30,"Volunteer",540.63481693448,0.335934796833395
+"Shelby","Pottawattamie",1,12,"Volunteer",9342.8176500146,5.80535594600722
+"Treynor","Pottawattamie",1,25,"Volunteer",683.481025154732,0.424695288081421
+"Underwood","Pottawattamie",1,27,"Volunteer",408.914557991172,0.254087647813532
+"Walnut","Pottawattamie",1,34,"Volunteer",590.401459200079,0.366858345104612
+"Barnes City","Poweshiek",1,30,"Volunteer",9627.73474951172,5.98239516903884
+"Brooklyn","Poweshiek",1,18,"Volunteer",9668.19106447891,6.00753354992633
+"Deep River","Poweshiek",1,21,"Volunteer",446.808387037054,0.277633774261601
+"Grinnell","Poweshiek",2,35,"Mostly volunteer",700.94596624301,0.435547495990386
+"Guernsey","Poweshiek",1,21,"Volunteer",8063.76728739367,5.01059114313509
+"Hartwick","Poweshiek",1,17,"Volunteer",92.9095348418373,0.0577312905742073
+"Malcom","Poweshiek",1,18,"Volunteer",101.285438591942,0.0629358342633139
+"Montezuma","Poweshiek",1,30,"Volunteer",438.541069096083,0.272496702645302
+"Searsboro","Poweshiek",1,11,"Volunteer",70.9169262332606,0.0440657213704874
+"Victor","Poweshiek",1,25,"Volunteer",513.513445301958,0.319082363020723
+"Beaconsfield","Ringgold",1,12,"Volunteer",7441.61422176808,4.62400327059426
+"Ellston","Ringgold",1,12,"Volunteer",12623.947417862,7.84415483098435
+"Kellerton","Ringgold",1,21,"Volunteer",13772.2796301104,8.55769516604133
+"Benton","Ringgold",1,24,"Volunteer",10315.5881471526,6.40980732258434
+"Delphos","Ringgold",1,24,"Volunteer",10400.7175362683,6.46270425622859
+"Diagonal","Ringgold",1,24,"Volunteer",13772.7156824608,8.55796611632634
+"Mount Ayr","Ringgold",1,24,"Volunteer",91.650567488903,0.0569490047711472
+"Tingley","Ringgold",1,24,"Volunteer",15702.9116135489,9.75733389222251
+"Clearfield","Ringgold",1,26,"Volunteer",11108.2518398564,6.90234555398341
+"Maloy","Ringgold",1,16,"Volunteer",8624.31833929798,5.35890131080793
+"Redding","Ringgold",1,16,"Volunteer",7849.81850746498,4.87764957580202
+"Shannon City","Ringgold",1,30,"Volunteer",15237.6300009405,9.4682213913144
+"Odebolt","Sac",1,13,"Volunteer",8267.73904364341,5.13733327728775
+"Auburn","Sac",1,26,"Volunteer",175.32461055264,0.108941628583704
+"Early","Sac",1,26,"Volunteer",69.7393679577121,0.0433340208072515
+"Lake View","Sac",1,25,"Volunteer",621.670521516557,0.386288033625264
+"Lytton","Sac",1,29,"Volunteer",10650.0148996598,6.61761040821649
+"Nemaha","Sac",1,12,"Volunteer",119.888962779037,0.0744955246909727
+"Sac City","Sac",1,29,"Volunteer",571.895657702836,0.355359376722469
+"Schaller","Sac",1,25,"Volunteer",192.009828029899,0.119309338852767
+"Wall Lake","Sac",1,24,"Volunteer",226.969461289053,0.14103224113064
+"Durant","Scott",1,22,"Volunteer",162.504398502016,0.100975520601596
+"New Liberty","Scott",1,27,"Volunteer",8345.79961681583,5.18583785370047
+"Bettendorf","Scott",1,30,"Volunteer",2746.37080336567,1.70651517245813
+"Blue Grass","Scott",1,24,"Volunteer",767.147894919868,0.476683454614253
+"Buffalo","Scott",1,25,"Volunteer",632.779975306938,0.393191126036447
+"Davenport","Scott",7,140,"Career",3201.68752239266,1.98943577747665
+"Dixon","Scott",1,20,"Volunteer",178.168380966548,0.110708665049565
+"Donahue","Scott",1,24,"Volunteer",516.124129417346,0.320704566420186
+"Eldridge","Scott",1,28,"Volunteer",1062.10786840333,0.659963028297644
+"Le Claire","Scott",1,30,"Volunteer",627.067047906406,0.389641278624652
+"Long Grove","Scott",1,28,"Volunteer",4331.04104707141,2.69118330645981
+"Maysville","Scott",1,24,"Volunteer",6356.83755690503,3.94995450957164
+"Panorama Park","Scott",1,30,"Volunteer",1973.64732454526,1.22636721170001
+"Princeton","Scott",1,30,"Volunteer",9004.09720828188,5.59488488640732
+"Riverdale","Scott",1,30,"Volunteer",170.054708164765,0.105667064067048
+"Walcott","Scott",1,26,"Volunteer",648.151057491223,0.402742270744379
+"Portsmouth","Shelby",1,20,"Volunteer",8895.10178202843,5.52715828940079
+"Tennant","Shelby",1,20,"Volunteer",10539.5156763887,6.54894939535334
+"Shelby","Shelby",1,12,"Volunteer",9342.8176500146,5.80535594600722
+"Defiance","Shelby",1,22,"Volunteer",96.6652305227456,0.060064970955149
+"Earling","Shelby",1,22,"Volunteer",6709.60453610121,4.16915368020175
+"Elk Horn","Shelby",1,22,"Volunteer",170.485736838042,0.105934892784791
+"Harlan","Shelby",1,34,"Mostly volunteer",1017.19224260538,0.632053760979946
+"Irwin","Shelby",1,20,"Volunteer",8504.0518217883,5.28417118455642
+"Kirkman","Shelby",1,20,"Volunteer",162.430144276777,0.100929381179405
+"Panama","Shelby",1,30,"Volunteer",296.606574658323,0.184302723902017
+"Westphalia","Shelby",1,22,"Volunteer",234.851474727409,0.145929895702845
+"Sheldon","Sioux",1,32,"Volunteer",789.61412642184,0.490643319348865
+"Alton","Sioux",1,18,"Volunteer",261.063175469352,0.162217086404567
+"Boyden","Sioux",1,15,"Volunteer",239.3616564817,0.148732391849691
+"Chatsworth","Sioux",1,30,"Volunteer",10711.4258356537,6.655769382926
+"Granville","Sioux",1,24,"Volunteer",59.1548020780392,0.0367570785220333
+"Hawarden","Sioux",1,30,"Volunteer",1219.39968837182,0.757699603763288
+"Hospers","Sioux",1,19,"Volunteer",53.399420454944,0.033180851287509
+"Hull","Sioux",1,27,"Volunteer",453.254974001271,0.281639496450144
+"Ireton","Sioux",1,30,"Volunteer",14555.1468328405,9.04414614266895
+"Matlock","Sioux",1,15,"Volunteer",8269.31170920151,5.13831048605825
+"Maurice","Sioux",1,30,"Volunteer",10752.6977028227,6.68141452430067
+"Orange City","Sioux",1,30,"Volunteer",107.62042225902,0.0668722093995094
+"Rock Valley","Sioux",1,28,"Volunteer",364.839892176952,0.226700928641885
+"Sioux Center","Sioux",2,42,"Volunteer",1161.06425170085,0.721451655143608
+"Nevada","Story",1,38,"Mostly volunteer",472.065657794694,0.293327909849547
+"Ames","Story",3,55,"Career",2070.40414323108,1.28648909288364
+"Cambridge","Story",1,20,"Volunteer",367.86757323166,0.22858224184653
+"Collins","Story",1,18,"Volunteer",7937.65880288811,4.93223098800939
+"Colo","Story",1,22,"Volunteer",267.090470394966,0.16596227267979
+"Gilbert","Story",3,55,"Career",8123.80480058599,5.04789671274492
+"Huxley","Story",1,27,"Volunteer",962.907180240853,0.598322597493439
+"Kelley","Story",1,22,"Volunteer",185.079500594658,0.115003034364003
+"Maxwell","Story",1,18,"Volunteer",362.698581242798,0.225370380125419
+"Roland","Story",1,17,"Volunteer",387.678081991808,0.240891917485332
+"Sheldahl","Story",1,27,"Volunteer",8059.927978205,5.00820550774522
+"Slater","Story",1,27,"Volunteer",6774.13438607248,4.20925065760825
+"Story City","Story",1,25,"Volunteer",563.505088062986,0.350145720074786
+"Zearing","Story",1,20,"Volunteer",7592.41880787919,4.7177088670707
+"Chelsea","Tama",1,18,"Volunteer",104.005672385225,0.0646261086556797
+"Clutier","Tama",1,22,"Volunteer",149.364067264488,0.0928104998402025
+"Dysart","Tama",1,22,"Volunteer",12855.1697953442,7.98782971090285
+"Elberon","Tama",1,15,"Volunteer",507.435028424174,0.315305411046958
+"Garwin","Tama",1,18,"Volunteer",238.816959183722,0.148393932744948
+"Gladbrook","Tama",1,36,"Volunteer",304.254237440905,0.189054759772893
+"Le Grand","Tama",1,16,"Volunteer",5691.01156752353,3.53622954872367
+"Lincoln","Tama",1,36,"Volunteer",8579.53021899796,5.33107127170898
+"Montour","Tama",1,16,"Volunteer",109.101325683009,0.067792399840977
+"Tama","Tama",1,38,"Volunteer",871.820621369789,0.541724051321167
+"Toledo","Tama",1,30,"Mostly volunteer",434.78204376624,0.270160953317073
+"Traer","Tama",1,24,"Volunteer",430.437846865919,0.267461595344923
+"Vining","Tama",1,18,"Volunteer",138.518301795819,0.0860712557051696
+"Bedford","Taylor",1,30,"Volunteer",377.152187990292,0.234351432203716
+"Blockton","Taylor",1,16,"Volunteer",156.104136551007,0.0969985834328361
+"Clearfield","Taylor",1,26,"Volunteer",11108.2518398564,6.90234555398341
+"Conway","Taylor",1,25,"Volunteer",6125.41804058214,3.80615713329456
+"Gravity","Taylor",1,20,"Volunteer",234.622365491676,0.145787533867928
+"Lenox","Taylor",1,26,"Volunteer",300.73903501056,0.186870514923546
+"New Market","Taylor",1,20,"Volunteer",330.971719888258,0.205656228558687
+"Sharpsburg","Taylor",1,25,"Volunteer",131.452451859453,0.0816807414643602
+"Thayer","Union",1,22,"Volunteer",8488.91945192692,5.27476836876328
+"Afton","Union",1,30,"Volunteer",162.561765947854,0.101011167068784
+"Arispe","Union",1,30,"Volunteer",8986.31812842169,5.58383748177551
+"Creston","Union",1,25,"Mostly volunteer",779.656260157878,0.484455790030561
+"Cromwell","Union",1,25,"Mostly volunteer",7880.00080164054,4.89640397811619
+"Lorimor","Union",1,12,"Volunteer",92.7033992585063,0.0576032039006573
+"Shannon City","Union",1,30,"Volunteer",15237.6300009405,9.4682213913144
+"Farmington","Van Buren",1,27,"Volunteer",14853.6636140071,9.22963581349922
+"Birmingham","Van Buren",1,25,"Volunteer",99.646429566627,0.0619174015862446
+"Bonaparte","Van Buren",1,28,"Volunteer",13937.3428604086,8.66026067051492
+"Cantril","Van Buren",1,21,"Volunteer",151.818675394025,0.0943357221482605
+"Keosauqua","Van Buren",1,28,"Volunteer",481.753312891502,0.299347537784705
+"Milton","Van Buren",1,21,"Volunteer",8344.74307337135,5.18518134824383
+"Stockport","Van Buren",1,20,"Volunteer",67.205575042281,0.0417595953695972
+"Blakesburg","Wapello",1,22,"Volunteer",16964.3107776442,10.5411307522155
+"Agency","Wapello",1,16,"Volunteer",175.30909954176,0.108931990491363
+"Chillicothe","Wapello",1,23,"Volunteer",11813.4771696564,7.34055212238658
+"Eddyville","Wapello",1,23,"Volunteer",252.777445037058,0.157068573800121
+"Eldon","Wapello",1,18,"Volunteer",385.600170857559,0.239600763765932
+"Kirkville","Wapello",1,23,"Volunteer",10903.727001303,6.77525975052668
+"Ottumwa","Wapello",2,32,"Career",927.926433939506,0.576586576183425
+"Des Moines","Warren",10,384,"Career",4650.42881006661,2.8896416001399
+"West Des Moines","Warren",5,86,"Mostly career",2400.00378801078,1.49129275376005
+"Ackworth","Warren",1,44,"Mostly volunteer",7257.04325523468,4.50931622454843
+"Bevington","Warren",0,18,"Volunteer",4421.81404929669,2.74758701762553
+"Carlisle","Warren",1,32,"Mostly volunteer",427.759122283764,0.265797113572585
+"Cumming","Warren",1,32,"Mostly volunteer",6336.02538508062,3.93702242955293
+"Hartford","Warren",1,15,"Volunteer",89.3336449364555,0.0555093362878103
+"Indianola","Warren",1,44,"Mostly volunteer",506.766396422041,0.31488994251116
+"Lacona","Warren",1,21,"Volunteer",42.7028440481321,0.0265343089090319
+"Martensdale","Warren",0,18,"Volunteer",96.2758021541315,0.0598229914603148
+"Milo","Warren",1,31,"Volunteer",219.874507352502,0.136623642508132
+"New Virginia","Warren",1,25,"Volunteer",65.9198380197646,0.0409606756701792
+"Norwalk","Warren",1,32,"Mostly volunteer",624.818071751976,0.388243830062597
+"Sandyville","Warren",1,15,"Volunteer",10009.4450042076,6.21957885170951
+"Spring Hill","Warren",1,32,"Mostly volunteer",8628.72463565706,5.36163925558286
+"Coppock","Washington",1,25,"Volunteer",4587.19329439849,2.85034888453368
+"Crawfordsville","Washington",1,22,"Volunteer",9016.40748852243,5.60253413755067
+"Keota","Washington",1,22,"Volunteer",266.750820071425,0.165751223818601
+"West Chester","Washington",1,22,"Volunteer",11561.6723317652,7.18408789846128
+"Ainsworth","Washington",1,40,"Mostly volunteer",11225.2979022231,6.97507458280229
+"Brighton","Washington",1,22,"Volunteer",182.985714467119,0.113702016384148
+"Kalona","Washington",1,25,"Volunteer",407.349345659449,0.253115070261758
+"Riverside","Washington",1,25,"Volunteer",11064.5231503742,6.87517381447117
+"Washington","Washington",1,40,"Mostly volunteer",232.974465383395,0.144763576529745
+"Wellman","Washington",1,32,"Volunteer",772.373815875648,0.479930690344467
+"Seymour","Wayne",1,10,"Volunteer",17640.0653479698,10.9610250453333
+"Allerton","Wayne",1,28,"Volunteer",380.724404918752,0.23657110420877
+"Clio","Wayne",1,20,"Volunteer",8054.00443596796,5.00452479038185
+"Corydon","Wayne",1,20,"Volunteer",268.851312683843,0.167056409013672
+"Humeston","Wayne",1,18,"Volunteer",123.79110411223,0.0769202021533207
+"Lineville","Wayne",1,20,"Volunteer",348.502038423238,0.216549060117086
+"Millerton","Wayne",1,20,"Volunteer",10260.9831917038,6.37587738681219
+"Promise City","Wayne",1,20,"Volunteer",14273.9293635608,8.86940576256514
+"Dayton","Webster",1,12,"Volunteer",10055.6807411967,6.24830839783814
+"Farnhamville","Webster",1,28,"Volunteer",150.320189225737,0.0934046062993857
+"Badger","Webster",1,18,"Volunteer",10522.6570502496,6.53847393397063
+"Barnum","Webster",1,22,"Volunteer",183.886286056494,0.11426160545321
+"Callender","Webster",1,15,"Volunteer",248.265578585026,0.154265030830956
+"Clare","Webster",1,22,"Volunteer",9013.32370588222,5.60061796444774
+"Duncombe","Webster",1,15,"Volunteer",13530.4847148377,8.40745081774341
+"Fort Dodge","Webster",1,36,"Career",314.442829600818,0.19538565547189
+"Gowrie","Webster",1,20,"Volunteer",269.854270755431,0.167679618073573
+"Harcourt","Webster",1,20,"Volunteer",3065.68879649055,1.90493011316413
+"Lehigh","Webster",1,15,"Volunteer",327.712298524407,0.203630918646409
+"Moorland","Webster",1,17,"Volunteer",348.795959159044,0.216731693938614
+"Otho","Webster",1,17,"Volunteer",231.948397368676,0.144126007621372
+"Stratford","Webster",1,15,"Volunteer",13850.8376969337,8.60650887058138
+"Vincent","Webster",1,18,"Volunteer",130.660618351634,0.081188719085773
+"Buffalo Center","Winnebago",1,20,"Volunteer",282.323073319422,0.175427370391563
+"Forest City","Winnebago",1,24,"Volunteer",533.032546530469,0.331210966470184
+"Lake Mills","Winnebago",1,24,"Volunteer",533.248004548984,0.331344845834607
+"Leland","Winnebago",1,24,"Volunteer",7934.03859835513,4.92998149789852
+"Rake","Winnebago",1,17,"Volunteer",143.253910416368,0.0890138255693291
+"Scarville","Winnebago",1,24,"Volunteer",8644.24522478683,5.37128329957102
+"Thompson","Winnebago",1,18,"Career",243.092746093273,0.151050782732723
+"Spillville","Winneshiek",1,12,"Volunteer",98.0490168779805,0.0609248156664876
+"Jackson Junction","Winneshiek",1,22,"Volunteer",12676.3916409652,7.8767421503382
+"Calmar","Winneshiek",1,22,"Volunteer",219.741732780516,0.136541140239562
+"Castalia","Winneshiek",1,24,"Volunteer",111.558121902633,0.0693189817647609
+"Decorah","Winneshiek",1,35,"Mostly volunteer",452.527606265684,0.281187531232914
+"Fort Atkinson","Winneshiek",1,22,"Volunteer",6809.29747419046,4.2310999808352
+"Ossian","Winneshiek",1,24,"Volunteer",243.775937871694,0.151475298291272
+"Ridgeway","Winneshiek",1,24,"Volunteer",50.2362986983975,0.0312153791585219
+"Pierson","Woodbury",1,17,"Volunteer",79.8772345298707,0.0496333970970603
+"Anthon","Woodbury",1,21,"Volunteer",179.433724761497,0.111494912988776
+"Bronson","Woodbury",1,22,"Volunteer",99.7722436958182,0.0619955788375143
+"Correctionville","Woodbury",1,20,"Volunteer",569.886115503952,0.354110705476806
+"Cushing","Woodbury",1,20,"Volunteer",83.9500709082131,0.0521641395103073
+"Danbury","Woodbury",1,20,"Volunteer",177.422183791811,0.110244999764901
+"Hornick","Woodbury",1,24,"Volunteer",49.7791407037035,0.0309313144382009
+"Lawton","Woodbury",2,21,"Volunteer",287.598637168759,0.178705452776189
+"Moville","Woodbury",1,24,"Volunteer",559.055939450402,0.347381148152236
+"Oto","Woodbury",1,16,"Volunteer",6871.85215152708,4.26996964324654
+"Salix","Woodbury",1,27,"Volunteer",9597.71120310861,5.9637394079868
+"Sergeant Bluff","Woodbury",2,45,"Volunteer",142.424937212871,0.0884987256608986
+"Sioux City","Woodbury",7,113,"Career",1442.93990424895,0.896601011243075
+"Sloan","Woodbury",1,27,"Volunteer",242.370300669318,0.150601876097195
+"Smithland","Woodbury",1,16,"Volunteer",110.962924961268,0.0689491436461079
+"Fertile","Worth",1,7,"Volunteer",205.571087556566,0.127735912246111
+"Grafton","Worth",1,17,"Volunteer",12150.4360704669,7.54992861154209
+"Hanlontown","Worth",1,18,"Volunteer",110.397002366741,0.0685974957576245
+"Joice","Worth",1,12,"Volunteer",27.9489407234844,0.0173666612462922
+"Kensett","Worth",1,17,"Volunteer",7622.97677920087,4.73669670426882
+"Manly","Worth",1,17,"Volunteer",320.740533387867,0.199298865971752
+"Northwood","Worth",1,30,"Volunteer",348.145004465402,0.216327209569671
+"Rowan","Wright",1,8,"Volunteer",9581.7238742177,5.95380534544653
+"Dows","Wright",1,23,"Volunteer",242.189027880795,0.150489238443317
+"Galt","Wright",1,23,"Volunteer",9533.70615811437,5.92396852917368
+"Belmond","Wright",1,30,"Volunteer",360.018169607993,0.223704850067488
+"Clarion","Wright",1,20,"Volunteer",359.309134666446,0.223264276316824
+"Eagle Grove","Wright",1,23,"Volunteer",312.588343829666,0.194233331793783
+"Goldfield","Wright",1,17,"Volunteer",32.9980716973889,0.0205040448086782
+"Woolstock","Wright",1,25,"Volunteer",169.71659675786,0.105456971444028
+"Jacksonville",NA,1,33,"Volunteer",6585.87385628932,4.09227102395635
+"Amana",NA,1,15,"Volunteer",11869.2180396902,7.37518788254033
+"East Amana",NA,1,15,"Volunteer",11923.0509838771,7.4086381129027
+"Homestead",NA,1,15,"Volunteer",16299.5455043098,10.1280648895585
+"Middle Amana",NA,1,15,"Volunteer",11780.5465073284,7.32008996380515
+"Watkins",NA,1,15,"Volunteer",5494.23444098044,3.41395794882646
+"Washburn",NA,1,24,"Volunteer",4429.45042886672,2.75233204243534
+"Twin Lakes",NA,1,12,"Volunteer",7051.02424389135,4.38130198545101
+"Rochester",NA,1,35,"Volunteer",10851.7466852785,6.74296068957822
+"Burchinal",NA,1,44,"Career",10856.9407624004,6.74618813847348
+"Portland",NA,1,44,"Career",7008.76300870416,4.35504207948151
+"McGregor",NA,2,28,"Volunteer",384.337406862232,0.238816118839392
+"St. Olaf",NA,1,25,"Volunteer",97.357953460036,0.060495408899416
+"Millville",NA,1,31,"Volunteer",9194.39736316687,5.71313188394836
+"DeWitt",NA,1,31,"Volunteer",374.493194149504,0.232699210541871
+"Diamondhead Lake",NA,1,32,"Volunteer",4703.74358647371,2.92276985607076
+"Sun Valley Lake",NA,1,12,"Volunteer",9527.36251266638,5.92002677185802
+"Beaverdale",NA,1,31,"Mostly volunteer",5240.49683678545,3.25629275997021
+"Roseville",NA,1,18,"Volunteer",7843.37735294891,4.87364722917922
+"Bradford",NA,1,26,"Volunteer",12579.359308495,7.81644907287883
+"Chapin",NA,1,26,"Volunteer",10236.8753850858,6.36089749490616
+"Hayfield",NA,1,14,"Volunteer",9428.16490338926,5.85838825418389
+"Anderson",NA,1,33,"Volunteer",6615.12173684839,4.11044480874722
+"Bartlett",NA,1,17,"Volunteer",8425.52659372604,5.23537788507014
+"Percival",NA,1,17,"Volunteer",9278.93513935903,5.76566120647866
+"Lake Panorama",NA,1,27,"Volunteer",3872.6808543196,2.40637157512942
+"Duncan",NA,1,26,"Volunteer",7681.8962579921,4.77330755972481
+"Hutchins",NA,1,26,"Volunteer",6741.70417873223,4.18909946724302
+"Miller",NA,1,25,"Volunteer",9256.44010538554,5.75168344472352
+"Garden City",NA,1,18,"Volunteer",8066.40350642256,5.0122292131893
+"California Junction",NA,1,26,"Volunteer",8574.84279018127,5.32815863937773
+"Loveland",NA,1,26,"Volunteer",6598.58491909647,4.10016930976389
+"River Sioux",NA,1,19,"Volunteer",1922.16769983616,1.1943792658149
+"Mount Union",NA,1,13,"Volunteer",90.9516598678947,0.0565147238437736
+"McIntire",NA,1,18,"Volunteer",8729.58294861876,5.42430968636619
+"Meyer",NA,1,18,"Volunteer",15677.6494472203,9.74163671466874
+"St. Joseph",NA,1,19,"Volunteer",5686.67390588011,3.53353425157063
+"Conroy",NA,1,28,"Volunteer",9844.55321154721,6.1171198736123
+"High Amana",NA,1,28,"Volunteer",10729.6049497093,6.66706535720582
+"South Amana",NA,1,28,"Volunteer",9190.42065300891,5.7106608715808
+"West Amana",NA,1,28,"Volunteer",8705.01948580686,5.40904666291529
+"St. Donatus",NA,1,31,"Volunteer",9924.36132018341,6.16671031788369
+"Morley",NA,1,24,"Volunteer",9484.35279267897,5.89330177913973
+"Stone City",NA,1,32,"Volunteer",6243.79990028988,3.87971618784302
+"Irvington",NA,1,26,"Volunteer",7309.36717559663,4.54182879126766
+"Sexton",NA,1,21,"Volunteer",8095.82689024555,5.03051205061877
+"St. Benedict",NA,1,21,"Volunteer",7894.79136018741,4.90559440227101
+"Denmark",NA,1,24,"Volunteer",9496.01195952689,5.90054644730319
+"St. Paul",NA,1,32,"Volunteer",7917.45234987709,4.91967528409548
+"St. Charles",NA,1,21,"Volunteer",9520.25907185627,5.9156128997384
+"Green Mountain",NA,1,17,"Volunteer",152.115870100199,0.0945203903200309
+"St. Anthony",NA,1,24,"Volunteer",12250.2090549102,7.61192465065863
+"Mineola",NA,1,13,"Volunteer",204.364015034696,0.126985872386124
+"Little Cedar",NA,1,30,"Volunteer",12629.3111732035,7.84748771300465
+"Mona",NA,1,28,"Volunteer",12095.34831851,7.51569868002086
+"Otranto",NA,1,28,"Volunteer",10454.1152765091,6.49588406347976
+"St. Ansgar",NA,1,28,"Volunteer",55.6936379183111,0.0346064114869389
+"Toeterville",NA,1,28,"Volunteer",7233.30871726991,4.49456827095872
+"Saylorville",NA,1,35,"Volunteer",3832.33438098416,2.38130144664651
+"Bentley",NA,1,27,"Volunteer",4909.14507693585,3.05040038560071
+"McClelland",NA,1,16,"Volunteer",223.536842524063,0.138899311376019
+"Weston",NA,1,16,"Volunteer",5305.87100937474,3.29691437496619
+"Holiday Lake",NA,1,17,"Volunteer",9355.4026256833,5.81317588492346
+"McCausland",NA,1,25,"Volunteer",211.188776564571,0.131226581282704
+"Park View",NA,1,28,"Volunteer",5758.26639915272,3.57801975070792
+"Corley",NA,1,34,"Mostly volunteer",9233.56888935131,5.73747193434512
+"McCallsburg",NA,1,20,"Volunteer",80.5647244632758,0.0500605834044702
+"Athelstan",NA,1,16,"Volunteer",7250.36130698987,4.5051642556856
+"Kent",NA,1,26,"Volunteer",11964.6956370398,7.43451489268308
+"Douds",NA,1,25,"Volunteer",12005.4992225761,7.45986905743135
+"Leando",NA,1,25,"Volunteer",12916.4418113686,8.02590236477195
+"Mount Sterling",NA,1,21,"Volunteer",11678.690158482,7.2567993824661
+"St. Marys",NA,0,18,"Volunteer",7316.86476473157,4.54648757572602
+"Frytown",NA,1,25,"Volunteer",10011.7961105921,6.22103976103474
+"Coalville",NA,1,17,"Volunteer",2755.71423944976,1.71232091268114
+"New Haven",NA,1,13,"Volunteer",11315.4188129367,7.03107310321331
+"Burr Oak",NA,1,35,"Mostly volunteer",17980.0718108153,11.1722952011581
+"St. Lucas",NA,1,22,"Volunteer",13942.0764504378,8.66320198608498
+"Climbing Hill",NA,1,24,"Volunteer",12462.7899750164,7.7440162695659
+"Bolan",NA,1,30,"Volunteer",12143.2564886481,7.54546742760777
