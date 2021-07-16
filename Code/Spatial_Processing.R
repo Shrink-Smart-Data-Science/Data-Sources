@@ -58,6 +58,6 @@ ia_census_place <- sf::read_sf("Data/Geography/cb_2018_us_zcta510_500k/") %>%
   mutate(FIPS = GEOID10 %>% as.numeric()) %>%
   rename(place_geometry = geometry)
 
-suppressWarnings(rm(centroid_points,us_zip_codes, iowa_border, ia_zip_codes, find_ia_zipcode, find_ia_county))
+suppressWarnings(rm(centroid_points, us_zip_codes, iowa_border, ia_zip_codes, find_ia_zipcode, find_ia_county))
 
 

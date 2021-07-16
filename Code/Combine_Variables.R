@@ -24,8 +24,10 @@ codebook <- bind_rows(codebook,
 
 #---- City Level ---------------------------------------------------------------
 
-ia_city_geometry <- ia_cities %>%
-  select(City = NAME10, geometry)
+ia_city_geometry <- center_points %>%
+  st_as_sf(coords = c("long", "lat"), crs = 4326L) %>%
+  select(City = NAME, geometry) %>%
+  st_drop_geometry()
 
 ia_city_zip_aggregate <- ia_by_zip %>%
   st_drop_geometry() %>%
@@ -38,24 +40,25 @@ ia_city_zip_aggregate <- ia_by_zip %>%
   tidyr::spread(key = key, value = value, fill = NA) %>%
   ungroup()
 
-ia_by_city_finance <- full_join(
-  city_budget,
-  fiscal_capacity
-) %>%
-  rename(Population_finance = Population, size_finance = size) %>%
-  select(City, Population_finance, size_finance, 
-         Fiscal_Capacity = Fiscal.Capacity, Fiscal_Effort = Fiscal.Effort, 
-         everything()) %>%
-  modify_at("Population_finance", parse_number)
+# ia_by_city_finance <- full_join(
+#   #city_budget,
+#   fiscal_capacity
+# ) %>%
+#   rename(Population_finance = Population, size_finance = size) %>%
+#   select(City, Population_finance, size_finance,
+#          Fiscal_Capacity = Fiscal.Capacity, Fiscal_Effort = Fiscal.Effort,
+#          everything()) %>%
+#   modify_at("Population_finance", parse_number)
 
 ia_data <- ia_city_zip_aggregate %>%
   left_join(liquor_shops_city) %>%
-  full_join(filter(ia_city_population, Year == 2010) %>%
+  full_join(filter(ia_city_population, year == 2010) %>%
+              rename(City = geo_name) %>%
               ungroup() %>%
               filter(!str_detect(City, "Balance of .* County")) %>%
-              select(-Year))  %>%
-  full_join(ia_city_school_dist) %>%
-  full_join(ia_by_city_finance) %>%
+              select(-year)) %>%
+  #full_join(ia_schools_dist) %>%
+  #full_join(ia_by_city_finance) %>%
   filter(!str_detect(City, "Balance [Oo]f "))
   
 
@@ -65,20 +68,26 @@ codebook <- bind_rows(codebook,
                              initial_aggregation_level = "city")) %>%
   bind_rows(tibble(variable = names(ia_city_population)[-c(1:2)],
                    initial_data = "city",
-                   initial_aggregation_level = "city")) %>%
-  bind_rows(tibble(variable = names(ia_city_school_dist)[-1],
-                   initial_data = "individual location",
-                   initial_aggregation_level = "city")) %>%
-  bind_rows(tibble(variable = names(ia_by_city_finance)[-1],
-                   initial_data = "city",
-                   initial_aggregation_level = "city"))
+                   initial_aggregation_level = "city")) 
+ # bind_rows(tibble(variable = names(ia_schools_dist)[-1],
+  #                 initial_data = "individual location",
+   #                initial_aggregation_level = "city"))
+  # bind_rows(tibble(variable = names(ia_by_city_finance)[-1],
+  #                  initial_data = "city",
+  #                  initial_aggregation_level = "city"))
 
 small_town_poll <- read_csv("Data/ISTP_QOL/qol_ISTP2014_x14jun2019_data.csv")
 
-ia_data <- ia_data %>%
-  full_join(small_town_poll, by = c("FIPS" = "FIPS_PL")) %>%
-  select(City, FIPS, Population, everything()) %>%
-  full_join(ia_city_geometry)
+ia_data <- ia_data %>% 
+  full_join(small_town_poll, by = c("fips" = "FIPS_PL")) %>%
+  st_sf(sf_column_name = 'geometry') 
+
+#%>%
+ia_data <- ia_data %>% 
+  st_join(ia_city_geometry) %>%
+  select(City, fips, population, -center) %>%
+  st_sf(sf_column_name = 'geometry')
+  
 
 codebook <- bind_rows(codebook, 
                       tibble(variable = names(small_town_poll)[-1],

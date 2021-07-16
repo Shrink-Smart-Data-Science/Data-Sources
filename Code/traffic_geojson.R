@@ -34,9 +34,18 @@ dbWriteTable(conn = conn,
              overwrite = TRUE) 
 
 #--- Processing the .gdb file from Iowa DOT ---------
-
-#ogrListLayers("Data/Traffic_data.gdb")
+ogrListLayers("Data/Traffic_data.gdb")
 #traffic_data = readOGR("Data/Traffic_data.gdb","Primary")
 
 traffic <- sf::st_read(dsn = "Data/Traffic_data.gdb", layer = "Primary")
-head(traffic)
+#Checks the geometry type
+st_geometry(traffic)
+
+#Casting the geometry column into the same format that we are using in the other tables
+traffic2 = st_cast(traffic, "GEOMETRY")
+
+#Using this will give the plot of Iowa with the information! So cool!
+traffic3 = st_zm(traffic, drop = TRUE, what = "ZM")
+
+ggplot(data=traffic3) +
+  geom_sf()

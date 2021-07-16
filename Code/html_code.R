@@ -18,7 +18,7 @@ library(keyring)
 
 #Using Selenium
 #For the Homes Data
-rd <- rsDriver(browser=c("chrome"), chromever="85.0.4183.83")
+rd <- rsDriver(port=4678L,browser=c("firefox")) #, chromever="latest")
 rd$client$navigate('https://dhs.iowa.gov/iqrs/providers/homes')
 h <- rd$client$getPageSource()
 
@@ -36,7 +36,7 @@ rd$client$close()
 rd$server$stop()
 rm(rd)
 #For the Child Center Tables
-rd <- rsDriver(browser=c("chrome"), chromever="85.0.4183.83")
+rd <- rsDriver(browser=c("firefox"), port=4455L) #, chromever="85.0.4183.83"
 rd$client$navigate('https://dhs.iowa.gov/iqrs/providers/centers')
 h <- rd$client$getPageSource()
 
@@ -53,6 +53,30 @@ child_center_data <- child_center_data[-1,]
 rd$client$close()
 rd$server$stop()
 rm(rd)
+
+
+#For the Child Care Table
+rd <- rsDriver(browser=c("chrome"), chromever="87.0.4280.88")
+rd$client$navigate('https://ccmis.dhs.state.ia.us/clientportal/ProviderLocator.aspx')
+h <- rd$client$getPageSource()
+
+nodes <- h[[1]] %>% 
+  read_html() %>% 
+  html_nodes(xpath = "/html/body/form/div[3]/div[2]/div/table/tbody")
+
+child_center_data <- html_table(nodes, fill = TRUE)[[1]]
+str(child_center_data)
+
+names(child_center_data) <- child_center_data[1, ]
+child_center_data <- child_center_data[-1,]
+
+rd$client$close()
+rd$server$stop()
+rm(rd)
+
+
+
+
 #Write data to the database
 
 conn <- DBI::dbConnect(RMySQL::MySQL(), 

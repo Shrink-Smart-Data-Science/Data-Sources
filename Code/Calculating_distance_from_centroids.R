@@ -8,6 +8,8 @@ library(rgeos)
 library(stringr)
 library(magrittr)
 library(geodist)
+library(readxl)
+library(zipcodeR)
 
 
 crs <- structure(list(epsg = 26915L, proj4string = "+proj=longlat +zone=15 +datum=NAD83 +units=mi +no_defs"), class = "crs")
@@ -59,7 +61,7 @@ write.csv(ia_hospitals_dist,"Data/Distance_Data/Hospital_distances.csv", row.nam
 #---Distance from Post Office - TO DO: GET THE RIGHT POST OFFICE INFO!!  ----
 proper=function(x) paste0(toupper(substr(x, 1, 1)), tolower(substring(x, 2)))
 
-post_offices <- tibble(text = read_lines("Data/Iowa_Post_Offices.txt", skip = 2)) %>%
+post_offices <- tibble(text = read_lines("Data/Iowa_Post_Offices2.txt", skip = 2)) %>%
   tidyr::extract(text, into = c("zip5", "post_office", "established", "discontinued"),
                  regex = "(\\d{5})?\\s{0,}([A-Z ]{1,}(?:.\\d{1,}.)?)\\t([0-9/]{0,10})\\t([0-9/]{0,10})") %>%
   mutate(zip5 = ifelse(is.na(zip5), lag(zip5, 1), zip5) %>% as.numeric(),
@@ -143,41 +145,55 @@ school_cat <- function(grade_start, grade_end) {
   tmp$type
 }
 
-schools <- dbReadTable(conn, "school_building_directory") %>%
+schools.test <- read_excel("Data/2020-21PublicSchoolBuildingDirectory9-11-20.xlsx") %>%
   fix_names() %>%
   remove_empty_cols() %>%
-  dplyr::rename(county = co_name) %>%
-  mutate(district_name = ifelse(is.na(district_name), "Private", district_name)) %>%
-  mutate(zip5 = str_extract(mailing_zip_code, "\\d{5}"),
-         coords = str_remove(physical_location, " ?POINT ?"),
-         lat = str_extract(gsub("^.* ", "", coords), pattern = "-?\\d+(?:\\.\\d+)?") %>% parse_number(),
-         long = str_extract(coords, "-?\\d+(?:\\.\\d+)?") %>% parse_number()) %>%
+  dplyr::rename(county = County.Name) %>%
+  mutate(District.Name = ifelse(is.na(District.Name), "Private", District.Name)) %>%
+  mutate(grade_start = sub("(^[^-]+)-.*", "\\1", Grades.Served),
+         grade_end = sub('.*-','', Grades.Served)) %>%
+  mutate(zip5 = str_extract(Zip.Code.12, "\\d{5}")) %>%
   mutate(grade_start = str_replace(grade_start, "P?K" , "0") %>% parse_number,
          grade_end = str_replace(grade_end, "P?K" , "0") %>% parse_number,
-         public = district_name != "Private") %>%
+         public = District.Name != "Private") %>%
   mutate(grade_start = ifelse(grade_start == "NULL", NA, grade_start) %>% as.numeric,
          grade_end = ifelse(grade_end == "NULL", NA, grade_end) %>% as.numeric) %>%
+  unite("Address", Physical.Street:Zip.Code.16, sep= ", ", 
+        remove = FALSE) %>%
   filter(!is.na(grade_start) & !is.na(grade_end)) %>%
   mutate(type = purrr::map2(grade_start, grade_end, school_cat)) %>%
-  unnest(type) %>%
-  filter(!is.na(lat) & !is.na(long)) 
+  unnest(type) 
+  
+## Use zipcodeR to get the lat/long from zipcode values
+#Example using an IOWA zipcode
+ggmap::geocode("ames iowa", output = "latlona")
 
+school.lat.lng <- ggmap::geocode(schools.test$Address, output = "latlona") 
 
-school_sm <- schools %>%
-  select(mailing_city,county,district_school_id, public, type, school.long = long, school.lat = lat)
+school.lat.lng <- school.lat.lng %>% mutate(Address = proper(address))
+
+#Take the zipcodes and add them to the original data
+schools.test <- schools.test %>%
+  left_join(school.lat.lng, by = c("Zip.Code.12" = "zipcode")) %>%
+  filter(!is.na(lat) & !is.na(lng)) 
+
+school_sm <- schools.test %>%
+  select(Mailing.City,county,District, public, type, school.long = lng, school.lat = lat)
 
 
 ia_schools_dist <- 
-  crossing(City = city_centroids$City, school.city = school_sm$mailing_city) %>%
+  crossing(City = city_centroids$City, school.city = school_sm$Mailing.City) %>%
   left_join(city_centroids) %>%
-  left_join(school_sm, by = c("school.city" = "mailing_city")) %>%
+  left_join(school_sm, by = c("school.city" = "Mailing.City")) %>%
   #group_by(City,hospital_trauma_level) %>%
   # Calculate distance between city and school
   mutate(dist = distGeo(cbind(school.long,school.lat), cbind(center.long,center.lat)),
          # Converts the distance to a mile calculation
          dist.mi = dist*0.000621371) %>%
   # Group by city
-  group_by(City, public, type) %>%
+  group_by(City, public, type) 
+
+%>%
   # Take minimum distance school
   filter(dist == min(dist)) %>%
   select(City,school.city,school.county = county,public,type,dist,dist.mi)
@@ -197,6 +213,8 @@ write.csv(ia_city_school_dist,"Data/Distance_Data/School_distances.csv", row.nam
 
 save(ia_firedept_dist, ia_hospitals_dist,
      ia_postoffice_dist, ia_city_school_dist, file = "Data/distance_Data.Rdata")
+
+save(school_sm, file = "Data/schools.Rdata")
 
 rm(fire_dept, fire_dept_sm, hospitals, hospitals_sm,
    post_offices, post_offices_sm, schools, school_sm)

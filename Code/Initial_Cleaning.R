@@ -171,12 +171,12 @@ liquor_shops_zip <- liquor_stores %>%
 #liquor_shops_zip <- readRDS("/Users/denisebradford/Documents/ShrinkSmartExploration/data/IowaGov/liquor_shops.rda")
 
 #Need new data for this information??
-post_office_zip <- tibble(text = read_lines("/Users/denisebradford/Documents/ShrinkSmartExploration/data/Iowa_Post_Offices.txt", skip = 2)) %>%
+post_office_zip <- tibble(text = read_lines("Data/Iowa_Post_Offices.txt", skip = 2)) %>%
   tidyr::extract(text, into = c("zip5", "post_office", "established", "discontinued"),
                  regex = "(\\d{5})?\\s{0,}([A-Z ]{1,}(?:.\\d{1,}.)?)\\t([0-9/]{0,10})\\t([0-9/]{0,10})") %>%
   mutate(zip5 = ifelse(is.na(zip5), lag(zip5, 1), zip5) %>% as.numeric()) %>%
   filter(is.na(discontinued) | discontinued == "") %>%
-  group_by(zip5) %>%
+  group_by(zip5, post_office) %>%
   summarize(n_post_offices = n())
 
 retirement_home_zip <- retirement_homes %>%
@@ -264,7 +264,7 @@ ia_city_population <- ia_city_county_population %>%
 #   summarize(liquor_stores = median(liquor_stores), liquor_sales = median(sales)) %>%
 #   ungroup()
 # saveRDS(liquor_shops_city, "data/IowaGov/liquor_shops_city.rda")
- liquor_shops_city <- readRDS("/Users/denisebradford/Documents/ShrinkSmartExploration/data/IowaGov/liquor_shops_city.rda")
+ liquor_shops_city <- readRDS("~/Documents/ShrinkSmartExploration/data/IowaGov/liquor_shops_city.rda")
 
 # --- County level Data --------------------------------------------------------
 
@@ -406,10 +406,9 @@ assessed_property_values <- dbReadTable(conn, "assessed_property_values") %>%
 
 # --- School-district level data -----------------------------------------------
 
-ia_cities <- sf::read_sf("Data/Inc_cities_Twp_2010") %>%
-  filter(str_detect(CLASSFP10, "C")) %>%
-  mutate(geometry = st_transform(geometry, 4326)) %>%
-  mutate(center = st_centroid(geometry))
+center_points <- read_csv("Data/place_centroids_with_latlong.csv") 
+
+
 
 school_cat <- function(grade_start, grade_end) {
   gradetbl <- tibble(grade = 0:12, type = rep(c("Elementary", "Middle", "High"), c(6, 3, 4)))
@@ -447,31 +446,41 @@ schools <- dbReadTable(conn, "school_building_directory") %>%
   st_transform(crs = crs)
 
 school_sm <- schools %>%
-   select(district_school_id, public, type, geometry)
+  select(geometry) %>%
+  st_cast("MULTIPOINT") %>%
+  st_cast("POINT") %>% 
+  st_coordinates() %>%
+  as.data.frame() %>% 
+  mutate(long = X, lat = Y) %>%
+  select(long, lat) %>%
+  cossing(schools) %>% 
+  select(district_school_id, public, type, long, lat)
+  
 
-ia_city_schools <- ia_cities %>%
-  select(City = NAME10, center) %>%
-  st_drop_geometry() %>%
-  crossing(school_sm) %>%
+
+ia_city_schools <- center_points %>%
+  select(City = NAME, geometry) %>%
+  #st_drop_geometry() %>%
+  tidyr::crossing(school_sm) %>%
   select(City, center, district_school_id, public, type, geometry) %>%
   mutate(dist = st_distance(center, geometry, by_element = T)) %>% ## how to get units
   group_by(City, public, type) %>%
   filter(dist == min(dist)) %>%
   ungroup()
 #
-# ia_city_schools <- ia_city_schools %>%
-#   modify_at("dist", units::set_units, "mi")
+ia_city_schools <- ia_city_schools %>%
+   modify_at("dist", units::set_units, "mi")
 #
 # saveRDS(ia_city_schools, file = "data/IowaGov/city_school_distance.rda")
 # ia_city_schools <- readRDS("data/IowaGov/city_school_distance.rda")
 #
-# ia_city_school_dist <- ia_city_schools %>%
-#   select(-geometry, -School.ID) %>%
-#   mutate(key = sprintf("dist_%s_%s", c("private", "public")[public+1], type)) %>%
-#   select(-public, -type) %>%
-#   unique() %>%
-#   tidyr::spread(key = key, value = dist) %>%
-#   select(-center)
+ia_city_school_dist <- ia_city_schools %>%
+  select(-center, -School.ID) %>%
+  mutate(key = sprintf("dist_%s_%s", c("private", "public")[public+1], type)) %>%
+  select(-public, -type) %>%
+  unique() %>%
+  tidyr::spread(key = key, value = dist) %>%
+  select(-center)
 #
  rm(school_sm, school_cat)
 
